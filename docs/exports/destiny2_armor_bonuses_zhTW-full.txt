@@ -1,0 +1,562 @@
+DESTINY 2 — 防具套裝效果｜官方繁體中文(zh-cht)
+============================================================
+manifest 版本:244213.26.06.29.2000-1-bnet.65583
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【世界/遺落之地 (Distortions & Lost Sectors)】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ 原始叢林（Wildwood）
+   來源:扭曲 / 大師遺落之地:歐洲死區  (DISTORTIONS / MASTER LOST SECTORS: EDZ)
+   2件 | 守望台（Watchtower）
+       開鏡瞄準時造成精確最後一擊可提升傷害抗性，直到停止開鏡瞄準為止。
+       EN: Precision final blows while aiming down sights grant damage resistance until you stop aiming down sights.
+   4件 | 實地專長（Field Expertise）
+       以任何武器造成精確最後一擊，可在短時間內獲得可疊加的加成，提升填裝速度、目標鎖定，以及對非頭目戰員的武器傷害。 若武器以非精確直接命中造成最後一擊，則會提早結束此效果。
+       EN: Precision final blows with any weapon grant a stacking bonus to reload speed, target acquisition, and weapon damage against non-boss combatants for a short duration. Weapon final blows with non-precision direct hits end this effect early.
+
+■ 消殞移民（Exodus Down）
+   來源:扭曲 / 大師遺落之地:涅索斯  (DISTORTIONS / MASTER LOST SECTORS: NESSUS)
+   2件 | 緊急電磁鐵（Emergency Electromagnet）
+       護盾遭破壞時，自動收集附近所有的力量球體與彈藥磚。
+       EN: When your shields become broken, collect all nearby Orbs of Power and ammo bricks.
+   4件 | 充能再利用（Repurposed Charge）
+       獲得、失去或消耗防具充能時，治療自己並於短時間內獲得減傷效果。 此效果會根據獲得、失去或消耗的防具充能值而調整。
+       EN: Whenever you gain, lose, or spend an Armor Charge, heal and gain damage reduction for a short time. This effect scales with the amount of Armor Charge gained, lost, or spent.
+
+■ 臆想黎明（Reverie Dawn）
+   來源:扭曲 / 大師遺落之地:千夢之城  (DISTORTIONS / MASTER LOST SECTORS: DREAMING CITY)
+   2件 | 祈求庇護（A Wish for Protection）
+       在短時間內承受顯著傷害會產生一個防護之願，使戰員更難擊中你，並提升填裝速度與倒縮抗性。
+       EN: Taking significant damage in a short time generates a Protective Wish that makes it harder for combatants to hit you, and grants increased reload speed and flinch resistance.
+   4件 | 願望實現（A Wish Fulfilled）
+       防護之願結束時，它會治癒你。 迅速造成最後一擊會提前結束防護之願。
+       EN: When the Protective Wish expires, it cures you. Rapid final blows prematurely end the Protective Wish.
+
+■ 驅夢（Dreambane）
+   來源:扭曲 / 大師遺落之地:月球  (DISTORTIONS / MASTER LOST SECTORS: MOON)
+   2件 | 夢魘之力（Nightmarish Power）
+       對強勁戰員或更高階的目標造成最後一擊時，可獲得不穩定的精華。擁有不穩定的精華時，手榴彈與近戰數值將會提升。
+       EN: Final blows to a challenging combatant or higher-ranked target grant Unstable Essence. When you have Unstable Essence, you receive grenade and melee stat bonuses.
+   4件 | 夢魘韌性（Nightmarish Resilience）
+       擁有不穩定的精華時，造成迅速武器傷害或最後一擊即可治療自己，並開始生命值再生。
+       EN: When you have Unstable Essence, rapid weapon damage or final blows heal you and begin health regeneration.
+
+■ 晶體（Crystocrene）
+   來源:扭曲 / 大師遺落之地:木衛二  (DISTORTIONS / MASTER LOST SECTORS: EUROPA)
+   2件 | 積衰新造（Resupply）
+       脫離戰鬥一段時間後，下一次最後一擊將獲得額外彈藥進度，並產生一顆力量球體。
+       EN: After being out of combat for a moderate duration, your next final blow grants additional ammo progress and creates an Orb of Power.
+   4件 | 來自風暴（From the Storm）
+       脫離戰鬥一段時間後，會逐漸獲得冰霜護甲，直到再次進入戰鬥為止。
+       EN: After being out of combat for a moderate duration, slowly gain Frost Armor until you reenter combat.
+
+■ 第七熾天使（Seventh Seraph）
+   來源:扭曲 / 大師遺落之地:太空發射場  (DISTORTIONS / MASTER LOST SECTORS: COSMODROME)
+   2件 | 拉斯普丁的憤怒（Rasputin's Wrath）
+       使用範圍傷害、灼燒技能、第七熾天使武器或IKELOS武器造成最後一擊會賦予「戰爭智能充能」。每一層戰爭智能充能都會提升你的武器與手榴彈數值。
+       EN: Final blows with area-of-effect damage, Solar abilities, Seventh Seraph weapons, or IKELOS weapons grant Warmind Charges. Each stack of Warmind Charge increases your Weapons and Grenade stats.
+   4件 | 拉斯普丁的報復（Rasputin's Reprisal）
+       擁有戰爭智能充能時，擊敗強大戰員、摧毀結構體或糾結，會釋放灼燒爆發，傷害戰員並治癒盟友。 結構體包含屏障、哨塔、冰凝水晶和其他在戰場上生成的物體。
+       EN: While you have Warmind Charges, defeating powerful combatants, destroying a construct, or destroying a Tangle releases a Solar detonation that damages combatants and heals allies. Constructs include barricades, turrets, Stasis crystals, and other objects created in the field.
+
+■ 真理（Veritas）
+   來源:扭曲 / 大師遺落之地:列王之境  (DISTORTIONS / MASTER LOST SECTORS: THRONE WORLD)
+   2件 | 明晰轉化（Lucent Transmutation）
+       對戰員施展終結技，或強力近戰最後一擊連續命中，會根據你的光能副職業產生一個元素拾取物。
+       EN: Performing a finisher on a combatant, or landing successive powered melee final blows, generates an Elemental pickup based on your Light subclass.
+   4件 | 明晰什一稅（Lucent Tithes）
+       對強大戰員施展終結技會治癒你，並產生忠誠虛空飛蛾。
+       EN: Performing a finisher on powerful combatants heals you and generates loyal Void moths.
+
+■ 雷暴雲頂（Thunderhead）
+   來源:大師遺落之地 / 覆寫行動:尼爾穆那  (MASTER LOST SECTORS / OVERRIDE: NEOMUNA)
+   2件 | 狂歡許可（License to Thrill）
+       啟用手榴彈或奈米科技追蹤飛彈來源特點時，會獲得可疊加的抗性，降低近距離傷害。
+       EN: Activating your grenade or the Nanotech Tracer Missiles Origin Trait provides stacking resistance to incoming damage at point-blank range.
+   4件 | 致命編織（Lethal Weave）
+       擊敗已拆解戰員可獲得手榴彈技能能量。若手榴彈能量已滿，則改為獲得特殊彈藥量表進度。
+       EN: Defeating an unraveled combatant grants grenade ability energy. If you have max grenade energy, you are granted Special ammo meter progress instead.
+
+■ 第一飛昇（First Ascent）
+   來源:大師遺落之地 / 推翻:冰冷之心  (MASTER LOST SECTORS / OVERTHROW: PALE HEART)
+   2件 | 疊加效應（Stack 'Em Up）
+       高等昇華停用時，以不同元素傷害擊敗目標，可獲得可疊加的高等昇華加成。
+       EN: Defeating targets with unique elemental damage grants a stacking bonus to Transcendence energy gains while Transcendence is inactive.
+   4件 | 徹底燒毀（Burn 'Em Down）
+       高等昇華啟動時，使用手榴彈技能會消耗所有「疊加效應」疊層，可獲得遞增的手榴彈能量。
+       EN: While Transcendence is active, using your grenade ability consumes all stacks of Stack 'Em Up to grant an escalating amount of grenade energy.
+
+■ 艾詠適配器（AION Adapter）
+   來源:篩網 / 神話探索 / 裝備專注:克卜勒  (THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER)
+   2件 | 力量吸收（Force Absorption）
+       以火箭筒、榴彈發射器或微型導彈造成最後一擊，會暫時降低來襲的範圍效果傷害。
+       EN: Final blows with a Rocket Launcher, Grenade Launcher, or micro-missile temporarily decrease incoming area-of-effect damage.
+   4件 | 反射性震擊（Reactive Shock）
+       在力量吸收啟用期間，受到近戰傷害會讓你釋放一次讓人迷失方向爆發。
+       EN: When Force Absorption is active, taking melee damage causes you to emit a disorienting burst once.
+
+■ 艾詠重生（AION Renewal）
+   來源:篩網 / 神話探索 / 裝備專注:克卜勒  (THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER)
+   2件 | 力量轉換器（Force Converter）
+       以火箭筒、榴彈發射器或微型導彈造成最後一擊後，短暫衝刺可獲得速度推進器。
+       EN: After a final blow with a Rocket Launcher, Grenade Launcher, or micro-missile, sprint for a short time to gain Speed Booster.
+   4件 | 反射性加速器（Reactive Booster）
+       在力量轉換器啟用期間，若在生命垂危、被懸浮或被冰凝效果緩速時衝刺，會立即獲得速度推進器一小段時間。
+       EN: Once per activation of Force Converter, sprinting while at critical health, being suspended, or being slowed by a Stasis effect will immediately grant Speed Booster for a short duration.
+
+■ 強韌求生者（Thriving Survivor）
+   來源:宗師無序邊疆委託  (GRANDMASTER LAWLESS FRONTIER JOBS)
+   2件 | 開場表演（Opening Act）
+       用手榴彈造成最後一擊會為熱能武器提供穩定性與排氣速度，並為主要彈藥武器提供穩定性與填裝速度。
+       EN: Final blows with grenades grant Heat weapons bonus stability and vent speed and grant Primary ammo weapons bonus stability and reload speed.
+   4件 | 掃蕩全場（Room Clearing）
+       用熱能武器或主要彈藥武器造成多次最後一擊會為武器和手榴彈提供數值加成，並增加熱能武器和主要彈藥武器的彈藥生成。
+       EN: Multiple final blows with Heat weapons or Primary ammo weapons grant bonuses to weapon and grenade stats and increased ammo generation for Heat weapons and Primary ammo weapons.
+
+■ 睿智求生者（Shrewd Survivor）
+   來源:宗師無序邊疆委託  (GRANDMASTER LAWLESS FRONTIER JOBS)
+   2件 | 反射動作（Reflex Action）
+       切換到熱能武器、衝鋒槍或手持加農砲時，可在短時間內提升操作性與精準度。以該武器造成傷害可延長此效果。
+       EN: Swapping to a Heat weapon, Submachine Gun, or Hand Cannon grants a short period of increased handling and accuracy. This effect is extended by dealing damage with that weapon.
+   4件 | 火熱射手（Hotshot）
+       反射動作啟用時，造成最後一擊會在一段時間內賦予武器數值加成並提升熱能武器、衝鋒槍和手持加農砲的穩定性、填裝和瞄準輔助。
+       EN: Dealing final blows while Reflex Action is active grants a bonus to weapon stat and increases stability, reload, and aim assist for Heat weapons, Submachine Guns, and Hand Cannons for a moderate duration.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【先鋒/熔爐聚焦 (Vanguard)】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ 安控戰甲（Techsec）
+   來源:先鋒專注  (VANGUARD FOCUSING)
+   2件 | 破壞者（Wrecker）
+       你對戰員護盾、覆蓋護盾、載具和結構體造成的動能傷害大幅增加。結構體包含屏障、哨塔、冰凝水晶和其他在戰場上生成的物體。
+       EN: You deal significantly increased Kinetic damage to combatant shields, overshields, vehicles, and constructs. Constructs include barricades, turrets, Stasis crystals, and other objects created in the field.
+   4件 | 震盪彈藥（Concussive Rounds）
+       使用動能傷害擊敗強大戰員或破壞戰員護盾，會釋放讓人迷失方向的動能衝擊波。
+       EN: Defeating powerful combatants or breaking a combatant shield with Kinetic damage releases a disorienting Kinetic shockwave.
+
+■ 空降消防員套裝（Smoke Jumper）
+   來源:先鋒專注  (VANGUARD FOCUSING)
+   2件 | 同騎共歿（Ride Together, Die Together）
+       拾取力量球體時，獲得會迅速衰退的減傷效果。
+       EN: When you pick up an Orb of Power, gain a brief period of rapidly decaying damage reduction.
+   4件 | 老子玩不動了（Too Old for This）
+       以終結技擊敗一名強大戰員可獲得特殊彈藥進度，並恢復少量生命值。
+       EN: Defeating a powerful combatant with a finisher grants you Special ammo progress and replenishes a small amount of health.
+
+■ 鐵力（Ferropotent）
+   來源:先鋒專注  (VANGUARD FOCUSING)
+   2件 | 快速修復（Rapid Repair）
+       護盾開始再生時，短時間內獲得倒縮抗性和傷害抗性。
+       EN: When your shields begin to regenerate, you gain flinch resistance and damage resistance for a short time.
+   4件 | 從零開始（Built from Scratch）
+       備彈量低時，以武器對戰員造成最後一擊會根據其彈藥類型提供額外彈藥進度。主要彈藥武器會推進特殊彈藥進度，而特殊彈藥武器會推進重型彈藥進度。
+       EN: While your reserves are low, combatant final blows with weapons provide additional ammo progress based on their ammo type. Primary ammo weapons boost Special ammo progress, and Special ammo weapons boost Heavy ammo progress.
+
+■ 光耀威能（Luminopotent）
+   來源:先鋒專注  (VANGUARD FOCUSING)
+   2件 | 離子超載（Ionic Overclock）
+       處於增幅狀態時，聚合步槍、線性聚合步槍與熱能武器的操作性、填裝與排氣速度提升。
+       EN: While amplified, your Fusion Rifles, Linear Fusion Rifles, and Heat weapons gain increased handling, reload, and vent speeds.
+   4件 | 震盪掃蕩（Shock and Clear）
+       以顛簸造成最後一擊或對受電擊的戰員造成最後一擊，可產生離子微粒。
+       EN: Final blows with Jolt or against jolted combatants create Ionic Traces.
+
+■ 武士道（Bushido）
+   來源:先鋒專注  (VANGUARD FOCUSING)
+   2件 | 居合（Iaido）
+       使用剛拉弓或剛完成填裝的武器施展最後一擊，可獲得治療效果。
+       EN: Final blows with freshly drawn or reloaded weapons heal you.
+   4件 | 無可撼動的專注（Unfaltering Focus）
+       弓箭、霰彈槍或劍最後一擊會暫時降低受到的傷害。使用這些武器對目標造成傷害會延長此效果。
+       EN: Bow, Shotgun, or Sword final blows temporarily reduce incoming damage. Damaging targets with those weapons extends the effect.
+
+■ 寶劍大師（Swordmaster）
+   來源:先鋒專注  (VANGUARD FOCUSING)
+   2件 | 躍步攻擊（Balestra）
+       使用劍、長戈、或任何近戰攻擊傷害目標，會使對方筋疲力盡。 精疲力盡的目標輸出傷害降低。
+       EN: Damaging a target with a Sword, Glaive, or any melee attack exhausts them. Exhausted targets deal reduced outgoing damage.
+   4件 | 相同節奏（Stesso Tempo）
+       使用劍或長戈格擋攻擊會在你下次收起防禦時，提供對目標的傷害抗性一小段時間。
+       EN: Blocking attacks with a Sword or Glaive grants a short period of damage resistance against targets when you next drop your guard.
+
+■ 優質科技（Eutechnology）
+   來源:先鋒專注  (VANGUARD FOCUSING)
+   2件 | 地脈的贈禮（Gift of the Ley Lines）
+       使用虛空能量迅速擊敗戰員會生成虛空破壞。
+       EN: Rapidly defeating combatants with Void energy spawns a Void breach.
+   4件 | 精謀女巫的遠見（Techeun's Foresight）
+       拾起虛空破壞後，下一次使用虛空武器造成精確最後一擊會觸發爆炸。若能在拾取虛空破壞後迅速觸發此效果，爆炸的威力會更強大。
+       EN: After collecting a Void breach, your next final blow with a Void weapon triggers a detonation. The detonation is more powerful if it is triggered quickly after collecting a Void breach.
+
+■ 熾光耀影（Lustrous）
+   來源:勇敢教條專注  (TENET OF BRAVERY FOCUSING)
+   2件 | 振光伏效應（Photogalvanic）
+       獲得治療會暫時讓你的灼燒武器提升倒縮抗性、操作性和填裝速度。
+       EN: Receiving healing temporarily grants your Solar weapons increased flinch resistance, handling, and reload speed.
+   4件 | 燒焦（Cauterize）
+       迅速灼燒最後一擊會治療你。
+       EN: Rapid Solar final blows heal you.
+
+■ 賽博巨蛇虛無（Cyberserpent Null）
+   來源:千謀百計  (GAMBIT)
+   2件 | 腎上腺素激增（Adrenal Rush）
+       短暫衝刺後，可提升填裝速度與操作性。造成最後一擊可延長效果持續時間。
+       EN: Sprinting for a short time grants a period of improved reload speed and handling. Final blows extend this period.
+   4件 | 豐沛軍火（Bountiful Munitions）
+       腎上腺素激增啟動時，造成最後一擊會提供特殊彈藥進度。對強大戰員與敵對強大戰員、守護者與傀儡軍團造成最後一擊會提供額外進度。
+       EN: While Adrenal Rush is active, final blows grant Special Ammo progress. Final Blows against powerful combatants, Guardians, and Taken grants additional progress.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【熔爐 PvP (Crucible)】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ 最後戒律（Last Discipline）
+   來源:熔爐專注  (CRUCIBLE FOCUSING)
+   2件 | 終端速度（Terminal Velocity）
+       使用主要彈藥武器施展最後一擊，你的主要彈藥武器會暫時提升填裝速度。
+       EN: Final blows with primary ammo weapons grant your primary ammo weapons temporarily increased reload speed.
+   4件 | 動力裝載器（Power Loader）
+       撿起力量球體會獲得特殊彈藥進度。
+       EN: Picking up an Orb of Power grants Special ammo progress.
+
+■ 災難軍團套裝（Disaster Corps）
+   來源:熔爐專注  (CRUCIBLE FOCUSING)
+   2件 | 祈願已聞（Pleas Heard）
+       造成最後一擊後，填裝自動步槍、斥候步槍或手槍會緩慢恢復生命值，直到重新進入戰鬥為止。
+       EN: Reloading an Auto Rifle, Scout Rifle, or Sidearm after a final blow slowly restores health until you reenter combat.
+   4件 | 輝煌使命（Magnificent Duty）
+       當你生命值極低或治療生命值極低的盟友時，自動步槍、斥候步槍和手槍會暫時提升射程、穩定性和填裝速度。
+       EN: When you reach critical health or heal an ally at critical health, Auto Rifles, Scout Rifles, and Sidearms gain a period of increased range, stability, and reload speed.
+
+■ 狂野聖歌（Wild Anthem）
+   來源:熔爐專注  (CRUCIBLE FOCUSING)
+   2件 | 號角（Fanfare）
+       裝備的武器彈匣彈藥低於一半時，填裝速度會提升。
+       EN: Gain increased reload speed for the bottom half of your equipped weapon's magazine.
+   4件 | SUROS和諧（Suros Harmony）
+       填裝武器可在短時間內提升操作性並降低受到的倒縮效果。具有SUROS協同作用來源特點的武器則改為增加射程。
+       EN: Reloading a weapon grants it a bonus to handling and reduces incoming flinch for a short time. Weapons with the SUROS Synergy Origin Trait are granted increased range instead.
+
+■ 凱旋讚歌（Triumphal Anthem）
+   來源:熔爐專注  (CRUCIBLE FOCUSING)
+   2件 | 疾行搜刮（Scoot to Loot）
+       滑行會收集附近彈藥，並暫時提升武器的填裝速度與操作性。
+       EN: Sliding collects nearby ammo and temporarily grants enhanced reload speed and handling to your weapons.
+   4件 | 開火疾行（Shoot to Scoot）
+       使用武器造成傷害會暫時強化滑行。滑行會提供傷害抗性。
+       EN: Dealing damage with your weapons temporarily grants enhanced sliding. Sliding provides damage resistance.
+
+■ 鋼鐵武裝套裝（Iron Panoply）
+   來源:鋼鐵旗幟  (IRON BANNER)
+   2件 | 警覺守望（Vigilant Watch）
+       生命值越低，武器穩定性與操作性越好。護盾耗盡時，以武器造成最後一擊可治療自己。
+       EN: As your health gets lower, your weapons gain increased stability and handling. Weapon final blows while your shields are depleted heal you.
+   4件 | 鋼鐵信念（Iron Conviction）
+       護盾被打破時，短時間內會增加彈藥生成、倒縮抗性，以及對附近戰員的傷害抗性。造成最後一擊可延長此效果。
+       EN: When your shields become broken, you gain increased ammo generation, flinch resistance, and damage resistance against nearby combatants for a short time. Final blows extend this effect.
+
+■ 鋼鐵營隊套組（Iron Battalion）
+   來源:鋼鐵旗幟  (IRON BANNER)
+   2件 | 主要磨礪（Primary Honing）
+       提升主要彈藥武器的操作性與填裝速度。主要彈藥武器對非頭目戰員的傷害，也會根據你的武器數值而有所提升。
+       EN: Increases handling and reload speed for Primary ammo weapons. Primary ammo weapons gain increased damage against non-boss combatants based on your Weapons stat.
+   4件 | 超循環（Supercyclical）
+       在超能力啟用期間造成最後一擊，會在超能力結束時退還超能力能量。
+       EN: Final blows while your Super is active refund Super energy when it ends.
+
+■ 勇者之道（Per Audacia）
+   來源:競賽對戰熔爐  (COMPETITIVE CRUCIBLE)
+   2件 | 主要連鎖（Primary Chain）
+       主要彈藥武器最後一擊會獲得可疊加的加成，提升機動性及主武器的射程與操作性，持續到你被擊敗為止。
+       EN: Primary ammo weapon final blows grant a stacking bonus to mobility and Primary weapon range and handling until you are defeated.
+   4件 | 極致運輸（Sublime Transit）
+       提升機動性、衝刺速度及滑行距離。
+       EN: Increases mobility and grants enhanced sprint speed and slide distance.
+
+■ 雙重冠冕（Twofold Crown）
+   來源:歐西里斯的試煉  (TRIALS OF OSIRIS)
+   2件 | 牧杖連枷（Crook and Flail）
+       拾起彈藥磚可獲得治癒效果。
+       EN: Picking up an ammo brick heals you.
+   4件 | 視覺天賦（Gift of Sight）
+       使用主要彈藥武器施展最後一擊會短暫提升雷達解析度。
+       EN: Final blows with Primary ammo weapons grant you briefly increased radar resolution.
+
+■ 新世俗（New Demotic）
+   來源:歐西里斯的試煉  (TRIALS OF OSIRIS)
+   2件 | 翻倍攻勢（Paroli）
+       滑行後，主要彈藥武器會獲得倒縮抗性加成。
+       EN: Primary ammo weapons gain a bonus to flinch resistance after sliding.
+   4件 | 翻倍逆轉（Martingale）
+       當盟友被擊敗或你復活盟友時，你的武器會短暫提升操作性與瞄準速度。
+       EN: Your weapons gain a temporary increase to handling and aim-down-sights speed when an ally is defeated or you revive an ally.
+
+■ 殘酷電金（Cruel Electrum）
+   來源:歐西里斯的試煉  (TRIALS OF OSIRIS)
+   2件 | 主要倖存者（Primary Survivor）
+       盟友被擊敗時，主要彈藥武器會提升操作性、填裝速度與目標鎖定，並減輕倒縮。若數名盟友同時死亡，或以單人遊玩，提升幅度更多。
+       EN: When an ally is defeated, Primary ammo weapons gain increased handling, reload speed, target acquisition, and reduced flinch. Bonus increases when multiple allies are dead at the same time or when you are running solo.
+   4件 | 主要幽靈（Primary Phantom）
+       使用主要彈藥武器造成最後一擊後，會從雷達上短暫消失。取出不使用主要彈藥的武器時，此效果會立即終止。
+       EN: Final blows with Primary ammo weapons remove you from radar for a short time. Drawing a weapon that does not use Primary ammo will immediately end this effect.
+
+■ 賽道（Circuit）
+   來源:快雀競速  (SPARROW RACING)
+   2件 | 加速運轉（Revving Up）
+       快速移動會累積充能，逐漸提升生命值再生速度。一旦加速完畢，衝刺就會賦予速度推進器。
+       EN: Fast movement builds up a charge that gradually increases your health regeneration speed. Once you are Fully Revved, sprinting grants Speed Booster.
+   4件 | 介電質漂移（Dielectric Drift）
+       速度推進器啟動期間滑行時，會使前方的戰員顛簸。
+       EN: Sliding while Speed Booster is active jolts combatants in front of you.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【地城 (Dungeon)】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ 精謀女巫華服（Techeun's Regalia）
+   來源:精選地城:破碎王座  (FEATURED DUNGEON: SHATTERED THRONE)
+   2件 | 女王之箔衝刺（Queensfoil Rush）
+       施展終結技時，獲得強大的覆蓋護盾。終結目標後，會在你周圍釋放緩速爆發。
+       EN: Gain a powerful overshield while performing your finisher. When you finish a target, release a slowing burst around you.
+   4件 | 力量忠誠（Truth to Power）
+       造成傷害或最後一擊時，可獲得逐漸提升的傷害抗性。施展終結技可加速累積進度。達到最大疊加時，還能提升技能充能率。
+       EN: Gain increasing damage resistance when you deal damage or land final blows. Finishers grant accelerated progress. At max stacks, the recharge rate of your abilities is also increased.
+
+■ 叛教者利刃（Apostate's Blade）
+   來源:精選地城:異端深坑  (FEATURED DUNGEON: PIT OF HERESY)
+   2件 | 再生門檻（Regenerative Threshold）
+       施展終結技可儲存能量。你的護盾下次遭破壞時，會消耗儲存的能量立即治療自己，並開始再生生命值。
+       EN: Performing a finisher stores power. The next time your shields are broken, consume stored power to immediately heal and start health regeneration.
+   4件 | 近戰傳導（Melee Conduction）
+       擁有生機勃發、恢復或治癒效果時，近戰攻擊命中時會釋放爆發，使目標焦化。
+       EN: While you have Radiant, Restoration, or Cure, your melee hits release a burst that will scorch the target.
+
+■ 終章（CODA）
+   來源:精選地城:預言  (FEATURED DUNGEON: PROPHECY)
+   2件 | 極性之間（Between Poles）
+       以光能武器造成最後一擊可獲得光極性疊層，進而增加手榴彈數值。以黯黑力量或動能武器造成最後一擊可獲得暗極性疊層，並提供近戰數值疊層。
+       EN: Final blows with Light weapons grants stacks of Light Polarity, which grants Grenade stat. Final blows with Darkness or Kinetic weapons grants stacks of Dark Polarity, which grants stacks of Melee stat.
+   4件 | 骨瘦如柴（So Very Thin）
+       以光能武器造成最後一擊可獲得額外的手榴彈能量。以黯黑力量或動能武器造成最後一擊可獲得額外的近戰能量。在光能與黯黑力量之間交替造成的迅速最後一擊，會在短時間內獲得傷害抗性。
+       EN: Final blows with Light weapons grants additional grenade energy. Final blows with Dark or Kinetic weapons grants additional melee energy. Rapid final blows that alternate between Light and Darkness grant a short period of damage resistance.
+
+■ 渴望回聲（Yearning Echo）
+   來源:精選或大師地城:貪婪之握  (FEATURED OR MASTER DUNGEON: GRASP OF AVARICE)
+   2件 | 無盡貪婪（Untold Greed）
+       拾取彈藥、力量球體、元素拾取物或摧毀縈絲糾結可獲得「無盡貪婪」疊層，稍微降低受到的傷害，並使裝備中武器提升填裝速度。護盾遭破壞時，會失去部分疊層。
+       EN: Picking up ammo, Orbs of Power, Elemental pickups, or destroying a Strand Tangle grants stacks of Untold Greed, slightly reducing damage taken and providing reload speed to equipped weapons. When your shields are broken, some stacks are lost.
+   4件 | 滿溢金庫（Overflowing Coffers）
+       擁有「無盡貪婪」疊層時，力量球體與元素拾取物會提供更多對應能量，且縈絲糾結能造成額外傷害。護盾遭破壞時，所有疊層會轉換為力量球體噴泉。
+       EN: While you have stacks of Untold Greed, Orbs of Power and Elemental pickups provide more of their respective energy, and Strand Tangles deal increased damage. When your shields are broken, all stacks are converted into a fountain of Orbs of Power.
+
+■ 絕地探索者（Deep Explorer）
+   來源:精選或大師地城:二元性  (FEATURED OR MASTER DUNGEON: DUALITY)
+   2件 | 築於苦澀（Built Bitter）
+       受到傷害會使裝備中武器提升填裝速度，直到收起武器為止。受到越多傷害，效果越強。
+       EN: Taking damage increases the reload speed of your equipped weapon until it is stowed. Taking more damage increases the effect.
+   4件 | 苦樂參半（Bittersweet）
+       收起武器時，會根據失去的「築於苦澀」疊層數量恢復生命值。
+       EN: When you stow a weapon, restore health based on the number of Built Bitter stacks lost.
+
+■ TM自訂版（TM Custom）
+   來源:精選或大師地城:守望者尖塔  (FEATURED OR MASTER DUNGEON: SPIRE OF THE WATCHER)
+   2件 | 古老火星外交（Old Martian Diplomacy）
+       擊敗強大戰員或守護者後收起武器，可恢復少量生命值並使附近戰員迷失方向。
+       EN: Stowing a weapon after defeating a powerful combatant or a Guardian heals you a small amount and disorients nearby combatants.
+   4件 | 日正當中（High Noon）
+       剛取出的武器會在短時間內對戰員造成額外精確傷害。裝備「泰克斯平衡槍托」來源特點或由Tex Mechanica鑄造廠製造的異域裝備，可獲得更進一步的加成。
+       EN: Freshly drawn weapons deal increased precision damage to combatants for a short period. Weapons with the Tex Balanced Stock Origin Trait equipped or Exotics manufactured by the Tex Mechanica Foundry gain further increased benefits.
+
+■ 邪神降臨（Taken King）
+   來源:精選或大師地城:鬼魅深淵  (FEATURED OR MASTER DUNGEON: GHOSTS OF THE DEEP)
+   2件 | 典禮（The Ceremony）
+       終結戰員或復活盟友時，觸發明晰邪魔族儀式。儀式進行期間，可提升超能力數值。
+       EN: Finishing combatants or reviving allies initiates a Lucent Hive ritual. While the ritual is active, gain increased Super stat.
+   4件 | 明晰蟲群（Lucent Swarm）
+       收集力量球體會延長「典禮」的時間。典禮啟動時，技能最後一擊偶爾會生成友方電弧飛蛾。
+       EN: Collecting Orbs of Power extends the Ceremony. While it is active, ability final blows occasionally spawn allied Arc moths.
+
+■ 暗黑紀元（Dark Age）
+   來源:精選或大師地城:戰爭軍閥廢墟  (FEATURED OR MASTER DUNGEON: WARLORDS RUIN)
+   2件 | 搶占先機（Taking Initiative）
+       以近戰攻擊或劍擊命中戰員，可獲得一層先機，提升操作性與填裝速度。疊層會隨時間緩慢衰退。
+       EN: Hitting combatants with melee attacks or Sword strikes grants a stack of Initiative, giving bonus handling and reload. Stacks decay slowly over time.
+   4件 | 治癒先機（Healing Initiative）
+       擁有「先機」時，使用職業技能會產生一個定點治療光環。光環的治療量會根據「先機」的疊層數量提升。
+       EN: While you have Initiative, using your class ability creates a stationary healing aura. The aura gains increased healing based on the number of Initiative stacks.
+
+■ 太空漫步（Spacewalk）
+   來源:精選或大師地城:太白星之主  (FEATURED OR MASTER DUNGEON: VESPER'S HOST)
+   2件 | 強化軍武（Augmented Armaments）
+       主要彈藥武器對迷失方向的戰員造成的傷害提升。
+       EN: Primary ammo weapons deal increased damage to disoriented combatants.
+   4件 | 強化炸藥（Augmented Explosives）
+       手榴彈技能引爆後不久會額外釋放一道使人迷失方向的脈衝波。
+       EN: Your grenade abilities release an additional disorienting pulse shortly after detonating.
+
+■ 剝皮者（Flain）
+   來源:精選或大師地城:潰裂教義  (FEATURED OR MASTER DUNGEON: SUNDERED DOCTRINE)
+   2件 | 肌腱縫合（Sinew Stitching）
+       受到戰員傷害時，有機會生成線蟲。
+       EN: Taking damage from combatants sometimes spawns a Threadling.
+   4件 | 無縫編織（Knit Together）
+       護盾遭破壞後，在短時間內接下來數次線蟲命中可恢復生命值。
+       EN: For a short time after your shields break, your next several Threadling hits restore health.
+
+■ 賢人守衛者（Sage Protector）
+   來源:平衡之境地城(啟用功績)  (EQUILIBRIUM DUNGEON WITH FEATS ENABLED)
+   2件 | 戰鬥冥想（Combat Meditation）
+       以劍命中可回復手榴彈與職業能量。若劍刃專精已啟用，則給予額外能量。
+       EN: Sword hits return grenade and class energy. Bonus energy is granted if Blade Focus is active.
+   4件 | 劍刃專精（Blade Focus）
+       用劍短暫防禦以啟用劍刃專精。劍刃專精啟用時，用劍命中目標可在一段時間內提升劍傷害與突刺距離。
+       EN: Briefly guard with a Sword to ready Blade Focus. While Blade Focus is readied, hitting a target with your sword increases Sword damage and lunge distance for a moderate duration.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【突襲 (Raid)】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ 偉大狩獵（Great Hunt）
+   來源:精選或大師突襲:最後遺願  (FEATURED OR MASTER RAID: LAST WISH)
+   2件 | 傀儡屏障（Taken Barrier）
+       手榴彈最後一擊會暫時降低受到的傷害。
+       EN: Grenade final blows temporarily reduce incoming damage.
+   4件 | 傀儡軍武（Taken Armaments）
+       手榴彈最後一擊會提供額外重型彈藥進度。
+       EN: Grenade final blows grant additional Heavy ammo progress.
+
+■ 肯塔奇3（Kentarch 3）
+   來源:精選或大師突襲:救贖之園  (FEATURED OR MASTER RAID: GARDEN OF SALVATION)
+   2件 | 網路管理員（Network Admin）
+       靠近盟友時會建立中繼網路，提升裝備者的武器操作性與填裝速度。 若附近有其他友方網路管理員，則可額外提升生命值數值。
+       EN: Being near allies creates a relay network that gives the wearer improved handling and reload speed. Being near other allied Network Admins additionally grants the wearer a bonus to Health stat.
+   4件 | 網路上傳（Network Upload）
+       武器最後一擊會賦予裝備者與附近盟友近戰能量。
+       EN: Weapon final blows grant the wearer and nearby allies melee energy.
+
+■ 遺志誓言（Legacy's Oath）
+   來源:精選或大師突襲:深石地窖  (FEATURED OR MASTER RAID: DEEP STONE CRYPT)
+   2件 | 強化伺服機（Augmented Servos）
+       使用強力近戰擊敗目標時，會額外釋放一道使人迷失方向的脈衝波。
+       EN: Powered melees release an additional disorienting pulse when used to defeat a target.
+   4件 | 如神審判（God-like Judgment）
+       護盾遭戰員破壞，或施放超能力時，會發射一批熱能追蹤微型導彈。
+       EN: When your shields are broken by a combatant, or upon casting your Super, release a swarm of heat seeking micro-missiles.
+
+■ 艾席恩回憶（Atheon's Memory）
+   來源:精選或大師突襲:琉璃寶庫  (FEATURED OR MASTER RAID: VAULT OF GLASS)
+   2件 | 放射蟲突破（Radiolaria Breach）
+       拾取力量球體後，護盾下次遭破壞時，會在短時間內提升生命值數值，並在周圍釋放一圈放射蟲。
+       EN: After picking up an Orb of Power, the next time your shields are broken, gain a bonus to Health stat for a short duration and release a burst of radiolaria around you.
+   4件 | 集體力量（Collective Power）
+       擁有副職業增益時，造成持續傷害會產生一顆力量球體。
+       EN: While you have a subclass buff, dealing sustained damage creates an Orb of Power.
+
+■ 共振狂怒（Resonant Fury）
+   來源:精選或大師突襲:門徒之誓  (FEATURED OR MASTER RAID: VOW OF THE DISCIPLE)
+   2件 | 共振鍍層（Resonant Plating）
+       受到強勁戰員的近戰傷害後，生命值會立即開始再生。
+       EN: Your health begins regenerating immediately after taking melee damage from a powerful combatant.
+   4件 | 虹吸之觸（Siphoning Touch）
+       使用武器或長戈近戰命中可獲得「虹吸之觸」疊層。切換武器會治癒你並消耗所有疊層。
+       EN: Gain stacks of Siphoning Touch for weapon or Glaive melee hits. Switching weapons heals you and consumes all stacks.
+
+■ 克洛塔回憶（Crota's Memory）
+   來源:精選或大師突襲:克洛塔的結局  (FEATURED OR MASTER RAID: CROTA'S END)
+   2件 | 受詛之拳（Cursed Fist）
+       近戰最後一擊會觸發受詛狂魔爆炸。
+       EN: Melee final blows trigger a Cursed Thrall explosion.
+   4件 | 子嗣之力（Power of the Son）
+       處於戰鬥狀態一段時間後，會逐漸提升對戰員的倒縮抗性與傷害抗性。
+       EN: Being in combat for a duration grants progressively more flinch resistance and damage resistance versus combatants.
+
+■ 涅沙瑞克的夢魘（Nezarec's Nightmare）
+   來源:精選或大師突襲:夢魘根源  (FEATURED OR MASTER RAID: ROOT OF NIGHTMARES)
+   2件 | 恐懼夢境（Bad Dreams）
+       對受到副職業減益影響的目標造成最後一擊時，產生力量球體的機率會逐漸提升。
+       EN: Final blows versus subclass-debuffed targets have an escalating chance to spawn an Orb of Power.
+   4件 | 夢境吞噬者（Dream-Devourer）
+       對抗強大戰員時施展終結技可獲得吞噬殆盡。擁有吞噬殆盡時，可提升對戰員的傷害抗性。
+       EN: Performing a finisher versus a powerful combatant grants Devour. While you have Devour, gain damage resistance versus combatants.
+
+■ 歐里克斯回憶（Oryx's Memory）
+   來源:精選或大師突襲:國王的殞落  (FEATURED OR MASTER RAID: KING'S FALL)
+   2件 | 鋼鐵砥礪（Iron Sharpens Iron）
+       對守護者與強大戰員造成最後一擊會產生額外彈藥進度。
+       EN: Final blows on Guardians and powerful combatants generate additional ammo progress.
+   4件 | 高等逃脫（Ascendant Escape）
+       對強大戰員造成最後一擊後，護盾下次遭破壞時你會隱形。
+       EN: After a final blow on a powerful combatant, the next time your shields are broken, you become invisible.
+
+■ 應許（Promised）
+   來源:精選或大師突襲:救贖邊緣  (FEATURED OR MASTER RAID: SALVATION'S EDGE)
+   2件 | 穩定共振（Stable Resonance）
+       擊敗強大戰員會產生穩定共振，在持續時間內提升傷害抗性和武器傷害。
+       EN: Defeating a powerful combatant generates Stable Resonance, which grants damage resistance and increased weapon damage for the duration.
+   4件 | 共振轉向（Resonance Redirection）
+       擁有穩定共振時，持續造成武器傷害，可偶爾產生共振爆發，對目標造成傷害並使其筋疲力盡。
+       EN: While you have Stable Resonance, continued weapon damage occasionally generates a resonance burst that damages and exhausts targets.
+
+■ 集體心靈（Collective Psyche）
+   來源:永久沙漠突襲(含功績)  (DESERT PERPETUAL RAID WITH FEATS)
+   2件 | 增生（Accretion）
+       拾起彈藥磚會為武器切換與收納速度提供更多疊加獎勵，直到你死亡為止。
+       EN: Picking up an ammo brick gives you a stacking bonus to weapon swap and stow speeds until you die.
+   4件 | 都卜勒效應（Doppler Effect）
+       施加到目標上的懸浮、拆解和切割效果，以及施加到你身上的生機勃發和恢復效果持續期間延長。
+       EN: Suspend, unravel, and sever effects applied to targets, and radiant and restoration effects applied to you have increased duration.
+
+■ 飄泊心靈套裝（Wayward Psyche）
+   來源:史詩永久沙漠突襲(含功績)  (EPIC DESERT PERPETUAL RAID WITH FEATS)
+   2件 | 特殊相對論（Special Relativity）
+       拾取彈藥會從備彈中自動填裝已收起的特殊武器。
+       EN: Picking up ammo reloads stowed Special weapons from reserves.
+   4件 | 超光速運動（Superluminal Motion）
+       使用超能力造成傷害後，會隨時間讓你在移動時回復生命值與護盾。額外超能力傷害會更新此效果。
+       EN: After dealing damage with your Super, health and shields regenerate over time while you are in motion. Additional Super damage refreshes this effect.
+
+■ 璀璨萬神殿（Pantheos Resplendent）
+   來源:萬神殿突襲(含功績)  (PANTHEON RAIDS WITH FEATS)
+   2件 | 準備周全（Well Prepared）
+       拾取彈藥可獲得防具充能。生命值數值會根據你擁有的防具充能提升。
+       EN: Picking up ammo grants Armor Charge. Grants a bonus to Health stat per Armor Charge you have.
+   4件 | 沿線前進（Down the Line）
+       對小頭目、勇士與頭目造成持續傷害，會提升武器對基礎與強大戰員的傷害。每次以武器造成最後一擊都會消耗一層疊層。
+       EN: Sustained damage on minibosses, Champions, and bosses increases weapon damage versus base and powerful combatants. Weapon final blows consume one stack each.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【NOTABLE SYNERGIES】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[灼燒 SOLAR]
+    第七熾天使（Seventh Seraph）、叛教者利刃（Apostate's Blade）、集體心靈（Collective Psyche）、熾光耀影（Lustrous）
+[電弧 ARC]
+    光耀威能（Luminopotent）、賽道（Circuit）、邪神降臨（Taken King）
+[虛空 VOID]
+    真理（Veritas）、優質科技（Eutechnology）、涅沙瑞克的夢魘（Nezarec's Nightmare）、歐里克斯回憶（Oryx's Memory）
+[冰凝 STASIS]
+    晶體（Crystocrene）、精謀女巫華服（Techeun's Regalia）
+[縈絲 STRAND]
+    雷暴雲頂（Thunderhead）、剝皮者（Flain）、集體心靈（Collective Psyche）
+[超能力 SUPER]
+    鋼鐵營隊套組（Iron Battalion）、邪神降臨（Taken King）、遺志誓言（Legacy's Oath）、飄泊心靈套裝（Wayward Psyche）
+[手榴彈 GRENADE]
+    雷暴雲頂（Thunderhead）、終章（CODA）、賢人守衛者（Sage Protector）、偉大狩獵（Great Hunt）
+[近戰 MELEE]
+    寶劍大師（Swordmaster）、叛教者利刃（Apostate's Blade）、終章（CODA）、肯塔奇3（Kentarch 3）
+[職業技能 CLASS ABILITY]
+    暗黑紀元（Dark Age）、賢人守衛者（Sage Protector）
+[全部技能 ALL ABILITIES]
+    精謀女巫華服（Techeun's Regalia）、邪神降臨（Taken King）
+[力量球體 ORBS OF POWER]
+    消殞移民（Exodus Down）、晶體（Crystocrene）、渴望回聲（Yearning Echo）、艾席恩回憶（Atheon's Memory）、涅沙瑞克的夢魘（Nezarec's Nightmare）
+[治療 HEALING]
+    驅夢（Dreambane）、熾光耀影（Lustrous）、鋼鐵武裝套裝（Iron Panoply）、叛教者利刃（Apostate's Blade）、暗黑紀元（Dark Age）、共振狂怒（Resonant Fury）
+[生存能力 SURVIVABILITY]
+    消殞移民（Exodus Down）、晶體（Crystocrene）、武士道（Bushido）、渴望回聲（Yearning Echo）、克洛塔回憶（Crota's Memory）、涅沙瑞克的夢魘（Nezarec's Nightmare）
+[彈藥 AMMO]
+    強韌求生者（Thriving Survivor）、鐵力（Ferropotent）、最後戒律（Last Discipline）、賽博巨蛇虛無（Cyberserpent Null）、歐里克斯回憶（Oryx's Memory）
+[元素拾取物 ELEMENTAL PICKUPS]
+    真理（Veritas）、光耀威能（Luminopotent）、優質科技（Eutechnology）、渴望回聲（Yearning Echo）

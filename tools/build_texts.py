@@ -217,69 +217,50 @@ if missing:
     # 一定要停:繼續跑的話下面 by_en[n] 照樣 KeyError,只是把這行友善訊息埋在 traceback 底下
     raise SystemExit(f"!! resolved.json 裡找不到這些名稱(遊戲改名了?):{sorted(missing)}")
 
-# ---- 繁中版 ----
-def write_zh():
-    L=[]
-    L.append("DESTINY 2 — 防具套裝效果 (Armor Set Bonuses)｜繁體中文對照")
-    L.append("="*60)
-    L.append("翻譯全部採用 Bungie 官方 manifest 繁體中文(zh-cht);套裝/技能名稱保留官方英文,說明為官方繁中。")
-    L.append("manifest 版本:"+MANIFEST_VER)
-    L.append("")
-    for i,(_,tzh,ten,sets) in enumerate(COLUMNS):
-        L.append("");L.append("━"*60);L.append(f"【{col_title_full(i,tzh,ten)}】");L.append("━"*60)
+# ---- 文字檔(九種組合共用一個產生器)----
+TXT_HDR={"zh":"DESTINY 2 — 防具套裝效果｜官方繁體中文(zh-cht)",
+         "zhs":"DESTINY 2 — 防具套装效果｜官方简体中文(zh-chs)",
+         "ja":"DESTINY 2 — アーマーセット効果｜公式日本語",
+         "ko":"DESTINY 2 — 방어구 세트 보너스｜공식 한국어",
+         "en":"DESTINY 2 — ARMOR SET BONUSES｜Official English"}
+TXT_SUF={"en":" Piece","ja":"個","ko":"피스"}   # 未列的(zh/zhs)用「件」
+# 13 種成品:四語各「純 / 半英 / 全英」+ 純英文。(檔名, 主語言, 濃度, endonym 標籤)。
+# make_image.py 的 COMBOS 也是同一組(檔名/主/濃度對齊);此處多一欄標籤給網頁用。
+COMBOS=[("zhTW","zh","pure","繁體中文"),("zhTW-half","zh","half","繁體中文＋英文名"),("zhTW-full","zh","full","繁體中文＋英文全文"),
+        ("zhCN","zhs","pure","简体中文"),("zhCN-half","zhs","half","简体中文＋英文名"),("zhCN-full","zhs","full","简体中文＋英文全文"),
+        ("JA","ja","pure","日本語"),("JA-half","ja","half","日本語＋英語名"),("JA-full","ja","full","日本語＋英語全文"),
+        ("KO","ko","pure","한국어"),("KO-half","ko","half","한국어＋영어명"),("KO-full","ko","full","한국어＋영어 전문"),
+        ("EN","en","pure","English")]
+def _title(cid,tzh,ten,lang): return ten if lang=="en" else (tzh if lang=="zh" else I18N["columns"].get(cid,{}).get(lang,tzh))
+def _src(src,lang):           return src if lang=="en" else (src_zh(src) if lang=="zh" else I18N["src"].get(src,{}).get(lang,src_zh(src)))
+def _cat(czh,cen,lang):       return cen if lang=="en" else (czh if lang=="zh" else I18N["key"].get(cen,{}).get(lang,czh))
+
+def write_txt(fname, main, mode):
+    suf=TXT_SUF.get(main,"件")
+    label_en = mode in ("half","full") and main!="en"   # 名稱/圖例/標題附英文
+    desc_en  = mode=="full" and main!="en"               # 說明附英文
+    L=[TXT_HDR[main], "="*60, "manifest 版本:"+MANIFEST_VER, ""]
+    for cid,tzh,ten,sets in COLUMNS:
+        ct=_title(cid,tzh,ten,main)
+        L+=["","━"*60, f"【{ct} ({ten})】" if label_en else f"【{ct}】", "━"*60]
         for n,src in sets:
-            r=by_en[n]
-            L.append("")
-            L.append(f"■ {r['name']['zh']}（{disp(n)}）")
-            L.append(f"   高數值來源:{src_zh(src)}  ({src})")
+            r=by_en[n]; L.append("")
+            if main=="en":   L.append(f"■ {disp(n)}");                    L.append(f"   SOURCE: {src}")
+            elif label_en:   L.append(f"■ {r['name'][main]}（{disp(n)}）"); L.append(f"   來源:{_src(src,main)}  ({src})")
+            else:            L.append(f"■ {r['name'][main]}");             L.append(f"   來源:{_src(src,main)}")
             for p in r["perks"]:
-                L.append(f"   {p['count']}件 | {p['name']['zh']}（{p['name']['en']}）")
-                L.append(f"       {' '.join(p['desc']['zh'].split())}")
-    L.append("");L.append("━"*60);L.append("【NOTABLE SYNERGIES — 顯著協同】");L.append("━"*60)
+                if main=="en": L.append(f"   {p['count']} Piece | {p['name']['en']}")
+                elif label_en: L.append(f"   {p['count']}{suf} | {p['name'][main]}（{p['name']['en']}）")
+                else:          L.append(f"   {p['count']}{suf} | {p['name'][main]}")
+                L.append("       "+" ".join(p["desc"][main].split()))
+                if desc_en: L.append("       EN: "+" ".join(p["desc"]["en"].split()))
+    L+=["","━"*60,"【NOTABLE SYNERGIES】","━"*60]
     for czh,cen,ss in NOTABLE:
-        L.append(f"[{czh} {cen}]")
-        L.append("    "+"、".join(f"{by_en[x]['name']['zh']}（{disp(x)}）" for x in ss))
-    open(os.path.join(DOCS,"exports","destiny2_armor_bonuses_zhTW.txt"),"w",encoding="utf-8").write("\n".join(L)+"\n")
-
-# ---- 英文版 ----
-def write_en():
-    L=[]
-    L.append("DESTINY 2 — ARMOR SET BONUSES (Official English, Bungie manifest)")
-    L.append("="*60)
-    L.append("")
-    for _,_,ten,sets in COLUMNS:
-        L.append("");L.append("="*60);L.append(ten);L.append("="*60)
-        for n,src in sets:
-            r=by_en[n]
-            L.append("")
-            L.append(f"{disp(n)}")
-            L.append(f"   HIGH STAT SOURCE: {src}")
-            for p in r["perks"]:
-                L.append(f"   {p['count']} Piece | {p['name']['en']}")
-                L.append(f"       {' '.join(p['desc']['en'].split())}")
-    L.append("");L.append("[NOTABLE SYNERGIES]")
-    for _,cen,ss in NOTABLE:
-        L.append(f"  {cen}: "+", ".join(disp(x) for x in ss))
-    open(os.path.join(DOCS,"exports","destiny2_armor_bonuses_EN.txt"),"w",encoding="utf-8").write("\n".join(L)+"\n")
-
-# ---- 中英對照版 ----
-def write_bi():
-    L=[]
-    L.append("DESTINY 2 — ARMOR SET BONUSES｜中英對照 (Official EN / 官方繁中)")
-    L.append("="*60)
-    for i,(_,tzh,ten,sets) in enumerate(COLUMNS):
-        L.append("");L.append("#"*60);L.append(f"## {col_title_full(i,tzh,ten)}");L.append("#"*60)
-        for n,src in sets:
-            r=by_en[n]
-            L.append("")
-            L.append(f"■ {disp(n)}  |  {r['name']['zh']}")
-            L.append(f"   SOURCE 高數值來源: {src}")
-            L.append(f"                     {src_zh(src)}")
-            for p in r["perks"]:
-                L.append(f"   ── {p['count']} Piece | {p['name']['en']}  ({p['name']['zh']})")
-                L.append(f"      EN: {' '.join(p['desc']['en'].split())}")
-                L.append(f"      中: {' '.join(p['desc']['zh'].split())}")
-    open(os.path.join(DOCS,"exports","destiny2_armor_bonuses_bilingual.txt"),"w",encoding="utf-8").write("\n".join(L)+"\n")
+        if main=="en":   L.append(f"[{cen}]"); names=", ".join(disp(x) for x in ss)
+        elif label_en:   L.append(f"[{_cat(czh,cen,main)} {cen}]"); names="、".join(f"{by_en[x]['name'][main]}（{disp(x)}）" for x in ss)
+        else:            L.append(f"[{_cat(czh,cen,main)}]"); names="、".join(by_en[x]['name'][main] for x in ss)
+        L.append("    "+names)
+    open(os.path.join(DOCS,"exports",f"destiny2_armor_bonuses_{fname}.txt"),"w",encoding="utf-8").write("\n".join(L)+"\n")
 
 # ---- 圖例 sprite(網站用)----
 # 圖示本身是單色遮罩,故轉為純白 + 原 alpha,讓前端用 CSS mask + currentColor 決定顏色:
@@ -303,15 +284,13 @@ def write_sprite():
 # --stamp-exports 回填。
 def build_exports():
     out=[]
-    # 標籤只寫語言,不寫格式:網站的卡片本來就有 PNG/TXT 徽章,再寫一次「大圖/poster」
-    # 是重複的。省下來的寬度剛好讓雙語模式的中英能各佔一行、不必縮寫。
-    for nm,lab in (("zhTW",{"en":"Traditional Chinese","zh":"繁體中文","zhs":"繁体中文","ja":"繁体字中国語","ko":"번체 중국어"}),
-                   ("bilingual",{"en":"Bilingual","zh":"中英對照","zhs":"中英对照","ja":"中英対訳","ko":"중영 대조"}),
-                   ("EN",{"en":"English","zh":"英文","zhs":"英文","ja":"英語","ko":"영어"})):
+    # 標籤用「該語言自己的寫法」(endonym):不隨介面語言變 —— 你想知道的是這份大圖是哪個
+    # 語言,用那個語言寫最清楚。故 label 是單一字串,網頁照原樣顯示。
+    for nm,_mn,_md,lab in COMBOS:
         for ext in (".png",".txt"):
             rel=f"exports/destiny2_armor_bonuses_{nm}{ext}"
             p=os.path.join(DOCS,rel)
-            e={"path":rel,"label":dict(lab),
+            e={"path":rel,"label":lab,
                "bytes":os.path.getsize(p) if os.path.exists(p) else None}
             if ext==".png" and os.path.exists(p):
                 with Image.open(p) as im: e["dim"]=f"{im.width}×{im.height}"
@@ -371,7 +350,9 @@ if __name__=="__main__":
             print(f"  {e['path']:<48} {e['bytes'] or 0:>9,} B  {e.get('dim','')}")
         print("exports 大小已回填 site.json")
         sys.exit(0)
-    write_zh(); write_en(); write_bi()
+    # 13 種文字檔:四語各「純 / 半英 / 全英」+ 純英文。與 make_image.py 的 COMBOS 對齊。
+    for fname,mn,md,_lab in COMBOS:
+        write_txt(fname,mn,md)
     (sw,sh),sb=write_sprite(); print(f"sprite: {sw}×{sh} = {sb:,} bytes ({len(KEY_FLAT)} 圖示)")
     out=write_site()
     print(f"site.json: {sum(len(c['sets']) for c in out['columns'])} 套裝 / {len(out['key'])} 圖例 / "

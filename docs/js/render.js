@@ -106,7 +106,7 @@ function renderExports() {
     // 標籤包成單一容器:否則 zh/en 兩個 span 在 flex 裡會各自獨立換行,高度變參差
     return `<li><a href="${e.path}">
       <span class="ex-kind">${png ? 'PNG' : 'TXT'}</span>
-      <span class="ex-label">${bi(e.label)}</span>
+      <span class="ex-label">${esc(e.label)}</span>
       <span class="ex-size">${e.bytes == null ? '' : kb(e.bytes)}${
         e.dim ? `<span class="ex-dim"> · ${e.dim}</span>` : ''}</span>
     </a></li>`;

@@ -1,432 +1,450 @@
-DESTINY 2 — ARMOR SET BONUSES (Official English, Bungie manifest)
+DESTINY 2 — ARMOR SET BONUSES｜Official English
 ============================================================
+manifest 版本:244213.26.06.29.2000-1-bnet.65583
 
 
-============================================================
-Distortions & Lost Sectors
-============================================================
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【Distortions & Lost Sectors】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Wildwood
-   HIGH STAT SOURCE: DISTORTIONS / MASTER LOST SECTORS: EDZ
+■ Wildwood
+   SOURCE: DISTORTIONS / MASTER LOST SECTORS: EDZ
    2 Piece | Watchtower
        Precision final blows while aiming down sights grant damage resistance until you stop aiming down sights.
    4 Piece | Field Expertise
        Precision final blows with any weapon grant a stacking bonus to reload speed, target acquisition, and weapon damage against non-boss combatants for a short duration. Weapon final blows with non-precision direct hits end this effect early.
 
-Exodus Down
-   HIGH STAT SOURCE: DISTORTIONS / MASTER LOST SECTORS: NESSUS
+■ Exodus Down
+   SOURCE: DISTORTIONS / MASTER LOST SECTORS: NESSUS
    2 Piece | Emergency Electromagnet
        When your shields become broken, collect all nearby Orbs of Power and ammo bricks.
    4 Piece | Repurposed Charge
        Whenever you gain, lose, or spend an Armor Charge, heal and gain damage reduction for a short time. This effect scales with the amount of Armor Charge gained, lost, or spent.
 
-Reverie Dawn
-   HIGH STAT SOURCE: DISTORTIONS / MASTER LOST SECTORS: DREAMING CITY
+■ Reverie Dawn
+   SOURCE: DISTORTIONS / MASTER LOST SECTORS: DREAMING CITY
    2 Piece | A Wish for Protection
        Taking significant damage in a short time generates a Protective Wish that makes it harder for combatants to hit you, and grants increased reload speed and flinch resistance.
    4 Piece | A Wish Fulfilled
        When the Protective Wish expires, it cures you. Rapid final blows prematurely end the Protective Wish.
 
-Dreambane
-   HIGH STAT SOURCE: DISTORTIONS / MASTER LOST SECTORS: MOON
+■ Dreambane
+   SOURCE: DISTORTIONS / MASTER LOST SECTORS: MOON
    2 Piece | Nightmarish Power
        Final blows to a challenging combatant or higher-ranked target grant Unstable Essence. When you have Unstable Essence, you receive grenade and melee stat bonuses.
    4 Piece | Nightmarish Resilience
        When you have Unstable Essence, rapid weapon damage or final blows heal you and begin health regeneration.
 
-Crystocrene
-   HIGH STAT SOURCE: DISTORTIONS / MASTER LOST SECTORS: EUROPA
+■ Crystocrene
+   SOURCE: DISTORTIONS / MASTER LOST SECTORS: EUROPA
    2 Piece | Resupply
        After being out of combat for a moderate duration, your next final blow grants additional ammo progress and creates an Orb of Power.
    4 Piece | From the Storm
        After being out of combat for a moderate duration, slowly gain Frost Armor until you reenter combat.
 
-Seventh Seraph
-   HIGH STAT SOURCE: DISTORTIONS / MASTER LOST SECTORS: COSMODROME
+■ Seventh Seraph
+   SOURCE: DISTORTIONS / MASTER LOST SECTORS: COSMODROME
    2 Piece | Rasputin's Wrath
        Final blows with area-of-effect damage, Solar abilities, Seventh Seraph weapons, or IKELOS weapons grant Warmind Charges. Each stack of Warmind Charge increases your Weapons and Grenade stats.
    4 Piece | Rasputin's Reprisal
        While you have Warmind Charges, defeating powerful combatants, destroying a construct, or destroying a Tangle releases a Solar detonation that damages combatants and heals allies. Constructs include barricades, turrets, Stasis crystals, and other objects created in the field.
 
-Veritas
-   HIGH STAT SOURCE: DISTORTIONS / MASTER LOST SECTORS: THRONE WORLD
+■ Veritas
+   SOURCE: DISTORTIONS / MASTER LOST SECTORS: THRONE WORLD
    2 Piece | Lucent Transmutation
        Performing a finisher on a combatant, or landing successive powered melee final blows, generates an Elemental pickup based on your Light subclass.
    4 Piece | Lucent Tithes
        Performing a finisher on powerful combatants heals you and generates loyal Void moths.
 
-Thunderhead
-   HIGH STAT SOURCE: MASTER LOST SECTORS / OVERRIDE: NEOMUNA
+■ Thunderhead
+   SOURCE: MASTER LOST SECTORS / OVERRIDE: NEOMUNA
    2 Piece | License to Thrill
        Activating your grenade or the Nanotech Tracer Missiles Origin Trait provides stacking resistance to incoming damage at point-blank range.
    4 Piece | Lethal Weave
        Defeating an unraveled combatant grants grenade ability energy. If you have max grenade energy, you are granted Special ammo meter progress instead.
 
-First Ascent
-   HIGH STAT SOURCE: MASTER LOST SECTORS / OVERTHROW: PALE HEART
+■ First Ascent
+   SOURCE: MASTER LOST SECTORS / OVERTHROW: PALE HEART
    2 Piece | Stack 'Em Up
        Defeating targets with unique elemental damage grants a stacking bonus to Transcendence energy gains while Transcendence is inactive.
    4 Piece | Burn 'Em Down
        While Transcendence is active, using your grenade ability consumes all stacks of Stack 'Em Up to grant an escalating amount of grenade energy.
 
-AION Adapter
-   HIGH STAT SOURCE: THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER
+■ AION Adapter
+   SOURCE: THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER
    2 Piece | Force Absorption
        Final blows with a Rocket Launcher, Grenade Launcher, or micro-missile temporarily decrease incoming area-of-effect damage.
    4 Piece | Reactive Shock
        When Force Absorption is active, taking melee damage causes you to emit a disorienting burst once.
 
-AION Renewal
-   HIGH STAT SOURCE: THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER
+■ AION Renewal
+   SOURCE: THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER
    2 Piece | Force Converter
        After a final blow with a Rocket Launcher, Grenade Launcher, or micro-missile, sprint for a short time to gain Speed Booster.
    4 Piece | Reactive Booster
        Once per activation of Force Converter, sprinting while at critical health, being suspended, or being slowed by a Stasis effect will immediately grant Speed Booster for a short duration.
 
-Thriving Survivor
-   HIGH STAT SOURCE: GRANDMASTER LAWLESS FRONTIER JOBS
+■ Thriving Survivor
+   SOURCE: GRANDMASTER LAWLESS FRONTIER JOBS
    2 Piece | Opening Act
        Final blows with grenades grant Heat weapons bonus stability and vent speed and grant Primary ammo weapons bonus stability and reload speed.
    4 Piece | Room Clearing
        Multiple final blows with Heat weapons or Primary ammo weapons grant bonuses to weapon and grenade stats and increased ammo generation for Heat weapons and Primary ammo weapons.
 
-Shrewd Survivor
-   HIGH STAT SOURCE: GRANDMASTER LAWLESS FRONTIER JOBS
+■ Shrewd Survivor
+   SOURCE: GRANDMASTER LAWLESS FRONTIER JOBS
    2 Piece | Reflex Action
        Swapping to a Heat weapon, Submachine Gun, or Hand Cannon grants a short period of increased handling and accuracy. This effect is extended by dealing damage with that weapon.
    4 Piece | Hotshot
        Dealing final blows while Reflex Action is active grants a bonus to weapon stat and increases stability, reload, and aim assist for Heat weapons, Submachine Guns, and Hand Cannons for a moderate duration.
 
-============================================================
-Vanguard
-============================================================
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【Vanguard】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Techsec
-   HIGH STAT SOURCE: VANGUARD FOCUSING
+■ Techsec
+   SOURCE: VANGUARD FOCUSING
    2 Piece | Wrecker
        You deal significantly increased Kinetic damage to combatant shields, overshields, vehicles, and constructs. Constructs include barricades, turrets, Stasis crystals, and other objects created in the field.
    4 Piece | Concussive Rounds
        Defeating powerful combatants or breaking a combatant shield with Kinetic damage releases a disorienting Kinetic shockwave.
 
-Smoke Jumper
-   HIGH STAT SOURCE: VANGUARD FOCUSING
+■ Smoke Jumper
+   SOURCE: VANGUARD FOCUSING
    2 Piece | Ride Together, Die Together
        When you pick up an Orb of Power, gain a brief period of rapidly decaying damage reduction.
    4 Piece | Too Old for This
        Defeating a powerful combatant with a finisher grants you Special ammo progress and replenishes a small amount of health.
 
-Ferropotent
-   HIGH STAT SOURCE: VANGUARD FOCUSING
+■ Ferropotent
+   SOURCE: VANGUARD FOCUSING
    2 Piece | Rapid Repair
        When your shields begin to regenerate, you gain flinch resistance and damage resistance for a short time.
    4 Piece | Built from Scratch
        While your reserves are low, combatant final blows with weapons provide additional ammo progress based on their ammo type. Primary ammo weapons boost Special ammo progress, and Special ammo weapons boost Heavy ammo progress.
 
-Luminopotent
-   HIGH STAT SOURCE: VANGUARD FOCUSING
+■ Luminopotent
+   SOURCE: VANGUARD FOCUSING
    2 Piece | Ionic Overclock
        While amplified, your Fusion Rifles, Linear Fusion Rifles, and Heat weapons gain increased handling, reload, and vent speeds.
    4 Piece | Shock and Clear
        Final blows with Jolt or against jolted combatants create Ionic Traces.
 
-Bushido
-   HIGH STAT SOURCE: VANGUARD FOCUSING
+■ Bushido
+   SOURCE: VANGUARD FOCUSING
    2 Piece | Iaido
        Final blows with freshly drawn or reloaded weapons heal you.
    4 Piece | Unfaltering Focus
        Bow, Shotgun, or Sword final blows temporarily reduce incoming damage. Damaging targets with those weapons extends the effect.
 
-Swordmaster
-   HIGH STAT SOURCE: VANGUARD FOCUSING
+■ Swordmaster
+   SOURCE: VANGUARD FOCUSING
    2 Piece | Balestra
        Damaging a target with a Sword, Glaive, or any melee attack exhausts them. Exhausted targets deal reduced outgoing damage.
    4 Piece | Stesso Tempo
        Blocking attacks with a Sword or Glaive grants a short period of damage resistance against targets when you next drop your guard.
 
-Eutechnology
-   HIGH STAT SOURCE: VANGUARD FOCUSING
+■ Eutechnology
+   SOURCE: VANGUARD FOCUSING
    2 Piece | Gift of the Ley Lines
        Rapidly defeating combatants with Void energy spawns a Void breach.
    4 Piece | Techeun's Foresight
        After collecting a Void breach, your next final blow with a Void weapon triggers a detonation. The detonation is more powerful if it is triggered quickly after collecting a Void breach.
 
-Lustrous
-   HIGH STAT SOURCE: TENET OF BRAVERY FOCUSING
+■ Lustrous
+   SOURCE: TENET OF BRAVERY FOCUSING
    2 Piece | Photogalvanic
        Receiving healing temporarily grants your Solar weapons increased flinch resistance, handling, and reload speed.
    4 Piece | Cauterize
        Rapid Solar final blows heal you.
 
-Cyberserpent Null
-   HIGH STAT SOURCE: GAMBIT
+■ Cyberserpent Null
+   SOURCE: GAMBIT
    2 Piece | Adrenal Rush
        Sprinting for a short time grants a period of improved reload speed and handling. Final blows extend this period.
    4 Piece | Bountiful Munitions
        While Adrenal Rush is active, final blows grant Special Ammo progress. Final Blows against powerful combatants, Guardians, and Taken grants additional progress.
 
-============================================================
-Crucible
-============================================================
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【Crucible】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Last Discipline
-   HIGH STAT SOURCE: CRUCIBLE FOCUSING
+■ Last Discipline
+   SOURCE: CRUCIBLE FOCUSING
    2 Piece | Terminal Velocity
        Final blows with primary ammo weapons grant your primary ammo weapons temporarily increased reload speed.
    4 Piece | Power Loader
        Picking up an Orb of Power grants Special ammo progress.
 
-Disaster Corps
-   HIGH STAT SOURCE: CRUCIBLE FOCUSING
+■ Disaster Corps
+   SOURCE: CRUCIBLE FOCUSING
    2 Piece | Pleas Heard
        Reloading an Auto Rifle, Scout Rifle, or Sidearm after a final blow slowly restores health until you reenter combat.
    4 Piece | Magnificent Duty
        When you reach critical health or heal an ally at critical health, Auto Rifles, Scout Rifles, and Sidearms gain a period of increased range, stability, and reload speed.
 
-Wild Anthem
-   HIGH STAT SOURCE: CRUCIBLE FOCUSING
+■ Wild Anthem
+   SOURCE: CRUCIBLE FOCUSING
    2 Piece | Fanfare
        Gain increased reload speed for the bottom half of your equipped weapon's magazine.
    4 Piece | Suros Harmony
        Reloading a weapon grants it a bonus to handling and reduces incoming flinch for a short time. Weapons with the SUROS Synergy Origin Trait are granted increased range instead.
 
-Triumphal Anthem
-   HIGH STAT SOURCE: CRUCIBLE FOCUSING
+■ Triumphal Anthem
+   SOURCE: CRUCIBLE FOCUSING
    2 Piece | Scoot to Loot
        Sliding collects nearby ammo and temporarily grants enhanced reload speed and handling to your weapons.
    4 Piece | Shoot to Scoot
        Dealing damage with your weapons temporarily grants enhanced sliding. Sliding provides damage resistance.
 
-Iron Panoply
-   HIGH STAT SOURCE: IRON BANNER
+■ Iron Panoply
+   SOURCE: IRON BANNER
    2 Piece | Vigilant Watch
        As your health gets lower, your weapons gain increased stability and handling. Weapon final blows while your shields are depleted heal you.
    4 Piece | Iron Conviction
        When your shields become broken, you gain increased ammo generation, flinch resistance, and damage resistance against nearby combatants for a short time. Final blows extend this effect.
 
-Iron Battalion
-   HIGH STAT SOURCE: IRON BANNER
+■ Iron Battalion
+   SOURCE: IRON BANNER
    2 Piece | Primary Honing
        Increases handling and reload speed for Primary ammo weapons. Primary ammo weapons gain increased damage against non-boss combatants based on your Weapons stat.
    4 Piece | Supercyclical
        Final blows while your Super is active refund Super energy when it ends.
 
-Per Audacia
-   HIGH STAT SOURCE: COMPETITIVE CRUCIBLE
+■ Per Audacia
+   SOURCE: COMPETITIVE CRUCIBLE
    2 Piece | Primary Chain
        Primary ammo weapon final blows grant a stacking bonus to mobility and Primary weapon range and handling until you are defeated.
    4 Piece | Sublime Transit
        Increases mobility and grants enhanced sprint speed and slide distance.
 
-Twofold Crown
-   HIGH STAT SOURCE: TRIALS OF OSIRIS
+■ Twofold Crown
+   SOURCE: TRIALS OF OSIRIS
    2 Piece | Crook and Flail
        Picking up an ammo brick heals you.
    4 Piece | Gift of Sight
        Final blows with Primary ammo weapons grant you briefly increased radar resolution.
 
-New Demotic
-   HIGH STAT SOURCE: TRIALS OF OSIRIS
+■ New Demotic
+   SOURCE: TRIALS OF OSIRIS
    2 Piece | Paroli
        Primary ammo weapons gain a bonus to flinch resistance after sliding.
    4 Piece | Martingale
        Your weapons gain a temporary increase to handling and aim-down-sights speed when an ally is defeated or you revive an ally.
 
-Cruel Electrum
-   HIGH STAT SOURCE: TRIALS OF OSIRIS
+■ Cruel Electrum
+   SOURCE: TRIALS OF OSIRIS
    2 Piece | Primary Survivor
        When an ally is defeated, Primary ammo weapons gain increased handling, reload speed, target acquisition, and reduced flinch. Bonus increases when multiple allies are dead at the same time or when you are running solo.
    4 Piece | Primary Phantom
        Final blows with Primary ammo weapons remove you from radar for a short time. Drawing a weapon that does not use Primary ammo will immediately end this effect.
 
-Circuit
-   HIGH STAT SOURCE: SPARROW RACING
+■ Circuit
+   SOURCE: SPARROW RACING
    2 Piece | Revving Up
        Fast movement builds up a charge that gradually increases your health regeneration speed. Once you are Fully Revved, sprinting grants Speed Booster.
    4 Piece | Dielectric Drift
        Sliding while Speed Booster is active jolts combatants in front of you.
 
-============================================================
-Dungeon
-============================================================
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【Dungeon】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Techeun's Regalia
-   HIGH STAT SOURCE: FEATURED DUNGEON: SHATTERED THRONE
+■ Techeun's Regalia
+   SOURCE: FEATURED DUNGEON: SHATTERED THRONE
    2 Piece | Queensfoil Rush
        Gain a powerful overshield while performing your finisher. When you finish a target, release a slowing burst around you.
    4 Piece | Truth to Power
        Gain increasing damage resistance when you deal damage or land final blows. Finishers grant accelerated progress. At max stacks, the recharge rate of your abilities is also increased.
 
-Apostate's Blade
-   HIGH STAT SOURCE: FEATURED DUNGEON: PIT OF HERESY
+■ Apostate's Blade
+   SOURCE: FEATURED DUNGEON: PIT OF HERESY
    2 Piece | Regenerative Threshold
        Performing a finisher stores power. The next time your shields are broken, consume stored power to immediately heal and start health regeneration.
    4 Piece | Melee Conduction
        While you have Radiant, Restoration, or Cure, your melee hits release a burst that will scorch the target.
 
-CODA
-   HIGH STAT SOURCE: FEATURED DUNGEON: PROPHECY
+■ CODA
+   SOURCE: FEATURED DUNGEON: PROPHECY
    2 Piece | Between Poles
        Final blows with Light weapons grants stacks of Light Polarity, which grants Grenade stat. Final blows with Darkness or Kinetic weapons grants stacks of Dark Polarity, which grants stacks of Melee stat.
    4 Piece | So Very Thin
        Final blows with Light weapons grants additional grenade energy. Final blows with Dark or Kinetic weapons grants additional melee energy. Rapid final blows that alternate between Light and Darkness grant a short period of damage resistance.
 
-Yearning Echo
-   HIGH STAT SOURCE: FEATURED OR MASTER DUNGEON: GRASP OF AVARICE
+■ Yearning Echo
+   SOURCE: FEATURED OR MASTER DUNGEON: GRASP OF AVARICE
    2 Piece | Untold Greed
        Picking up ammo, Orbs of Power, Elemental pickups, or destroying a Strand Tangle grants stacks of Untold Greed, slightly reducing damage taken and providing reload speed to equipped weapons. When your shields are broken, some stacks are lost.
    4 Piece | Overflowing Coffers
        While you have stacks of Untold Greed, Orbs of Power and Elemental pickups provide more of their respective energy, and Strand Tangles deal increased damage. When your shields are broken, all stacks are converted into a fountain of Orbs of Power.
 
-Deep Explorer
-   HIGH STAT SOURCE: FEATURED OR MASTER DUNGEON: DUALITY
+■ Deep Explorer
+   SOURCE: FEATURED OR MASTER DUNGEON: DUALITY
    2 Piece | Built Bitter
        Taking damage increases the reload speed of your equipped weapon until it is stowed. Taking more damage increases the effect.
    4 Piece | Bittersweet
        When you stow a weapon, restore health based on the number of Built Bitter stacks lost.
 
-TM Custom
-   HIGH STAT SOURCE: FEATURED OR MASTER DUNGEON: SPIRE OF THE WATCHER
+■ TM Custom
+   SOURCE: FEATURED OR MASTER DUNGEON: SPIRE OF THE WATCHER
    2 Piece | Old Martian Diplomacy
        Stowing a weapon after defeating a powerful combatant or a Guardian heals you a small amount and disorients nearby combatants.
    4 Piece | High Noon
        Freshly drawn weapons deal increased precision damage to combatants for a short period. Weapons with the Tex Balanced Stock Origin Trait equipped or Exotics manufactured by the Tex Mechanica Foundry gain further increased benefits.
 
-Taken King
-   HIGH STAT SOURCE: FEATURED OR MASTER DUNGEON: GHOSTS OF THE DEEP
+■ Taken King
+   SOURCE: FEATURED OR MASTER DUNGEON: GHOSTS OF THE DEEP
    2 Piece | The Ceremony
        Finishing combatants or reviving allies initiates a Lucent Hive ritual. While the ritual is active, gain increased Super stat.
    4 Piece | Lucent Swarm
        Collecting Orbs of Power extends the Ceremony. While it is active, ability final blows occasionally spawn allied Arc moths.
 
-Dark Age
-   HIGH STAT SOURCE: FEATURED OR MASTER DUNGEON: WARLORDS RUIN
+■ Dark Age
+   SOURCE: FEATURED OR MASTER DUNGEON: WARLORDS RUIN
    2 Piece | Taking Initiative
        Hitting combatants with melee attacks or Sword strikes grants a stack of Initiative, giving bonus handling and reload. Stacks decay slowly over time.
    4 Piece | Healing Initiative
        While you have Initiative, using your class ability creates a stationary healing aura. The aura gains increased healing based on the number of Initiative stacks.
 
-Spacewalk
-   HIGH STAT SOURCE: FEATURED OR MASTER DUNGEON: VESPER'S HOST
+■ Spacewalk
+   SOURCE: FEATURED OR MASTER DUNGEON: VESPER'S HOST
    2 Piece | Augmented Armaments
        Primary ammo weapons deal increased damage to disoriented combatants.
    4 Piece | Augmented Explosives
        Your grenade abilities release an additional disorienting pulse shortly after detonating.
 
-Flain
-   HIGH STAT SOURCE: FEATURED OR MASTER DUNGEON: SUNDERED DOCTRINE
+■ Flain
+   SOURCE: FEATURED OR MASTER DUNGEON: SUNDERED DOCTRINE
    2 Piece | Sinew Stitching
        Taking damage from combatants sometimes spawns a Threadling.
    4 Piece | Knit Together
        For a short time after your shields break, your next several Threadling hits restore health.
 
-Sage Protector
-   HIGH STAT SOURCE: EQUILIBRIUM DUNGEON WITH FEATS ENABLED
+■ Sage Protector
+   SOURCE: EQUILIBRIUM DUNGEON WITH FEATS ENABLED
    2 Piece | Combat Meditation
        Sword hits return grenade and class energy. Bonus energy is granted if Blade Focus is active.
    4 Piece | Blade Focus
        Briefly guard with a Sword to ready Blade Focus. While Blade Focus is readied, hitting a target with your sword increases Sword damage and lunge distance for a moderate duration.
 
-============================================================
-Raid
-============================================================
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【Raid】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Great Hunt
-   HIGH STAT SOURCE: FEATURED OR MASTER RAID: LAST WISH
+■ Great Hunt
+   SOURCE: FEATURED OR MASTER RAID: LAST WISH
    2 Piece | Taken Barrier
        Grenade final blows temporarily reduce incoming damage.
    4 Piece | Taken Armaments
        Grenade final blows grant additional Heavy ammo progress.
 
-Kentarch 3
-   HIGH STAT SOURCE: FEATURED OR MASTER RAID: GARDEN OF SALVATION
+■ Kentarch 3
+   SOURCE: FEATURED OR MASTER RAID: GARDEN OF SALVATION
    2 Piece | Network Admin
        Being near allies creates a relay network that gives the wearer improved handling and reload speed. Being near other allied Network Admins additionally grants the wearer a bonus to Health stat.
    4 Piece | Network Upload
        Weapon final blows grant the wearer and nearby allies melee energy.
 
-Legacy's Oath
-   HIGH STAT SOURCE: FEATURED OR MASTER RAID: DEEP STONE CRYPT
+■ Legacy's Oath
+   SOURCE: FEATURED OR MASTER RAID: DEEP STONE CRYPT
    2 Piece | Augmented Servos
        Powered melees release an additional disorienting pulse when used to defeat a target.
    4 Piece | God-like Judgment
        When your shields are broken by a combatant, or upon casting your Super, release a swarm of heat seeking micro-missiles.
 
-Atheon's Memory
-   HIGH STAT SOURCE: FEATURED OR MASTER RAID: VAULT OF GLASS
+■ Atheon's Memory
+   SOURCE: FEATURED OR MASTER RAID: VAULT OF GLASS
    2 Piece | Radiolaria Breach
        After picking up an Orb of Power, the next time your shields are broken, gain a bonus to Health stat for a short duration and release a burst of radiolaria around you.
    4 Piece | Collective Power
        While you have a subclass buff, dealing sustained damage creates an Orb of Power.
 
-Resonant Fury
-   HIGH STAT SOURCE: FEATURED OR MASTER RAID: VOW OF THE DISCIPLE
+■ Resonant Fury
+   SOURCE: FEATURED OR MASTER RAID: VOW OF THE DISCIPLE
    2 Piece | Resonant Plating
        Your health begins regenerating immediately after taking melee damage from a powerful combatant.
    4 Piece | Siphoning Touch
        Gain stacks of Siphoning Touch for weapon or Glaive melee hits. Switching weapons heals you and consumes all stacks.
 
-Crota's Memory
-   HIGH STAT SOURCE: FEATURED OR MASTER RAID: CROTA'S END
+■ Crota's Memory
+   SOURCE: FEATURED OR MASTER RAID: CROTA'S END
    2 Piece | Cursed Fist
        Melee final blows trigger a Cursed Thrall explosion.
    4 Piece | Power of the Son
        Being in combat for a duration grants progressively more flinch resistance and damage resistance versus combatants.
 
-Nezarec's Nightmare
-   HIGH STAT SOURCE: FEATURED OR MASTER RAID: ROOT OF NIGHTMARES
+■ Nezarec's Nightmare
+   SOURCE: FEATURED OR MASTER RAID: ROOT OF NIGHTMARES
    2 Piece | Bad Dreams
        Final blows versus subclass-debuffed targets have an escalating chance to spawn an Orb of Power.
    4 Piece | Dream-Devourer
        Performing a finisher versus a powerful combatant grants Devour. While you have Devour, gain damage resistance versus combatants.
 
-Oryx's Memory
-   HIGH STAT SOURCE: FEATURED OR MASTER RAID: KING'S FALL
+■ Oryx's Memory
+   SOURCE: FEATURED OR MASTER RAID: KING'S FALL
    2 Piece | Iron Sharpens Iron
        Final blows on Guardians and powerful combatants generate additional ammo progress.
    4 Piece | Ascendant Escape
        After a final blow on a powerful combatant, the next time your shields are broken, you become invisible.
 
-Promised
-   HIGH STAT SOURCE: FEATURED OR MASTER RAID: SALVATION'S EDGE
+■ Promised
+   SOURCE: FEATURED OR MASTER RAID: SALVATION'S EDGE
    2 Piece | Stable Resonance
        Defeating a powerful combatant generates Stable Resonance, which grants damage resistance and increased weapon damage for the duration.
    4 Piece | Resonance Redirection
        While you have Stable Resonance, continued weapon damage occasionally generates a resonance burst that damages and exhausts targets.
 
-Collective Psyche
-   HIGH STAT SOURCE: DESERT PERPETUAL RAID WITH FEATS
+■ Collective Psyche
+   SOURCE: DESERT PERPETUAL RAID WITH FEATS
    2 Piece | Accretion
        Picking up an ammo brick gives you a stacking bonus to weapon swap and stow speeds until you die.
    4 Piece | Doppler Effect
        Suspend, unravel, and sever effects applied to targets, and radiant and restoration effects applied to you have increased duration.
 
-Wayward Psyche
-   HIGH STAT SOURCE: EPIC DESERT PERPETUAL RAID WITH FEATS
+■ Wayward Psyche
+   SOURCE: EPIC DESERT PERPETUAL RAID WITH FEATS
    2 Piece | Special Relativity
        Picking up ammo reloads stowed Special weapons from reserves.
    4 Piece | Superluminal Motion
        After dealing damage with your Super, health and shields regenerate over time while you are in motion. Additional Super damage refreshes this effect.
 
-Pantheos Resplendent
-   HIGH STAT SOURCE: PANTHEON RAIDS WITH FEATS
+■ Pantheos Resplendent
+   SOURCE: PANTHEON RAIDS WITH FEATS
    2 Piece | Well Prepared
        Picking up ammo grants Armor Charge. Grants a bonus to Health stat per Armor Charge you have.
    4 Piece | Down the Line
        Sustained damage on minibosses, Champions, and bosses increases weapon damage versus base and powerful combatants. Weapon final blows consume one stack each.
 
-[NOTABLE SYNERGIES]
-  SOLAR: Seventh Seraph, Apostate's Blade, Collective Psyche, Lustrous
-  ARC: Luminopotent, Circuit, Taken King
-  VOID: Veritas, Eutechnology, Nezarec's Nightmare, Oryx's Memory
-  STASIS: Crystocrene, Techeun's Regalia
-  STRAND: Thunderhead, Flain, Collective Psyche
-  SUPER: Iron Battalion, Taken King, Legacy's Oath, Wayward Psyche
-  GRENADE: Thunderhead, CODA, Sage Protector, Great Hunt
-  MELEE: Swordmaster, Apostate's Blade, CODA, Kentarch 3
-  CLASS ABILITY: Dark Age, Sage Protector
-  ALL ABILITIES: Techeun's Regalia, Taken King
-  ORBS OF POWER: Exodus Down, Crystocrene, Yearning Echo, Atheon's Memory, Nezarec's Nightmare
-  HEALING: Dreambane, Lustrous, Iron Panoply, Apostate's Blade, Dark Age, Resonant Fury
-  SURVIVABILITY: Exodus Down, Crystocrene, Bushido, Yearning Echo, Crota's Memory, Nezarec's Nightmare
-  AMMO: Thriving Survivor, Ferropotent, Last Discipline, Cyberserpent Null, Oryx's Memory
-  ELEMENTAL PICKUPS: Veritas, Luminopotent, Eutechnology, Yearning Echo
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【NOTABLE SYNERGIES】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[SOLAR]
+    Seventh Seraph, Apostate's Blade, Collective Psyche, Lustrous
+[ARC]
+    Luminopotent, Circuit, Taken King
+[VOID]
+    Veritas, Eutechnology, Nezarec's Nightmare, Oryx's Memory
+[STASIS]
+    Crystocrene, Techeun's Regalia
+[STRAND]
+    Thunderhead, Flain, Collective Psyche
+[SUPER]
+    Iron Battalion, Taken King, Legacy's Oath, Wayward Psyche
+[GRENADE]
+    Thunderhead, CODA, Sage Protector, Great Hunt
+[MELEE]
+    Swordmaster, Apostate's Blade, CODA, Kentarch 3
+[CLASS ABILITY]
+    Dark Age, Sage Protector
+[ALL ABILITIES]
+    Techeun's Regalia, Taken King
+[ORBS OF POWER]
+    Exodus Down, Crystocrene, Yearning Echo, Atheon's Memory, Nezarec's Nightmare
+[HEALING]
+    Dreambane, Lustrous, Iron Panoply, Apostate's Blade, Dark Age, Resonant Fury
+[SURVIVABILITY]
+    Exodus Down, Crystocrene, Bushido, Yearning Echo, Crota's Memory, Nezarec's Nightmare
+[AMMO]
+    Thriving Survivor, Ferropotent, Last Discipline, Cyberserpent Null, Oryx's Memory
+[ELEMENTAL PICKUPS]
+    Veritas, Luminopotent, Eutechnology, Yearning Echo

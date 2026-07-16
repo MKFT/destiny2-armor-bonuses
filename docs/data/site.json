@@ -4810,72 +4810,146 @@
   "exports": [
     {
       "path": "exports/destiny2_armor_bonuses_zhTW.png",
-      "label": {
-        "en": "Traditional Chinese",
-        "zh": "繁體中文",
-        "zhs": "繁体中文",
-        "ja": "繁体字中国語",
-        "ko": "번체 중국어"
-      },
-      "bytes": 4972328,
-      "dim": "4592×5166"
+      "label": "繁體中文",
+      "bytes": 4233075,
+      "dim": "4592×5110"
     },
     {
       "path": "exports/destiny2_armor_bonuses_zhTW.txt",
-      "label": {
-        "en": "Traditional Chinese",
-        "zh": "繁體中文",
-        "zhs": "繁体中文",
-        "ja": "繁体字中国語",
-        "ko": "번체 중국어"
-      },
-      "bytes": 30624
+      "label": "繁體中文",
+      "bytes": 23355
     },
     {
-      "path": "exports/destiny2_armor_bonuses_bilingual.png",
-      "label": {
-        "en": "Bilingual",
-        "zh": "中英對照",
-        "zhs": "中英对照",
-        "ja": "中英対訳",
-        "ko": "중영 대조"
-      },
-      "bytes": 6150139,
+      "path": "exports/destiny2_armor_bonuses_zhTW-half.png",
+      "label": "繁體中文＋英文名",
+      "bytes": 4973735,
+      "dim": "4592×5166"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_zhTW-half.txt",
+      "label": "繁體中文＋英文名",
+      "bytes": 29900
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_zhTW-full.png",
+      "label": "繁體中文＋英文全文",
+      "bytes": 6147558,
       "dim": "4592×6566"
     },
     {
-      "path": "exports/destiny2_armor_bonuses_bilingual.txt",
-      "label": {
-        "en": "Bilingual",
-        "zh": "中英對照",
-        "zhs": "中英对照",
-        "ja": "中英対訳",
-        "ko": "중영 대조"
-      },
-      "bytes": 44886
+      "path": "exports/destiny2_armor_bonuses_zhTW-full.txt",
+      "label": "繁體中文＋英文全文",
+      "bytes": 45619
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_zhCN.png",
+      "label": "简体中文",
+      "bytes": 3933822,
+      "dim": "4592×5110"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_zhCN.txt",
+      "label": "简体中文",
+      "bytes": 23217
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_zhCN-half.png",
+      "label": "简体中文＋英文名",
+      "bytes": 4661873,
+      "dim": "4592×5166"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_zhCN-half.txt",
+      "label": "简体中文＋英文名",
+      "bytes": 29762
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_zhCN-full.png",
+      "label": "简体中文＋英文全文",
+      "bytes": 5810108,
+      "dim": "4592×6566"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_zhCN-full.txt",
+      "label": "简体中文＋英文全文",
+      "bytes": 45481
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_JA.png",
+      "label": "日本語",
+      "bytes": 4763778,
+      "dim": "4592×5574"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_JA.txt",
+      "label": "日本語",
+      "bytes": 32588
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_JA-half.png",
+      "label": "日本語＋英語名",
+      "bytes": 5581324,
+      "dim": "4592×5830"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_JA-half.txt",
+      "label": "日本語＋英語名",
+      "bytes": 39133
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_JA-full.png",
+      "label": "日本語＋英語全文",
+      "bytes": 6678026,
+      "dim": "4592×7230"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_JA-full.txt",
+      "label": "日本語＋英語全文",
+      "bytes": 54852
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_KO.png",
+      "label": "한국어",
+      "bytes": 3199865,
+      "dim": "4592×5342"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_KO.txt",
+      "label": "한국어",
+      "bytes": 29629
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_KO-half.png",
+      "label": "한국어＋영어명",
+      "bytes": 3941252,
+      "dim": "4592×5398"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_KO-half.txt",
+      "label": "한국어＋영어명",
+      "bytes": 36174
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_KO-full.png",
+      "label": "한국어＋영어 전문",
+      "bytes": 5065071,
+      "dim": "4592×6798"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_KO-full.txt",
+      "label": "한국어＋영어 전문",
+      "bytes": 51893
     },
     {
       "path": "exports/destiny2_armor_bonuses_EN.png",
-      "label": {
-        "en": "English",
-        "zh": "英文",
-        "zhs": "英文",
-        "ja": "英語",
-        "ko": "영어"
-      },
+      "label": "English",
       "bytes": 2884329,
       "dim": "4592×5690"
     },
     {
       "path": "exports/destiny2_armor_bonuses_EN.txt",
-      "label": {
-        "en": "English",
-        "zh": "英文",
-        "zhs": "英文",
-        "ja": "英語",
-        "ko": "영어"
-      },
-      "bytes": 24050
+      "label": "English",
+      "bytes": 25388
     }
   ]
 }

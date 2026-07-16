@@ -1,0 +1,562 @@
+DESTINY 2 — 방어구 세트 보너스｜공식 한국어
+============================================================
+manifest 版本:244213.26.06.29.2000-1-bnet.65583
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【세계/로스트 섹터 (Distortions & Lost Sectors)】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ 원시림（Wildwood）
+   來源:왜곡 / 마스터 로스트 섹터:EDZ  (DISTORTIONS / MASTER LOST SECTORS: EDZ)
+   2피스 | 감시탑（Watchtower）
+       조준하는 동안 정밀 결정타를 기록하면 조준을 멈출 때까지 피해 저항을 부여합니다.
+       EN: Precision final blows while aiming down sights grant damage resistance until you stop aiming down sights.
+   4피스 | 현장 전문가（Field Expertise）
+       아무 무기로 정밀 결정타를 기록하면 짧은 시간 동안 재장전 속도, 표적 획득, 보스가 아닌 전투원에게 주는 무기 피해에 중첩되는 보너스를 얻습니다. 비정밀 명중으로 무기 결정타를 기록하면 이 효과가 조기에 종료됩니다.
+       EN: Precision final blows with any weapon grant a stacking bonus to reload speed, target acquisition, and weapon damage against non-boss combatants for a short duration. Weapon final blows with non-precision direct hits end this effect early.
+
+■ 엑소더스의 추락（Exodus Down）
+   來源:왜곡 / 마스터 로스트 섹터:네소스 궤도  (DISTORTIONS / MASTER LOST SECTORS: NESSUS)
+   2피스 | 긴급 전자석（Emergency Electromagnet）
+       방어막이 부서지면 주변의 모든 힘의 보주와 탄약 블록을 획득합니다.
+       EN: When your shields become broken, collect all nearby Orbs of Power and ammo bricks.
+   4피스 | 재가공된 충전（Repurposed Charge）
+       방어구 충전을 얻거나 잃거나 소모할 때마다 생명력을 회복하고 짧은 시간 동안 피해 감소 효과를 얻습니다. 이 효과는 얻거나 잃거나 소모한 방어구 충전량에 따라 증가합니다.
+       EN: Whenever you gain, lose, or spend an Armor Charge, heal and gain damage reduction for a short time. This effect scales with the amount of Armor Charge gained, lost, or spent.
+
+■ 몽상의 여명（Reverie Dawn）
+   來源:왜곡 / 마스터 로스트 섹터:꿈의 도시  (DISTORTIONS / MASTER LOST SECTORS: DREAMING CITY)
+   2피스 | 보호의 소원（A Wish for Protection）
+       짧은 시간 동안 상당한 피해를 입으면 전투원이 타격하기 어렵게 하는 보호의 소원이 생성되며 재장전 속도와 피격 반동 저항이 증가합니다.
+       EN: Taking significant damage in a short time generates a Protective Wish that makes it harder for combatants to hit you, and grants increased reload speed and flinch resistance.
+   4피스 | 실현된 소원（A Wish Fulfilled）
+       보호의 소원이 만료되면 치료를 제공합니다. 빠른 결정타를 사용하면 보호의 소원이 조기에 끝납니다.
+       EN: When the Protective Wish expires, it cures you. Rapid final blows prematurely end the Protective Wish.
+
+■ 꿈의 파멸（Dreambane）
+   來源:왜곡 / 마스터 로스트 섹터:달  (DISTORTIONS / MASTER LOST SECTORS: MOON)
+   2피스 | 악몽에 나올 듯한 전투력（Nightmarish Power）
+       강력한 전투원 또는 그보다 높은 등급의 대상에게 결정타를 기록하면 불안정한 정수를 부여합니다. 불안정한 정수를 보유한 동안에는 수류탄과 근접 공격 능력치 보너스를 얻습니다.
+       EN: Final blows to a challenging combatant or higher-ranked target grant Unstable Essence. When you have Unstable Essence, you receive grenade and melee stat bonuses.
+   4피스 | 악몽에 나올 듯한 생존력（Nightmarish Resilience）
+       불안정한 정수를 보유한 동안에는 무기로 빠르게 피해를 주거나 결정타를 기록하면 생명력이 회복되고 생명력 재생이 시작됩니다.
+       EN: When you have Unstable Essence, rapid weapon damage or final blows heal you and begin health regeneration.
+
+■ 크리스토크렌（Crystocrene）
+   來源:왜곡 / 마스터 로스트 섹터:유로파  (DISTORTIONS / MASTER LOST SECTORS: EUROPA)
+   2피스 | 재공급（Resupply）
+       보통 정도의 시간 동안 전투에서 벗어나 있으면 다음 결정타 시 추가 탄약 진척도를 얻고 힘의 보주를 생성합니다.
+       EN: After being out of combat for a moderate duration, your next final blow grants additional ammo progress and creates an Orb of Power.
+   4피스 | 폭풍으로부터（From the Storm）
+       보통 정도의 시간 동안 전투에서 벗어나 있으면 전투에 다시 돌입할 때까지 서서히 서리 방어구를 얻습니다.
+       EN: After being out of combat for a moderate duration, slowly gain Frost Armor until you reenter combat.
+
+■ 일곱 번째 세라프（Seventh Seraph）
+   來源:왜곡 / 마스터 로스트 섹터:발사 기지  (DISTORTIONS / MASTER LOST SECTORS: COSMODROME)
+   2피스 | 라스푸틴의 분노（Rasputin's Wrath）
+       광역 피해, 태양 능력, 일곱 번째 세라프 무기, 또는 이켈로스 무기로 결정타를 기록하면 전쟁지능 충전을 획득합니다. 전쟁지능 충전이 중첩될 때마다 무기 및 수류탄 능력치가 증가합니다.
+       EN: Final blows with area-of-effect damage, Solar abilities, Seventh Seraph weapons, or IKELOS weapons grant Warmind Charges. Each stack of Warmind Charge increases your Weapons and Grenade stats.
+   4피스 | 라스푸틴의 보복（Rasputin's Reprisal）
+       전쟁지능 충전을 가진 동안 강력한 전투원 처치, 구조물 파괴, 또는 타래 파괴를 기록하면 전투원에게 피해를 입히고 아군을 치유하는 태양 폭발을 방출합니다. 구조물에는 방벽, 포탑, 시공 수정 및 전장에서 생성된 기타 물체가 포함됩니다.
+       EN: While you have Warmind Charges, defeating powerful combatants, destroying a construct, or destroying a Tangle releases a Solar detonation that damages combatants and heals allies. Constructs include barricades, turrets, Stasis crystals, and other objects created in the field.
+
+■ 진리（Veritas）
+   來源:왜곡 / 마스터 로스트 섹터:사바툰의 왕좌 세계  (DISTORTIONS / MASTER LOST SECTORS: THRONE WORLD)
+   2피스 | 빛 변환（Lucent Transmutation）
+       전투원에게 필살기를 시전하거나 연속 강화 근접 공격 결정타를 기록하면 빛 하위직업에 따라 원소 결정체가 생성됩니다.
+       EN: Performing a finisher on a combatant, or landing successive powered melee final blows, generates an Elemental pickup based on your Light subclass.
+   4피스 | 빛의 공물（Lucent Tithes）
+       강력한 전투원에게 필살기를 시전하면 치유를 제공하고 충성스러운 공허 나방이 생성됩니다.
+       EN: Performing a finisher on powerful combatants heals you and generates loyal Void moths.
+
+■ 적란운（Thunderhead）
+   來源:마스터 로스트 섹터 / 오버라이드:네오무나  (MASTER LOST SECTORS / OVERRIDE: NEOMUNA)
+   2피스 | 짜릿함 허가증（License to Thrill）
+       수류탄 또는 나노테크 추적 미사일 기원 속성을 활성화하면 근접 거리에서 받는 피해에 대한 중첩 저항을 얻습니다.
+       EN: Activating your grenade or the Nanotech Tracer Missiles Origin Trait provides stacking resistance to incoming damage at point-blank range.
+   4피스 | 치명적인 직조（Lethal Weave）
+       해체된 전투원을 처치하면 수류탄 능력 에너지를 얻습니다. 수류탄 에너지가 최대라면 대신 특수 화기 탄약 미터 진척도를 얻습니다.
+       EN: Defeating an unraveled combatant grants grenade ability energy. If you have max grenade energy, you are granted Special ammo meter progress instead.
+
+■ 첫 등정（First Ascent）
+   來源:마스터 로스트 섹터 / 전복:창백한 심장  (MASTER LOST SECTORS / OVERTHROW: PALE HEART)
+   2피스 | 쌓아올려（Stack 'Em Up）
+       통달 에너지를 사용하지 않는 동안 고유 원소 피해로 대상을 처치하면 통달 에너지에 중첩 보너스를 부여합니다.
+       EN: Defeating targets with unique elemental damage grants a stacking bonus to Transcendence energy gains while Transcendence is inactive.
+   4피스 | 태워버려（Burn 'Em Down）
+       통달을 사용하는 동안 수류탄 에너지를 사용하면 쌓아올려의 모든 중첩을 소모하여 점점 더 많은 수류탄 에너지를 부여합니다.
+       EN: While Transcendence is active, using your grenade ability consumes all stacks of Stack 'Em Up to grant an escalating amount of grenade energy.
+
+■ 아이온 연접（AION Adapter）
+   來源:시브 / 신화 탐험 / 장비 포커싱:케플러  (THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER)
+   2피스 | 힘 흡수（Force Absorption）
+       로켓 발사기, 유탄 발사기, 또는 마이크로 미사일로 결정타를 가하면 일시적으로 광역 피해가 감소합니다.
+       EN: Final blows with a Rocket Launcher, Grenade Launcher, or micro-missile temporarily decrease incoming area-of-effect damage.
+   4피스 | 반작용 충격（Reactive Shock）
+       힘 흡수가 활성화되어 있을 때 근접 공격 피해를 입으면 한 번 혼란 폭발을 발산합니다.
+       EN: When Force Absorption is active, taking melee damage causes you to emit a disorienting burst once.
+
+■ 아이온 갱생（AION Renewal）
+   來源:시브 / 신화 탐험 / 장비 포커싱:케플러  (THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER)
+   2피스 | 힘 변환기（Force Converter）
+       로켓 발사기, 유탄 발사기, 또는 마이크로 미사일로 결정타를 가한 후, 짧은 시간 질주하면 속도 증폭기를 획득합니다.
+       EN: After a final blow with a Rocket Launcher, Grenade Launcher, or micro-missile, sprint for a short time to gain Speed Booster.
+   4피스 | 반작용 부스터（Reactive Booster）
+       치명상을 입은 상태로 질주, 구속 또는 시공으로 인해 감속된 상태에서 힘 변환기를 발동하면, 즉시 짧은 시간 동안 속도 증폭기를 얻습니다.
+       EN: Once per activation of Force Converter, sprinting while at critical health, being suspended, or being slowed by a Stasis effect will immediately grant Speed Booster for a short duration.
+
+■ 강인한 생존자（Thriving Survivor）
+   來源:그랜드마스터 무법 변경 임무  (GRANDMASTER LAWLESS FRONTIER JOBS)
+   2피스 | 서막（Opening Act）
+       수류탄으로 결정타를 기록하면 열 무기의 안정성과 방열 속도가 향상됩니다. 일반 탄약 무기는 안정성과 재장전 속도가 증가합니다.
+       EN: Final blows with grenades grant Heat weapons bonus stability and vent speed and grant Primary ammo weapons bonus stability and reload speed.
+   4피스 | 구역 소탕（Room Clearing）
+       열 무기 또는 일반 탄약 무기로 여러 번 결정타를 기록하면 무기와 수류탄의 능력치가 향상되고, 열 무기와 일반 탄약 무기의 탄약 생성이 증가합니다.
+       EN: Multiple final blows with Heat weapons or Primary ammo weapons grant bonuses to weapon and grenade stats and increased ammo generation for Heat weapons and Primary ammo weapons.
+
+■ 노련한 생존자（Shrewd Survivor）
+   來源:그랜드마스터 무법 변경 임무  (GRANDMASTER LAWLESS FRONTIER JOBS)
+   2피스 | 반사 작용（Reflex Action）
+       열 무기, 기관단총, 핸드 캐논으로 교체하면 짧은 시간 동안 조작성과 정확도가 향상됩니다. 해당 무기로 피해를 입히면 효과의 지속 시간이 연장됩니다.
+       EN: Swapping to a Heat weapon, Submachine Gun, or Hand Cannon grants a short period of increased handling and accuracy. This effect is extended by dealing damage with that weapon.
+   4피스 | 실력자（Hotshot）
+       반사 작용이 활성화된 상태에서 결정타를 기록하면 무기 능력치가 향상되며, 일정 시간 동안 열 무기, 기관단총, 핸드 캐논의 안정성, 재장전 속도, 조준 보정이 증가합니다.
+       EN: Dealing final blows while Reflex Action is active grants a bonus to weapon stat and increases stability, reload, and aim assist for Heat weapons, Submachine Guns, and Hand Cannons for a moderate duration.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【뱅가드/크루시블 포커싱 (Vanguard)】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ 기술 보안（Techsec）
+   來源:뱅가드 포커싱  (VANGUARD FOCUSING)
+   2피스 | 파괴자（Wrecker）
+       전투원의 방어막, 보호막, 차량, 구조물에 대한 물리 피해 공격이 크게 증가합니다. 구조물에는 방벽, 포탑, 시공 수정 및 전장에서 생성된 기타 물체가 포함됩니다.
+       EN: You deal significantly increased Kinetic damage to combatant shields, overshields, vehicles, and constructs. Constructs include barricades, turrets, Stasis crystals, and other objects created in the field.
+   4피스 | 격동 탄약（Concussive Rounds）
+       물리 피해로 강력한 전투원을 처치하거나 전투원 방어막을 깨면 방향 감각을 상실시키는 물리 충격파를 방출합니다.
+       EN: Defeating powerful combatants or breaking a combatant shield with Kinetic damage releases a disorienting Kinetic shockwave.
+
+■ 산불 진화 요원 세트（Smoke Jumper）
+   來源:뱅가드 포커싱  (VANGUARD FOCUSING)
+   2피스 | 동고동락（Ride Together, Die Together）
+       힘의 보주를 획득하면 짧은 시간 동안, 빠르게 감소하는 피해 저항 효과를 획득합니다.
+       EN: When you pick up an Orb of Power, gain a brief period of rapidly decaying damage reduction.
+   4피스 | 늙으니 힘들군（Too Old for This）
+       필살기로 강력한 전투원을 처치하면 특수 화기 탄약 진척도가 증가하고 소량의 생명력이 회복됩니다.
+       EN: Defeating a powerful combatant with a finisher grants you Special ammo progress and replenishes a small amount of health.
+
+■ 철의 힘（Ferropotent）
+   來源:뱅가드 포커싱  (VANGUARD FOCUSING)
+   2피스 | 신속한 수리（Rapid Repair）
+       보호막이 회복되기 시작하면, 짧은 시간 동안 피격 반동 저항과 피해 저항을 획득합니다.
+       EN: When your shields begin to regenerate, you gain flinch resistance and damage resistance for a short time.
+   4피스 | 무에서의 창조（Built from Scratch）
+       예비 탄약량이 적을 때 무기로 전투원에게 결정타를 입히면 탄약 유형에 따라 추가 탄약 진척도를 얻습니다. 주 무기는 특수 화기 탄약 진척도를 올려주며, 특수 화기는 중화기 탄약 진척도를 올려줍니다.
+       EN: While your reserves are low, combatant final blows with weapons provide additional ammo progress based on their ammo type. Primary ammo weapons boost Special ammo progress, and Special ammo weapons boost Heavy ammo progress.
+
+■ 빛나는 힘（Luminopotent）
+   來源:뱅가드 포커싱  (VANGUARD FOCUSING)
+   2피스 | 이온 오버클록（Ionic Overclock）
+       증폭 상태일 때, 융합 소총, 선형 융합 소총, 열 무기의 조작성, 재장전, 방열 속도가 향상됩니다.
+       EN: While amplified, your Fusion Rifles, Linear Fusion Rifles, and Heat weapons gain increased handling, reload, and vent speeds.
+   4피스 | 충격과 정리（Shock and Clear）
+       충격으로 결정타를 기록하거나 충격을 받은 전투원을 결정타로 처치하면 이온의 흔적을 생성합니다.
+       EN: Final blows with Jolt or against jolted combatants create Ionic Traces.
+
+■ 무사도（Bushido）
+   來源:뱅가드 포커싱  (VANGUARD FOCUSING)
+   2피스 | 거합도（Iaido）
+       새로 꺼내 들거나, 재장전한 무기로 결정타를 기록하면 치유 효과를 받습니다.
+       EN: Final blows with freshly drawn or reloaded weapons heal you.
+   4피스 | 흔들림 없는 집중（Unfaltering Focus）
+       활, 산탄총, 또는 검 결정타가 일시적으로 받는 피해를 줄여줍니다. 해당 무기들로 대상에 피해를 입히면 효과가 연장됩니다.
+       EN: Bow, Shotgun, or Sword final blows temporarily reduce incoming damage. Damaging targets with those weapons extends the effect.
+
+■ 검술사（Swordmaster）
+   來源:뱅가드 포커싱  (VANGUARD FOCUSING)
+   2피스 | 발레스트라（Balestra）
+       검, 월도, 또는 근접 공격으로 대상에게 피해를 주면, 대상이 탈진 상태가 됩니다. 대상이 탈진하면 대상의 공격력이 감소합니다.
+       EN: Damaging a target with a Sword, Glaive, or any melee attack exhausts them. Exhausted targets deal reduced outgoing damage.
+   4피스 | 스테소 템포（Stesso Tempo）
+       검 또는 월도로 공격을 막으면, 방어막을 내린 후 짧은 시간 동안 대상의 공격에 대한 피해 저항을 획득합니다.
+       EN: Blocking attacks with a Sword or Glaive grants a short period of damage resistance against targets when you next drop your guard.
+
+■ 유테크놀로지（Eutechnology）
+   來源:뱅가드 포커싱  (VANGUARD FOCUSING)
+   2피스 | 지맥의 선물（Gift of the Ley Lines）
+       공허 에너지로 전투원을 빠르게 처치하면 공허 파열이 생성됩니다.
+       EN: Rapidly defeating combatants with Void energy spawns a Void breach.
+   4피스 | 테키언의 예지（Techeun's Foresight）
+       공허 파열을 획득한 후, 다음 공허 무기의 결정타가 폭발을 일으킵니다. 공허 파열을 획득한 직후 빠르게 발동할수록 폭발이 더 강력해집니다.
+       EN: After collecting a Void breach, your next final blow with a Void weapon triggers a detonation. The detonation is more powerful if it is triggered quickly after collecting a Void breach.
+
+■ 광택（Lustrous）
+   來源:용맹의 교리 포커싱  (TENET OF BRAVERY FOCUSING)
+   2피스 | 감광기전（Photogalvanic）
+       치유받으면 일시적으로 태양 무기의 피격 반동 저항, 조작성, 재장전 속도가 증가합니다.
+       EN: Receiving healing temporarily grants your Solar weapons increased flinch resistance, handling, and reload speed.
+   4피스 | 소작（Cauterize）
+       빠른 태양 결정타가 플레이어를 치료합니다.
+       EN: Rapid Solar final blows heal you.
+
+■ 사이버뱀 무효（Cyberserpent Null）
+   來源:갬빗  (GAMBIT)
+   2피스 | 아드레날린 돌격（Adrenal Rush）
+       짧은 시간 동안 전력 질주하면 재장전 속도와 조작성이 향상되는 효과를 얻습니다. 결정타로 이 효과의 지속시간이 연장됩니다.
+       EN: Sprinting for a short time grants a period of improved reload speed and handling. Final blows extend this period.
+   4피스 | 풍요 군수품（Bountiful Munitions）
+       아드레날린 돌격이 활성화된 동안 결정타를 기록하면 특수 화기 탄약 진척도가 부여됩니다. 강력한 전투원, 수호자, 굴복자를 대상으로 결정타를 기록하면 진척도가 추가로 부여됩니다.
+       EN: While Adrenal Rush is active, final blows grant Special Ammo progress. Final Blows against powerful combatants, Guardians, and Taken grants additional progress.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【크루시블 PvP (Crucible)】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ 마지막 의지（Last Discipline）
+   來源:크루시블 포커싱  (CRUCIBLE FOCUSING)
+   2피스 | 종단 속도（Terminal Velocity）
+       일반 탄약 무기로 결정타를 기록하면 일반 탄약 무기의 재장전 속도가 일시적으로 증가합니다.
+       EN: Final blows with primary ammo weapons grant your primary ammo weapons temporarily increased reload speed.
+   4피스 | 힘 장전기（Power Loader）
+       힘의 보주를 획득하면 특수 화기 탄약 진척도가 증가합니다.
+       EN: Picking up an Orb of Power grants Special ammo progress.
+
+■ 재난 대응단 세트（Disaster Corps）
+   來源:크루시블 포커싱  (CRUCIBLE FOCUSING)
+   2피스 | 소원 접수（Pleas Heard）
+       자동 소총, 정찰 소총 또는 보조 무기로 상대를 처치한 후 재장전하면, 다시 전투에 돌입할 때까지 서서히 생명력이 회복됩니다.
+       EN: Reloading an Auto Rifle, Scout Rifle, or Sidearm after a final blow slowly restores health until you reenter combat.
+   4피스 | 장엄한 임무（Magnificent Duty）
+       자신의 생명력이 치명적인 상태이거나, 위기 상태인 아군을 치유하면 자동 소총, 정찰 소총, 보조 무기의 사거리, 안정성, 재장전 속도가 일정 시간 동안 향상됩니다.
+       EN: When you reach critical health or heal an ally at critical health, Auto Rifles, Scout Rifles, and Sidearms gain a period of increased range, stability, and reload speed.
+
+■ 광기의 찬가（Wild Anthem）
+   來源:크루시블 포커싱  (CRUCIBLE FOCUSING)
+   2피스 | 팡파르（Fanfare）
+       장착한 무기의 탄창이 절반 이하일 때 재장전 속도가 증가합니다.
+       EN: Gain increased reload speed for the bottom half of your equipped weapon's magazine.
+   4피스 | 서로스 화음（Suros Harmony）
+       무기를 재장전하면 짧은 시간 동안 조작성 보너스를 획득하고, 피격 반동이 감소합니다. 서로스 시너지 기원 속성을 지닌 무기의 경우 사거리가 증가합니다.
+       EN: Reloading a weapon grants it a bonus to handling and reduces incoming flinch for a short time. Weapons with the SUROS Synergy Origin Trait are granted increased range instead.
+
+■ 개선장군 찬가（Triumphal Anthem）
+   來源:크루시블 포커싱  (CRUCIBLE FOCUSING)
+   2피스 | 슬라이딩 약탈（Scoot to Loot）
+       슬라이딩하면 근처의 탄약을 획득하고 일시적으로 무기에 재장전 속도 및 조작성이 강화됩니다.
+       EN: Sliding collects nearby ammo and temporarily grants enhanced reload speed and handling to your weapons.
+   4피스 | 사격 후 슬라이딩（Shoot to Scoot）
+       무기로 피해를 입히면 일시적으로 슬라이딩이 강화됩니다. 슬라이딩하면 피해 저항이 생깁니다.
+       EN: Dealing damage with your weapons temporarily grants enhanced sliding. Sliding provides damage resistance.
+
+■ 강철 집합 세트（Iron Panoply）
+   來源:철기 깃발  (IRON BANNER)
+   2피스 | 경계 감시（Vigilant Watch）
+       생명력이 낮을수록 무기의 안정성과 조작성이 향상됩니다. 보호막이 소진된 상태에서 무기로 결정타 처치 시 생명력이 회복됩니다.
+       EN: As your health gets lower, your weapons gain increased stability and handling. Weapon final blows while your shields are depleted heal you.
+   4피스 | 강철의 확신（Iron Conviction）
+       보호막이 파괴되면 짧은 시간 동안 탄약 생성량, 피격 반동 저항, 근처 전투원에 대한 피해 저항이 증가합니다. 결정타 적중 시 효과 적용 시간이 늘어납니다.
+       EN: When your shields become broken, you gain increased ammo generation, flinch resistance, and damage resistance against nearby combatants for a short time. Final blows extend this effect.
+
+■ 철의 대대 세트（Iron Battalion）
+   來源:철기 깃발  (IRON BANNER)
+   2피스 | 주요한 연마（Primary Honing）
+       일반 탄약 무기의 조작성과 재장전 속도가 증가합니다. 주 무기 탄약 무기는 무기 능력치에 따라 보스가 아닌 전투원에게 주는 피해가 증가합니다.
+       EN: Increases handling and reload speed for Primary ammo weapons. Primary ammo weapons gain increased damage against non-boss combatants based on your Weapons stat.
+   4피스 | 초순환（Supercyclical）
+       궁극기가 활성화된 동안 결정타를 기록하면 종료 시 궁극기 에너지가 반환됩니다.
+       EN: Final blows while your Super is active refund Super energy when it ends.
+
+■ 역경을 헤치고（Per Audacia）
+   來源:경쟁전 크루시블  (COMPETITIVE CRUCIBLE)
+   2피스 | 주요한 연쇄（Primary Chain）
+       처치당하기 전까지 일반 탄약 무기 결정타로 기동성과 주 무기 사거리 및 조작성이 중첩되는 보너스를 얻습니다.
+       EN: Primary ammo weapon final blows grant a stacking bonus to mobility and Primary weapon range and handling until you are defeated.
+   4피스 | 숭고한 이동（Sublime Transit）
+       기동성이 증가하고 질주 속도와 슬라이딩 거리가 향상됩니다.
+       EN: Increases mobility and grants enhanced sprint speed and slide distance.
+
+■ 두 개의 왕좌（Twofold Crown）
+   來源:오시리스의 시련  (TRIALS OF OSIRIS)
+   2피스 | 지팡이와 도리깨（Crook and Flail）
+       탄약 블록을 집으면 치유됩니다.
+       EN: Picking up an ammo brick heals you.
+   4피스 | 시야의 선물（Gift of Sight）
+       일반 탄약 무기로 결정타를 기록하면 레이더 해상도가 일시적으로 올라갑니다.
+       EN: Final blows with Primary ammo weapons grant you briefly increased radar resolution.
+
+■ 새로운 민중（New Demotic）
+   來源:오시리스의 시련  (TRIALS OF OSIRIS)
+   2피스 | 파로리（Paroli）
+       일반 탄약 무기의 경우 슬라이딩 후 피격 반동 저항 보너스를 획득합니다.
+       EN: Primary ammo weapons gain a bonus to flinch resistance after sliding.
+   4피스 | 마틴게일（Martingale）
+       아군이 처치되었거나 아군을 부활시키면, 무기의 조작성과 조준 속도가 일시적으로 향상됩니다.
+       EN: Your weapons gain a temporary increase to handling and aim-down-sights speed when an ally is defeated or you revive an ally.
+
+■ 잔혹한 일렉트럼（Cruel Electrum）
+   來源:오시리스의 시련  (TRIALS OF OSIRIS)
+   2피스 | 주요한 생존자（Primary Survivor）
+       아군이 쓰러지면 일반 탄약 무기의 조작성, 재장전 속도, 표적 획득이 증가하고 피격 반동이 감소합니다. 여러 아군이 동시에 쓰러졌거나 혼자 플레이 중일 때는 보너스가 더 커집니다.
+       EN: When an ally is defeated, Primary ammo weapons gain increased handling, reload speed, target acquisition, and reduced flinch. Bonus increases when multiple allies are dead at the same time or when you are running solo.
+   4피스 | 주요한 유령（Primary Phantom）
+       일반 탄약 무기로 결정타를 기록하면 짧은 시간 동안 레이더에서 사라집니다. 일반 탄약을 사용하지 않는 무기를 꺼내면 이 효과는 즉시 종료됩니다.
+       EN: Final blows with Primary ammo weapons remove you from radar for a short time. Drawing a weapon that does not use Primary ammo will immediately end this effect.
+
+■ 회로（Circuit）
+   來源:스패로우 레이싱  (SPARROW RACING)
+   2피스 | 엔진 가동（Revving Up）
+       빠르게 이동하면 생명력 재생 속도가 점차 증가하는 충전이 쌓입니다. 최대로 속도를 올리면 질주가 속도 증폭기를 부여합니다.
+       EN: Fast movement builds up a charge that gradually increases your health regeneration speed. Once you are Fully Revved, sprinting grants Speed Booster.
+   4피스 | 유전체 표류（Dielectric Drift）
+       속도 증폭기가 활성화된 동안 슬라이딩하면 정면에 있는 전투원에게 충격을 줍니다.
+       EN: Sliding while Speed Booster is active jolts combatants in front of you.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【던전 (Dungeon)】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ 테키언의 예복（Techeun's Regalia）
+   來源:주요 던전:조각난 왕관  (FEATURED DUNGEON: SHATTERED THRONE)
+   2피스 | 여왕의 풀 돌격（Queensfoil Rush）
+       필살기 사용 시 강력한 과보호막을 얻습니다. 대상에게 필살기를 사용할 때, 플레이어 주변에 감속 폭발을 방출합니다.
+       EN: Gain a powerful overshield while performing your finisher. When you finish a target, release a slowing burst around you.
+   4피스 | 힘의 진실（Truth to Power）
+       피해를 입히거나 결정타를 타격했을 때 향상되는 피해 저항을 획득합니다. 필살기 기록 시 진척도가 가속됩니다. 최대 중첩에서 능력의 충전 속도 또한 증가합니다.
+       EN: Gain increasing damage resistance when you deal damage or land final blows. Finishers grant accelerated progress. At max stacks, the recharge rate of your abilities is also increased.
+
+■ 배교자의 칼날（Apostate's Blade）
+   來源:주요 던전:이단의 구덩이  (FEATURED DUNGEON: PIT OF HERESY)
+   2피스 | 재생 한계점（Regenerative Threshold）
+       필살기를 사용하면 힘을 저장합니다. 다음번에 보호막이 파괴되면 저장한 힘을 사용해 즉시 치유하고 생명력 재생을 시작합니다.
+       EN: Performing a finisher stores power. The next time your shields are broken, consume stored power to immediately heal and start health regeneration.
+   4피스 | 근접 공격 도체（Melee Conduction）
+       광채, 회복, 치료 중 하나를 가지고 있는 동안, 근접 공격 타격 시 대상을 소각하는 폭발을 방출합니다.
+       EN: While you have Radiant, Restoration, or Cure, your melee hits release a burst that will scorch the target.
+
+■ CODA（CODA）
+   來源:주요 던전:예언  (FEATURED DUNGEON: PROPHECY)
+   2피스 | 극 사이（Between Poles）
+       빛 무기로 결정타를 기록하면 빛 극성 중첩을 부여하여 수류탄 능력치를 획득합니다. 어둠 또는 물리 무기로 결정타를 기록하면 어둠 극성 중첩을 부여하여 근접 공격 능력치 중첩을 획득합니다.
+       EN: Final blows with Light weapons grants stacks of Light Polarity, which grants Grenade stat. Final blows with Darkness or Kinetic weapons grants stacks of Dark Polarity, which grants stacks of Melee stat.
+   4피스 | 초박막（So Very Thin）
+       빛 무기로 결정타를 기록하면 수류탄 에너지를 추가로 제공합니다. 어둠 또는 물리 무기로 결정타를 기록하면 근접 공격 에너지를 추가로 제공합니다. 빛과 어둠을 바꾸는 빠른 결정타를 기록하면 잠시 동안 피해 저항을 제공합니다.
+       EN: Final blows with Light weapons grants additional grenade energy. Final blows with Dark or Kinetic weapons grants additional melee energy. Rapid final blows that alternate between Light and Darkness grant a short period of damage resistance.
+
+■ 갈망하는 메아리（Yearning Echo）
+   來源:주요 또는 마스터 던전:탐욕의 손아귀  (FEATURED OR MASTER DUNGEON: GRASP OF AVARICE)
+   2피스 | 형언할 수 없는 탐욕（Untold Greed）
+       탄약, 힘의 보주, 원소 결정체를 획득하거나 또는 초월 타래를 파괴하면 말하지 않은 탐욕 중첩이 부여되며 받는 피해를 약간 줄이고 장착한 무기에 재장전 속도를 제공합니다. 보호막이 부서지면 일부 중첩이 사라집니다.
+       EN: Picking up ammo, Orbs of Power, Elemental pickups, or destroying a Strand Tangle grants stacks of Untold Greed, slightly reducing damage taken and providing reload speed to equipped weapons. When your shields are broken, some stacks are lost.
+   4피스 | 넘치는 금궤（Overflowing Coffers）
+       말하지 않은 탐욕의 중첩을 갖고 있는 동안 힘의 보주 및 원소 결정체가 각각의 에너지를 더 제공하며, 초월 타래가 추가 피해량으로 공격합니다. 보호막이 부서지면 모든 중첩은 힘의 보주의 샘으로 변합니다.
+       EN: While you have stacks of Untold Greed, Orbs of Power and Elemental pickups provide more of their respective energy, and Strand Tangles deal increased damage. When your shields are broken, all stacks are converted into a fountain of Orbs of Power.
+
+■ 심층 탐사자（Deep Explorer）
+   來源:주요 또는 마스터 던전:이중성  (FEATURED OR MASTER DUNGEON: DUALITY)
+   2피스 | 쓰라린 단련（Built Bitter）
+       피해를 받으면 장착한 무기를 보관하기 전까지 재장전 속도가 증가합니다. 추가 피해를 받으면 효과가 증가합니다.
+       EN: Taking damage increases the reload speed of your equipped weapon until it is stowed. Taking more damage increases the effect.
+   4피스 | 달콤쌉싸름（Bittersweet）
+       무기를 보관하면 쓰라린 단련 중첩을 잃은 숫자에 따라 생명력을 회복합니다.
+       EN: When you stow a weapon, restore health based on the number of Built Bitter stacks lost.
+
+■ TM 사용자 지정（TM Custom）
+   來源:주요 또는 마스터 던전:감시자의 첨탑  (FEATURED OR MASTER DUNGEON: SPIRE OF THE WATCHER)
+   2피스 | 구식 화성 외교술（Old Martian Diplomacy）
+       강력한 전투원 또는 수호자를 처치한 뒤 무기를 보관하면 소량 치유되며 주위의 전투원을 혼란시킵니다.
+       EN: Stowing a weapon after defeating a powerful combatant or a Guardian heals you a small amount and disorients nearby combatants.
+   4피스 | 하이눈（High Noon）
+       새롭게 뽑은 무기가 잠깐 동안 전투원에게 향상된 정밀 피해를 줍니다. 텍스 평형계통 기원 속성이 장착된 무기 또는 텍스 메카니카 제조사에서 생산한 경이인 경우 향상된 혜택을 받습니다.
+       EN: Freshly drawn weapons deal increased precision damage to combatants for a short period. Weapons with the Tex Balanced Stock Origin Trait equipped or Exotics manufactured by the Tex Mechanica Foundry gain further increased benefits.
+
+■ 굴복자의 왕（Taken King）
+   來源:주요 또는 마스터 던전:심해의 유령  (FEATURED OR MASTER DUNGEON: GHOSTS OF THE DEEP)
+   2피스 | 의식（The Ceremony）
+       전투원에게 필살기를 타격하거나 아군을 부활시키면 빛의 군체 의식이 시작됩니다. 의식이 활성화된 동안, 향상된 궁극기 능력치를 획득합니다.
+       EN: Finishing combatants or reviving allies initiates a Lucent Hive ritual. While the ritual is active, gain increased Super stat.
+   4피스 | 빛의 무리（Lucent Swarm）
+       힘의 보주를 획득하면 의식이 연장됩니다. 활성화된 동안, 능력 결정타가 때때로 아군 전기 나방을 생성합니다.
+       EN: Collecting Orbs of Power extends the Ceremony. While it is active, ability final blows occasionally spawn allied Arc moths.
+
+■ 암흑기（Dark Age）
+   來源:주요 또는 마스터 던전:전쟁군주의 폐허  (FEATURED OR MASTER DUNGEON: WARLORDS RUIN)
+   2피스 | 계획 추진（Taking Initiative）
+       근접 공격 또는 검 공격으로 전투원을 타격하면 계획 중첩을 부여하여 보너스 조작성, 재장전을 제공합니다. 중첩은 시간이 지나면 천천히 부패합니다.
+       EN: Hitting combatants with melee attacks or Sword strikes grants a stack of Initiative, giving bonus handling and reload. Stacks decay slowly over time.
+   4피스 | 치유 계획（Healing Initiative）
+       계획을 가진 동안 직업 능력을 사용하면 고정된 치유 오라가 생성됩니다. 이 오라에서는 계획의 중첩 수에 따라 향상된 치유를 제공합니다.
+       EN: While you have Initiative, using your class ability creates a stationary healing aura. The aura gains increased healing based on the number of Initiative stacks.
+
+■ 우주 유영（Spacewalk）
+   來源:주요 또는 마스터 던전:베스퍼의 주인  (FEATURED OR MASTER DUNGEON: VESPER'S HOST)
+   2피스 | 증강된 무장（Augmented Armaments）
+       일반 탄약 무기가 방향감각을 상실한 전투원에게 가하는 피해가 증가합니다.
+       EN: Primary ammo weapons deal increased damage to disoriented combatants.
+   4피스 | 증강된 폭발물（Augmented Explosives）
+       수류탄 능력이 폭발한 뒤 잠시 후에 추가적인 혼란 파동을 방출합니다.
+       EN: Your grenade abilities release an additional disorienting pulse shortly after detonating.
+
+■ 탈피（Flain）
+   來源:주요 또는 마스터 던전:찢어낸 교리  (FEATURED OR MASTER DUNGEON: SUNDERED DOCTRINE)
+   2피스 | 힘줄 봉합（Sinew Stitching）
+       전투원에게서 피해를 입으면 때때로 소형 섬조가 생성됩니다.
+       EN: Taking damage from combatants sometimes spawns a Threadling.
+   4피스 | 하나로 결속（Knit Together）
+       보호막이 부서진 뒤 잠시 동안 다음 소형 섬조 몇 개 타격 시 생명력이 회복됩니다.
+       EN: For a short time after your shields break, your next several Threadling hits restore health.
+
+■ 현자의 보호（Sage Protector）
+   來源:평형 던전 (위업 활성화)  (EQUILIBRIUM DUNGEON WITH FEATS ENABLED)
+   2피스 | 전투 명상（Combat Meditation）
+       검으로 타격하면 수류탄 및 직업 에너지를 회복합니다. 칼날 집중이 활성화되면 추가 에너지를 획득합니다.
+       EN: Sword hits return grenade and class energy. Bonus energy is granted if Blade Focus is active.
+   4피스 | 칼날 집중（Blade Focus）
+       검으로 잠시 막기 자세를 취해 칼날 집중을 준비합니다. 칼날 집중이 준비된 상태에서 검으로 대상을 타격하면 일정 시간 동안 검 피해와 돌진 거리가 증가합니다.
+       EN: Briefly guard with a Sword to ready Blade Focus. While Blade Focus is readied, hitting a target with your sword increases Sword damage and lunge distance for a moderate duration.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【레이드 (Raid)】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ 위대한 사냥（Great Hunt）
+   來源:주요 또는 마스터 레이드:마지막 소원  (FEATURED OR MASTER RAID: LAST WISH)
+   2피스 | 굴복자 방어（Taken Barrier）
+       수류탄 결정타가 일시적으로 받는 피해량을 줄여줍니다.
+       EN: Grenade final blows temporarily reduce incoming damage.
+   4피스 | 굴복자 무장（Taken Armaments）
+       수류탄 결정타 시 중화기 탄약 진척도를 추가로 획득합니다.
+       EN: Grenade final blows grant additional Heavy ammo progress.
+
+■ 켄타크 3（Kentarch 3）
+   來源:주요 또는 마스터 레이드:구원의 정원  (FEATURED OR MASTER RAID: GARDEN OF SALVATION)
+   2피스 | 네트워크 관리자（Network Admin）
+       아군 가까이에 있으면 착용자에게 조작성과 재장전 속도 향상을 부여하는 중계망이 형성됩니다. 다른 아군 네트워크 관리자 가까이에 있으면 착용자는 추가로 생명력 능력치를 얻습니다.
+       EN: Being near allies creates a relay network that gives the wearer improved handling and reload speed. Being near other allied Network Admins additionally grants the wearer a bonus to Health stat.
+   4피스 | 네트워크 업로드（Network Upload）
+       무기 결정타 시 장착자와 주위 아군이 근접 공격 에너지를 획득합니다.
+       EN: Weapon final blows grant the wearer and nearby allies melee energy.
+
+■ 유산의 맹세（Legacy's Oath）
+   來源:주요 또는 마스터 레이드:딥스톤 무덤  (FEATURED OR MASTER RAID: DEEP STONE CRYPT)
+   2피스 | 증강 서보（Augmented Servos）
+       대상을 처치하는 데 사용하면 강화 근접 공격이 혼란을 주는 파동을 추가로 방출합니다.
+       EN: Powered melees release an additional disorienting pulse when used to defeat a target.
+   4피스 | 신과 같은 심판（God-like Judgment）
+       전투원에게 보호막이 파괴되거나 궁극기를 시전하면, 열을 추적하는 마이크로 미사일 무리를 발사합니다.
+       EN: When your shields are broken by a combatant, or upon casting your Super, release a swarm of heat seeking micro-missiles.
+
+■ 아테온의 기억（Atheon's Memory）
+   來源:주요 또는 마스터 레이드:유리 금고  (FEATURED OR MASTER RAID: VAULT OF GLASS)
+   2피스 | 방산충 침투（Radiolaria Breach）
+       힘의 보주를 획득한 뒤 다음번에 보호막이 파괴되면, 짧은 시간 동안 생명력 능력치 보너스를 얻고 주위에 방산충을 폭발시킵니다.
+       EN: After picking up an Orb of Power, the next time your shields are broken, gain a bonus to Health stat for a short duration and release a burst of radiolaria around you.
+   4피스 | 집단적 힘（Collective Power）
+       하위직업 강화 효과를 받고 있는 동안 지속 피해를 주면 힘의 보주를 생성합니다.
+       EN: While you have a subclass buff, dealing sustained damage creates an Orb of Power.
+
+■ 공명하는 분노（Resonant Fury）
+   來源:주요 또는 마스터 레이드:신봉자의 서약  (FEATURED OR MASTER RAID: VOW OF THE DISCIPLE)
+   2피스 | 공명 판（Resonant Plating）
+       강력한 전투원에게 근접 공격 피해를 받아 피해를 입으면 즉시 생명력 재생이 시작됩니다.
+       EN: Your health begins regenerating immediately after taking melee damage from a powerful combatant.
+   4피스 | 흡수하는 손길（Siphoning Touch）
+       무기 또는 월도 근접 공격 타격에 흡수하는 손길 중첩을 획득합니다. 무기를 교체하면 치유 효과를 받고 모든 중첩이 소모됩니다.
+       EN: Gain stacks of Siphoning Touch for weapon or Glaive melee hits. Switching weapons heals you and consumes all stacks.
+
+■ 크로타의 기억（Crota's Memory）
+   來源:주요 또는 마스터 레이드:크로타의 최후  (FEATURED OR MASTER RAID: CROTA'S END)
+   2피스 | 저주받은 주먹（Cursed Fist）
+       근접 공격 결정타로 저주받은 노예 폭발이 일어납니다.
+       EN: Melee final blows trigger a Cursed Thrall explosion.
+   4피스 | 후예의 힘（Power of the Son）
+       일정 시간 전투 상태를 유지하면 전투원에게 피격 반동 저항과 피해 저항이 점점 증가합니다.
+       EN: Being in combat for a duration grants progressively more flinch resistance and damage resistance versus combatants.
+
+■ 네자렉의 악몽（Nezarec's Nightmare）
+   來源:주요 또는 마스터 레이드:악몽의 뿌리  (FEATURED OR MASTER RAID: ROOT OF NIGHTMARES)
+   2피스 | 악몽（Bad Dreams）
+       하위직업 약화 효과가 걸린 대상에게 결정타를 기록하면 점점 더 높은 확률로 힘의 보주가 생성됩니다.
+       EN: Final blows versus subclass-debuffed targets have an escalating chance to spawn an Orb of Power.
+   4피스 | 꿈 섭취자（Dream-Devourer）
+       강력한 전투원에게 필살기를 수행하면 섭취 효과를 얻습니다. 섭취 효과가 활성화된 동안 전투원에게 받는 피해 저항이 증가합니다.
+       EN: Performing a finisher versus a powerful combatant grants Devour. While you have Devour, gain damage resistance versus combatants.
+
+■ 오릭스의 기억（Oryx's Memory）
+   來源:주요 또는 마스터 레이드:왕의 몰락  (FEATURED OR MASTER RAID: KING'S FALL)
+   2피스 | 강철을 단련하는 강철（Iron Sharpens Iron）
+       수호자 및 강력한 전투원에게 결정타 기록 시 탄약 진척도를 추가로 생성합니다.
+       EN: Final blows on Guardians and powerful combatants generate additional ammo progress.
+   4피스 | 승천 탈출（Ascendant Escape）
+       강력한 전투원에게 결정타를 기록한 뒤 다음번에 보호막이 파괴되면 투명 효과를 얻습니다.
+       EN: After a final blow on a powerful combatant, the next time your shields are broken, you become invisible.
+
+■ 약속되다（Promised）
+   來源:주요 또는 마스터 레이드:구원의 경계  (FEATURED OR MASTER RAID: SALVATION'S EDGE)
+   2피스 | 안정적인 공명（Stable Resonance）
+       강력한 전투원을 처치하면 안정적인 공명을 생성하여 일정 시간 동안 피해 저항을 부여하고 무기 피해를 향상시킵니다.
+       EN: Defeating a powerful combatant generates Stable Resonance, which grants damage resistance and increased weapon damage for the duration.
+   4피스 | 공명 방향 전환（Resonance Redirection）
+       안정적인 공명을 가진 동안, 지속적인 무기 피해가 때때로 대상에게 피해를 주고 탈진시키는 공명 폭발을 일으킵니다.
+       EN: While you have Stable Resonance, continued weapon damage occasionally generates a resonance burst that damages and exhausts targets.
+
+■ 집단 심리（Collective Psyche）
+   來源:영원한 사막 레이드 (위업 포함)  (DESERT PERPETUAL RAID WITH FEATS)
+   2피스 | 응축（Accretion）
+       탄약 블록을 획득하면 죽을 때까지 무기 교체 및 조작성 속도에 중첩 보너스를 받습니다.
+       EN: Picking up an ammo brick gives you a stacking bonus to weapon swap and stow speeds until you die.
+   4피스 | 도플러 효과（Doppler Effect）
+       대상에게 부여된 구속, 해체, 단절, 그리고 자신에게 부여된 광채 및 회복 효과의 지속 시간이 증가합니다.
+       EN: Suspend, unravel, and sever effects applied to targets, and radiant and restoration effects applied to you have increased duration.
+
+■ 방황하는 의식 세트（Wayward Psyche）
+   來源:서사 영원한 사막 레이드 (위업 포함)  (EPIC DESERT PERPETUAL RAID WITH FEATS)
+   2피스 | 특수 상대성（Special Relativity）
+       탄약을 획득하면 격납 중인 특수 화기가 예비 탄약으로 재장전됩니다.
+       EN: Picking up ammo reloads stowed Special weapons from reserves.
+   4피스 | 초광속 운동（Superluminal Motion）
+       궁극기 피해를 가하면 이동 중 생명력과 보호막이 시간이 지나며 회복됩니다. 추가 궁극기 피해를 가하면 효과의 지속 시간을 초기화합니다.
+       EN: After dealing damage with your Super, health and shields regenerate over time while you are in motion. Additional Super damage refreshes this effect.
+
+■ 휘황한 만신（Pantheos Resplendent）
+   來源:판테온 레이드S (위업 포함)  (PANTHEON RAIDS WITH FEATS)
+   2피스 | 만반의 준비（Well Prepared）
+       탄약을 획득하면 방어구 충전이 부여됩니다. 가지고 있는 방어구 충전 하나당 보너스 생명력 능력치를 획득합니다.
+       EN: Picking up ammo grants Armor Charge. Grants a bonus to Health stat per Armor Charge you have.
+   4피스 | 직선 관통（Down the Line）
+       기본 및 강력한 전투원과 싸울 때 미니보스, 용사, 보스에게 지속 피해를 입히면 무기 공격력이 증가합니다. 무기 결정타 시 중첩을 한 개씩 소모합니다.
+       EN: Sustained damage on minibosses, Champions, and bosses increases weapon damage versus base and powerful combatants. Weapon final blows consume one stack each.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【NOTABLE SYNERGIES】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[태양 SOLAR]
+    일곱 번째 세라프（Seventh Seraph）、배교자의 칼날（Apostate's Blade）、집단 심리（Collective Psyche）、광택（Lustrous）
+[전기 ARC]
+    빛나는 힘（Luminopotent）、회로（Circuit）、굴복자의 왕（Taken King）
+[공허 VOID]
+    진리（Veritas）、유테크놀로지（Eutechnology）、네자렉의 악몽（Nezarec's Nightmare）、오릭스의 기억（Oryx's Memory）
+[시공 STASIS]
+    크리스토크렌（Crystocrene）、테키언의 예복（Techeun's Regalia）
+[초월 STRAND]
+    적란운（Thunderhead）、탈피（Flain）、집단 심리（Collective Psyche）
+[궁극기 SUPER]
+    철의 대대 세트（Iron Battalion）、굴복자의 왕（Taken King）、유산의 맹세（Legacy's Oath）、방황하는 의식 세트（Wayward Psyche）
+[수류탄 GRENADE]
+    적란운（Thunderhead）、CODA（CODA）、현자의 보호（Sage Protector）、위대한 사냥（Great Hunt）
+[근접 공격 MELEE]
+    검술사（Swordmaster）、배교자의 칼날（Apostate's Blade）、CODA（CODA）、켄타크 3（Kentarch 3）
+[직업 CLASS ABILITY]
+    암흑기（Dark Age）、현자의 보호（Sage Protector）
+[모든 능력 ALL ABILITIES]
+    테키언의 예복（Techeun's Regalia）、굴복자의 왕（Taken King）
+[힘의 보주 ORBS OF POWER]
+    엑소더스의 추락（Exodus Down）、크리스토크렌（Crystocrene）、갈망하는 메아리（Yearning Echo）、아테온의 기억（Atheon's Memory）、네자렉의 악몽（Nezarec's Nightmare）
+[치료 HEALING]
+    꿈의 파멸（Dreambane）、광택（Lustrous）、강철 집합 세트（Iron Panoply）、배교자의 칼날（Apostate's Blade）、암흑기（Dark Age）、공명하는 분노（Resonant Fury）
+[생존력 SURVIVABILITY]
+    엑소더스의 추락（Exodus Down）、크리스토크렌（Crystocrene）、무사도（Bushido）、갈망하는 메아리（Yearning Echo）、크로타의 기억（Crota's Memory）、네자렉의 악몽（Nezarec's Nightmare）
+[탄약 AMMO]
+    강인한 생존자（Thriving Survivor）、철의 힘（Ferropotent）、마지막 의지（Last Discipline）、사이버뱀 무효（Cyberserpent Null）、오릭스의 기억（Oryx's Memory）
+[원소 결정체 ELEMENTAL PICKUPS]
+    진리（Veritas）、빛나는 힘（Luminopotent）、유테크놀로지（Eutechnology）、갈망하는 메아리（Yearning Echo）
