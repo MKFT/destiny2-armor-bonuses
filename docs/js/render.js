@@ -11,6 +11,8 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;',
 // tag 參數:換 span 以外的容器(如說明用 <p>)。o 是 {en,zh,zhs,ja,ko} 物件。
 const bi = (o, tag = 'span', cls = '') =>
   LANGS.map(l => o[l] ? `<${tag} class="lg ${l}${cls ? ' ' + cls : ''}">${esc(o[l])}</${tag}>` : '').join('');
+// chrome(UI 文字):只顯示主語言,故用 .ui(見 CSS)。資料才用 .lg(主+副)。
+const ui = o => LANGS.map(l => o[l] ? `<span class="ui ${l}">${esc(o[l])}</span>` : '').join('');
 const pos = i => `${(i % 8) / 7 * 100}% ${Math.floor(i / 8) / 5 * 100}%`;   // sprite 8×6
 const kb = n => n >= 1048576 ? (n / 1048576).toFixed(2) + ' MB' : Math.round(n / 1024) + ' KB';
 
@@ -120,6 +122,7 @@ export function apply(c) {
   const html = document.documentElement;
   html.dataset.main = main;
   if (sub) html.dataset.sub = sub; else delete html.dataset.sub;
+  html.lang = { zh: 'zh-Hant', zhs: 'zh-Hans', ja: 'ja', ko: 'ko', en: 'en' }[main];   // CJK 字形選對區域變體
 
   for (let i = 0; i < cards.length; i++) cards[i].hidden = !c.full[i];
   // 只動 hidden 與計數,絕不碰 .open —— 開合完全由使用者決定。程式一旦回頭覆蓋 .open,
@@ -158,16 +161,17 @@ export function apply(c) {
   // DOM 就是狀態,直接問它(只看沒被篩掉的欄位)
   const allClosed = cols.filter(x => !x.el.hidden).every(x => !x.el.open);
   const tg = $('#toggle-all');
-  // 下面幾處的中英之間用「真的空白字元」而非 CSS margin:按鈕與 role=status 的無障礙
-  // 名稱就是內文,margin 只修得好視覺 —— 螢幕閱讀器仍會唸成「全部收起Collapse all」。
-  tg.innerHTML = allClosed
-    ? '<span class="zh">全部展開</span> <span class="en">Expand all</span>'
-    : '<span class="zh">全部收起</span> <span class="en">Collapse all</span>';
+  // 用 bi() 吐 .lg span:非可見語言 display:none,無障礙名稱只含主語言 ——
+  // 舊版靠真空白字元避免螢幕閱讀器唸成「全部收起Collapse all」,.lg 機制天然沒這問題。
+  tg.innerHTML = ui(allClosed
+    ? { zh: '全部展開', en: 'Expand all', zhs: '全部展开', ja: 'すべて展開', ko: '모두 펼치기' }
+    : { zh: '全部收起', en: 'Collapse all', zhs: '全部收起', ja: 'すべて折りたたむ', ko: '모두 접기' });
   tg.dataset.act = allClosed ? 'open' : 'close';
 
-  $('#status').innerHTML = filtering
-    ? `<span class="zh">符合 ${c.total} / ${c.n} 套</span> <span class="en">${c.total} / ${c.n} sets</span>`
-    : `<span class="zh">共 ${c.n} 套裝</span> <span class="en">${c.n} sets</span>`;
+  const N = c.n, T = c.total;
+  $('#status').innerHTML = ui(filtering
+    ? { zh: `符合 ${T} / ${N} 套`, en: `${T} / ${N} sets`, zhs: `符合 ${T} / ${N} 套`, ja: `該当 ${T} / ${N} セット`, ko: `일치 ${T} / ${N} 세트` }
+    : { zh: `共 ${N} 套裝`, en: `${N} sets`, zhs: `共 ${N} 套装`, ja: `全 ${N} セット`, ko: `총 ${N} 세트` });
 }
 
 export const openCols = () => cols.filter(c => !c.el.hidden);

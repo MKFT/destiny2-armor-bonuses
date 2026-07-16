@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-Hant" data-lang="zh" class="no-js">
+<html lang="zh-Hant" class="no-js">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,45 +17,58 @@
  const parse=s=>{const o=[];for(const x of(s||'').split(',')){if(OK.includes(x)&&!o.includes(x))o.push(x);if(o.length===2)break;}return o;};
  const h=new URLSearchParams(location.hash.slice(1));
  let L=parse(h.get('lang')); if(!L.length)L=parse(localStorage.getItem('d2ab.lang')); if(!L.length)L=[nav];
- d.dataset.main=L[0]; if(L[1])d.dataset.sub=L[1];}
+ d.dataset.main=L[0]; if(L[1])d.dataset.sub=L[1];
+ // lang 屬性要跟主語言 —— 否則 Windows 會拿簡體 YaHei 渲染繁體、或字形挑錯區域變體
+ d.lang={zh:'zh-Hant',zhs:'zh-Hans',ja:'ja',ko:'ko',en:'en'}[L[0]];}
 </script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a class="skip" href="#results">跳到套裝列表</a>
+<a class="skip" href="#results"><span class="ui zh">跳到套裝列表</span><span class="ui en">Skip to set list</span><span class="ui zhs">跳到套装列表</span><span class="ui ja">セット一覧へスキップ</span><span class="ui ko">세트 목록으로 건너뛰기</span></a>
 
 <header class="hd">
-  <h1><span class="kicker">DESTINY 2</span><span class="dot"> · </span><span class="zh">防具套裝效果</span><span class="en">Armor Set Bonuses</span></h1>
-  <!-- 每種語言的副標都必須排得下一行:雙語模式是中英各一行,剛好用滿 .sub 保留的二行高。
-       任何一句長到換行,標題區就會變高、把底下整條 sticky 工具列往下推。 -->
+  <h1><span class="kicker">DESTINY 2</span><span class="dot"> · </span><span class="ui zh">防具套裝效果</span><span class="ui en">Armor Set Bonuses</span><span class="ui zhs">防具套装效果</span><span class="ui ja">アーマーセット効果</span><span class="ui ko">방어구 세트 보너스</span></h1>
   <p class="sub">
-    <span class="zh">Bungie 官方繁體中文對照</span>
-    <span class="en">Official text from the Bungie manifest</span>
+    <span class="ui zh">Bungie 官方繁體中文對照</span>
+    <span class="ui en">Official text from the Bungie manifest</span>
+    <span class="ui zhs">Bungie 官方简体中文</span>
+    <span class="ui ja">Bungie 公式日本語テキスト</span>
+    <span class="ui ko">Bungie 공식 한국어 텍스트</span>
   </p>
 </header>
 
 <div class="bar">
-  <label class="vh" for="q"><span class="zh">搜尋套裝、技能或說明</span> <span class="en">Search sets, perks or descriptions</span></label>
-  <!-- placeholder 是屬性,無法用 .zh/.en 那套 CSS 切換,只能備妥三份由 JS 指定。
-       雙語版刻意較短:搜尋框在 390px 只有約 180px 可用,塞不下兩句完整的。 -->
+  <label class="vh" for="q"><span class="ui zh">搜尋套裝、技能或說明</span><span class="ui en">Search sets, perks or descriptions</span><span class="ui zhs">搜索套装、技能或说明</span><span class="ui ja">セット・パーク・説明を検索</span><span class="ui ko">세트, 특성, 설명 검색</span></label>
+  <!-- placeholder 是屬性,無法用 CSS 切換,每語一份由 JS(render.js)依主語言指定。 -->
   <input id="q" type="search" enterkeyhint="search" autocomplete="off" spellcheck="false"
          data-ph-zh="搜尋套裝、技能、說明…"
          data-ph-en="Search sets, perks, text…"
-         data-ph-both="搜尋套裝、技能…  Search…">
+         data-ph-zhs="搜索套装、技能、说明…"
+         data-ph-ja="セット・パーク・説明を検索…"
+         data-ph-ko="세트, 특성, 설명 검색…">
   <!-- 多詞與跨語言搜尋不講就沒人會發現,但不值得常駐佔版面。手機沒有 hover,所以點擊也要能開。 -->
   <button type="button" class="help" id="q-help" aria-expanded="false" aria-controls="q-tip">
     <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
       <circle cx="8" cy="8" r="6.9"/><path d="M8 7.4v4.2"/><circle cx="8" cy="4.7" r=".9" class="dot"/>
     </svg>
-    <span class="vh"><span class="zh">搜尋說明</span> <span class="en">Search help</span></span>
+    <span class="vh"><span class="ui zh">搜尋說明</span><span class="ui en">Search help</span><span class="ui zhs">搜索说明</span><span class="ui ja">検索のヒント</span><span class="ui ko">검색 도움말</span></span>
   </button>
   <div class="tip" id="q-tip" role="note">
-    <p class="zh">套裝名稱、來源、效果名稱與說明都能搜，中英文皆可。<br>
+    <p class="ui zh">套裝名稱、來源、效果名稱與說明都能搜，多語言皆可。<br>
       打多個詞時要全部符合才命中，用空白或逗號隔開。<br>
       <span class="eg">例：<b>扭曲 weapon</b> — 來源是扭曲、效果與武器有關的 3 套</span></p>
-    <p class="en">Searches set names, sources, perk names and descriptions — in either language.<br>
+    <p class="ui en">Searches set names, sources, perk names and descriptions — in any language.<br>
       Multiple words must all match. Separate them with spaces or commas.<br>
       <span class="eg">e.g. <b>distortion weapon</b> — the 3 sets from Distortions with weapon perks</span></p>
+    <p class="ui zhs">套装名称、来源、效果名称与说明都能搜，多语言皆可。<br>
+      打多个词时要全部符合才命中，用空格或逗号隔开。<br>
+      <span class="eg">例：<b>扭曲 weapon</b> — 来源是扭曲、效果与武器有关的 3 套</span></p>
+    <p class="ui ja">セット名・入手先・パーク名・説明を検索できます（言語混在可）。<br>
+      複数語はすべて一致で命中。スペースまたはカンマで区切ります。<br>
+      <span class="eg">例：<b>扭曲 weapon</b> — 歪み産でウェポン系パークの 3 セット</span></p>
+    <p class="ui ko">세트 이름, 획득처, 특성 이름과 설명을 검색할 수 있습니다(언어 혼용 가능).<br>
+      여러 단어는 모두 일치해야 합니다. 공백이나 쉼표로 구분하세요.<br>
+      <span class="eg">예：<b>扭曲 weapon</b> — 왜곡에서 얻는 무기 특성 3 세트</span></p>
   </div>
   <!-- 五顆按鈕,主副由點擊順序決定(意圖語意見 main.js)。角標 ①② 標主/副,順便暗示可點兩個。 -->
   <div class="lang" role="group" aria-label="顯示語言 Display language">
@@ -70,18 +83,18 @@
 <div class="shell">
 <details id="filters" class="panel">
   <summary>
-    <span class="zh">篩選與圖例</span><span class="en">Filters &amp; key</span>
+    <span class="ui zh">篩選與圖例</span><span class="ui en">Filters &amp; key</span><span class="ui zhs">筛选与图例</span><span class="ui ja">フィルターと凡例</span><span class="ui ko">필터 및 범례</span>
     <span id="filter-count" class="pill" hidden></span>
   </summary>
   <div class="panel-in">
     <section id="notable" class="ntb-wrap" aria-labelledby="ntb-h">
-      <h2 id="ntb-h"><span class="zh">顯著協同</span><span class="en">Notable synergies</span>
-        <small><span class="zh">人工精選，非全部命中</span><span class="en">hand-picked, not every match</span></small></h2>
+      <h2 id="ntb-h"><span class="ui zh">顯著協同</span><span class="ui en">Notable synergies</span><span class="ui zhs">显著协同</span><span class="ui ja">注目のシナジー</span><span class="ui ko">주목할 시너지</span>
+        <small><span class="ui zh">人工精選，非全部命中</span><span class="ui en">hand-picked, not every match</span><span class="ui zhs">人工精选，非全部命中</span><span class="ui ja">手動選出・全一致ではない</span><span class="ui ko">수동 선별, 전체 일치 아님</span></small></h2>
       <div class="ntb-list"></div>
     </section>
     <div id="groups"></div>
     <div class="panel-foot">
-      <button type="button" id="clear" class="btn" hidden><span class="zh">清除所有篩選</span> <span class="en">Clear all filters</span></button>
+      <button type="button" id="clear" class="btn" hidden><span class="ui zh">清除所有篩選</span><span class="ui en">Clear all filters</span><span class="ui zhs">清除所有筛选</span><span class="ui ja">フィルターをすべて解除</span><span class="ui ko">모든 필터 지우기</span></button>
     </div>
   </div>
 </details>
@@ -95,19 +108,28 @@
 <main id="results"></main>
 
 <p id="noresult" class="noresult" hidden>
-  <span class="zh">沒有套裝符合目前的條件。條件放寬一點試試，或者這個組合遊戲裡還沒實裝。</span>
-  <span class="en">No sets match these filters. Try relaxing them — or the game may simply not have this combination.</span>
+  <span class="ui zh">沒有套裝符合目前的條件。條件放寬一點試試，或者這個組合遊戲裡還沒實裝。</span>
+  <span class="ui en">No sets match these filters. Try relaxing them — or the game may simply not have this combination.</span>
+  <span class="ui zhs">没有套装符合当前条件。放宽一点试试，或者这个组合游戏里还没有。</span>
+  <span class="ui ja">条件に合うセットがありません。条件を緩めるか、この組み合わせがゲームにまだ無いのかもしれません。</span>
+  <span class="ui ko">조건에 맞는 세트가 없습니다. 조건을 완화해 보세요. 또는 게임에 아직 없는 조합일 수 있습니다.</span>
   <span id="and-hint" class="hint" hidden>
-    <span class="zh">搜尋打了多個詞時，要全部符合才算命中。試著少打一個。</span>
-    <span class="en">With multiple search words, a set must match them all. Try dropping one.</span>
+    <span class="ui zh">搜尋打了多個詞時，要全部符合才算命中。試著少打一個。</span>
+    <span class="ui en">With multiple search words, a set must match them all. Try dropping one.</span>
+    <span class="ui zhs">搜索打了多个词时，要全部符合才算命中。试着少打一个。</span>
+    <span class="ui ja">複数の語で検索するとすべて一致が必要です。1 語減らしてみてください。</span>
+    <span class="ui ko">여러 단어로 검색하면 모두 일치해야 합니다. 한 단어를 빼 보세요.</span>
   </span>
 </p>
 
 <section class="exports" aria-labelledby="ex-h">
-  <h2 id="ex-h"><span class="zh">其他格式</span><span class="en">Other formats</span></h2>
+  <h2 id="ex-h"><span class="ui zh">其他格式</span><span class="ui en">Other formats</span><span class="ui zhs">其他格式</span><span class="ui ja">他の形式</span><span class="ui ko">다른 형식</span></h2>
   <p class="ex-note">
-    <span class="zh">同一份資料的離線版本。大圖為五欄並排的完整資訊圖。</span>
-    <span class="en">The same data, offline. The posters are the full five-column infographic.</span>
+    <span class="ui zh">同一份資料的離線版本。大圖為五欄並排的完整資訊圖。</span>
+    <span class="ui en">The same data, offline. The posters are the full five-column infographic.</span>
+    <span class="ui zhs">同一份数据的离线版本。大图为五栏并排的完整信息图。</span>
+    <span class="ui ja">同じデータのオフライン版。ポスターは 5 列並びの完全な情報図です。</span>
+    <span class="ui ko">같은 데이터의 오프라인 버전. 포스터는 5열 정보 그래픽입니다.</span>
   </p>
   <ul id="ex-list"></ul>
 </section>
@@ -115,17 +137,26 @@
 <!-- 整句的文案要「整塊複製」而不是用 span 交錯:句子中夾著連結與版號,
      交錯的結果是「譯文來源： Text source:Bungie manifest · 版本 version …」黏成一團。 -->
 <footer class="ft">
-  <p class="zh">譯文來源：<a href="https://www.bungie.net/Platform/Destiny2/Manifest/">Bungie manifest</a>
+  <p class="ui zh">譯文來源：<a href="https://www.bungie.net/Platform/Destiny2/Manifest/">Bungie manifest</a>
      <span class="sep">·</span> 版本 <code class="ver"></code></p>
-  <p class="en">Text source: <a href="https://www.bungie.net/Platform/Destiny2/Manifest/">Bungie manifest</a>
+  <p class="ui en">Text source: <a href="https://www.bungie.net/Platform/Destiny2/Manifest/">Bungie manifest</a>
      <span class="sep">·</span> version <code class="ver"></code></p>
-  <p class="ft-dim zh">協同圖示為人工辨識整理，非官方資料。Destiny 2 為 Bungie, Inc. 之商標。</p>
-  <p class="ft-dim en">Synergy icons are hand-curated, not official data. Destiny 2 is a trademark of Bungie, Inc.</p>
+  <p class="ui zhs">译文来源：<a href="https://www.bungie.net/Platform/Destiny2/Manifest/">Bungie manifest</a>
+     <span class="sep">·</span> 版本 <code class="ver"></code></p>
+  <p class="ui ja">テキスト出典：<a href="https://www.bungie.net/Platform/Destiny2/Manifest/">Bungie manifest</a>
+     <span class="sep">·</span> バージョン <code class="ver"></code></p>
+  <p class="ui ko">텍스트 출처: <a href="https://www.bungie.net/Platform/Destiny2/Manifest/">Bungie manifest</a>
+     <span class="sep">·</span> 버전 <code class="ver"></code></p>
+  <p class="ft-dim ui zh">協同圖示為人工辨識整理，非官方資料。Destiny 2 為 Bungie, Inc. 之商標。</p>
+  <p class="ft-dim ui en">Synergy icons are hand-curated, not official data. Destiny 2 is a trademark of Bungie, Inc.</p>
+  <p class="ft-dim ui zhs">协同图标为人工辨识整理，非官方数据。Destiny 2 是 Bungie, Inc. 的商标。</p>
+  <p class="ft-dim ui ja">シナジーアイコンは手動整理で非公式データです。Destiny 2 は Bungie, Inc. の商標です。</p>
+  <p class="ft-dim ui ko">시너지 아이콘은 수동 정리이며 비공식 데이터입니다. Destiny 2는 Bungie, Inc.의 상표입니다.</p>
 </footer>
 
 <button type="button" id="totop" class="totop" hidden>
   <span aria-hidden="true">↑</span>
-  <span class="vh"><span class="zh">回到頂端</span> <span class="en">Back to top</span></span>
+  <span class="vh"><span class="ui zh">回到頂端</span><span class="ui en">Back to top</span><span class="ui zhs">回到顶部</span><span class="ui ja">トップへ戻る</span><span class="ui ko">맨 위로</span></span>
 </button>
 
 <noscript>

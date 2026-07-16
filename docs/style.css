@@ -40,9 +40,10 @@ h1,h2,h3{margin:0;line-height:1.3}
    找到、不進無障礙樹。主在前副在後靠 flex order,故雙語容器需 flex。
    五個語言選擇器用 :is() 收成一組,加語言就在這兩行各加一個。 */
 .lg{display:none}
-:is([data-main="zh"] .zh,[data-main="en"] .en,[data-main="zhs"] .zhs,[data-main="ja"] .ja,[data-main="ko"] .ko){
+/* 選擇器 scope 到 .lg,否則 [data-sub="en"] .en 會連 chrome 的 .ui.en 一起抓(它也是 .en) */
+:is([data-main="zh"] .lg.zh,[data-main="en"] .lg.en,[data-main="zhs"] .lg.zhs,[data-main="ja"] .lg.ja,[data-main="ko"] .lg.ko){
   display:revert;order:0}
-:is([data-sub="zh"] .zh,[data-sub="en"] .en,[data-sub="zhs"] .zhs,[data-sub="ja"] .ja,[data-sub="ko"] .ko){
+:is([data-sub="zh"] .lg.zh,[data-sub="en"] .lg.en,[data-sub="zhs"] .lg.zhs,[data-sub="ja"] .lg.ja,[data-sub="ko"] .lg.ko){
   display:revert;order:1;font-weight:400;color:var(--muted)}
 
 /* 雙語容器:flex 讓主前副後,並在兩者間留空隙(否則「原始叢林Wildwood」黏一起) */
@@ -61,10 +62,10 @@ p.desc{margin:0}
 :is([data-sub="zh"] p.desc.zh,[data-sub="en"] p.desc.en,[data-sub="zhs"] p.desc.zhs,[data-sub="ja"] p.desc.ja,[data-sub="ko"] p.desc.ko){
   font-size:.88em;color:var(--desc-en);margin-top:.15rem}
 
-/* ── chrome(靜態 UI 文字,B3a 暫以中/英墊底;B3b 會換成 .lg 五語)── */
-.zh:not(.lg),.en:not(.lg){display:none}
-:is([data-main="zh"],[data-main="zhs"]) .zh:not(.lg){display:revert}
-:is([data-main="en"],[data-main="ja"],[data-main="ko"]) .en:not(.lg){display:revert}
+/* ── chrome(UI 文字):只顯示主語言。介面不需要雙語 ——「全部展開 Expand all」並排無意義,
+   且能避開 .lg 的主副順序問題。與 .lg 分成兩套 class,職責清楚。 */
+.ui{display:none}
+:is([data-main="zh"] .ui.zh,[data-main="en"] .ui.en,[data-main="zhs"] .ui.zhs,[data-main="ja"] .ui.ja,[data-main="ko"] .ui.ko){display:revert}
 
 /* .shell 讓篩選面板與底下的欄位卡片對齊 —— #results 有 padding:0 1rem,所以它的
    子元素比 820px 容器窄 2rem;面板若直接吃 820px 就會比其他區塊寬一圈。 */

@@ -305,13 +305,13 @@ def build_exports():
     out=[]
     # 標籤只寫語言,不寫格式:網站的卡片本來就有 PNG/TXT 徽章,再寫一次「大圖/poster」
     # 是重複的。省下來的寬度剛好讓雙語模式的中英能各佔一行、不必縮寫。
-    for nm,lzh,len_ in (("zhTW","繁體中文","Traditional Chinese"),
-                        ("bilingual","中英對照","Bilingual"),
-                        ("EN","英文","English")):
+    for nm,lab in (("zhTW",{"en":"Traditional Chinese","zh":"繁體中文","zhs":"繁体中文","ja":"繁体字中国語","ko":"번체 중국어"}),
+                   ("bilingual",{"en":"Bilingual","zh":"中英對照","zhs":"中英对照","ja":"中英対訳","ko":"중영 대조"}),
+                   ("EN",{"en":"English","zh":"英文","zhs":"英文","ja":"英語","ko":"영어"})):
         for ext in (".png",".txt"):
             rel=f"exports/destiny2_armor_bonuses_{nm}{ext}"
             p=os.path.join(DOCS,rel)
-            e={"path":rel,"label":{"en":len_,"zh":lzh},
+            e={"path":rel,"label":dict(lab),
                "bytes":os.path.getsize(p) if os.path.exists(p) else None}
             if ext==".png" and os.path.exists(p):
                 with Image.open(p) as im: e["dim"]=f"{im.width}×{im.height}"
