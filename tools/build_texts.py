@@ -304,7 +304,7 @@ def build_exports():
         for ext in (".png",".txt"):
             rel=f"exports/destiny2_armor_bonuses_{nm}{ext}"
             p=os.path.join(DOCS,rel)
-            e={"path":rel,"label_zh":lzh,"label_en":len_,
+            e={"path":rel,"label":{"en":len_,"zh":lzh},
                "bytes":os.path.getsize(p) if os.path.exists(p) else None}
             if ext==".png" and os.path.exists(p):
                 with Image.open(p) as im: e["dim"]=f"{im.width}×{im.height}"
@@ -320,29 +320,32 @@ def stamp_exports():
     return site["exports"]
 
 # ---- 單一資料合約 site.json ----
+# 每個文字欄位是「語言 → 字串」的物件(t 開頭),而非 name_en/name_zh 那種後綴散落。
+# 加語言 = 往這些物件多塞一個 key,兩個消費端(make_image / 網頁)不必再改。
 def write_site():
     out={"manifest_version":MANIFEST_VER,
-         "groups":[{"id":g,"zh":gzh,"en":gen} for g,gzh,gen,_ in KEY],
-         "key":[{"id":LABEL2ID[en],"en":en,"zh":zh,"group":g,
+         "groups":[{"id":g,"label":{"en":gen,"zh":gzh}} for g,gzh,gen,_ in KEY],
+         "key":[{"id":LABEL2ID[en],"label":{"en":en,"zh":zh},"group":g,
                  "icon":f"assets/icons/icon_{i+1:02d}.png"}
                 for i,(g,en,zh) in enumerate(KEY_FLAT)],
          "columns":[], "notable":[], "exports":[]}
     for cid,tzh,ten,sets in COLUMNS:
-        col={"id":cid,"title_zh":tzh,"title_en":ten,"sets":[]}
+        col={"id":cid,"title":{"en":ten,"zh":tzh},"sets":[]}
         for n,src in sets:
             r=by_en[n]; sy=SYN[normset(n)]; pi=PERKICONS[disp(n)]
             syn={c:[LABEL2ID[l] for l in sy[c]] for c in ("2","4")}
             col["sets"].append({
-                "id":slug(disp(n)), "name_en":disp(n), "name_zh":r["name_zh"],
-                "source":src, "source_zh":src_zh(src),
+                "id":slug(disp(n)), "name":{"en":disp(n),"zh":r["name_zh"]},
+                "source":{"en":src,"zh":src_zh(src)},
                 "tags":sorted(set(syn["2"])|set(syn["4"])),
                 "synergy":syn,
-                "perks":[{"count":p["count"],"name_en":p["name_en"],"name_zh":p["name_zh"],
-                          "desc_en":p["desc_en"],"desc_zh":p["desc_zh"],
+                "perks":[{"count":p["count"],
+                          "name":{"en":p["name_en"],"zh":p["name_zh"]},
+                          "desc":{"en":p["desc_en"],"zh":p["desc_zh"]},
                           "icon":"assets/perkicons/"+pi[str(p["count"])]} for p in r["perks"]]})
         out["columns"].append(col)
     for czh,cen,ss in NOTABLE:
-        out["notable"].append({"id":slug(cen),"category_zh":czh,"category_en":cen,
+        out["notable"].append({"id":slug(cen),"category":{"en":cen,"zh":czh},
                                "set_ids":[slug(disp(x)) for x in ss]})
     out["exports"]=build_exports()
     json.dump(out,open(os.path.join(DOCS,"data","site.json"),"w",encoding="utf-8"),

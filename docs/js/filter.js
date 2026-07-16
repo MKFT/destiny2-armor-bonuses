@@ -28,8 +28,8 @@ export function build(site) {
     nPost.set(n.id, m);
   }
   // 搜尋索引跨語言:不管當前顯示模式,一律搜全部八個欄位
-  hay = SETS.map(s => [s.name_zh, s.name_en, s.source_zh, s.source,
-      ...s.perks.flatMap(p => [p.name_zh, p.name_en, p.desc_zh, p.desc_en])]
+  hay = SETS.map(s => [s.name.zh, s.name.en, s.source.zh, s.source.en,
+      ...s.perks.flatMap(p => [p.name.zh, p.name.en, p.desc.zh, p.desc.en])]
       .join('').toLowerCase().replace(/['’]/g, ''));
   return SETS;
 }

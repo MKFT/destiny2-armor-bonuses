@@ -93,7 +93,7 @@ def draw_column(img, d, x0, y0, col, acc, cw):
     y=y0
     # header pill
     d.rounded_rectangle([x0,y,x0+cw,y+58],radius=14,fill=CARD,outline=acc,width=2)
-    _ht = col["title_en"] if LANG=="en" else f"{col['title_zh']} ({col['title_en']})"
+    _ht = col["title"]["en"] if LANG=="en" else f"{col['title']['zh']} ({col['title']['en']})"
     d.text((x0+pad,y+58//2-th(f_colhdr)//2-2), _ht, font=f_colhdr, fill=acc)
     y+=58+16
     for i,st in enumerate(col["sets"]):
@@ -101,17 +101,17 @@ def draw_column(img, d, x0, y0, col, acc, cw):
         # measure card height
         lines=[]
         if LANG=="en":
-            lines.append(("setzh",st["name_en"]+"  ","")); lines.append(("src", st["source"], ""))
+            lines.append(("setzh",st["name"]["en"]+"  ","")); lines.append(("src", st["source"]["en"], ""))
         else:
-            lines.append(("setzh",st["name_zh"]+"  ",st["name_en"])); lines.append(("src", st["source_zh"], st["source"]))
+            lines.append(("setzh",st["name"]["zh"]+"  ",st["name"]["en"])); lines.append(("src", st["source"]["zh"], st["source"]["en"]))
         for p in st["perks"]:
-            if LANG=="en": lines.append(("perk",f"{p['count']}pc",p["name_en"],"",p["icon"]))
-            else: lines.append(("perk",f"{p['count']}件",p["name_zh"],p["name_en"],p["icon"]))
-            dz = p["desc_en"] if LANG=="en" else p["desc_zh"]
+            if LANG=="en": lines.append(("perk",f"{p['count']}pc",p["name"]["en"],"",p["icon"]))
+            else: lines.append(("perk",f"{p['count']}件",p["name"]["zh"],p["name"]["en"],p["icon"]))
+            dz = p["desc"]["en"] if LANG=="en" else p["desc"]["zh"]
             for seg in wrap(" ".join(dz.split()),f_desc,innerw-10):
                 lines.append(("desc",seg))
             if BILINGUAL:
-                for seg in wrap(" ".join(p["desc_en"].split()),f_descen,innerw-10):
+                for seg in wrap(" ".join(p["desc"]["en"].split()),f_descen,innerw-10):
                     lines.append(("descen",seg))
         # compute height
         hh=pad
@@ -172,10 +172,10 @@ def draw_key(img, d, left, right, top, key):
         img.paste(ic,(cx,cy),ic)
         tx=cx+IS+12; ty=cy+IS//2
         if LANG=="en":
-            d.text((tx,ty),it["en"],font=f_keyzh,fill=TXT,anchor="lm")
+            d.text((tx,ty),it["label"]["en"],font=f_keyzh,fill=TXT,anchor="lm")
         else:
-            d.text((tx,ty-1),it["zh"],font=f_keyzh,fill=TXT,anchor="lm")
-            d.text((tx+tw(it["zh"],f_keyzh)+8,ty),it["en"],font=f_keyen,fill=FAINT,anchor="lm")
+            d.text((tx,ty-1),it["label"]["zh"],font=f_keyzh,fill=TXT,anchor="lm")
+            d.text((tx+tw(it["label"]["zh"],f_keyzh)+8,ty),it["label"]["en"],font=f_keyen,fill=FAINT,anchor="lm")
     bottom=gy+rows*rowh+10
     d.rounded_rectangle([left,top,right,bottom],radius=14,outline=(72,76,88),width=2)
     return bottom
@@ -188,10 +188,10 @@ def draw_notable(d, left, right, top, notable):
     coly=[gy]*ncol
     for i,it in enumerate(notable):
         c=i%ncol; cx=left+pad+c*cwid; cy=coly[c]
-        catlbl = it["category_en"] if LANG=="en" else f"{it['category_zh']} {it['category_en']}"
+        catlbl = it["category"]["en"] if LANG=="en" else f"{it['category']['zh']} {it['category']['en']}"
         d.text((cx,cy), "◆ "+catlbl, font=f_ncat, fill=ACC[i%5]); cy+=th(f_ncat)+8
         ss=[SETS[sid] for sid in it["set_ids"]]
-        names=(", ".join(s["name_en"] for s in ss) if LANG=="en" else "、".join(f"{s['name_zh']}（{s['name_en']}）" for s in ss))
+        names=(", ".join(s["name"]["en"] for s in ss) if LANG=="en" else "、".join(f"{s['name']['zh']}（{s['name']['en']}）" for s in ss))
         for seg in wrap(names,f_nlist,cwid-30):
             d.text((cx+14,cy),seg,font=f_nlist,fill=TXT); cy+=th(f_nlist)+6
         cy+=18; coly[c]=cy

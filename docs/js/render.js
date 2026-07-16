@@ -31,7 +31,7 @@ function renderNotable() {
   $('#notable .ntb-list').innerHTML = site.notable.map(n =>
     `<button type="button" class="ntb" aria-pressed="false" data-n="${n.id}">` +
     // 用 aria-pressed 按鈕而非 radio:需要「再點一次取消」,radio 沒有這個語意
-    `${bi(n.category_zh, n.category_en)}<span class="n">${n.set_ids.length}</span></button>`).join('');
+    `${bi(n.category.zh, n.category.en)}<span class="n">${n.set_ids.length}</span></button>`).join('');
   for (const b of document.querySelectorAll('.ntb')) ntbs.set(b.dataset.n, b);
 }
 
@@ -39,13 +39,13 @@ function renderGroups() {
   $('#groups').innerHTML = site.groups.map(g => {
     const items = site.key.filter(k => k.group === g.id);
     return `<section role="group" aria-labelledby="g-${g.id}">
-      <h3 id="g-${g.id}">${bi(g.zh, g.en)}</h3>
+      <h3 id="g-${g.id}">${bi(g.label.zh, g.label.en)}</h3>
       <div class="chips">${items.map(k =>
         // 真的 checkbox + visually-hidden(clip-path 法,不是 display:none —— 那會不可聚焦)。
         // 命中數寫在 label 文字裡 → 唸出來是「灼燒 5,核取方塊,未勾選」,數字免費被播報。
         `<input type="checkbox" id="t-${k.id}" value="${k.id}" class="vh">
          <label for="t-${k.id}" class="chip"><i class="icn" data-tag="${k.id}"></i>` +
-        `${bi(k.zh, k.en)}<span class="n" data-c="${k.id}"></span></label>`).join('')}</div>
+        `${bi(k.label.zh, k.label.en)}<span class="n" data-c="${k.id}"></span></label>`).join('')}</div>
     </section>`;
   }).join('');
   for (const i of document.querySelectorAll('.chips input'))
@@ -60,22 +60,22 @@ function synHTML(s) {
     `<span class="sg"><b class="pc" data-n="${n}"></b>` +
     ids.map(id => {
       const k = KEY.get(id);
-      return `<i class="icn" data-tag="${id}" role="img" aria-label="${esc(k.zh + ' ' + k.en)}" title="${esc(k.zh + ' ' + k.en)}"></i>`;
+      return `<i class="icn" data-tag="${id}" role="img" aria-label="${esc(k.label.zh + ' ' + k.label.en)}" title="${esc(k.label.zh + ' ' + k.label.en)}"></i>`;
     }).join('') + `</span>`).join('');
 }
 
 function cardHTML(s) {
   return `<article class="card" data-id="${s.id}">
     <div class="card-head">
-      <h3 class="set-name">${bi(s.name_zh, s.name_en, 'en name-en')}</h3>
+      <h3 class="set-name">${bi(s.name.zh, s.name.en, 'en name-en')}</h3>
       <div class="syn">${synHTML(s)}</div>
     </div>
-    <p class="src">${bi(s.source_zh, s.source)}</p>
+    <p class="src">${bi(s.source.zh, s.source.en)}</p>
     ${s.perks.map(p => `<div class="perk">
       <img class="badge" src="${p.icon}" loading="lazy" decoding="async" width="34" height="34" alt="">
-      <p class="perk-name"><b class="pc" data-n="${p.count}"></b>${bi(p.name_zh, p.name_en, 'en name-en')}</p>
-      <p class="desc zh">${esc(p.desc_zh)}</p>
-      <p class="desc en desc-en">${esc(p.desc_en)}</p>
+      <p class="perk-name"><b class="pc" data-n="${p.count}"></b>${bi(p.name.zh, p.name.en, 'en name-en')}</p>
+      <p class="desc zh">${esc(p.desc.zh)}</p>
+      <p class="desc en desc-en">${esc(p.desc.en)}</p>
     </div>`).join('')}
   </article>`;
 }
@@ -85,7 +85,7 @@ function renderColumns() {
   // 預設全部收起(不加 open):56 張卡一次攤開就是把大圖的問題原封搬過來。
   $('#results').innerHTML = site.columns.map(c =>
     `<details class="col" id="col-${c.id}" style="--cc:var(--c-${c.id})">
-      <summary><span class="t">${bi(c.title_zh, c.title_en, 'en name-en')}</span><span class="cnt"></span></summary>
+      <summary><span class="t">${bi(c.title.zh, c.title.en, 'en name-en')}</span><span class="cnt"></span></summary>
       <div class="cards">${c.sets.map(cardHTML).join('')}</div>
     </details>`).join('');
   cols = site.columns.map(c => {
@@ -103,7 +103,7 @@ function renderExports() {
     // 標籤包成單一容器:否則 zh/en 兩個 span 在 flex 裡會各自獨立換行,高度變參差
     return `<li><a href="${e.path}">
       <span class="ex-kind">${png ? 'PNG' : 'TXT'}</span>
-      <span class="ex-label">${bi(e.label_zh, e.label_en)}</span>
+      <span class="ex-label">${bi(e.label.zh, e.label.en)}</span>
       <span class="ex-size">${e.bytes == null ? '' : kb(e.bytes)}${
         e.dim ? `<span class="ex-dim"> · ${e.dim}</span>` : ''}</span>
     </a></li>`;

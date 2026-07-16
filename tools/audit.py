@@ -23,14 +23,14 @@ def bad(msg):  print(f"  \033[31m✗\033[0m {msg}"); fail.append(msg)
 def note(msg): print(f"    {msg}")
 
 print("\n=== 1. 協同標籤都能反查到圖例 ===")
-miss=[(s["name_en"],c,i) for s in SETS for c in ("2","4") for i in s["synergy"][c] if i not in KEY]
+miss=[(s["name"]["en"],c,i) for s in SETS for c in ("2","4") for i in s["synergy"][c] if i not in KEY]
 bad(f"反查失敗: {miss}") if miss else ok(f"{len(SETS)} 套裝的協同標籤全部命中 {len(KEY)} 個圖例")
 # tags 應等於 2件+4件的聯集(前端篩選直接吃這個欄位,錯了會篩出錯的結果)
-tb=[s["name_en"] for s in SETS if s["tags"]!=sorted(set(s["synergy"]["2"])|set(s["synergy"]["4"]))]
+tb=[s["name"]["en"] for s in SETS if s["tags"]!=sorted(set(s["synergy"]["2"])|set(s["synergy"]["4"]))]
 bad(f"tags 不等於 2+4 聯集: {tb}") if tb else ok("tags 欄位皆等於 2件+4件的聯集")
 
 print("\n=== 2. 沒有任何一件是空標籤 ===")
-empty=[(s["name_en"],c) for s in SETS for c in ("2","4") if not s["synergy"][c]]
+empty=[(s["name"]["en"],c) for s in SETS for c in ("2","4") if not s["synergy"][c]]
 bad(f"空標籤: {empty}") if empty else ok("每套裝的 2件與 4件都至少有一個標籤")
 
 print("\n=== 3. 標記原則:4件相對 2件應「完全相同」或「完全不重疊」 ===")
@@ -48,27 +48,27 @@ unexpected=[s for s in part if s["id"] not in PARTIAL_OK]
 print(f"    完全相同(合併 2·4) {len(same)} / 完全不重疊(不重複標) {len(disj)} / 部分重疊 {len(part)}")
 if unexpected:
     for s in unexpected:
-        bad(f'{s["name_zh"]} ({s["name_en"]}) 部分重疊,重疊={sorted(set(s["synergy"]["2"])&set(s["synergy"]["4"]))}')
+        bad(f'{s["name"]["zh"]} ({s["name"]["en"]}) 部分重疊,重疊={sorted(set(s["synergy"]["2"])&set(s["synergy"]["4"]))}')
 else:
     ok(f"{len(same)+len(disj)}/{len(SETS)} 符合原則,{len(part)} 個已知例外")
-    for s in part: note(f'例外 {s["name_zh"]} ({s["name_en"]}): {PARTIAL_OK[s["id"]]}')
+    for s in part: note(f'例外 {s["name"]["zh"]} ({s["name"]["en"]}): {PARTIAL_OK[s["id"]]}')
 
 print("\n=== 4. NOTABLE 宣稱的套裝確實帶有對應標籤 ===")
 byid={s["id"]:s for s in SETS}
 gaps=[];skipped=[]
 for n in site["notable"]:
     if n["id"] not in KEY:      # 例:「彈藥 AMMO」是寬鬆大標題,圖例裡只有 ALL/SPECIAL/HEAVY AMMO
-        skipped.append(f'{n["category_zh"]} {n["category_en"]}'); continue
+        skipped.append(f'{n["category"]["zh"]} {n["category"]["en"]}'); continue
     for sid in n["set_ids"]:
         if n["id"] not in byid[sid]["tags"]:
-            gaps.append(f'{n["category_en"]} 說 {byid[sid]["name_en"]} 有,但其標籤為 {byid[sid]["tags"]}')
+            gaps.append(f'{n["category"]["en"]} 說 {byid[sid]["name"]["en"]} 有,但其標籤為 {byid[sid]["tags"]}')
 bad("落差:\n     "+"\n     ".join(gaps)) if gaps else ok(f"{len(site['notable'])-len(skipped)} 個精選分類的名單與標籤零落差")
 for s in skipped: note(f"跳過(非圖例標籤,屬寬鬆大標題): {s}")
 # NOTABLE 是編輯精選子集,不是推導結果 —— 精選數 < 命中數屬正常(例:治療精選 6 套但 19 套帶標籤)。
 # 反過來「精選數 > 命中數」代表 NOTABLE 宣稱了不存在的標籤,那是矛盾 —— 已由上面的落差檢查攔下,
 # 不在這裡重複報,免得印出「精選為子集」這種與事實相反的話。
 cnt=Counter(t for s in SETS for t in s["tags"])
-subset=[f'{n["category_zh"]}{len(n["set_ids"])}/{cnt[n["id"]]}' for n in site["notable"]
+subset=[f'{n["category"]["zh"]}{len(n["set_ids"])}/{cnt[n["id"]]}' for n in site["notable"]
         if n["id"] in KEY and len(n["set_ids"])<cnt[n["id"]]]
 if subset: note("精選/命中(精選為編輯子集,正常): "+"  ".join(subset))
 
@@ -120,28 +120,28 @@ CARRY_OVER={
 sus=[]
 for s in SETS:
     for p in s["perks"]:
-        c=str(p["count"]); txt=p["desc_en"].lower()
+        c=str(p["count"]); txt=p["desc"]["en"].lower()
         tg=re.sub(r'grenade launchers?','',txt)     # 避免 grenade 誤中 grenade launcher
         carry=CARRY_OVER.get((s["id"],c),(set(),""))[0]
         for tid in s["synergy"][c]:
             if tid in ABSTRACT or tid not in EV or tid in carry: continue
             if not re.search(EV[tid], tg if tid=='grenade' else txt):
-                sus.append(("多標?",s,c,tid,p["desc_en"]))
+                sus.append(("多標?",s,c,tid,p["desc"]["en"]))
 if sus:
     for k,s,c,tid,d in sus:
-        print(f'  ? {s["name_zh"]} ({s["name_en"]}) {c}件 標了 [{KEY[tid]["en"]}] 但說明無對應字面')
+        print(f'  ? {s["name"]["zh"]} ({s["name"]["en"]}) {c}件 標了 [{KEY[tid]["en"]}] 但說明無對應字面')
         note(" ".join(d.split())[:120])
     note("↑ 需人工判讀。可能是新的機制詞彙尚未進字典,也可能是真的標錯。")
 else:
     ok("所有可字面驗證的標籤,官方說明都找得到依據")
 note(f"(跳過 {len(ABSTRACT)} 個無法字面驗證的主觀標籤,如 WEAPONS/SURVIVABILITY/HEALING)")
 for (sid,c),(tags,why) in CARRY_OVER.items():
-    note(f'(跳過延續標記 {byid[sid]["name_zh"]} {c}件 {sorted(tags)}: {why})')
+    note(f'(跳過延續標記 {byid[sid]["name"]["zh"]} {c}件 {sorted(tags)}: {why})')
 
 print("\n=== 標籤命中數（改版後可比對增減）===")
 for g in site["groups"]:
     ids=[k["id"] for k in site["key"] if k["group"]==g["id"]]
-    print(f'  {g["zh"]:<7}'+"  ".join(f'{KEY[i]["zh"]}{cnt[i]}' for i in ids))
+    print(f'  {g["label"]["zh"]:<7}'+"  ".join(f'{KEY[i]["label"]["zh"]}{cnt[i]}' for i in ids))
 
 print()
 if fail:
