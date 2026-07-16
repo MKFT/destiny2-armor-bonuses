@@ -1,0 +1,2826 @@
+{
+  "manifest_version": "244213.26.06.29.2000-1-bnet.65583",
+  "groups": [
+    {
+      "id": "element",
+      "zh": "元素",
+      "en": "Element"
+    },
+    {
+      "id": "ability",
+      "zh": "技能",
+      "en": "Ability"
+    },
+    {
+      "id": "pickup",
+      "zh": "拾取物與狀態",
+      "en": "Pickups & States"
+    },
+    {
+      "id": "stat",
+      "zh": "生存與數值",
+      "en": "Survivability & Stats"
+    },
+    {
+      "id": "weapon",
+      "zh": "武器",
+      "en": "Weapons"
+    }
+  ],
+  "key": [
+    {
+      "id": "solar",
+      "en": "SOLAR",
+      "zh": "灼燒",
+      "group": "element",
+      "icon": "assets/icons/icon_01.png"
+    },
+    {
+      "id": "void",
+      "en": "VOID",
+      "zh": "虛空",
+      "group": "element",
+      "icon": "assets/icons/icon_02.png"
+    },
+    {
+      "id": "arc",
+      "en": "ARC",
+      "zh": "電弧",
+      "group": "element",
+      "icon": "assets/icons/icon_03.png"
+    },
+    {
+      "id": "stasis",
+      "en": "STASIS",
+      "zh": "冰凝",
+      "group": "element",
+      "icon": "assets/icons/icon_04.png"
+    },
+    {
+      "id": "strand",
+      "en": "STRAND",
+      "zh": "縈絲",
+      "group": "element",
+      "icon": "assets/icons/icon_05.png"
+    },
+    {
+      "id": "prismatic",
+      "en": "PRISMATIC",
+      "zh": "稜鏡",
+      "group": "element",
+      "icon": "assets/icons/icon_06.png"
+    },
+    {
+      "id": "kinetic",
+      "en": "KINETIC",
+      "zh": "動能",
+      "group": "element",
+      "icon": "assets/icons/icon_07.png"
+    },
+    {
+      "id": "super",
+      "en": "SUPER",
+      "zh": "超能力",
+      "group": "ability",
+      "icon": "assets/icons/icon_08.png"
+    },
+    {
+      "id": "grenade",
+      "en": "GRENADE",
+      "zh": "手榴彈",
+      "group": "ability",
+      "icon": "assets/icons/icon_09.png"
+    },
+    {
+      "id": "melee",
+      "en": "MELEE",
+      "zh": "近戰",
+      "group": "ability",
+      "icon": "assets/icons/icon_10.png"
+    },
+    {
+      "id": "class-ability",
+      "en": "CLASS ABILITY",
+      "zh": "職業技能",
+      "group": "ability",
+      "icon": "assets/icons/icon_11.png"
+    },
+    {
+      "id": "all-abilities",
+      "en": "ALL ABILITIES",
+      "zh": "全部技能",
+      "group": "ability",
+      "icon": "assets/icons/icon_12.png"
+    },
+    {
+      "id": "orbs-of-power",
+      "en": "ORBS OF POWER",
+      "zh": "力量球體",
+      "group": "pickup",
+      "icon": "assets/icons/icon_13.png"
+    },
+    {
+      "id": "elemental-pickups",
+      "en": "ELEMENTAL PICKUPS",
+      "zh": "元素拾取物",
+      "group": "pickup",
+      "icon": "assets/icons/icon_14.png"
+    },
+    {
+      "id": "all-ammo",
+      "en": "ALL AMMO",
+      "zh": "全部彈藥",
+      "group": "pickup",
+      "icon": "assets/icons/icon_15.png"
+    },
+    {
+      "id": "special-ammo",
+      "en": "SPECIAL AMMO",
+      "zh": "特殊彈藥",
+      "group": "pickup",
+      "icon": "assets/icons/icon_16.png"
+    },
+    {
+      "id": "heavy-ammo",
+      "en": "HEAVY AMMO",
+      "zh": "重型彈藥",
+      "group": "pickup",
+      "icon": "assets/icons/icon_17.png"
+    },
+    {
+      "id": "finishers",
+      "en": "FINISHERS",
+      "zh": "終結技",
+      "group": "pickup",
+      "icon": "assets/icons/icon_18.png"
+    },
+    {
+      "id": "disorient",
+      "en": "DISORIENT",
+      "zh": "迷失方向",
+      "group": "pickup",
+      "icon": "assets/icons/icon_19.png"
+    },
+    {
+      "id": "exhaust",
+      "en": "EXHAUST",
+      "zh": "筋疲力盡",
+      "group": "pickup",
+      "icon": "assets/icons/icon_20.png"
+    },
+    {
+      "id": "healing",
+      "en": "HEALING",
+      "zh": "治療",
+      "group": "stat",
+      "icon": "assets/icons/icon_21.png"
+    },
+    {
+      "id": "survivability",
+      "en": "SURVIVABILITY",
+      "zh": "生存能力",
+      "group": "stat",
+      "icon": "assets/icons/icon_22.png"
+    },
+    {
+      "id": "light",
+      "en": "LIGHT",
+      "zh": "光",
+      "group": "stat",
+      "icon": "assets/icons/icon_23.png"
+    },
+    {
+      "id": "darkness",
+      "en": "DARKNESS",
+      "zh": "黑暗",
+      "group": "stat",
+      "icon": "assets/icons/icon_24.png"
+    },
+    {
+      "id": "armor-charge",
+      "en": "ARMOR CHARGE",
+      "zh": "防具充能",
+      "group": "stat",
+      "icon": "assets/icons/icon_25.png"
+    },
+    {
+      "id": "health-stat",
+      "en": "HEALTH STAT",
+      "zh": "生命值",
+      "group": "stat",
+      "icon": "assets/icons/icon_26.png"
+    },
+    {
+      "id": "weapon-stat",
+      "en": "WEAPON STAT",
+      "zh": "武器數值",
+      "group": "stat",
+      "icon": "assets/icons/icon_27.png"
+    },
+    {
+      "id": "mobility",
+      "en": "MOBILITY",
+      "zh": "機動性",
+      "group": "stat",
+      "icon": "assets/icons/icon_28.png"
+    },
+    {
+      "id": "weapons",
+      "en": "WEAPONS",
+      "zh": "武器",
+      "group": "weapon",
+      "icon": "assets/icons/icon_29.png"
+    },
+    {
+      "id": "swords",
+      "en": "SWORDS",
+      "zh": "劍",
+      "group": "weapon",
+      "icon": "assets/icons/icon_30.png"
+    },
+    {
+      "id": "glaives",
+      "en": "GLAIVES",
+      "zh": "長戈",
+      "group": "weapon",
+      "icon": "assets/icons/icon_31.png"
+    },
+    {
+      "id": "rockets",
+      "en": "ROCKETS",
+      "zh": "火箭筒",
+      "group": "weapon",
+      "icon": "assets/icons/icon_32.png"
+    },
+    {
+      "id": "grenade-launchers",
+      "en": "GRENADE LAUNCHERS",
+      "zh": "榴彈發射器",
+      "group": "weapon",
+      "icon": "assets/icons/icon_33.png"
+    },
+    {
+      "id": "auto-rifles",
+      "en": "AUTO RIFLES",
+      "zh": "自動步槍",
+      "group": "weapon",
+      "icon": "assets/icons/icon_34.png"
+    },
+    {
+      "id": "sidearms",
+      "en": "SIDEARMS",
+      "zh": "手槍",
+      "group": "weapon",
+      "icon": "assets/icons/icon_35.png"
+    },
+    {
+      "id": "scout-rifles",
+      "en": "SCOUT RIFLES",
+      "zh": "斥候步槍",
+      "group": "weapon",
+      "icon": "assets/icons/icon_36.png"
+    },
+    {
+      "id": "smgs",
+      "en": "SMGS",
+      "zh": "衝鋒槍",
+      "group": "weapon",
+      "icon": "assets/icons/icon_37.png"
+    },
+    {
+      "id": "hand-cannons",
+      "en": "HAND CANNONS",
+      "zh": "手持加農砲",
+      "group": "weapon",
+      "icon": "assets/icons/icon_38.png"
+    },
+    {
+      "id": "bows",
+      "en": "BOWS",
+      "zh": "弓",
+      "group": "weapon",
+      "icon": "assets/icons/icon_39.png"
+    },
+    {
+      "id": "fusion-rifles",
+      "en": "FUSION RIFLES",
+      "zh": "聚合步槍",
+      "group": "weapon",
+      "icon": "assets/icons/icon_40.png"
+    },
+    {
+      "id": "linear-fusion-rifles",
+      "en": "LINEAR FUSION RIFLES",
+      "zh": "線性聚合步槍",
+      "group": "weapon",
+      "icon": "assets/icons/icon_41.png"
+    },
+    {
+      "id": "shotguns",
+      "en": "SHOTGUNS",
+      "zh": "霰彈槍",
+      "group": "weapon",
+      "icon": "assets/icons/icon_42.png"
+    },
+    {
+      "id": "heat-weapons",
+      "en": "HEAT WEAPONS",
+      "zh": "熱能武器",
+      "group": "weapon",
+      "icon": "assets/icons/icon_43.png"
+    },
+    {
+      "id": "micro-missiles",
+      "en": "MICRO MISSILES",
+      "zh": "微型導彈",
+      "group": "weapon",
+      "icon": "assets/icons/icon_44.png"
+    }
+  ],
+  "columns": [
+    {
+      "id": "world",
+      "title_zh": "世界/遺落之地",
+      "title_en": "Distortions & Lost Sectors",
+      "sets": [
+        {
+          "id": "wildwood",
+          "name_en": "Wildwood",
+          "name_zh": "原始叢林",
+          "source": "DISTORTIONS / MASTER LOST SECTORS: EDZ",
+          "source_zh": "扭曲 / 大師遺落之地:歐洲死區",
+          "tags": [
+            "survivability",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "survivability"
+            ],
+            "4": [
+              "weapons"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Watchtower",
+              "name_zh": "守望台",
+              "desc_en": "Precision final blows while aiming down sights grant damage resistance until you stop aiming down sights.",
+              "desc_zh": "開鏡瞄準時造成精確最後一擊可提升傷害抗性，直到停止開鏡瞄準為止。",
+              "icon": "assets/perkicons/4e2aece7b23761d572a716fa737c5d2d.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Field Expertise",
+              "name_zh": "實地專長",
+              "desc_en": "Precision final blows with any weapon grant a stacking bonus to reload speed, target acquisition, and weapon damage against non-boss combatants for a short duration.\n\nWeapon final blows with non-precision direct hits end this effect early.",
+              "desc_zh": "以任何武器造成精確最後一擊，可在短時間內獲得可疊加的加成，提升填裝速度、目標鎖定，以及對非頭目戰員的武器傷害。\n\n若武器以非精確直接命中造成最後一擊，則會提早結束此效果。",
+              "icon": "assets/perkicons/5311ea5b6731e151e9778deac078710c.png"
+            }
+          ]
+        },
+        {
+          "id": "exodus-down",
+          "name_en": "Exodus Down",
+          "name_zh": "消殞移民",
+          "source": "DISTORTIONS / MASTER LOST SECTORS: NESSUS",
+          "source_zh": "扭曲 / 大師遺落之地:涅索斯",
+          "tags": [
+            "armor-charge",
+            "healing",
+            "orbs-of-power",
+            "survivability"
+          ],
+          "synergy": {
+            "2": [
+              "orbs-of-power"
+            ],
+            "4": [
+              "healing",
+              "survivability",
+              "armor-charge"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Emergency Electromagnet",
+              "name_zh": "緊急電磁鐵",
+              "desc_en": "When your shields become broken, collect all nearby Orbs of Power and ammo bricks.",
+              "desc_zh": "護盾遭破壞時，自動收集附近所有的力量球體與彈藥磚。",
+              "icon": "assets/perkicons/8b11633d8026079a0841ca92c211a713.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Repurposed Charge",
+              "name_zh": "充能再利用",
+              "desc_en": "Whenever you gain, lose, or spend an Armor Charge, heal and gain damage reduction for a short time.\n\nThis effect scales with the amount of Armor Charge gained, lost, or spent.",
+              "desc_zh": "獲得、失去或消耗防具充能時，治療自己並於短時間內獲得減傷效果。\n\n此效果會根據獲得、失去或消耗的防具充能值而調整。",
+              "icon": "assets/perkicons/98a8854b4477cb8a722024a7015dcf89.png"
+            }
+          ]
+        },
+        {
+          "id": "reverie-dawn",
+          "name_en": "Reverie Dawn",
+          "name_zh": "臆想黎明",
+          "source": "DISTORTIONS / MASTER LOST SECTORS: DREAMING CITY",
+          "source_zh": "扭曲 / 大師遺落之地:千夢之城",
+          "tags": [
+            "healing",
+            "solar",
+            "survivability",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "survivability",
+              "weapons"
+            ],
+            "4": [
+              "solar",
+              "healing"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "A Wish for Protection",
+              "name_zh": "祈求庇護",
+              "desc_en": "Taking significant damage in a short time generates a Protective Wish that makes it harder for combatants to hit you, and grants increased reload speed and flinch resistance.",
+              "desc_zh": "在短時間內承受顯著傷害會產生一個防護之願，使戰員更難擊中你，並提升填裝速度與倒縮抗性。",
+              "icon": "assets/perkicons/f61c57bf97db2da78a537c7933e45b94.png"
+            },
+            {
+              "count": 4,
+              "name_en": "A Wish Fulfilled",
+              "name_zh": "願望實現",
+              "desc_en": "When the Protective Wish expires, it cures you. \n\nRapid final blows prematurely end the Protective Wish.",
+              "desc_zh": "防護之願結束時，它會治癒你。\n\n迅速造成最後一擊會提前結束防護之願。",
+              "icon": "assets/perkicons/6882c7bf6dbcd564e9ef00a41818c9fd.png"
+            }
+          ]
+        },
+        {
+          "id": "dreambane",
+          "name_en": "Dreambane",
+          "name_zh": "驅夢",
+          "source": "DISTORTIONS / MASTER LOST SECTORS: MOON",
+          "source_zh": "扭曲 / 大師遺落之地:月球",
+          "tags": [
+            "grenade",
+            "healing",
+            "melee"
+          ],
+          "synergy": {
+            "2": [
+              "grenade",
+              "melee"
+            ],
+            "4": [
+              "healing"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Nightmarish Power",
+              "name_zh": "夢魘之力",
+              "desc_en": "Final blows to a challenging combatant or higher-ranked target grant Unstable Essence. When you have Unstable Essence, you receive grenade and melee stat bonuses.",
+              "desc_zh": "對強勁戰員或更高階的目標造成最後一擊時，可獲得不穩定的精華。擁有不穩定的精華時，手榴彈與近戰數值將會提升。",
+              "icon": "assets/perkicons/589460862ff8d80364db3a9b6205e071.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Nightmarish Resilience",
+              "name_zh": "夢魘韌性",
+              "desc_en": "When you have Unstable Essence, rapid weapon damage or final blows heal you and begin health regeneration.",
+              "desc_zh": "擁有不穩定的精華時，造成迅速武器傷害或最後一擊即可治療自己，並開始生命值再生。",
+              "icon": "assets/perkicons/8d927506b9d4310414df97a1da85210e.png"
+            }
+          ]
+        },
+        {
+          "id": "crystocrene",
+          "name_en": "Crystocrene",
+          "name_zh": "晶體",
+          "source": "DISTORTIONS / MASTER LOST SECTORS: EUROPA",
+          "source_zh": "扭曲 / 大師遺落之地:木衛二",
+          "tags": [
+            "all-ammo",
+            "orbs-of-power",
+            "stasis",
+            "survivability"
+          ],
+          "synergy": {
+            "2": [
+              "orbs-of-power",
+              "all-ammo"
+            ],
+            "4": [
+              "stasis",
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Resupply",
+              "name_zh": "積衰新造",
+              "desc_en": "After being out of combat for a moderate duration, your next final blow grants additional ammo progress and creates an Orb of Power.",
+              "desc_zh": "脫離戰鬥一段時間後，下一次最後一擊將獲得額外彈藥進度，並產生一顆力量球體。",
+              "icon": "assets/perkicons/bd176b87f172c0affdec5a8e10e5ae8c.png"
+            },
+            {
+              "count": 4,
+              "name_en": "From the Storm",
+              "name_zh": "來自風暴",
+              "desc_en": "After being out of combat for a moderate duration, slowly gain Frost Armor until you reenter combat.",
+              "desc_zh": "脫離戰鬥一段時間後，會逐漸獲得冰霜護甲，直到再次進入戰鬥為止。",
+              "icon": "assets/perkicons/046a5d59d06ab9cfb7488faacdc4b6eb.png"
+            }
+          ]
+        },
+        {
+          "id": "seventh-seraph",
+          "name_en": "Seventh Seraph",
+          "name_zh": "第七熾天使",
+          "source": "DISTORTIONS / MASTER LOST SECTORS: COSMODROME",
+          "source_zh": "扭曲 / 大師遺落之地:太空發射場",
+          "tags": [
+            "grenade",
+            "healing",
+            "solar",
+            "stasis",
+            "strand"
+          ],
+          "synergy": {
+            "2": [
+              "solar",
+              "grenade"
+            ],
+            "4": [
+              "healing",
+              "strand",
+              "stasis"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Rasputin's Wrath",
+              "name_zh": "拉斯普丁的憤怒",
+              "desc_en": "Final blows with area-of-effect damage, Solar abilities, Seventh Seraph weapons, or IKELOS weapons grant Warmind Charges. Each stack of Warmind Charge increases your Weapons and Grenade stats.",
+              "desc_zh": "使用範圍傷害、灼燒技能、第七熾天使武器或IKELOS武器造成最後一擊會賦予「戰爭智能充能」。每一層戰爭智能充能都會提升你的武器與手榴彈數值。",
+              "icon": "assets/perkicons/18b5bd384a62c9f960e1f46907987f48.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Rasputin's Reprisal",
+              "name_zh": "拉斯普丁的報復",
+              "desc_en": "While you have Warmind Charges, defeating powerful combatants, destroying a construct, or destroying a Tangle releases a Solar detonation that damages combatants and heals allies.\n\nConstructs include barricades, turrets, Stasis crystals, and other objects created in the field.",
+              "desc_zh": "擁有戰爭智能充能時，擊敗強大戰員、摧毀結構體或糾結，會釋放灼燒爆發，傷害戰員並治癒盟友。\n\n結構體包含屏障、哨塔、冰凝水晶和其他在戰場上生成的物體。",
+              "icon": "assets/perkicons/991a1596482cd22ca393a748c2aa412c.png"
+            }
+          ]
+        },
+        {
+          "id": "veritas",
+          "name_en": "Veritas",
+          "name_zh": "真理",
+          "source": "DISTORTIONS / MASTER LOST SECTORS: THRONE WORLD",
+          "source_zh": "扭曲 / 大師遺落之地:列王之境",
+          "tags": [
+            "elemental-pickups",
+            "finishers",
+            "healing",
+            "melee",
+            "void"
+          ],
+          "synergy": {
+            "2": [
+              "finishers",
+              "melee",
+              "elemental-pickups"
+            ],
+            "4": [
+              "healing",
+              "void"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Lucent Transmutation",
+              "name_zh": "明晰轉化",
+              "desc_en": "Performing a finisher on a combatant, or landing successive powered melee final blows, generates an Elemental pickup based on your Light subclass.",
+              "desc_zh": "對戰員施展終結技，或強力近戰最後一擊連續命中，會根據你的光能副職業產生一個元素拾取物。",
+              "icon": "assets/perkicons/94133689fdafe43c92af39875e4b35cf.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Lucent Tithes",
+              "name_zh": "明晰什一稅",
+              "desc_en": "Performing a finisher on powerful combatants heals you and generates loyal Void moths.",
+              "desc_zh": "對強大戰員施展終結技會治癒你，並產生忠誠虛空飛蛾。",
+              "icon": "assets/perkicons/9ca2d24cfb79d72ec09ddd3c78a19e75.png"
+            }
+          ]
+        },
+        {
+          "id": "thunderhead",
+          "name_en": "Thunderhead",
+          "name_zh": "雷暴雲頂",
+          "source": "MASTER LOST SECTORS / OVERRIDE: NEOMUNA",
+          "source_zh": "大師遺落之地 / 覆寫行動:尼爾穆那",
+          "tags": [
+            "grenade",
+            "special-ammo",
+            "strand",
+            "survivability"
+          ],
+          "synergy": {
+            "2": [
+              "grenade",
+              "survivability"
+            ],
+            "4": [
+              "strand",
+              "special-ammo"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "License to Thrill",
+              "name_zh": "狂歡許可",
+              "desc_en": "Activating your grenade or the Nanotech Tracer Missiles Origin Trait provides stacking resistance to incoming damage at point-blank range.",
+              "desc_zh": "啟用手榴彈或奈米科技追蹤飛彈來源特點時，會獲得可疊加的抗性，降低近距離傷害。",
+              "icon": "assets/perkicons/41f83623b1974e71b4e008b6baeb6269.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Lethal Weave",
+              "name_zh": "致命編織",
+              "desc_en": "Defeating an unraveled combatant grants grenade ability energy. If you have max grenade energy, you are granted Special ammo meter progress instead.",
+              "desc_zh": "擊敗已拆解戰員可獲得手榴彈技能能量。若手榴彈能量已滿，則改為獲得特殊彈藥量表進度。",
+              "icon": "assets/perkicons/39749db8864643f96bb20296732d4e8d.png"
+            }
+          ]
+        },
+        {
+          "id": "first-ascent",
+          "name_en": "First Ascent",
+          "name_zh": "第一飛昇",
+          "source": "MASTER LOST SECTORS / OVERTHROW: PALE HEART",
+          "source_zh": "大師遺落之地 / 推翻:冰冷之心",
+          "tags": [
+            "grenade",
+            "prismatic"
+          ],
+          "synergy": {
+            "2": [
+              "prismatic"
+            ],
+            "4": [
+              "grenade"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Stack 'Em Up",
+              "name_zh": "疊加效應",
+              "desc_en": "Defeating targets with unique elemental damage grants a stacking bonus to Transcendence energy gains while Transcendence is inactive.",
+              "desc_zh": "高等昇華停用時，以不同元素傷害擊敗目標，可獲得可疊加的高等昇華加成。",
+              "icon": "assets/perkicons/0d086c527eb8a84290ceea3d2069bf69.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Burn 'Em Down",
+              "name_zh": "徹底燒毀",
+              "desc_en": "While Transcendence is active, using your grenade ability consumes all stacks of Stack 'Em Up to grant an escalating amount of grenade energy.",
+              "desc_zh": "高等昇華啟動時，使用手榴彈技能會消耗所有「疊加效應」疊層，可獲得遞增的手榴彈能量。",
+              "icon": "assets/perkicons/65a58789810d5617352736c279d51edb.png"
+            }
+          ]
+        },
+        {
+          "id": "aion-adapter",
+          "name_en": "AION Adapter",
+          "name_zh": "艾詠適配器",
+          "source": "THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER",
+          "source_zh": "篩網 / 神話探索 / 裝備專注:克卜勒",
+          "tags": [
+            "disorient",
+            "grenade-launchers",
+            "micro-missiles",
+            "rockets",
+            "survivability"
+          ],
+          "synergy": {
+            "2": [
+              "rockets",
+              "grenade-launchers",
+              "micro-missiles",
+              "survivability"
+            ],
+            "4": [
+              "disorient"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Force Absorption",
+              "name_zh": "力量吸收",
+              "desc_en": "Final blows with a Rocket Launcher, Grenade Launcher, or micro-missile temporarily decrease incoming area-of-effect damage.",
+              "desc_zh": "以火箭筒、榴彈發射器或微型導彈造成最後一擊，會暫時降低來襲的範圍效果傷害。",
+              "icon": "assets/perkicons/93c69df9a8c648602b10844524e8a0e6.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Reactive Shock",
+              "name_zh": "反射性震擊",
+              "desc_en": "When Force Absorption is active, taking melee damage causes you to emit a disorienting burst once.",
+              "desc_zh": "在力量吸收啟用期間，受到近戰傷害會讓你釋放一次讓人迷失方向爆發。",
+              "icon": "assets/perkicons/96a637543fc3a60cf55d6b333ad87661.png"
+            }
+          ]
+        },
+        {
+          "id": "aion-renewal",
+          "name_en": "AION Renewal",
+          "name_zh": "艾詠重生",
+          "source": "THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER",
+          "source_zh": "篩網 / 神話探索 / 裝備專注:克卜勒",
+          "tags": [
+            "grenade-launchers",
+            "micro-missiles",
+            "mobility",
+            "rockets"
+          ],
+          "synergy": {
+            "2": [
+              "rockets",
+              "grenade-launchers",
+              "micro-missiles",
+              "mobility"
+            ],
+            "4": [
+              "rockets",
+              "grenade-launchers",
+              "micro-missiles",
+              "mobility"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Force Converter",
+              "name_zh": "力量轉換器",
+              "desc_en": "After a final blow with a Rocket Launcher, Grenade Launcher, or micro-missile, sprint for a short time to gain Speed Booster.",
+              "desc_zh": "以火箭筒、榴彈發射器或微型導彈造成最後一擊後，短暫衝刺可獲得速度推進器。",
+              "icon": "assets/perkicons/005db44d00a46515888db51ffd60f1bd.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Reactive Booster",
+              "name_zh": "反射性加速器",
+              "desc_en": "Once per activation of Force Converter, sprinting while at critical health, being suspended, or being slowed by a Stasis effect will immediately grant Speed Booster for a short duration.",
+              "desc_zh": "在力量轉換器啟用期間，若在生命垂危、被懸浮或被冰凝效果緩速時衝刺，會立即獲得速度推進器一小段時間。",
+              "icon": "assets/perkicons/609405930d800a057c5e6eef3edac14e.png"
+            }
+          ]
+        },
+        {
+          "id": "thriving-survivor",
+          "name_en": "Thriving Survivor",
+          "name_zh": "強韌求生者",
+          "source": "GRANDMASTER LAWLESS FRONTIER JOBS",
+          "source_zh": "宗師無序邊疆委託",
+          "tags": [
+            "all-ammo",
+            "grenade",
+            "heat-weapons",
+            "weapon-stat",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "grenade",
+              "weapons",
+              "heat-weapons"
+            ],
+            "4": [
+              "weapon-stat",
+              "all-ammo"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Opening Act",
+              "name_zh": "開場表演",
+              "desc_en": "Final blows with grenades grant Heat weapons bonus stability and vent speed and grant Primary ammo weapons bonus stability and reload speed.",
+              "desc_zh": "用手榴彈造成最後一擊會為熱能武器提供穩定性與排氣速度，並為主要彈藥武器提供穩定性與填裝速度。",
+              "icon": "assets/perkicons/9763eb72bc446b9d9f1b2c2b5efca82d.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Room Clearing",
+              "name_zh": "掃蕩全場",
+              "desc_en": "Multiple final blows with Heat weapons or Primary ammo weapons grant bonuses to weapon and grenade stats and increased ammo generation for Heat weapons and Primary ammo weapons.",
+              "desc_zh": "用熱能武器或主要彈藥武器造成多次最後一擊會為武器和手榴彈提供數值加成，並增加熱能武器和主要彈藥武器的彈藥生成。",
+              "icon": "assets/perkicons/319e1b357fb1e2b7108f489f792c31ed.png"
+            }
+          ]
+        },
+        {
+          "id": "shrewd-survivor",
+          "name_en": "Shrewd Survivor",
+          "name_zh": "睿智求生者",
+          "source": "GRANDMASTER LAWLESS FRONTIER JOBS",
+          "source_zh": "宗師無序邊疆委託",
+          "tags": [
+            "hand-cannons",
+            "heat-weapons",
+            "smgs",
+            "weapon-stat"
+          ],
+          "synergy": {
+            "2": [
+              "heat-weapons",
+              "smgs",
+              "hand-cannons"
+            ],
+            "4": [
+              "weapon-stat"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Reflex Action",
+              "name_zh": "反射動作",
+              "desc_en": "Swapping to a Heat weapon, Submachine Gun, or Hand Cannon grants a short period of increased handling and accuracy. This effect is extended by dealing damage with that weapon.",
+              "desc_zh": "切換到熱能武器、衝鋒槍或手持加農砲時，可在短時間內提升操作性與精準度。以該武器造成傷害可延長此效果。",
+              "icon": "assets/perkicons/7f09f6e0067a733d41e745781bc402a9.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Hotshot",
+              "name_zh": "火熱射手",
+              "desc_en": "Dealing final blows while Reflex Action is active grants a bonus to weapon stat and increases stability, reload, and aim assist for Heat weapons, Submachine Guns, and Hand Cannons for a moderate duration.",
+              "desc_zh": "反射動作啟用時，造成最後一擊會在一段時間內賦予武器數值加成並提升熱能武器、衝鋒槍和手持加農砲的穩定性、填裝和瞄準輔助。",
+              "icon": "assets/perkicons/04b973a7cfccbd68319667558dcbe82c.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vanguard",
+      "title_zh": "先鋒/熔爐聚焦",
+      "title_en": "Vanguard",
+      "sets": [
+        {
+          "id": "techsec",
+          "name_en": "Techsec",
+          "name_zh": "安控戰甲",
+          "source": "VANGUARD FOCUSING",
+          "source_zh": "先鋒專注",
+          "tags": [
+            "disorient",
+            "kinetic"
+          ],
+          "synergy": {
+            "2": [
+              "kinetic"
+            ],
+            "4": [
+              "disorient"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Wrecker",
+              "name_zh": "破壞者",
+              "desc_en": "You deal significantly increased Kinetic damage to combatant shields, overshields, vehicles, and constructs. Constructs include barricades, turrets, Stasis crystals, and other objects created in the field.",
+              "desc_zh": "你對戰員護盾、覆蓋護盾、載具和結構體造成的動能傷害大幅增加。結構體包含屏障、哨塔、冰凝水晶和其他在戰場上生成的物體。",
+              "icon": "assets/perkicons/bd2c44c6cb6a7f2a168a90be278aa8c4.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Concussive Rounds",
+              "name_zh": "震盪彈藥",
+              "desc_en": "Defeating powerful combatants or breaking a combatant shield with Kinetic damage releases a disorienting Kinetic shockwave.",
+              "desc_zh": "使用動能傷害擊敗強大戰員或破壞戰員護盾，會釋放讓人迷失方向的動能衝擊波。",
+              "icon": "assets/perkicons/56a10b99ed0b4b28d33696ec828b29b5.png"
+            }
+          ]
+        },
+        {
+          "id": "smoke-jumper",
+          "name_en": "Smoke Jumper",
+          "name_zh": "空降消防員套裝",
+          "source": "VANGUARD FOCUSING",
+          "source_zh": "先鋒專注",
+          "tags": [
+            "finishers",
+            "healing",
+            "orbs-of-power",
+            "special-ammo",
+            "survivability"
+          ],
+          "synergy": {
+            "2": [
+              "orbs-of-power",
+              "survivability"
+            ],
+            "4": [
+              "finishers",
+              "special-ammo",
+              "healing"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Ride Together, Die Together",
+              "name_zh": "同騎共歿",
+              "desc_en": "When you pick up an Orb of Power, gain a brief period of rapidly decaying damage reduction.",
+              "desc_zh": "拾取力量球體時，獲得會迅速衰退的減傷效果。",
+              "icon": "assets/perkicons/e752466e7923c7137927722f38f18550.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Too Old for This",
+              "name_zh": "老子玩不動了",
+              "desc_en": "Defeating a powerful combatant with a finisher grants you Special ammo progress and replenishes a small amount of health.",
+              "desc_zh": "以終結技擊敗一名強大戰員可獲得特殊彈藥進度，並恢復少量生命值。",
+              "icon": "assets/perkicons/a76d27306334a934577ef92a037f2ce0.png"
+            }
+          ]
+        },
+        {
+          "id": "ferropotent",
+          "name_en": "Ferropotent",
+          "name_zh": "鐵力",
+          "source": "VANGUARD FOCUSING",
+          "source_zh": "先鋒專注",
+          "tags": [
+            "all-ammo",
+            "survivability"
+          ],
+          "synergy": {
+            "2": [
+              "survivability"
+            ],
+            "4": [
+              "all-ammo"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Rapid Repair",
+              "name_zh": "快速修復",
+              "desc_en": "When your shields begin to regenerate, you gain flinch resistance and damage resistance for a short time.",
+              "desc_zh": "護盾開始再生時，短時間內獲得倒縮抗性和傷害抗性。",
+              "icon": "assets/perkicons/a3ce83264ba9520c563cf6d621c66565.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Built from Scratch",
+              "name_zh": "從零開始",
+              "desc_en": "While your reserves are low, combatant final blows with weapons provide additional ammo progress based on their ammo type.  Primary ammo weapons boost Special ammo progress, and Special ammo weapons boost Heavy ammo progress.",
+              "desc_zh": "備彈量低時，以武器對戰員造成最後一擊會根據其彈藥類型提供額外彈藥進度。主要彈藥武器會推進特殊彈藥進度，而特殊彈藥武器會推進重型彈藥進度。",
+              "icon": "assets/perkicons/354d07625ba9f6806c4062e2711c5f0f.png"
+            }
+          ]
+        },
+        {
+          "id": "luminopotent",
+          "name_en": "Luminopotent",
+          "name_zh": "光耀威能",
+          "source": "VANGUARD FOCUSING",
+          "source_zh": "先鋒專注",
+          "tags": [
+            "arc",
+            "elemental-pickups",
+            "fusion-rifles",
+            "heat-weapons",
+            "linear-fusion-rifles"
+          ],
+          "synergy": {
+            "2": [
+              "fusion-rifles",
+              "linear-fusion-rifles",
+              "heat-weapons"
+            ],
+            "4": [
+              "arc",
+              "elemental-pickups"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Ionic Overclock",
+              "name_zh": "離子超載",
+              "desc_en": "While amplified, your Fusion Rifles, Linear Fusion Rifles, and Heat weapons gain increased handling, reload, and vent speeds.",
+              "desc_zh": "處於增幅狀態時，聚合步槍、線性聚合步槍與熱能武器的操作性、填裝與排氣速度提升。",
+              "icon": "assets/perkicons/6999410ff04b4144a07c39fbca5ea831.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Shock and Clear",
+              "name_zh": "震盪掃蕩",
+              "desc_en": "Final blows with Jolt or against jolted combatants create Ionic Traces.",
+              "desc_zh": "以顛簸造成最後一擊或對受電擊的戰員造成最後一擊，可產生離子微粒。",
+              "icon": "assets/perkicons/bdd6424d0b5dbee52505d969653c69e0.png"
+            }
+          ]
+        },
+        {
+          "id": "bushido",
+          "name_en": "Bushido",
+          "name_zh": "武士道",
+          "source": "VANGUARD FOCUSING",
+          "source_zh": "先鋒專注",
+          "tags": [
+            "bows",
+            "healing",
+            "shotguns",
+            "survivability",
+            "swords"
+          ],
+          "synergy": {
+            "2": [
+              "healing"
+            ],
+            "4": [
+              "swords",
+              "bows",
+              "shotguns",
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Iaido",
+              "name_zh": "居合",
+              "desc_en": "Final blows with freshly drawn or reloaded weapons heal you.",
+              "desc_zh": "使用剛拉弓或剛完成填裝的武器施展最後一擊，可獲得治療效果。",
+              "icon": "assets/perkicons/40abb2a18a499cc24222f052fca2a694.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Unfaltering Focus",
+              "name_zh": "無可撼動的專注",
+              "desc_en": "Bow, Shotgun, or Sword final blows temporarily reduce incoming damage. Damaging targets with those weapons extends the effect.",
+              "desc_zh": "弓箭、霰彈槍或劍最後一擊會暫時降低受到的傷害。使用這些武器對目標造成傷害會延長此效果。",
+              "icon": "assets/perkicons/533277959c64b90c06bdea0a6dbaa723.png"
+            }
+          ]
+        },
+        {
+          "id": "swordmaster",
+          "name_en": "Swordmaster",
+          "name_zh": "寶劍大師",
+          "source": "VANGUARD FOCUSING",
+          "source_zh": "先鋒專注",
+          "tags": [
+            "exhaust",
+            "glaives",
+            "melee",
+            "survivability",
+            "swords"
+          ],
+          "synergy": {
+            "2": [
+              "swords",
+              "glaives",
+              "melee",
+              "exhaust"
+            ],
+            "4": [
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Balestra",
+              "name_zh": "躍步攻擊",
+              "desc_en": "Damaging a target with a Sword, Glaive, or any melee attack exhausts them. \n\nExhausted targets deal reduced outgoing damage.",
+              "desc_zh": "使用劍、長戈、或任何近戰攻擊傷害目標，會使對方筋疲力盡。\n\n精疲力盡的目標輸出傷害降低。",
+              "icon": "assets/perkicons/a29d645f714faf4f59a2a2f5e0cf6f70.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Stesso Tempo",
+              "name_zh": "相同節奏",
+              "desc_en": "Blocking attacks with a Sword or Glaive grants a short period of damage resistance against targets when you next drop your guard.",
+              "desc_zh": "使用劍或長戈格擋攻擊會在你下次收起防禦時，提供對目標的傷害抗性一小段時間。",
+              "icon": "assets/perkicons/837bdc2b437d0ed6da5d665b59af7ebc.png"
+            }
+          ]
+        },
+        {
+          "id": "eutechnology",
+          "name_en": "Eutechnology",
+          "name_zh": "優質科技",
+          "source": "VANGUARD FOCUSING",
+          "source_zh": "先鋒專注",
+          "tags": [
+            "elemental-pickups",
+            "void"
+          ],
+          "synergy": {
+            "2": [
+              "void",
+              "elemental-pickups"
+            ],
+            "4": [
+              "void",
+              "elemental-pickups"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Gift of the Ley Lines",
+              "name_zh": "地脈的贈禮",
+              "desc_en": "Rapidly defeating combatants with Void energy spawns a Void breach.",
+              "desc_zh": "使用虛空能量迅速擊敗戰員會生成虛空破壞。",
+              "icon": "assets/perkicons/a304f92290458d486ab19fcd1ef6f6ff.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Techeun's Foresight",
+              "name_zh": "精謀女巫的遠見",
+              "desc_en": "After collecting a Void breach, your next final blow with a Void weapon triggers a detonation. The detonation is more powerful if it is triggered quickly after collecting a Void breach.",
+              "desc_zh": "拾起虛空破壞後，下一次使用虛空武器造成精確最後一擊會觸發爆炸。若能在拾取虛空破壞後迅速觸發此效果，爆炸的威力會更強大。",
+              "icon": "assets/perkicons/7a80a0a2d1abacd0ce64e71bafff34f3.png"
+            }
+          ]
+        },
+        {
+          "id": "lustrous",
+          "name_en": "Lustrous",
+          "name_zh": "熾光耀影",
+          "source": "TENET OF BRAVERY FOCUSING",
+          "source_zh": "勇敢教條專注",
+          "tags": [
+            "healing",
+            "solar"
+          ],
+          "synergy": {
+            "2": [
+              "solar",
+              "healing"
+            ],
+            "4": [
+              "solar",
+              "healing"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Photogalvanic",
+              "name_zh": "振光伏效應",
+              "desc_en": "Receiving healing temporarily grants your Solar weapons increased flinch resistance, handling, and reload speed.",
+              "desc_zh": "獲得治療會暫時讓你的灼燒武器提升倒縮抗性、操作性和填裝速度。",
+              "icon": "assets/perkicons/3c9918529fb85eb95b151c2461b63b9c.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Cauterize",
+              "name_zh": "燒焦",
+              "desc_en": "Rapid Solar final blows heal you.",
+              "desc_zh": "迅速灼燒最後一擊會治療你。",
+              "icon": "assets/perkicons/fb229a054586415903e6539ea363f63a.png"
+            }
+          ]
+        },
+        {
+          "id": "cyberserpent-null",
+          "name_en": "Cyberserpent Null",
+          "name_zh": "賽博巨蛇虛無",
+          "source": "GAMBIT",
+          "source_zh": "千謀百計",
+          "tags": [
+            "special-ammo",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons"
+            ],
+            "4": [
+              "special-ammo"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Adrenal Rush",
+              "name_zh": "腎上腺素激增",
+              "desc_en": "Sprinting for a short time grants a period of improved reload speed and handling. Final blows extend this period.",
+              "desc_zh": "短暫衝刺後，可提升填裝速度與操作性。造成最後一擊可延長效果持續時間。",
+              "icon": "assets/perkicons/3b8036591bab64740db750efb05aab31.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Bountiful Munitions",
+              "name_zh": "豐沛軍火",
+              "desc_en": "While Adrenal Rush is active, final blows grant Special Ammo progress. Final Blows against powerful combatants, Guardians, and Taken grants additional progress.",
+              "desc_zh": "腎上腺素激增啟動時，造成最後一擊會提供特殊彈藥進度。對強大戰員與敵對強大戰員、守護者與傀儡軍團造成最後一擊會提供額外進度。",
+              "icon": "assets/perkicons/c23f5d490b3084d0f051395dc16bdb42.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crucible",
+      "title_zh": "熔爐 PvP",
+      "title_en": "Crucible",
+      "sets": [
+        {
+          "id": "last-discipline",
+          "name_en": "Last Discipline",
+          "name_zh": "最後戒律",
+          "source": "CRUCIBLE FOCUSING",
+          "source_zh": "熔爐專注",
+          "tags": [
+            "orbs-of-power",
+            "special-ammo",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons"
+            ],
+            "4": [
+              "orbs-of-power",
+              "special-ammo"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Terminal Velocity",
+              "name_zh": "終端速度",
+              "desc_en": "Final blows with primary ammo weapons grant your primary ammo weapons temporarily increased reload speed.",
+              "desc_zh": "使用主要彈藥武器施展最後一擊，你的主要彈藥武器會暫時提升填裝速度。",
+              "icon": "assets/perkicons/6d90a805ee5c1a2a3eafe5b64b29f1ec.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Power Loader",
+              "name_zh": "動力裝載器",
+              "desc_en": "Picking up an Orb of Power grants Special ammo progress.",
+              "desc_zh": "撿起力量球體會獲得特殊彈藥進度。",
+              "icon": "assets/perkicons/c918b80d815f1a54755a0b9b8fcbf7ed.png"
+            }
+          ]
+        },
+        {
+          "id": "disaster-corps",
+          "name_en": "Disaster Corps",
+          "name_zh": "災難軍團套裝",
+          "source": "CRUCIBLE FOCUSING",
+          "source_zh": "熔爐專注",
+          "tags": [
+            "auto-rifles",
+            "healing",
+            "scout-rifles",
+            "sidearms"
+          ],
+          "synergy": {
+            "2": [
+              "auto-rifles",
+              "scout-rifles",
+              "sidearms",
+              "healing"
+            ],
+            "4": [
+              "auto-rifles",
+              "scout-rifles",
+              "sidearms",
+              "healing"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Pleas Heard",
+              "name_zh": "祈願已聞",
+              "desc_en": "Reloading an Auto Rifle, Scout Rifle, or Sidearm after a final blow slowly restores health until you reenter combat.",
+              "desc_zh": "造成最後一擊後，填裝自動步槍、斥候步槍或手槍會緩慢恢復生命值，直到重新進入戰鬥為止。",
+              "icon": "assets/perkicons/ff4d0d19141fee88ce61994a3aea8bbc.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Magnificent Duty",
+              "name_zh": "輝煌使命",
+              "desc_en": "When you reach critical health or heal an ally at critical health, Auto Rifles, Scout Rifles, and Sidearms gain a period of increased range, stability, and reload speed.",
+              "desc_zh": "當你生命值極低或治療生命值極低的盟友時，自動步槍、斥候步槍和手槍會暫時提升射程、穩定性和填裝速度。",
+              "icon": "assets/perkicons/5dee6c3209d00db6558954aec7fa7219.png"
+            }
+          ]
+        },
+        {
+          "id": "wild-anthem",
+          "name_en": "Wild Anthem",
+          "name_zh": "狂野聖歌",
+          "source": "CRUCIBLE FOCUSING",
+          "source_zh": "熔爐專注",
+          "tags": [
+            "survivability",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons"
+            ],
+            "4": [
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Fanfare",
+              "name_zh": "號角",
+              "desc_en": "Gain increased reload speed for the bottom half of your equipped weapon's magazine.",
+              "desc_zh": "裝備的武器彈匣彈藥低於一半時，填裝速度會提升。",
+              "icon": "assets/perkicons/403810a27b0b33248f7a876904e1977b.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Suros Harmony",
+              "name_zh": "SUROS和諧",
+              "desc_en": "Reloading a weapon grants it a bonus to handling and reduces incoming flinch for a short time. Weapons with the SUROS Synergy Origin Trait are granted increased range instead.",
+              "desc_zh": "填裝武器可在短時間內提升操作性並降低受到的倒縮效果。具有SUROS協同作用來源特點的武器則改為增加射程。",
+              "icon": "assets/perkicons/d3959132415be3779f6e2a46dbb531f6.png"
+            }
+          ]
+        },
+        {
+          "id": "triumphal-anthem",
+          "name_en": "Triumphal Anthem",
+          "name_zh": "凱旋讚歌",
+          "source": "CRUCIBLE FOCUSING",
+          "source_zh": "熔爐專注",
+          "tags": [
+            "mobility",
+            "survivability",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons"
+            ],
+            "4": [
+              "mobility",
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Scoot to Loot",
+              "name_zh": "疾行搜刮",
+              "desc_en": "Sliding collects nearby ammo and temporarily grants enhanced reload speed and handling to your weapons.",
+              "desc_zh": "滑行會收集附近彈藥，並暫時提升武器的填裝速度與操作性。",
+              "icon": "assets/perkicons/cac950e06b8de21fafa8aca1ba217a4c.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Shoot to Scoot",
+              "name_zh": "開火疾行",
+              "desc_en": "Dealing damage with your weapons temporarily grants enhanced sliding. Sliding provides damage resistance.",
+              "desc_zh": "使用武器造成傷害會暫時強化滑行。滑行會提供傷害抗性。",
+              "icon": "assets/perkicons/69c0437e7a2926aeb72b0395f4b88beb.png"
+            }
+          ]
+        },
+        {
+          "id": "iron-panoply",
+          "name_en": "Iron Panoply",
+          "name_zh": "鋼鐵武裝套裝",
+          "source": "IRON BANNER",
+          "source_zh": "鋼鐵旗幟",
+          "tags": [
+            "all-ammo",
+            "healing",
+            "survivability",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons",
+              "healing"
+            ],
+            "4": [
+              "all-ammo",
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Vigilant Watch",
+              "name_zh": "警覺守望",
+              "desc_en": "As your health gets lower, your weapons gain increased stability and handling. Weapon final blows while your shields are depleted heal you.",
+              "desc_zh": "生命值越低，武器穩定性與操作性越好。護盾耗盡時，以武器造成最後一擊可治療自己。",
+              "icon": "assets/perkicons/141304b7b66d2b8fad5b72c4ad29c40f.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Iron Conviction",
+              "name_zh": "鋼鐵信念",
+              "desc_en": "When your shields become broken, you gain increased ammo generation, flinch resistance, and damage resistance against nearby combatants for a short time. Final blows extend this effect.",
+              "desc_zh": "護盾被打破時，短時間內會增加彈藥生成、倒縮抗性，以及對附近戰員的傷害抗性。造成最後一擊可延長此效果。",
+              "icon": "assets/perkicons/729f24f6efeca3f59162885c8eddbaf3.png"
+            }
+          ]
+        },
+        {
+          "id": "iron-battalion",
+          "name_en": "Iron Battalion",
+          "name_zh": "鋼鐵營隊套組",
+          "source": "IRON BANNER",
+          "source_zh": "鋼鐵旗幟",
+          "tags": [
+            "super",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons"
+            ],
+            "4": [
+              "super"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Primary Honing",
+              "name_zh": "主要磨礪",
+              "desc_en": "Increases handling and reload speed for Primary ammo weapons. Primary ammo weapons gain increased damage against non-boss combatants based on your Weapons stat.",
+              "desc_zh": "提升主要彈藥武器的操作性與填裝速度。主要彈藥武器對非頭目戰員的傷害，也會根據你的武器數值而有所提升。",
+              "icon": "assets/perkicons/c3cc01210cee6c18152563202b5ac57d.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Supercyclical",
+              "name_zh": "超循環",
+              "desc_en": "Final blows while your Super is active refund Super energy when it ends.",
+              "desc_zh": "在超能力啟用期間造成最後一擊，會在超能力結束時退還超能力能量。",
+              "icon": "assets/perkicons/d8a71c6aa15a6a1d14ab7fc8e13e203c.png"
+            }
+          ]
+        },
+        {
+          "id": "per-audacia",
+          "name_en": "Per Audacia",
+          "name_zh": "勇者之道",
+          "source": "COMPETITIVE CRUCIBLE",
+          "source_zh": "競賽對戰熔爐",
+          "tags": [
+            "mobility",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons",
+              "mobility"
+            ],
+            "4": [
+              "weapons",
+              "mobility"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Primary Chain",
+              "name_zh": "主要連鎖",
+              "desc_en": "Primary ammo weapon final blows grant a stacking bonus to mobility and Primary weapon range and handling until you are defeated.",
+              "desc_zh": "主要彈藥武器最後一擊會獲得可疊加的加成，提升機動性及主武器的射程與操作性，持續到你被擊敗為止。",
+              "icon": "assets/perkicons/495764dd5f65e2232fb197614a6242bc.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Sublime Transit",
+              "name_zh": "極致運輸",
+              "desc_en": "Increases mobility and grants enhanced sprint speed and slide distance.",
+              "desc_zh": "提升機動性、衝刺速度及滑行距離。",
+              "icon": "assets/perkicons/6c68d32bd7dd8a61b059c44ac1218272.png"
+            }
+          ]
+        },
+        {
+          "id": "twofold-crown",
+          "name_en": "Twofold Crown",
+          "name_zh": "雙重冠冕",
+          "source": "TRIALS OF OSIRIS",
+          "source_zh": "歐西里斯的試煉",
+          "tags": [
+            "healing",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "healing"
+            ],
+            "4": [
+              "weapons"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Crook and Flail",
+              "name_zh": "牧杖連枷",
+              "desc_en": "Picking up an ammo brick heals you.",
+              "desc_zh": "拾起彈藥磚可獲得治癒效果。",
+              "icon": "assets/perkicons/b80634df8d4c10ccd0b3d77f6c03094d.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Gift of Sight",
+              "name_zh": "視覺天賦",
+              "desc_en": "Final blows with Primary ammo weapons grant you briefly increased radar resolution.",
+              "desc_zh": "使用主要彈藥武器施展最後一擊會短暫提升雷達解析度。",
+              "icon": "assets/perkicons/d45b0c7e60cb34ef703d20c85e3737a5.png"
+            }
+          ]
+        },
+        {
+          "id": "new-demotic",
+          "name_en": "New Demotic",
+          "name_zh": "新世俗",
+          "source": "TRIALS OF OSIRIS",
+          "source_zh": "歐西里斯的試煉",
+          "tags": [
+            "survivability",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons",
+              "survivability"
+            ],
+            "4": [
+              "weapons",
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Paroli",
+              "name_zh": "翻倍攻勢",
+              "desc_en": "Primary ammo weapons gain a bonus to flinch resistance after sliding.",
+              "desc_zh": "滑行後，主要彈藥武器會獲得倒縮抗性加成。",
+              "icon": "assets/perkicons/d4ce701db7e340f651fc7683fa615599.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Martingale",
+              "name_zh": "翻倍逆轉",
+              "desc_en": "Your weapons gain a temporary increase to handling and aim-down-sights speed when an ally is defeated or you revive an ally.",
+              "desc_zh": "當盟友被擊敗或你復活盟友時，你的武器會短暫提升操作性與瞄準速度。",
+              "icon": "assets/perkicons/8702ce0687c6933b63075a7456620954.png"
+            }
+          ]
+        },
+        {
+          "id": "cruel-electrum",
+          "name_en": "Cruel Electrum",
+          "name_zh": "殘酷電金",
+          "source": "TRIALS OF OSIRIS",
+          "source_zh": "歐西里斯的試煉",
+          "tags": [
+            "survivability",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons",
+              "survivability"
+            ],
+            "4": [
+              "weapons",
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Primary Survivor",
+              "name_zh": "主要倖存者",
+              "desc_en": "When an ally is defeated, Primary ammo weapons gain increased handling, reload speed, target acquisition, and reduced flinch. Bonus increases when multiple allies are dead at the same time or when you are running solo.",
+              "desc_zh": "盟友被擊敗時，主要彈藥武器會提升操作性、填裝速度與目標鎖定，並減輕倒縮。若數名盟友同時死亡，或以單人遊玩，提升幅度更多。",
+              "icon": "assets/perkicons/c1f98cc31a51f865ca062a684442964a.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Primary Phantom",
+              "name_zh": "主要幽靈",
+              "desc_en": "Final blows with Primary ammo weapons remove you from radar for a short time. Drawing a weapon that does not use Primary ammo will immediately end this effect.",
+              "desc_zh": "使用主要彈藥武器造成最後一擊後，會從雷達上短暫消失。取出不使用主要彈藥的武器時，此效果會立即終止。",
+              "icon": "assets/perkicons/72b47646330904d1a46cf54a779be28a.png"
+            }
+          ]
+        },
+        {
+          "id": "circuit",
+          "name_en": "Circuit",
+          "name_zh": "賽道",
+          "source": "SPARROW RACING",
+          "source_zh": "快雀競速",
+          "tags": [
+            "arc",
+            "healing",
+            "mobility"
+          ],
+          "synergy": {
+            "2": [
+              "healing",
+              "mobility"
+            ],
+            "4": [
+              "arc"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Revving Up",
+              "name_zh": "加速運轉",
+              "desc_en": "Fast movement builds up a charge that gradually increases your health regeneration speed. Once you are Fully Revved, sprinting grants Speed Booster.",
+              "desc_zh": "快速移動會累積充能，逐漸提升生命值再生速度。一旦加速完畢，衝刺就會賦予速度推進器。",
+              "icon": "assets/perkicons/2bd8232d3bda3c410729c244956b2934.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Dielectric Drift",
+              "name_zh": "介電質漂移",
+              "desc_en": "Sliding while Speed Booster is active jolts combatants in front of you.",
+              "desc_zh": "速度推進器啟動期間滑行時，會使前方的戰員顛簸。",
+              "icon": "assets/perkicons/014d2db087e06c17703e3f48f1135e5d.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dungeon",
+      "title_zh": "地城",
+      "title_en": "Dungeon",
+      "sets": [
+        {
+          "id": "techeuns-regalia",
+          "name_en": "Techeun's Regalia",
+          "name_zh": "精謀女巫華服",
+          "source": "FEATURED DUNGEON: SHATTERED THRONE",
+          "source_zh": "精選地城:破碎王座",
+          "tags": [
+            "all-abilities",
+            "finishers",
+            "stasis",
+            "survivability"
+          ],
+          "synergy": {
+            "2": [
+              "stasis",
+              "finishers",
+              "survivability"
+            ],
+            "4": [
+              "all-abilities"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Queensfoil Rush",
+              "name_zh": "女王之箔衝刺",
+              "desc_en": "Gain a powerful overshield while performing your finisher. When you finish a target, release a slowing burst around you.",
+              "desc_zh": "施展終結技時，獲得強大的覆蓋護盾。終結目標後，會在你周圍釋放緩速爆發。",
+              "icon": "assets/perkicons/a57b51a297cda79eacb02322ada388ea.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Truth to Power",
+              "name_zh": "力量忠誠",
+              "desc_en": "Gain increasing damage resistance when you deal damage or land final blows. Finishers grant accelerated progress. At max stacks, the recharge rate of your abilities is also increased.",
+              "desc_zh": "造成傷害或最後一擊時，可獲得逐漸提升的傷害抗性。施展終結技可加速累積進度。達到最大疊加時，還能提升技能充能率。",
+              "icon": "assets/perkicons/4449e9beedbec136551849b5a8802b35.png"
+            }
+          ]
+        },
+        {
+          "id": "apostates-blade",
+          "name_en": "Apostate's Blade",
+          "name_zh": "叛教者利刃",
+          "source": "FEATURED DUNGEON: PIT OF HERESY",
+          "source_zh": "精選地城:異端深坑",
+          "tags": [
+            "finishers",
+            "healing",
+            "melee",
+            "solar"
+          ],
+          "synergy": {
+            "2": [
+              "finishers",
+              "healing"
+            ],
+            "4": [
+              "solar",
+              "melee"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Regenerative Threshold",
+              "name_zh": "再生門檻",
+              "desc_en": "Performing a finisher stores power. The next time your shields are broken, consume stored power to immediately heal and start health regeneration.",
+              "desc_zh": "施展終結技可儲存能量。你的護盾下次遭破壞時，會消耗儲存的能量立即治療自己，並開始再生生命值。",
+              "icon": "assets/perkicons/37ff5b490115feacf7606fa7c7d62105.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Melee Conduction",
+              "name_zh": "近戰傳導",
+              "desc_en": "While you have Radiant, Restoration, or Cure, your melee hits release a burst that will scorch the target.",
+              "desc_zh": "擁有生機勃發、恢復或治癒效果時，近戰攻擊命中時會釋放爆發，使目標焦化。",
+              "icon": "assets/perkicons/a4ce3890548fa343ab97556f6ef1bac7.png"
+            }
+          ]
+        },
+        {
+          "id": "coda",
+          "name_en": "CODA",
+          "name_zh": "終章",
+          "source": "FEATURED DUNGEON: PROPHECY",
+          "source_zh": "精選地城:預言",
+          "tags": [
+            "darkness",
+            "grenade",
+            "kinetic",
+            "light",
+            "melee",
+            "survivability",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons",
+              "grenade",
+              "melee",
+              "light",
+              "darkness",
+              "kinetic"
+            ],
+            "4": [
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Between Poles",
+              "name_zh": "極性之間",
+              "desc_en": "Final blows with Light weapons grants stacks of Light Polarity, which grants Grenade stat. Final blows with Darkness or Kinetic weapons grants stacks of Dark Polarity, which grants stacks of Melee stat.",
+              "desc_zh": "以光能武器造成最後一擊可獲得光極性疊層，進而增加手榴彈數值。以黯黑力量或動能武器造成最後一擊可獲得暗極性疊層，並提供近戰數值疊層。",
+              "icon": "assets/perkicons/a0241a2cdaf39e14af7605dd460756d0.png"
+            },
+            {
+              "count": 4,
+              "name_en": "So Very Thin",
+              "name_zh": "骨瘦如柴",
+              "desc_en": "Final blows with Light weapons grants additional grenade energy. Final blows with Dark or Kinetic weapons grants additional melee energy. Rapid final blows that alternate between Light and Darkness grant a short period of damage resistance.",
+              "desc_zh": "以光能武器造成最後一擊可獲得額外的手榴彈能量。以黯黑力量或動能武器造成最後一擊可獲得額外的近戰能量。在光能與黯黑力量之間交替造成的迅速最後一擊，會在短時間內獲得傷害抗性。",
+              "icon": "assets/perkicons/e9dc45fc2e1f56748d5ddb414ebdf99d.png"
+            }
+          ]
+        },
+        {
+          "id": "yearning-echo",
+          "name_en": "Yearning Echo",
+          "name_zh": "渴望回聲",
+          "source": "FEATURED OR MASTER DUNGEON: GRASP OF AVARICE",
+          "source_zh": "精選或大師地城:貪婪之握",
+          "tags": [
+            "elemental-pickups",
+            "orbs-of-power",
+            "survivability",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "orbs-of-power",
+              "elemental-pickups",
+              "weapons",
+              "survivability"
+            ],
+            "4": [
+              "orbs-of-power",
+              "elemental-pickups",
+              "weapons",
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Untold Greed",
+              "name_zh": "無盡貪婪",
+              "desc_en": "Picking up ammo, Orbs of Power, Elemental pickups, or destroying a Strand Tangle grants stacks of Untold Greed, slightly reducing damage taken and providing reload speed to equipped weapons. When your shields are broken, some stacks are lost.",
+              "desc_zh": "拾取彈藥、力量球體、元素拾取物或摧毀縈絲糾結可獲得「無盡貪婪」疊層，稍微降低受到的傷害，並使裝備中武器提升填裝速度。護盾遭破壞時，會失去部分疊層。",
+              "icon": "assets/perkicons/e5e74b200fa0ca8c0a9edc63e62a4559.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Overflowing Coffers",
+              "name_zh": "滿溢金庫",
+              "desc_en": "While you have stacks of Untold Greed, Orbs of Power and Elemental pickups provide more of their respective energy, and Strand Tangles deal increased damage. When your shields are broken, all stacks are converted into a fountain of Orbs of Power.",
+              "desc_zh": "擁有「無盡貪婪」疊層時，力量球體與元素拾取物會提供更多對應能量，且縈絲糾結能造成額外傷害。護盾遭破壞時，所有疊層會轉換為力量球體噴泉。",
+              "icon": "assets/perkicons/9589b92d6863ebf09f776aad4dfbc2e3.png"
+            }
+          ]
+        },
+        {
+          "id": "deep-explorer",
+          "name_en": "Deep Explorer",
+          "name_zh": "絕地探索者",
+          "source": "FEATURED OR MASTER DUNGEON: DUALITY",
+          "source_zh": "精選或大師地城:二元性",
+          "tags": [
+            "healing",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons"
+            ],
+            "4": [
+              "healing"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Built Bitter",
+              "name_zh": "築於苦澀",
+              "desc_en": "Taking damage increases the reload speed of your equipped weapon until it is stowed. Taking more damage increases the effect.",
+              "desc_zh": "受到傷害會使裝備中武器提升填裝速度，直到收起武器為止。受到越多傷害，效果越強。",
+              "icon": "assets/perkicons/3384d936001688833ae09fa92cb280f5.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Bittersweet",
+              "name_zh": "苦樂參半",
+              "desc_en": "When you stow a weapon, restore health based on the number of Built Bitter stacks lost.",
+              "desc_zh": "收起武器時，會根據失去的「築於苦澀」疊層數量恢復生命值。",
+              "icon": "assets/perkicons/2160d0b4551f285830bdf344f47a8a9d.png"
+            }
+          ]
+        },
+        {
+          "id": "tm-custom",
+          "name_en": "TM Custom",
+          "name_zh": "TM自訂版",
+          "source": "FEATURED OR MASTER DUNGEON: SPIRE OF THE WATCHER",
+          "source_zh": "精選或大師地城:守望者尖塔",
+          "tags": [
+            "disorient",
+            "healing",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "healing",
+              "disorient"
+            ],
+            "4": [
+              "weapons"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Old Martian Diplomacy",
+              "name_zh": "古老火星外交",
+              "desc_en": "Stowing a weapon after defeating a powerful combatant or a Guardian heals you a small amount and disorients nearby combatants.",
+              "desc_zh": "擊敗強大戰員或守護者後收起武器，可恢復少量生命值並使附近戰員迷失方向。",
+              "icon": "assets/perkicons/07bba1454e20ee9358ed61c4f20b7c34.png"
+            },
+            {
+              "count": 4,
+              "name_en": "High Noon",
+              "name_zh": "日正當中",
+              "desc_en": "Freshly drawn weapons deal increased precision damage to combatants for a short period. Weapons with the Tex Balanced Stock Origin Trait equipped or Exotics manufactured by the Tex Mechanica Foundry gain further increased benefits.",
+              "desc_zh": "剛取出的武器會在短時間內對戰員造成額外精確傷害。裝備「泰克斯平衡槍托」來源特點或由Tex Mechanica鑄造廠製造的異域裝備，可獲得更進一步的加成。",
+              "icon": "assets/perkicons/14b1ff03aa7eab854f220fdd32adf0ec.png"
+            }
+          ]
+        },
+        {
+          "id": "taken-king",
+          "name_en": "Taken King",
+          "name_zh": "邪神降臨",
+          "source": "FEATURED OR MASTER DUNGEON: GHOSTS OF THE DEEP",
+          "source_zh": "精選或大師地城:鬼魅深淵",
+          "tags": [
+            "all-abilities",
+            "arc",
+            "finishers",
+            "super"
+          ],
+          "synergy": {
+            "2": [
+              "finishers",
+              "super"
+            ],
+            "4": [
+              "all-abilities",
+              "arc"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "The Ceremony",
+              "name_zh": "典禮",
+              "desc_en": "Finishing combatants or reviving allies initiates a Lucent Hive ritual. While the ritual is active, gain increased Super stat.",
+              "desc_zh": "終結戰員或復活盟友時，觸發明晰邪魔族儀式。儀式進行期間，可提升超能力數值。",
+              "icon": "assets/perkicons/3e8ebec7f43a113e821dc29827165316.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Lucent Swarm",
+              "name_zh": "明晰蟲群",
+              "desc_en": "Collecting Orbs of Power extends the Ceremony. While it is active, ability final blows occasionally spawn allied Arc moths.",
+              "desc_zh": "收集力量球體會延長「典禮」的時間。典禮啟動時，技能最後一擊偶爾會生成友方電弧飛蛾。",
+              "icon": "assets/perkicons/a0480d71e1dea57fbea74496dd31e13a.png"
+            }
+          ]
+        },
+        {
+          "id": "dark-age",
+          "name_en": "Dark Age",
+          "name_zh": "暗黑紀元",
+          "source": "FEATURED OR MASTER DUNGEON: WARLORDS RUIN",
+          "source_zh": "精選或大師地城:戰爭軍閥廢墟",
+          "tags": [
+            "class-ability",
+            "healing",
+            "melee",
+            "swords"
+          ],
+          "synergy": {
+            "2": [
+              "melee",
+              "swords"
+            ],
+            "4": [
+              "class-ability",
+              "healing"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Taking Initiative",
+              "name_zh": "搶占先機",
+              "desc_en": "Hitting combatants with melee attacks or Sword strikes grants a stack of Initiative, giving bonus handling and reload. Stacks decay slowly over time.",
+              "desc_zh": "以近戰攻擊或劍擊命中戰員，可獲得一層先機，提升操作性與填裝速度。疊層會隨時間緩慢衰退。",
+              "icon": "assets/perkicons/5be6f5f0e14a37f1efe37644f37faa15.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Healing Initiative",
+              "name_zh": "治癒先機",
+              "desc_en": "While you have Initiative, using your class ability creates a stationary healing aura. The aura gains increased healing based on the number of Initiative stacks.",
+              "desc_zh": "擁有「先機」時，使用職業技能會產生一個定點治療光環。光環的治療量會根據「先機」的疊層數量提升。",
+              "icon": "assets/perkicons/0273d18ef76b07eadc49e9ca2d131e73.png"
+            }
+          ]
+        },
+        {
+          "id": "spacewalk",
+          "name_en": "Spacewalk",
+          "name_zh": "太空漫步",
+          "source": "FEATURED OR MASTER DUNGEON: VESPER'S HOST",
+          "source_zh": "精選或大師地城:太白星之主",
+          "tags": [
+            "disorient",
+            "grenade",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons",
+              "disorient"
+            ],
+            "4": [
+              "grenade"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Augmented Armaments",
+              "name_zh": "強化軍武",
+              "desc_en": "Primary ammo weapons deal increased damage to disoriented combatants.",
+              "desc_zh": "主要彈藥武器對迷失方向的戰員造成的傷害提升。",
+              "icon": "assets/perkicons/c69c2f408beb711a0529712a53abe120.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Augmented Explosives",
+              "name_zh": "強化炸藥",
+              "desc_en": "Your grenade abilities release an additional disorienting pulse shortly after detonating.",
+              "desc_zh": "手榴彈技能引爆後不久會額外釋放一道使人迷失方向的脈衝波。",
+              "icon": "assets/perkicons/fe4bf02ec75185ba071c0a30b53f8037.png"
+            }
+          ]
+        },
+        {
+          "id": "flain",
+          "name_en": "Flain",
+          "name_zh": "剝皮者",
+          "source": "FEATURED OR MASTER DUNGEON: SUNDERED DOCTRINE",
+          "source_zh": "精選或大師地城:潰裂教義",
+          "tags": [
+            "healing",
+            "strand"
+          ],
+          "synergy": {
+            "2": [
+              "strand"
+            ],
+            "4": [
+              "healing"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Sinew Stitching",
+              "name_zh": "肌腱縫合",
+              "desc_en": "Taking damage from combatants sometimes spawns a Threadling.",
+              "desc_zh": "受到戰員傷害時，有機會生成線蟲。",
+              "icon": "assets/perkicons/c1e6c0367ad681dada7bb3f4f2affd04.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Knit Together",
+              "name_zh": "無縫編織",
+              "desc_en": "For a short time after your shields break, your next several Threadling hits restore health.",
+              "desc_zh": "護盾遭破壞後，在短時間內接下來數次線蟲命中可恢復生命值。",
+              "icon": "assets/perkicons/4b3cbd3ca5f5ffa0b6d484f139d1c006.png"
+            }
+          ]
+        },
+        {
+          "id": "sage-protector",
+          "name_en": "Sage Protector",
+          "name_zh": "賢人守衛者",
+          "source": "EQUILIBRIUM DUNGEON WITH FEATS ENABLED",
+          "source_zh": "平衡之境地城(啟用功績)",
+          "tags": [
+            "class-ability",
+            "grenade",
+            "swords"
+          ],
+          "synergy": {
+            "2": [
+              "swords",
+              "grenade",
+              "class-ability"
+            ],
+            "4": [
+              "swords",
+              "grenade",
+              "class-ability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Combat Meditation",
+              "name_zh": "戰鬥冥想",
+              "desc_en": "Sword hits return grenade and class energy. Bonus energy is granted if Blade Focus is active.",
+              "desc_zh": "以劍命中可回復手榴彈與職業能量。若劍刃專精已啟用，則給予額外能量。",
+              "icon": "assets/perkicons/899fc042368ce701ca12f69df23dcc38.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Blade Focus",
+              "name_zh": "劍刃專精",
+              "desc_en": "Briefly guard with a Sword to ready Blade Focus. While Blade Focus is readied, hitting a target with your sword increases Sword damage and lunge distance for a moderate duration.",
+              "desc_zh": "用劍短暫防禦以啟用劍刃專精。劍刃專精啟用時，用劍命中目標可在一段時間內提升劍傷害與突刺距離。",
+              "icon": "assets/perkicons/a19540f5e54c76044c91fbac06f697ed.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raid",
+      "title_zh": "突襲",
+      "title_en": "Raid",
+      "sets": [
+        {
+          "id": "great-hunt",
+          "name_en": "Great Hunt",
+          "name_zh": "偉大狩獵",
+          "source": "FEATURED OR MASTER RAID: LAST WISH",
+          "source_zh": "精選或大師突襲:最後遺願",
+          "tags": [
+            "grenade",
+            "heavy-ammo",
+            "survivability"
+          ],
+          "synergy": {
+            "2": [
+              "grenade",
+              "survivability"
+            ],
+            "4": [
+              "heavy-ammo"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Taken Barrier",
+              "name_zh": "傀儡屏障",
+              "desc_en": "Grenade final blows temporarily reduce incoming damage.",
+              "desc_zh": "手榴彈最後一擊會暫時降低受到的傷害。",
+              "icon": "assets/perkicons/28dc5b70823b878a972034c6eb05e666.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Taken Armaments",
+              "name_zh": "傀儡軍武",
+              "desc_en": "Grenade final blows grant additional Heavy ammo progress.",
+              "desc_zh": "手榴彈最後一擊會提供額外重型彈藥進度。",
+              "icon": "assets/perkicons/738273f563c6cc73bfde01357418adde.png"
+            }
+          ]
+        },
+        {
+          "id": "kentarch-3",
+          "name_en": "Kentarch 3",
+          "name_zh": "肯塔奇3",
+          "source": "FEATURED OR MASTER RAID: GARDEN OF SALVATION",
+          "source_zh": "精選或大師突襲:救贖之園",
+          "tags": [
+            "health-stat",
+            "melee",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "health-stat",
+              "weapons"
+            ],
+            "4": [
+              "melee"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Network Admin",
+              "name_zh": "網路管理員",
+              "desc_en": "Being near allies creates a relay network that gives the wearer improved handling and reload speed. \n\nBeing near other allied Network Admins additionally grants the wearer a bonus to Health stat.",
+              "desc_zh": "靠近盟友時會建立中繼網路，提升裝備者的武器操作性與填裝速度。\n\n若附近有其他友方網路管理員，則可額外提升生命值數值。",
+              "icon": "assets/perkicons/aae858b35a0768b44be303cf9ae15d52.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Network Upload",
+              "name_zh": "網路上傳",
+              "desc_en": "Weapon final blows grant the wearer and nearby allies melee energy.",
+              "desc_zh": "武器最後一擊會賦予裝備者與附近盟友近戰能量。",
+              "icon": "assets/perkicons/67080f11f3487aa8e442609becfdae93.png"
+            }
+          ]
+        },
+        {
+          "id": "legacys-oath",
+          "name_en": "Legacy's Oath",
+          "name_zh": "遺志誓言",
+          "source": "FEATURED OR MASTER RAID: DEEP STONE CRYPT",
+          "source_zh": "精選或大師突襲:深石地窖",
+          "tags": [
+            "disorient",
+            "melee",
+            "super"
+          ],
+          "synergy": {
+            "2": [
+              "melee",
+              "disorient"
+            ],
+            "4": [
+              "super"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Augmented Servos",
+              "name_zh": "強化伺服機",
+              "desc_en": "Powered melees release an additional disorienting pulse when used to defeat a target.",
+              "desc_zh": "使用強力近戰擊敗目標時，會額外釋放一道使人迷失方向的脈衝波。",
+              "icon": "assets/perkicons/dc92ca1a287bff0693fe128baff9df35.png"
+            },
+            {
+              "count": 4,
+              "name_en": "God-like Judgment",
+              "name_zh": "如神審判",
+              "desc_en": "When your shields are broken by a combatant, or upon casting your Super, release a swarm of heat seeking micro-missiles.",
+              "desc_zh": "護盾遭戰員破壞，或施放超能力時，會發射一批熱能追蹤微型導彈。",
+              "icon": "assets/perkicons/a33ab7d65a4aa836142ee869b0423c66.png"
+            }
+          ]
+        },
+        {
+          "id": "atheons-memory",
+          "name_en": "Atheon's Memory",
+          "name_zh": "艾席恩回憶",
+          "source": "FEATURED OR MASTER RAID: VAULT OF GLASS",
+          "source_zh": "精選或大師突襲:琉璃寶庫",
+          "tags": [
+            "orbs-of-power"
+          ],
+          "synergy": {
+            "2": [
+              "orbs-of-power"
+            ],
+            "4": [
+              "orbs-of-power"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Radiolaria Breach",
+              "name_zh": "放射蟲突破",
+              "desc_en": "After picking up an Orb of Power, the next time your shields are broken, gain a bonus to Health stat for a short duration and release a burst of radiolaria around you.",
+              "desc_zh": "拾取力量球體後，護盾下次遭破壞時，會在短時間內提升生命值數值，並在周圍釋放一圈放射蟲。",
+              "icon": "assets/perkicons/0a0c002d2eb7c7687fe93c02143d9c23.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Collective Power",
+              "name_zh": "集體力量",
+              "desc_en": "While you have a subclass buff, dealing sustained damage creates an Orb of Power.",
+              "desc_zh": "擁有副職業增益時，造成持續傷害會產生一顆力量球體。",
+              "icon": "assets/perkicons/19fd2268026b9e381de699a3dc941741.png"
+            }
+          ]
+        },
+        {
+          "id": "resonant-fury",
+          "name_en": "Resonant Fury",
+          "name_zh": "共振狂怒",
+          "source": "FEATURED OR MASTER RAID: VOW OF THE DISCIPLE",
+          "source_zh": "精選或大師突襲:門徒之誓",
+          "tags": [
+            "glaives",
+            "healing",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "healing"
+            ],
+            "4": [
+              "healing",
+              "weapons",
+              "glaives"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Resonant Plating",
+              "name_zh": "共振鍍層",
+              "desc_en": "Your health begins regenerating immediately after taking melee damage from a powerful combatant.",
+              "desc_zh": "受到強勁戰員的近戰傷害後，生命值會立即開始再生。",
+              "icon": "assets/perkicons/f7405da4c3f5e18e0a29f4ceca3aa8b0.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Siphoning Touch",
+              "name_zh": "虹吸之觸",
+              "desc_en": "Gain stacks of Siphoning Touch for weapon or Glaive melee hits. Switching weapons heals you and consumes all stacks.",
+              "desc_zh": "使用武器或長戈近戰命中可獲得「虹吸之觸」疊層。切換武器會治癒你並消耗所有疊層。",
+              "icon": "assets/perkicons/4678088483fa5ea38f509a02e24faf21.png"
+            }
+          ]
+        },
+        {
+          "id": "crotas-memory",
+          "name_en": "Crota's Memory",
+          "name_zh": "克洛塔回憶",
+          "source": "FEATURED OR MASTER RAID: CROTA'S END",
+          "source_zh": "精選或大師突襲:克洛塔的結局",
+          "tags": [
+            "melee",
+            "survivability"
+          ],
+          "synergy": {
+            "2": [
+              "melee"
+            ],
+            "4": [
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Cursed Fist",
+              "name_zh": "受詛之拳",
+              "desc_en": "Melee final blows trigger a Cursed Thrall explosion.",
+              "desc_zh": "近戰最後一擊會觸發受詛狂魔爆炸。",
+              "icon": "assets/perkicons/161a3720af72721392e459e6a66f087d.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Power of the Son",
+              "name_zh": "子嗣之力",
+              "desc_en": "Being in combat for a duration grants progressively more flinch resistance and damage resistance versus combatants.",
+              "desc_zh": "處於戰鬥狀態一段時間後，會逐漸提升對戰員的倒縮抗性與傷害抗性。",
+              "icon": "assets/perkicons/63000cbeef61981c3efe32992739789b.png"
+            }
+          ]
+        },
+        {
+          "id": "nezarecs-nightmare",
+          "name_en": "Nezarec's Nightmare",
+          "name_zh": "涅沙瑞克的夢魘",
+          "source": "FEATURED OR MASTER RAID: ROOT OF NIGHTMARES",
+          "source_zh": "精選或大師突襲:夢魘根源",
+          "tags": [
+            "finishers",
+            "orbs-of-power",
+            "survivability",
+            "void"
+          ],
+          "synergy": {
+            "2": [
+              "orbs-of-power"
+            ],
+            "4": [
+              "void",
+              "survivability",
+              "finishers"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Bad Dreams",
+              "name_zh": "恐懼夢境",
+              "desc_en": "Final blows versus subclass-debuffed targets have an escalating chance to spawn an Orb of Power.",
+              "desc_zh": "對受到副職業減益影響的目標造成最後一擊時，產生力量球體的機率會逐漸提升。",
+              "icon": "assets/perkicons/353f44c5dc35f53b9cbdc5e7275e79f5.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Dream-Devourer",
+              "name_zh": "夢境吞噬者",
+              "desc_en": "Performing a finisher versus a powerful combatant grants Devour. While you have Devour, gain damage resistance versus combatants.",
+              "desc_zh": "對抗強大戰員時施展終結技可獲得吞噬殆盡。擁有吞噬殆盡時，可提升對戰員的傷害抗性。",
+              "icon": "assets/perkicons/7c6a982de9632a3a04dbe1c9a51fc150.png"
+            }
+          ]
+        },
+        {
+          "id": "oryxs-memory",
+          "name_en": "Oryx's Memory",
+          "name_zh": "歐里克斯回憶",
+          "source": "FEATURED OR MASTER RAID: KING'S FALL",
+          "source_zh": "精選或大師突襲:國王的殞落",
+          "tags": [
+            "all-ammo",
+            "survivability",
+            "void"
+          ],
+          "synergy": {
+            "2": [
+              "all-ammo"
+            ],
+            "4": [
+              "void",
+              "survivability"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Iron Sharpens Iron",
+              "name_zh": "鋼鐵砥礪",
+              "desc_en": "Final blows on Guardians and powerful combatants generate additional ammo progress.",
+              "desc_zh": "對守護者與強大戰員造成最後一擊會產生額外彈藥進度。",
+              "icon": "assets/perkicons/c4d21817ea6e205ff95639019a38e7e2.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Ascendant Escape",
+              "name_zh": "高等逃脫",
+              "desc_en": "After a final blow on a powerful combatant, the next time your shields are broken, you become invisible.",
+              "desc_zh": "對強大戰員造成最後一擊後，護盾下次遭破壞時你會隱形。",
+              "icon": "assets/perkicons/e1e76d3824a761cf038e1f9d9be7c84f.png"
+            }
+          ]
+        },
+        {
+          "id": "promised",
+          "name_en": "Promised",
+          "name_zh": "應許",
+          "source": "FEATURED OR MASTER RAID: SALVATION'S EDGE",
+          "source_zh": "精選或大師突襲:救贖邊緣",
+          "tags": [
+            "exhaust",
+            "survivability",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "survivability",
+              "weapons"
+            ],
+            "4": [
+              "exhaust"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Stable Resonance",
+              "name_zh": "穩定共振",
+              "desc_en": "Defeating a powerful combatant generates Stable Resonance, which grants damage resistance and increased weapon damage for the duration.",
+              "desc_zh": "擊敗強大戰員會產生穩定共振，在持續時間內提升傷害抗性和武器傷害。",
+              "icon": "assets/perkicons/f49ca4f83e2c2f9bc8b8fb331ccf58d7.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Resonance Redirection",
+              "name_zh": "共振轉向",
+              "desc_en": "While you have Stable Resonance, continued weapon damage occasionally generates a resonance burst that damages and exhausts targets.",
+              "desc_zh": "擁有穩定共振時，持續造成武器傷害，可偶爾產生共振爆發，對目標造成傷害並使其筋疲力盡。",
+              "icon": "assets/perkicons/e4510ff158987fee7ac3953391f6435e.png"
+            }
+          ]
+        },
+        {
+          "id": "collective-psyche",
+          "name_en": "Collective Psyche",
+          "name_zh": "集體心靈",
+          "source": "DESERT PERPETUAL RAID WITH FEATS",
+          "source_zh": "永久沙漠突襲(含功績)",
+          "tags": [
+            "solar",
+            "strand",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons"
+            ],
+            "4": [
+              "solar",
+              "strand"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Accretion",
+              "name_zh": "增生",
+              "desc_en": "Picking up an ammo brick gives you a stacking bonus to weapon swap and stow speeds until you die.",
+              "desc_zh": "拾起彈藥磚會為武器切換與收納速度提供更多疊加獎勵，直到你死亡為止。",
+              "icon": "assets/perkicons/e8dc7995d41ec6eb0e68e6b811643a3b.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Doppler Effect",
+              "name_zh": "都卜勒效應",
+              "desc_en": "Suspend, unravel, and sever effects applied to targets, and radiant and restoration effects applied to you have increased duration.",
+              "desc_zh": "施加到目標上的懸浮、拆解和切割效果，以及施加到你身上的生機勃發和恢復效果持續期間延長。",
+              "icon": "assets/perkicons/a96cbdea0b06d28d2780e100ac0ae51f.png"
+            }
+          ]
+        },
+        {
+          "id": "wayward-psyche",
+          "name_en": "Wayward Psyche",
+          "name_zh": "飄泊心靈套裝",
+          "source": "EPIC DESERT PERPETUAL RAID WITH FEATS",
+          "source_zh": "史詩永久沙漠突襲(含功績)",
+          "tags": [
+            "healing",
+            "super",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "weapons"
+            ],
+            "4": [
+              "healing",
+              "super"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Special Relativity",
+              "name_zh": "特殊相對論",
+              "desc_en": "Picking up ammo reloads stowed Special weapons from reserves.",
+              "desc_zh": "拾取彈藥會從備彈中自動填裝已收起的特殊武器。",
+              "icon": "assets/perkicons/daf157f0334a83d1870ef0f325b1c25a.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Superluminal Motion",
+              "name_zh": "超光速運動",
+              "desc_en": "After dealing damage with your Super, health and shields regenerate over time while you are in motion. Additional Super damage refreshes this effect.",
+              "desc_zh": "使用超能力造成傷害後，會隨時間讓你在移動時回復生命值與護盾。額外超能力傷害會更新此效果。",
+              "icon": "assets/perkicons/bfaac852d350fb7cabb9a7a06deef4a6.png"
+            }
+          ]
+        },
+        {
+          "id": "pantheos-resplendent",
+          "name_en": "Pantheos Resplendent",
+          "name_zh": "璀璨萬神殿",
+          "source": "PANTHEON RAIDS WITH FEATS",
+          "source_zh": "萬神殿突襲(含功績)",
+          "tags": [
+            "armor-charge",
+            "health-stat",
+            "weapons"
+          ],
+          "synergy": {
+            "2": [
+              "armor-charge",
+              "health-stat"
+            ],
+            "4": [
+              "weapons"
+            ]
+          },
+          "perks": [
+            {
+              "count": 2,
+              "name_en": "Well Prepared",
+              "name_zh": "準備周全",
+              "desc_en": "Picking up ammo grants Armor Charge. Grants a bonus to Health stat per Armor Charge you have.",
+              "desc_zh": "拾取彈藥可獲得防具充能。生命值數值會根據你擁有的防具充能提升。",
+              "icon": "assets/perkicons/51c4b62173e6e870551d99d256d25d86.png"
+            },
+            {
+              "count": 4,
+              "name_en": "Down the Line",
+              "name_zh": "沿線前進",
+              "desc_en": "Sustained damage on minibosses, Champions, and bosses increases weapon damage versus base and powerful combatants. Weapon final blows consume one stack each.",
+              "desc_zh": "對小頭目、勇士與頭目造成持續傷害，會提升武器對基礎與強大戰員的傷害。每次以武器造成最後一擊都會消耗一層疊層。",
+              "icon": "assets/perkicons/f0a2eb584d440e878d7fe9e9c7884e3b.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notable": [
+    {
+      "id": "solar",
+      "category_zh": "灼燒",
+      "category_en": "SOLAR",
+      "set_ids": [
+        "seventh-seraph",
+        "apostates-blade",
+        "collective-psyche",
+        "lustrous"
+      ]
+    },
+    {
+      "id": "arc",
+      "category_zh": "電弧",
+      "category_en": "ARC",
+      "set_ids": [
+        "luminopotent",
+        "circuit",
+        "taken-king"
+      ]
+    },
+    {
+      "id": "void",
+      "category_zh": "虛空",
+      "category_en": "VOID",
+      "set_ids": [
+        "veritas",
+        "eutechnology",
+        "nezarecs-nightmare",
+        "oryxs-memory"
+      ]
+    },
+    {
+      "id": "stasis",
+      "category_zh": "冰凝",
+      "category_en": "STASIS",
+      "set_ids": [
+        "crystocrene",
+        "techeuns-regalia"
+      ]
+    },
+    {
+      "id": "strand",
+      "category_zh": "縈絲",
+      "category_en": "STRAND",
+      "set_ids": [
+        "thunderhead",
+        "flain",
+        "collective-psyche"
+      ]
+    },
+    {
+      "id": "super",
+      "category_zh": "超能力",
+      "category_en": "SUPER",
+      "set_ids": [
+        "iron-battalion",
+        "taken-king",
+        "legacys-oath",
+        "wayward-psyche"
+      ]
+    },
+    {
+      "id": "grenade",
+      "category_zh": "手榴彈",
+      "category_en": "GRENADE",
+      "set_ids": [
+        "thunderhead",
+        "coda",
+        "sage-protector",
+        "great-hunt"
+      ]
+    },
+    {
+      "id": "melee",
+      "category_zh": "近戰",
+      "category_en": "MELEE",
+      "set_ids": [
+        "swordmaster",
+        "apostates-blade",
+        "coda",
+        "kentarch-3"
+      ]
+    },
+    {
+      "id": "class-ability",
+      "category_zh": "職業技能",
+      "category_en": "CLASS ABILITY",
+      "set_ids": [
+        "dark-age",
+        "sage-protector"
+      ]
+    },
+    {
+      "id": "all-abilities",
+      "category_zh": "全部技能",
+      "category_en": "ALL ABILITIES",
+      "set_ids": [
+        "techeuns-regalia",
+        "taken-king"
+      ]
+    },
+    {
+      "id": "orbs-of-power",
+      "category_zh": "力量球體",
+      "category_en": "ORBS OF POWER",
+      "set_ids": [
+        "exodus-down",
+        "crystocrene",
+        "yearning-echo",
+        "atheons-memory",
+        "nezarecs-nightmare"
+      ]
+    },
+    {
+      "id": "healing",
+      "category_zh": "治療",
+      "category_en": "HEALING",
+      "set_ids": [
+        "dreambane",
+        "lustrous",
+        "iron-panoply",
+        "apostates-blade",
+        "dark-age",
+        "resonant-fury"
+      ]
+    },
+    {
+      "id": "survivability",
+      "category_zh": "生存能力",
+      "category_en": "SURVIVABILITY",
+      "set_ids": [
+        "exodus-down",
+        "crystocrene",
+        "bushido",
+        "yearning-echo",
+        "crotas-memory",
+        "nezarecs-nightmare"
+      ]
+    },
+    {
+      "id": "ammo",
+      "category_zh": "彈藥",
+      "category_en": "AMMO",
+      "set_ids": [
+        "thriving-survivor",
+        "ferropotent",
+        "last-discipline",
+        "cyberserpent-null",
+        "oryxs-memory"
+      ]
+    },
+    {
+      "id": "elemental-pickups",
+      "category_zh": "元素拾取物",
+      "category_en": "ELEMENTAL PICKUPS",
+      "set_ids": [
+        "veritas",
+        "luminopotent",
+        "eutechnology",
+        "yearning-echo"
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "path": "exports/destiny2_armor_bonuses_zhTW.png",
+      "label_zh": "繁體中文",
+      "label_en": "Traditional Chinese",
+      "bytes": 4972328,
+      "dim": "4592×5166"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_zhTW.txt",
+      "label_zh": "繁體中文",
+      "label_en": "Traditional Chinese",
+      "bytes": 30624
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_bilingual.png",
+      "label_zh": "中英對照",
+      "label_en": "Bilingual",
+      "bytes": 6150139,
+      "dim": "4592×6566"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_bilingual.txt",
+      "label_zh": "中英對照",
+      "label_en": "Bilingual",
+      "bytes": 44886
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_EN.png",
+      "label_zh": "英文",
+      "label_en": "English",
+      "bytes": 2884329,
+      "dim": "4592×5690"
+    },
+    {
+      "path": "exports/destiny2_armor_bonuses_EN.txt",
+      "label_zh": "英文",
+      "label_en": "English",
+      "bytes": 24050
+    }
+  ]
+}

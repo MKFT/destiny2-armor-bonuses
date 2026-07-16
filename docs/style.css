@@ -1,0 +1,290 @@
+/* Destiny 2 防具套裝效果 — 深色單一主題,色票沿用 tools/make_image.py 的常數,
+   讓網站與大圖看起來是同一套設計。 */
+:root{
+  --bg:#16181D; --card:#21242C; --card-alt:#1E2128; --line:#2E323C;
+  --txt:#D4D9E0; --set:#F4F6FA; --muted:#8A919D; --faint:#6E7480;
+  --perk:#7DC6FF; --desc-en:#969DAA; --hit:#F0CE7C; --focus:#7DC6FF;
+  /* 五欄色,對應 make_image.py 的 ACC */
+  --c-world:#DCB478; --c-vanguard:#96D0A2; --c-crucible:#E89696;
+  --c-dungeon:#B8A2EC; --c-raid:#F0CE7C;
+  --sprite:url(assets/icons/sprite.png);
+  /* 拉丁字型放前、TC 字型放後:拉丁字型不含漢字,會逐字回退到第一個有該漢字的 TC 字型。
+     搭配 <html lang="zh-Hant">,Windows 才會挑正體的 JhengHei 而非簡體的 YaHei 來渲染。 */
+  --font:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans TC","PingFang TC",
+         "Microsoft JhengHei","Hiragino Sans CNS","Source Han Sans TC",sans-serif;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+/* hidden 屬性是靠瀏覽器預設樣式的 display:none 實作的,任何作者寫的 display 都會蓋掉它
+   (例如 .totop{display:grid} 會讓 <button hidden> 照樣顯示)。這條確保 hidden 永遠有效。 */
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;         /* 防 iOS 橫置自動放大撐破版面 */
+  /* 永遠保留捲軸的位置。否則篩選到只剩幾套時頁面變短、捲軸消失,整頁內容會橫向跳約 15px。
+     (這也是 DevTools 開關觸控模擬時看起來會跑版的原因 —— 疊加式捲軸不佔寬度。) */
+  scrollbar-gutter:stable}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:var(--font);
+  font-size:16px;line-height:1.6;overflow-wrap:anywhere}
+a{color:var(--perk)}
+h1,h2,h3{margin:0;line-height:1.3}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
+
+/* 只可聚焦、不可見(不能用 display:none,那會讓它不可聚焦) */
+.vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;
+  clip-path:inset(50%);white-space:nowrap;border:0}
+.skip{position:absolute;left:-9999px;top:0;z-index:9;background:var(--card);
+  padding:.6rem 1rem;border-radius:0 0 8px 0}
+.skip:focus{left:0}
+
+/* ── 語言:八個文字欄位全部渲染進 DOM,切語言只改 <html data-lang> ──────────
+   display:none 的文字剛好不會被 Ctrl+F 找到、不會被螢幕閱讀器唸、不進 accessible name。 */
+[data-lang="zh"] .en{display:none}
+[data-lang="en"] .zh{display:none}
+/* 雙語:英文降為次要。純英文模式下 .name-en 不套這些,直接繼承標題樣式。 */
+[data-lang="both"] .name-en{font-size:.74em;font-weight:400;color:var(--muted);margin-left:.35em}
+[data-lang="both"] .name-en::before{content:"("}
+[data-lang="both"] .name-en::after{content:")"}
+[data-lang="both"] .src .en{margin-left:.35em}
+[data-lang="both"] .src .en::before{content:"("}
+[data-lang="both"] .src .en::after{content:")"}
+[data-lang="both"] .desc-en{font-size:.88em;color:var(--desc-en)}
+/* 中英之間要留空隙。flex 容器(chip/ntb/perk-name/summary/exports)已有 gap 不必處理,
+   這裡補的是純文字容器 —— 否則會變成「元素ELEMENT」「共 56 套裝56 sets」。 */
+[data-lang="both"] .ntb-wrap h2 .en,
+[data-lang="both"] #groups h3 .en,
+[data-lang="both"] .exports h2 .en{margin-left:.4em}
+/* 這三處的 HTML 已經有真的空白字元(給無障礙名稱與複製用),margin 只是把視覺間距
+   補到跟其他地方一致 —— 單靠空白字元只有 2.9px,中文接英文看起來還是黏著。 */
+[data-lang="both"] .status .en,
+[data-lang="both"] .btn .en{margin-left:.25em}
+/* exports 的標籤中英上下兩行,而非同一行接續 —— 擠在窄卡片裡會各自亂折、高度參差不齊 */
+[data-lang="both"] .ex-label .en{display:block;font-size:.88em;color:var(--muted)}
+/* 整句的說明文字改成各佔一行,擠成一段會很難讀 */
+[data-lang="both"] .ex-note .en,
+[data-lang="both"] .noresult .en{display:block;margin-top:.15rem;opacity:.85}
+/* 雙語模式的標題區:標題的英文降為次要並留在同一行(全寬度下都不會換行);
+   副標的中英各佔一行,配合 .sub 的固定二行高,標題區高度因此不隨語言改變。 */
+[data-lang="both"] .hd h1 .en{font-size:.6em;font-weight:600;color:var(--muted);margin-left:.4em}
+[data-lang="both"] .sub .en{display:block;opacity:.85}
+
+/* .shell 讓篩選面板與底下的欄位卡片對齊 —— #results 有 padding:0 1rem,所以它的
+   子元素比 820px 容器窄 2rem;面板若直接吃 820px 就會比其他區塊寬一圈。 */
+.hd,.bar,.shell,.acts,#results,.exports,.ft,.noresult{max-width:820px;margin-inline:auto}
+.shell{padding-inline:1rem}
+.hd{padding:2rem 1rem .75rem}
+.hd h1{font-size:clamp(1.3rem,4.5vw,1.9rem);font-weight:800;letter-spacing:.02em;color:var(--set)}
+.hd .dot{color:var(--muted)}
+/* 恆二行高:雙語模式的副標是中英各一行,單語模式只有一行。固定高度後,切語言時
+   標題區高度不變,底下整條 sticky 工具列就不會上下跳。多出來的空白只是留白。 */
+.sub{margin:.4rem 0 0;color:var(--muted);font-size:.9rem;min-height:3.2em}  /* 2 行 × line-height 1.6 */
+
+/* ── 工具列(手機 sticky,捲到第 40 張卡仍能改篩選)────────────────────── */
+/* 【避免切語言時跑版】語言切換器後面不可以放任何寬度會隨語言變的東西 —— 否則搜尋框(flex)
+   會被迫改變寬度、把按鈕推來推去,使用者剛點的那顆會從游標底下跑掉。所以結果數移到了
+   .acts,這裡只留 [搜尋框(flex)] [語言(固定寬,因為「中文/EN/雙語」不隨語言變)]。 */
+.bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;
+  padding:.55rem 1rem;background:color-mix(in srgb,var(--bg) 92%,transparent);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+/* basis 只決定「多窄才換行」,grow=1 會把剩餘空間吃回來。320px 觸控時 ⓘ 與語言鈕只留得下
+   95px 給搜尋框,basis 大於它就換行,sticky 工具列會變兩層。 */
+#q{flex:1 1 5rem;min-width:0;background:var(--card);border:1px solid var(--line);
+  color:var(--txt);border-radius:8px;padding:.45rem .7rem;font:inherit;font-size:.9rem}
+#q::-webkit-search-cancel-button{filter:invert(.6)}
+
+/* ⓘ 搜尋說明。寬度固定(圖示不隨語言變),所以切語言時 #q 不會被推得忽寬忽窄。 */
+.help{flex:none;display:grid;place-items:center;width:30px;height:30px;padding:0;
+  border:0;border-radius:50%;background:none;color:var(--faint);cursor:pointer}
+.help svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.4}
+.help svg .dot{fill:currentColor;stroke:none}
+.help:hover,.help[aria-expanded="true"]{color:var(--perk)}
+.help:focus-visible{outline:2px solid var(--focus);outline-offset:1px}
+/* .bar 是 sticky,本身已是定位元素,所以這裡的 absolute 相對它。 */
+.tip{display:none;position:absolute;top:100%;right:1rem;z-index:6;width:max-content;
+  max-width:calc(100% - 2rem);margin-top:.3rem;padding:.7rem .85rem;
+  background:var(--card);border:1px solid var(--line);border-radius:8px;
+  box-shadow:0 8px 24px #0009;font-size:.82rem;line-height:1.55;color:var(--muted)}
+.tip.on{display:block}
+/* hover 只給真的有滑鼠的裝置:觸控螢幕上 :hover 會在點完之後黏著不放。 */
+@media (hover:hover){.help:hover+.tip{display:block}}
+.tip .eg{color:var(--faint)}
+.tip .eg b{color:var(--perk);font-weight:600}
+.tip p+p{margin-top:.5rem}
+.lang{flex:none;display:flex;gap:0;border:1px solid var(--line);border-radius:8px;padding:0;
+  margin:0;background:var(--card);overflow:hidden}
+.lang label{padding:.4rem .6rem;font-size:.82rem;color:var(--muted);cursor:pointer;white-space:nowrap}
+.lang input:checked+label{background:var(--line);color:var(--set)}
+.lang input:focus-visible+label{outline:2px solid var(--focus);outline-offset:-2px}
+.btn{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:8px;
+  padding:.42rem .7rem;font:inherit;font-size:.82rem;cursor:pointer;white-space:nowrap}
+.btn:hover:not(:disabled){border-color:var(--muted)}
+.btn:disabled{opacity:.4;cursor:default}
+.status{margin:0;font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* 「全部展開/收起」與結果數放在它們所指涉的欄位正上方,而非塞進 sticky 工具列。
+   結果數在這裡即使寬度隨語言變也不會推動任何東西(它靠左、按鈕靠右)。 */
+.acts{display:flex;justify-content:space-between;align-items:center;gap:.5rem;padding:0 1rem .6rem}
+
+/* ── 篩選面板 ──────────────────────────────────────────────────────── */
+.panel{margin-block:1rem;background:var(--card-alt);border:1px solid var(--line);border-radius:12px}
+.panel>summary{padding:.7rem 1rem;cursor:pointer;font-weight:600;font-size:.92rem;
+  display:flex;align-items:center;gap:.5rem;list-style:none}
+.panel>summary::-webkit-details-marker{display:none}
+.panel>summary::before{content:"▸";color:var(--muted);transition:transform .12s}
+.panel[open]>summary::before{transform:rotate(90deg)}
+.pill{background:var(--hit);color:#1a1c22;border-radius:99px;padding:.05rem .45rem;
+  font-size:.75rem;font-weight:700;font-variant-numeric:tabular-nums}
+.panel-in{padding:0 1rem 1rem;border-top:1px solid var(--line);padding-top:.9rem}
+.ntb-wrap h2,#groups h3{font-size:.78rem;font-weight:700;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.06em;margin:0 0 .45rem}
+.ntb-wrap h2 small{font-weight:400;text-transform:none;letter-spacing:0;color:var(--faint)}
+.ntb-list,.chips{display:flex;flex-wrap:wrap;gap:.35rem}
+.ntb-wrap{margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid var(--line)}
+#groups>section{margin-bottom:.85rem}
+#groups>section:last-child{margin-bottom:0}
+
+.chip,.ntb{display:inline-flex;align-items:center;gap:.32rem;background:var(--card);
+  border:1px solid var(--line);border-radius:99px;padding:.28rem .6rem;font-size:.82rem;
+  cursor:pointer;color:var(--txt);line-height:1.4}
+.chip:hover,.ntb:hover{border-color:var(--muted)}
+.chips input:checked+.chip,.ntb[aria-pressed="true"]{background:var(--hit);border-color:var(--hit);color:#1a1c22}
+.chips input:focus-visible+.chip{outline:2px solid var(--focus);outline-offset:2px}
+.chips input:disabled+.chip{opacity:.34;cursor:default}
+.chips input:disabled+.chip:hover{border-color:var(--line)}
+.n{color:var(--faint);font-variant-numeric:tabular-nums;font-size:.9em}
+.chips input:checked+.chip .n,.ntb[aria-pressed="true"] .n{color:#1a1c22;opacity:.62}
+.ntb{font-family:inherit}
+.panel-foot{margin-top:.9rem}
+
+/* ── 圖示:sprite + CSS mask + currentColor ───────────────────────────
+   素材本身是單色遮罩,所以顏色交給 CSS。選取態、0 命中變灰、命中高亮都因此免費。 */
+.icn{width:1.15em;height:1.15em;flex:none;display:inline-block;vertical-align:-.18em;
+  background:currentColor;
+  -webkit-mask:var(--sprite) var(--pos)/800% 600% no-repeat;
+  mask:var(--sprite) var(--pos)/800% 600% no-repeat}
+.syn .icn{width:1.35em;height:1.35em;color:var(--muted)}
+.syn .icn.hit{color:var(--hit)}
+
+/* ── 欄位手風琴:原生 <details>,自帶 button 語意與鍵盤操作 ───────────── */
+#results{padding:0 1rem}
+.col{margin-bottom:.9rem;border-radius:12px;overflow:hidden;background:var(--card-alt);
+  border:1px solid var(--line)}
+.col>summary{padding:.8rem 1rem;cursor:pointer;display:flex;align-items:center;gap:.6rem;
+  list-style:none;font-weight:700;background:var(--card)}
+.col>summary::-webkit-details-marker{display:none}
+.col>summary::before{content:"▸";color:var(--muted);transition:transform .12s;flex:none}
+.col[open]>summary::before{transform:rotate(90deg)}
+.col>summary .t{color:var(--cc);font-size:.98rem}
+.col>summary .cnt{margin-left:auto;font-size:.8rem;color:var(--muted);font-weight:400;
+  font-variant-numeric:tabular-nums}
+.cards{padding:.7rem;display:flex;flex-direction:column;gap:.6rem}
+
+/* ── 套裝卡片 ──────────────────────────────────────────────────────── */
+.card{position:relative;background:var(--card);border-radius:10px;padding:.85rem .9rem .85rem 1.1rem;
+  border:1px solid var(--line)}
+.card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--cc);
+  border-radius:10px 0 0 10px}
+.card:nth-child(even){background:var(--card-alt)}
+.card-head{display:flex;align-items:flex-start;gap:.75rem}
+.set-name{font-size:1.12rem;font-weight:700;color:var(--set);flex:1;min-width:0}
+.syn{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:flex-end;flex:none;padding-top:.15rem}
+.sg{display:inline-flex;align-items:center;gap:.25rem}
+.src{margin:.15rem 0 .6rem;font-size:.78rem;color:var(--faint)}
+
+/* 徽章色塊。「2件/4件」用 data-n + CSS 產生而非中英兩個 span,214 個徽章共省下約 430 個元素。 */
+.pc{background:var(--cc);color:#1a1c22;border-radius:5px;padding:.06rem .34rem;
+  font-size:.7rem;font-weight:800;flex:none;letter-spacing:.02em}
+[data-lang="zh"] .pc::after,[data-lang="both"] .pc::after{content:attr(data-n) "件"}
+[data-lang="en"] .pc::after{content:attr(data-n) "pc"}
+
+/* perk 用 grid:徽章 grid-row 1/-1 跨滿,純中文 2 列、雙語 3 列都自動對齊,不用 JS */
+.perk{display:grid;grid-template-columns:34px 1fr;gap:.2rem .6rem;align-items:start;
+  margin-top:.55rem}
+.badge{grid-column:1;grid-row:1/-1;width:34px;height:34px;margin-top:.1rem}
+.perk-name,.desc{grid-column:2;margin:0}
+.perk-name{display:flex;align-items:baseline;gap:.4rem;flex-wrap:wrap;
+  font-weight:700;color:var(--perk);font-size:.95rem}
+/* 官方說明有些含 \n\n 分段(大圖會壓掉,網頁保留作者原意) */
+.desc{font-size:.88rem;color:var(--txt);white-space:pre-line}
+.desc-en{color:var(--desc-en)}
+
+.noresult{padding:2.5rem 1rem;text-align:center;color:var(--muted)}
+.noresult .hint{display:block;margin-top:.7rem;font-size:.9em;color:var(--faint)}
+
+/* 回到頂端。safe-area 是留給瀏海機的圓角與底部橫條。 */
+.totop{position:fixed;z-index:6;width:44px;height:44px;border-radius:50%;
+  right:calc(1rem + env(safe-area-inset-right));
+  bottom:calc(1rem + env(safe-area-inset-bottom));
+  background:var(--card);border:1px solid var(--line);color:var(--txt);cursor:pointer;
+  display:grid;place-items:center;font-size:1.15rem;line-height:1;
+  box-shadow:0 2px 10px rgba(0,0,0,.45)}
+.totop:hover{border-color:var(--muted);color:var(--set)}
+
+/* ── exports ───────────────────────────────────────────────────────── */
+.exports{margin:2rem auto 0;padding:1.1rem 1rem;border-top:1px solid var(--line)}
+.exports h2{font-size:.9rem;color:var(--set)}
+.ex-note{margin:.3rem 0 .8rem;font-size:.82rem;color:var(--faint)}
+#ex-list{list-style:none;padding:0;margin:0;display:grid;gap:.4rem;
+  grid-template-columns:repeat(auto-fill,minmax(17.5rem,1fr))}
+#ex-list a{display:flex;align-items:center;gap:.5rem;background:var(--card);
+  border:1px solid var(--line);border-radius:8px;padding:.5rem .7rem;
+  text-decoration:none;color:var(--txt);font-size:.85rem;height:100%}
+#ex-list a:hover{border-color:var(--muted)}
+/* flex:none —— 否則 PNG/TXT 這個短標籤會被壓縮換行成「PN / G」 */
+.ex-kind{flex:none;white-space:nowrap;background:var(--line);color:var(--muted);
+  border-radius:4px;padding:.05rem .3rem;font-size:.68rem;font-weight:700;letter-spacing:.04em}
+.ex-label{flex:1;min-width:0}
+.ex-size{flex:none;margin-left:auto;color:var(--faint);font-size:.78rem;font-variant-numeric:tabular-nums;
+  white-space:nowrap}
+
+.ft{padding:1.2rem 1rem 2.5rem;font-size:.78rem;color:var(--faint)}
+.ft p{margin:.2rem 0}
+.ft code{font-size:.95em;color:var(--muted)}
+.ft .sep{margin-inline:.3rem}
+.noscript{max-width:820px;margin:2rem auto;padding:1rem;background:var(--card);
+  border:1px solid var(--line);border-radius:10px}
+/* 沒有 JS 時這些介面全是死的 —— 藏起來只留 <noscript> 的說明與連結 */
+.no-js .bar,.no-js .shell,.no-js .acts,.no-js #results,.no-js .exports,.no-js .totop{display:none}
+
+/* ── 觸控:用輸入方式判斷,不用寬度(平板接鍵鼠、桌機接觸控都存在)────── */
+@media (pointer:coarse){
+  .chip,.ntb,.btn,.lang label{min-height:44px}
+  .col>summary,.panel>summary{min-height:48px}
+  #q{min-height:44px}
+  .help{width:44px;height:44px}
+}
+
+/* ── 手機 ──────────────────────────────────────────────────────────── */
+@media (max-width:559px){
+  .hd{padding:1.25rem .75rem .5rem}
+  .bar{padding:.5rem .75rem;gap:.4rem}
+  .tip{right:.75rem;max-width:calc(100% - 1.5rem)}
+  .acts,.shell{padding-inline:.75rem}
+  #results,.panel-in,.exports,.ft{padding-inline:.75rem}
+  .cards{padding:.5rem}
+  .card{padding:.75rem .7rem .75rem .95rem}
+  /* 協同圖示從名稱列掉到「來源下方」自成一列,否則長套裝名會被擠爆。
+     display:contents 讓 .card-head 的子項直接參與 .card 的 flex 排版,才排得出
+     名稱 → 來源 → 協同 的順序(DOM 裡協同是跟名稱同一組的)。 */
+  /* 手機藏起圖片尺寸、保留檔案大小 —— 用行動網路的人需要知道那是 4.74 MB 還是 30 KB,
+     4592×5166 則是次要的。省下的寬度留給標籤,免得雙語模式的中英標籤折行。 */
+  .ex-dim{display:none}
+
+  .card{display:flex;flex-direction:column}
+  .card-head{display:contents}
+  .set-name{order:1;font-size:1.05rem}
+  .src{order:2;margin-bottom:.15rem}
+  .syn{order:3;justify-content:flex-start;padding-top:0;margin-bottom:.2rem}
+  .perk{order:4}
+}
+/* ── 手機的標題:「DESTINY 2」獨立成一行的 kicker ────────────────────────
+   手機寬度放不下一整行標題:390px 的雙語「DESTINY 2 · 防具套裝效果 Armor Set
+   Bonuses」、320px 的純英文「DESTINY 2 · Armor Set Bonuses」都會換行,而中文
+   不會 —— 於是切語言時標題高度一變,底下整條 sticky 工具列就上下跳。
+   把 kicker 拉成獨立一行後,三種語言都固定兩行、不再跳,標題也不必為此縮到
+   跟內文一樣大(實測 320px 要 1.08rem 才塞得下一行,那太小了)。 */
+@media (max-width:559px){
+  .hd h1 .kicker{display:block;font-size:.62em;color:var(--muted);letter-spacing:.1em;
+    margin-bottom:.1rem}
+  .hd h1 .dot{display:none}
+}
+@media (max-width:359px){ .hd h1{font-size:1.25rem} }
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

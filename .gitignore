@@ -1,0 +1,6 @@
+# manifest 下載暫存與 build 中間產物(用 prepare_data.sh 重建,不進 repo)
+# 實際只抓 2 種定義約 5MB,不是整包 manifest。
+tools/cache/
+
+__pycache__/
+*.pyc

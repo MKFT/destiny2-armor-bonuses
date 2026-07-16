@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-Hant" data-lang="zh" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Destiny 2 · 防具套裝效果 Armor Set Bonuses</title>
+<meta name="description" content="Destiny 2 全 56 組防具套裝效果的互動查詢表。譯文採用 Bungie 官方 manifest 繁體中文，可依協同效果篩選。">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="favicon.ico" sizes="any">
+<!-- 在 CSS 生效前先決定語言,避免閃爍(hash 優先於個人偏好) -->
+<script>
+{const d=document.documentElement;
+ d.classList.remove('no-js');
+ const h=new URLSearchParams(location.hash.slice(1));
+ const l=h.get('lang')||localStorage.getItem('d2ab.lang')
+       ||((navigator.language||'').toLowerCase().startsWith('zh')?'zh':'en');
+ d.dataset.lang=['zh','en','both'].includes(l)?l:'zh';}
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#results">跳到套裝列表</a>
+
+<header class="hd">
+  <h1><span class="kicker">DESTINY 2</span><span class="dot"> · </span><span class="zh">防具套裝效果</span><span class="en">Armor Set Bonuses</span></h1>
+  <!-- 每種語言的副標都必須排得下一行:雙語模式是中英各一行,剛好用滿 .sub 保留的二行高。
+       任何一句長到換行,標題區就會變高、把底下整條 sticky 工具列往下推。 -->
+  <p class="sub">
+    <span class="zh">Bungie 官方繁體中文對照</span>
+    <span class="en">Official text from the Bungie manifest</span>
+  </p>
+</header>
+
+<div class="bar">
+  <label class="vh" for="q"><span class="zh">搜尋套裝、技能或說明</span> <span class="en">Search sets, perks or descriptions</span></label>
+  <!-- placeholder 是屬性,無法用 .zh/.en 那套 CSS 切換,只能備妥三份由 JS 指定。
+       雙語版刻意較短:搜尋框在 390px 只有約 180px 可用,塞不下兩句完整的。 -->
+  <input id="q" type="search" enterkeyhint="search" autocomplete="off" spellcheck="false"
+         data-ph-zh="搜尋套裝、技能、說明…"
+         data-ph-en="Search sets, perks, text…"
+         data-ph-both="搜尋套裝、技能…  Search…">
+  <!-- 多詞與跨語言搜尋不講就沒人會發現,但不值得常駐佔版面。手機沒有 hover,所以點擊也要能開。 -->
+  <button type="button" class="help" id="q-help" aria-expanded="false" aria-controls="q-tip">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+      <circle cx="8" cy="8" r="6.9"/><path d="M8 7.4v4.2"/><circle cx="8" cy="4.7" r=".9" class="dot"/>
+    </svg>
+    <span class="vh"><span class="zh">搜尋說明</span> <span class="en">Search help</span></span>
+  </button>
+  <div class="tip" id="q-tip" role="note">
+    <p class="zh">套裝名稱、來源、效果名稱與說明都能搜，中英文皆可。<br>
+      打多個詞時要全部符合才命中，用空白或逗號隔開。<br>
+      <span class="eg">例：<b>扭曲 weapon</b> — 來源是扭曲、效果與武器有關的 3 套</span></p>
+    <p class="en">Searches set names, sources, perk names and descriptions — in either language.<br>
+      Multiple words must all match. Separate them with spaces or commas.<br>
+      <span class="eg">e.g. <b>distortion weapon</b> — the 3 sets from Distortions with weapon perks</span></p>
+  </div>
+  <fieldset class="lang">
+    <legend class="vh">語言 Language</legend>
+    <input type="radio" name="lang" id="lang-zh" value="zh" class="vh"><label for="lang-zh">中文</label>
+    <input type="radio" name="lang" id="lang-en" value="en" class="vh"><label for="lang-en">EN</label>
+    <input type="radio" name="lang" id="lang-both" value="both" class="vh"><label for="lang-both">雙語</label>
+  </fieldset>
+</div>
+
+<div class="shell">
+<details id="filters" class="panel">
+  <summary>
+    <span class="zh">篩選與圖例</span><span class="en">Filters &amp; key</span>
+    <span id="filter-count" class="pill" hidden></span>
+  </summary>
+  <div class="panel-in">
+    <section id="notable" class="ntb-wrap" aria-labelledby="ntb-h">
+      <h2 id="ntb-h"><span class="zh">顯著協同</span><span class="en">Notable synergies</span>
+        <small><span class="zh">人工精選，非全部命中</span><span class="en">hand-picked, not every match</span></small></h2>
+      <div class="ntb-list"></div>
+    </section>
+    <div id="groups"></div>
+    <div class="panel-foot">
+      <button type="button" id="clear" class="btn" hidden><span class="zh">清除所有篩選</span> <span class="en">Clear all filters</span></button>
+    </div>
+  </div>
+</details>
+</div>
+
+<div class="acts">
+  <p id="status" role="status" class="status"></p>
+  <button type="button" id="toggle-all" class="btn"></button>
+</div>
+
+<main id="results"></main>
+
+<p id="noresult" class="noresult" hidden>
+  <span class="zh">沒有套裝符合目前的條件。條件放寬一點試試，或者這個組合遊戲裡還沒實裝。</span>
+  <span class="en">No sets match these filters. Try relaxing them — or the game may simply not have this combination.</span>
+  <span id="and-hint" class="hint" hidden>
+    <span class="zh">搜尋打了多個詞時，要全部符合才算命中。試著少打一個。</span>
+    <span class="en">With multiple search words, a set must match them all. Try dropping one.</span>
+  </span>
+</p>
+
+<section class="exports" aria-labelledby="ex-h">
+  <h2 id="ex-h"><span class="zh">其他格式</span><span class="en">Other formats</span></h2>
+  <p class="ex-note">
+    <span class="zh">同一份資料的離線版本。大圖為五欄並排的完整資訊圖。</span>
+    <span class="en">The same data, offline. The posters are the full five-column infographic.</span>
+  </p>
+  <ul id="ex-list"></ul>
+</section>
+
+<!-- 整句的文案要「整塊複製」而不是用 span 交錯:句子中夾著連結與版號,
+     交錯的結果是「譯文來源： Text source:Bungie manifest · 版本 version …」黏成一團。 -->
+<footer class="ft">
+  <p class="zh">譯文來源：<a href="https://www.bungie.net/Platform/Destiny2/Manifest/">Bungie manifest</a>
+     <span class="sep">·</span> 版本 <code class="ver"></code></p>
+  <p class="en">Text source: <a href="https://www.bungie.net/Platform/Destiny2/Manifest/">Bungie manifest</a>
+     <span class="sep">·</span> version <code class="ver"></code></p>
+  <p class="ft-dim zh">協同圖示為人工辨識整理，非官方資料。Destiny 2 為 Bungie, Inc. 之商標。</p>
+  <p class="ft-dim en">Synergy icons are hand-curated, not official data. Destiny 2 is a trademark of Bungie, Inc.</p>
+</footer>
+
+<button type="button" id="totop" class="totop" hidden>
+  <span aria-hidden="true">↑</span>
+  <span class="vh"><span class="zh">回到頂端</span> <span class="en">Back to top</span></span>
+</button>
+
+<noscript>
+  <p class="noscript">此頁需要 JavaScript 才能顯示。你也可以直接看
+    <a href="exports/destiny2_armor_bonuses_zhTW.png">繁中大圖</a> 或
+    <a href="exports/destiny2_armor_bonuses_zhTW.txt">文字版</a>。<br>
+    This page needs JavaScript. You can also view the
+    <a href="exports/destiny2_armor_bonuses_EN.png">English poster</a> or
+    <a href="exports/destiny2_armor_bonuses_EN.txt">text version</a>.</p>
+</noscript>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,549 @@
+{
+  "WILDWOOD": {
+    "2": [
+      "SURVIVABILITY"
+    ],
+    "4": [
+      "WEAPONS"
+    ]
+  },
+  "EXODUS DOWN": {
+    "2": [
+      "ORBS OF POWER"
+    ],
+    "4": [
+      "HEALING",
+      "SURVIVABILITY",
+      "ARMOR CHARGE"
+    ]
+  },
+  "REVERIE DAWN": {
+    "2": [
+      "SURVIVABILITY",
+      "WEAPONS"
+    ],
+    "4": [
+      "SOLAR",
+      "HEALING"
+    ]
+  },
+  "DREAMBANE": {
+    "2": [
+      "GRENADE",
+      "MELEE"
+    ],
+    "4": [
+      "HEALING"
+    ]
+  },
+  "CRYSTOCRENE": {
+    "2": [
+      "ORBS OF POWER",
+      "ALL AMMO"
+    ],
+    "4": [
+      "STASIS",
+      "SURVIVABILITY"
+    ]
+  },
+  "SEVENTH SERAPH": {
+    "2": [
+      "SOLAR",
+      "GRENADE"
+    ],
+    "4": [
+      "HEALING",
+      "STRAND",
+      "STASIS"
+    ]
+  },
+  "VERITAS": {
+    "2": [
+      "FINISHERS",
+      "MELEE",
+      "ELEMENTAL PICKUPS"
+    ],
+    "4": [
+      "HEALING",
+      "VOID"
+    ]
+  },
+  "THUNDERHEAD": {
+    "2": [
+      "GRENADE",
+      "SURVIVABILITY"
+    ],
+    "4": [
+      "STRAND",
+      "SPECIAL AMMO"
+    ]
+  },
+  "FIRST ASCENT": {
+    "2": [
+      "PRISMATIC"
+    ],
+    "4": [
+      "GRENADE"
+    ]
+  },
+  "AION ADAPTER": {
+    "2": [
+      "ROCKETS",
+      "GRENADE LAUNCHERS",
+      "MICRO MISSILES",
+      "SURVIVABILITY"
+    ],
+    "4": [
+      "DISORIENT"
+    ]
+  },
+  "AION RENEWAL": {
+    "2": [
+      "ROCKETS",
+      "GRENADE LAUNCHERS",
+      "MICRO MISSILES",
+      "MOBILITY"
+    ],
+    "4": [
+      "ROCKETS",
+      "GRENADE LAUNCHERS",
+      "MICRO MISSILES",
+      "MOBILITY"
+    ]
+  },
+  "THRIVING SURVIVOR": {
+    "2": [
+      "GRENADE",
+      "WEAPONS",
+      "HEAT WEAPONS"
+    ],
+    "4": [
+      "WEAPON STAT",
+      "ALL AMMO"
+    ]
+  },
+  "SHREWD SURVIVOR": {
+    "2": [
+      "HEAT WEAPONS",
+      "SMGS",
+      "HAND CANNONS"
+    ],
+    "4": [
+      "WEAPON STAT"
+    ]
+  },
+  "TECHSEC": {
+    "2": [
+      "KINETIC"
+    ],
+    "4": [
+      "DISORIENT"
+    ]
+  },
+  "SMOKE JUMPER": {
+    "2": [
+      "ORBS OF POWER",
+      "SURVIVABILITY"
+    ],
+    "4": [
+      "FINISHERS",
+      "SPECIAL AMMO",
+      "HEALING"
+    ]
+  },
+  "FERROPOTENT": {
+    "2": [
+      "SURVIVABILITY"
+    ],
+    "4": [
+      "ALL AMMO"
+    ]
+  },
+  "LUMINOPOTENT": {
+    "2": [
+      "FUSION RIFLES",
+      "LINEAR FUSION RIFLES",
+      "HEAT WEAPONS"
+    ],
+    "4": [
+      "ARC",
+      "ELEMENTAL PICKUPS"
+    ]
+  },
+  "BUSHIDO": {
+    "2": [
+      "HEALING"
+    ],
+    "4": [
+      "SWORDS",
+      "BOWS",
+      "SHOTGUNS",
+      "SURVIVABILITY"
+    ]
+  },
+  "SWORDMASTER": {
+    "2": [
+      "SWORDS",
+      "GLAIVES",
+      "MELEE",
+      "EXHAUST"
+    ],
+    "4": [
+      "SURVIVABILITY"
+    ]
+  },
+  "EUTECHNOLOGY": {
+    "2": [
+      "VOID",
+      "ELEMENTAL PICKUPS"
+    ],
+    "4": [
+      "VOID",
+      "ELEMENTAL PICKUPS"
+    ]
+  },
+  "LUSTROUS": {
+    "2": [
+      "SOLAR",
+      "HEALING"
+    ],
+    "4": [
+      "SOLAR",
+      "HEALING"
+    ]
+  },
+  "LAST DISCIPLINE": {
+    "2": [
+      "WEAPONS"
+    ],
+    "4": [
+      "ORBS OF POWER",
+      "SPECIAL AMMO"
+    ]
+  },
+  "DISASTER CORPS": {
+    "2": [
+      "AUTO RIFLES",
+      "SCOUT RIFLES",
+      "SIDEARMS",
+      "HEALING"
+    ],
+    "4": [
+      "AUTO RIFLES",
+      "SCOUT RIFLES",
+      "SIDEARMS",
+      "HEALING"
+    ]
+  },
+  "WILD ANTHEM": {
+    "2": [
+      "WEAPONS"
+    ],
+    "4": [
+      "SURVIVABILITY"
+    ]
+  },
+  "TRIUMPHAL ANTHEM": {
+    "2": [
+      "WEAPONS"
+    ],
+    "4": [
+      "MOBILITY",
+      "SURVIVABILITY"
+    ]
+  },
+  "IRON PANOPLY": {
+    "2": [
+      "WEAPONS",
+      "HEALING"
+    ],
+    "4": [
+      "ALL AMMO",
+      "SURVIVABILITY"
+    ]
+  },
+  "IRON BATTALION": {
+    "2": [
+      "WEAPONS"
+    ],
+    "4": [
+      "SUPER"
+    ]
+  },
+  "PER AUDACIA": {
+    "2": [
+      "WEAPONS",
+      "MOBILITY"
+    ],
+    "4": [
+      "WEAPONS",
+      "MOBILITY"
+    ]
+  },
+  "TWOFOLD CROWN": {
+    "2": [
+      "HEALING"
+    ],
+    "4": [
+      "WEAPONS"
+    ]
+  },
+  "CRUEL ELECTRUM": {
+    "2": [
+      "WEAPONS",
+      "SURVIVABILITY"
+    ],
+    "4": [
+      "WEAPONS",
+      "SURVIVABILITY"
+    ]
+  },
+  "CIRCUIT": {
+    "2": [
+      "HEALING",
+      "MOBILITY"
+    ],
+    "4": [
+      "ARC"
+    ]
+  },
+  "TECHEUN'S REGALIA": {
+    "2": [
+      "STASIS",
+      "FINISHERS",
+      "SURVIVABILITY"
+    ],
+    "4": [
+      "ALL ABILITIES"
+    ]
+  },
+  "APOSTATE'S BLADE": {
+    "2": [
+      "FINISHERS",
+      "HEALING"
+    ],
+    "4": [
+      "SOLAR",
+      "MELEE"
+    ]
+  },
+  "CODA": {
+    "2": [
+      "WEAPONS",
+      "GRENADE",
+      "MELEE",
+      "LIGHT",
+      "DARKNESS",
+      "KINETIC"
+    ],
+    "4": [
+      "SURVIVABILITY"
+    ]
+  },
+  "YEARNING ECHO": {
+    "2": [
+      "ORBS OF POWER",
+      "ELEMENTAL PICKUPS",
+      "WEAPONS",
+      "SURVIVABILITY"
+    ],
+    "4": [
+      "ORBS OF POWER",
+      "ELEMENTAL PICKUPS",
+      "WEAPONS",
+      "SURVIVABILITY"
+    ]
+  },
+  "DEEP EXPLORER": {
+    "2": [
+      "WEAPONS"
+    ],
+    "4": [
+      "HEALING"
+    ]
+  },
+  "TM CUSTOM": {
+    "2": [
+      "HEALING",
+      "DISORIENT"
+    ],
+    "4": [
+      "WEAPONS"
+    ]
+  },
+  "TAKEN KING": {
+    "2": [
+      "FINISHERS",
+      "SUPER"
+    ],
+    "4": [
+      "ALL ABILITIES",
+      "ARC"
+    ]
+  },
+  "DARK AGE": {
+    "2": [
+      "MELEE",
+      "SWORDS"
+    ],
+    "4": [
+      "CLASS ABILITY",
+      "HEALING"
+    ]
+  },
+  "SPACEWALK": {
+    "2": [
+      "WEAPONS",
+      "DISORIENT"
+    ],
+    "4": [
+      "GRENADE"
+    ]
+  },
+  "FLAIN": {
+    "2": [
+      "STRAND"
+    ],
+    "4": [
+      "HEALING"
+    ]
+  },
+  "SAGE PROTECTOR": {
+    "2": [
+      "SWORDS",
+      "GRENADE",
+      "CLASS ABILITY"
+    ],
+    "4": [
+      "SWORDS",
+      "GRENADE",
+      "CLASS ABILITY"
+    ]
+  },
+  "GREAT HUNT": {
+    "2": [
+      "GRENADE",
+      "SURVIVABILITY"
+    ],
+    "4": [
+      "HEAVY AMMO"
+    ]
+  },
+  "KENTARCH 3": {
+    "2": [
+      "HEALTH STAT",
+      "WEAPONS"
+    ],
+    "4": [
+      "MELEE"
+    ]
+  },
+  "LEGACY'S OATH": {
+    "2": [
+      "MELEE",
+      "DISORIENT"
+    ],
+    "4": [
+      "SUPER"
+    ]
+  },
+  "ATHEON'S MEMORY": {
+    "2": [
+      "ORBS OF POWER"
+    ],
+    "4": [
+      "ORBS OF POWER"
+    ]
+  },
+  "RESONANT FURY": {
+    "2": [
+      "HEALING"
+    ],
+    "4": [
+      "HEALING",
+      "WEAPONS",
+      "GLAIVES"
+    ]
+  },
+  "CROTA'S MEMORY": {
+    "2": [
+      "MELEE"
+    ],
+    "4": [
+      "SURVIVABILITY"
+    ]
+  },
+  "ORYX'S MEMORY": {
+    "2": [
+      "ALL AMMO"
+    ],
+    "4": [
+      "VOID",
+      "SURVIVABILITY"
+    ]
+  },
+  "PROMISED": {
+    "2": [
+      "SURVIVABILITY",
+      "WEAPONS"
+    ],
+    "4": [
+      "EXHAUST"
+    ]
+  },
+  "COLLECTIVE PSYCHE": {
+    "2": [
+      "WEAPONS"
+    ],
+    "4": [
+      "SOLAR",
+      "STRAND"
+    ]
+  },
+  "WAYWARD PSYCHE": {
+    "2": [
+      "WEAPONS"
+    ],
+    "4": [
+      "HEALING",
+      "SUPER"
+    ]
+  },
+  "PANTHEOS RESPLENDENT": {
+    "2": [
+      "ARMOR CHARGE",
+      "HEALTH STAT"
+    ],
+    "4": [
+      "WEAPONS"
+    ]
+  },
+  "CYBERSERPENT NULL": {
+    "2": [
+      "WEAPONS"
+    ],
+    "4": [
+      "SPECIAL AMMO"
+    ]
+  },
+  "NEW DEMOTIC": {
+    "2": [
+      "WEAPONS",
+      "SURVIVABILITY"
+    ],
+    "4": [
+      "WEAPONS",
+      "SURVIVABILITY"
+    ]
+  },
+  "NEZAREC'S NIGHTMARE": {
+    "2": [
+      "ORBS OF POWER"
+    ],
+    "4": [
+      "VOID",
+      "SURVIVABILITY",
+      "FINISHERS"
+    ]
+  }
+}
