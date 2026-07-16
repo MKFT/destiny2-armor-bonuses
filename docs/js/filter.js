@@ -27,9 +27,11 @@ export function build(site) {
     for (const sid of n.set_ids) m[idx.get(sid)] = 1;
     nPost.set(n.id, m);
   }
-  // 搜尋索引跨語言:不管當前顯示模式,一律搜全部八個欄位
-  hay = SETS.map(s => [s.name.zh, s.name.en, s.source.zh, s.source.en,
-      ...s.perks.flatMap(p => [p.name.zh, p.name.en, p.desc.zh, p.desc.en])]
+  // 搜尋索引跨語言:一律搜每個欄位的所有語言(名稱/來源/技能名/說明),不隨顯示模式變。
+  // 純日文模式下打 Wildwood 也該找得到 —— 把每個語言物件的值攤平取聯集即可。
+  const vals = o => Object.values(o || {});
+  hay = SETS.map(s => [...vals(s.name), ...vals(s.source),
+      ...s.perks.flatMap(p => [...vals(p.name), ...vals(p.desc)])]
       .join('').toLowerCase().replace(/['’]/g, ''));
   return SETS;
 }

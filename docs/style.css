@@ -35,36 +35,36 @@ h1,h2,h3{margin:0;line-height:1.3}
   padding:.6rem 1rem;border-radius:0 0 8px 0}
 .skip:focus{left:0}
 
-/* ── 語言:八個文字欄位全部渲染進 DOM,切語言只改 <html data-lang> ──────────
-   display:none 的文字剛好不會被 Ctrl+F 找到、不會被螢幕閱讀器唸、不進 accessible name。 */
-[data-lang="zh"] .en{display:none}
-[data-lang="en"] .zh{display:none}
-/* 雙語:英文降為次要。純英文模式下 .name-en 不套這些,直接繼承標題樣式。 */
-[data-lang="both"] .name-en{font-size:.74em;font-weight:400;color:var(--muted);margin-left:.35em}
-[data-lang="both"] .name-en::before{content:"("}
-[data-lang="both"] .name-en::after{content:")"}
-[data-lang="both"] .src .en{margin-left:.35em}
-[data-lang="both"] .src .en::before{content:"("}
-[data-lang="both"] .src .en::after{content:")"}
-[data-lang="both"] .desc-en{font-size:.88em;color:var(--desc-en)}
-/* 中英之間要留空隙。flex 容器(chip/ntb/perk-name/summary/exports)已有 gap 不必處理,
-   這裡補的是純文字容器 —— 否則會變成「元素ELEMENT」「共 56 套裝56 sets」。 */
-[data-lang="both"] .ntb-wrap h2 .en,
-[data-lang="both"] #groups h3 .en,
-[data-lang="both"] .exports h2 .en{margin-left:.4em}
-/* 這三處的 HTML 已經有真的空白字元(給無障礙名稱與複製用),margin 只是把視覺間距
-   補到跟其他地方一致 —— 單靠空白字元只有 2.9px,中文接英文看起來還是黏著。 */
-[data-lang="both"] .status .en,
-[data-lang="both"] .btn .en{margin-left:.25em}
-/* exports 的標籤中英上下兩行,而非同一行接續 —— 擠在窄卡片裡會各自亂折、高度參差不齊 */
-[data-lang="both"] .ex-label .en{display:block;font-size:.88em;color:var(--muted)}
-/* 整句的說明文字改成各佔一行,擠成一段會很難讀 */
-[data-lang="both"] .ex-note .en,
-[data-lang="both"] .noresult .en{display:block;margin-top:.15rem;opacity:.85}
-/* 雙語模式的標題區:標題的英文降為次要並留在同一行(全寬度下都不會換行);
-   副標的中英各佔一行,配合 .sub 的固定二行高,標題區高度因此不隨語言改變。 */
-[data-lang="both"] .hd h1 .en{font-size:.6em;font-weight:600;color:var(--muted);margin-left:.4em}
-[data-lang="both"] .sub .en{display:block;opacity:.85}
+/* ── 語言:每個 .lg span 是一個語言的字,一次全渲染進 DOM。顯示哪個、主或副,
+   由 <html data-main/data-sub> 的 CSS 決定 —— 切語言零重繪。隱藏的字剛好不會被 Ctrl+F
+   找到、不進無障礙樹。主在前副在後靠 flex order,故雙語容器需 flex。
+   五個語言選擇器用 :is() 收成一組,加語言就在這兩行各加一個。 */
+.lg{display:none}
+:is([data-main="zh"] .zh,[data-main="en"] .en,[data-main="zhs"] .zhs,[data-main="ja"] .ja,[data-main="ko"] .ko){
+  display:revert;order:0}
+:is([data-sub="zh"] .zh,[data-sub="en"] .en,[data-sub="zhs"] .zhs,[data-sub="ja"] .ja,[data-sub="ko"] .ko){
+  display:revert;order:1;font-weight:400;color:var(--muted)}
+
+/* 雙語容器:flex 讓主前副後,並在兩者間留空隙(否則「原始叢林Wildwood」黏一起) */
+.set-name,.perk-name,.src,.col>summary .t,#groups h3,.ntb-wrap h2,.ntb,.exports h2{
+  display:flex;flex-wrap:wrap;align-items:baseline;column-gap:.4em}
+
+/* 行內名稱的副語言:縮小 + 括號 */
+:is(.set-name,.perk-name,.src,.col>summary .t) :is([data-sub="zh"] .zh,[data-sub="en"] .en,[data-sub="zhs"] .zhs,[data-sub="ja"] .ja,[data-sub="ko"] .ko){
+  font-size:.74em}
+:is(.set-name,.perk-name,.src,.col>summary .t) :is([data-sub="zh"] .zh,[data-sub="en"] .en,[data-sub="zhs"] .zhs,[data-sub="ja"] .ja,[data-sub="ko"] .ko)::before{content:"("}
+:is(.set-name,.perk-name,.src,.col>summary .t) :is([data-sub="zh"] .zh,[data-sub="en"] .en,[data-sub="zhs"] .zhs,[data-sub="ja"] .ja,[data-sub="ko"] .ko)::after{content:")"}
+
+/* 說明:主副各佔一行(<p> block —— 全域副規則的 revert 已讓它是 block)。副語言小一級、換色。
+   .perk 是 grid,order 自動讓主的說明排在副的上面。 */
+p.desc{margin:0}
+:is([data-sub="zh"] p.desc.zh,[data-sub="en"] p.desc.en,[data-sub="zhs"] p.desc.zhs,[data-sub="ja"] p.desc.ja,[data-sub="ko"] p.desc.ko){
+  font-size:.88em;color:var(--desc-en);margin-top:.15rem}
+
+/* ── chrome(靜態 UI 文字,B3a 暫以中/英墊底;B3b 會換成 .lg 五語)── */
+.zh:not(.lg),.en:not(.lg){display:none}
+:is([data-main="zh"],[data-main="zhs"]) .zh:not(.lg){display:revert}
+:is([data-main="en"],[data-main="ja"],[data-main="ko"]) .en:not(.lg){display:revert}
 
 /* .shell 讓篩選面板與底下的欄位卡片對齊 —— #results 有 padding:0 1rem,所以它的
    子元素比 820px 容器窄 2rem;面板若直接吃 820px 就會比其他區塊寬一圈。 */
@@ -84,9 +84,9 @@ h1,h2,h3{margin:0;line-height:1.3}
 .bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;
   padding:.55rem 1rem;background:color-mix(in srgb,var(--bg) 92%,transparent);
   backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-/* basis 只決定「多窄才換行」,grow=1 會把剩餘空間吃回來。320px 觸控時 ⓘ 與語言鈕只留得下
-   95px 給搜尋框,basis 大於它就換行,sticky 工具列會變兩層。 */
-#q{flex:1 1 5rem;min-width:0;background:var(--card);border:1px solid var(--line);
+/* basis 只決定「多窄才換行」,grow=1 會把剩餘空間吃回來。5 顆語言鈕(159px)比原本 3 顆寬,
+   320px 時 basis 5rem 會讓搜尋框差幾 px 換行、sticky 工具列變兩層 —— 降到 4rem 剛好留在一層。 */
+#q{flex:1 1 4rem;min-width:0;background:var(--card);border:1px solid var(--line);
   color:var(--txt);border-radius:8px;padding:.45rem .7rem;font:inherit;font-size:.9rem}
 #q::-webkit-search-cancel-button{filter:invert(.6)}
 
@@ -108,11 +108,19 @@ h1,h2,h3{margin:0;line-height:1.3}
 .tip .eg{color:var(--faint)}
 .tip .eg b{color:var(--perk);font-weight:600}
 .tip p+p{margin-top:.5rem}
-.lang{flex:none;display:flex;gap:0;border:1px solid var(--line);border-radius:8px;padding:0;
-  margin:0;background:var(--card);overflow:hidden}
-.lang label{padding:.4rem .6rem;font-size:.82rem;color:var(--muted);cursor:pointer;white-space:nowrap}
-.lang input:checked+label{background:var(--line);color:var(--set)}
-.lang input:focus-visible+label{outline:2px solid var(--focus);outline-offset:-2px}
+.lang{flex:none;display:flex;gap:0;border:1px solid var(--line);border-radius:8px;
+  background:var(--card);overflow:hidden}
+.lang-btn{position:relative;padding:.4rem .55rem;font:inherit;font-size:.82rem;color:var(--muted);
+  background:none;border:0;cursor:pointer;white-space:nowrap;display:grid;place-items:center;
+  transition:background .12s,color .12s}
+.lang-btn:focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
+/* 三態:未選(灰) → 副(灰底) → 主(藍底)。顏色不是唯一線索:角標 ①②(見下)佐證。 */
+.lang-btn[data-role="sub"]{background:var(--line);color:var(--set)}
+.lang-btn[data-role="main"]{background:var(--perk);color:#16181D;font-weight:600}
+/* 角標 ①②:絕對定位不佔寬度;順便暗示「這裡可以有兩個」 */
+.lang-btn[data-role]::after{position:absolute;top:1px;right:2px;font-size:.62em;font-weight:700;line-height:1}
+.lang-btn[data-role="main"]::after{content:"1";color:#16181D}
+.lang-btn[data-role="sub"]::after{content:"2";color:var(--perk)}
 .btn{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:8px;
   padding:.42rem .7rem;font:inherit;font-size:.82rem;cursor:pointer;white-space:nowrap}
 .btn:hover:not(:disabled){border-color:var(--muted)}
@@ -192,8 +200,11 @@ h1,h2,h3{margin:0;line-height:1.3}
 /* 徽章色塊。「2件/4件」用 data-n + CSS 產生而非中英兩個 span,214 個徽章共省下約 430 個元素。 */
 .pc{background:var(--cc);color:#1a1c22;border-radius:5px;padding:.06rem .34rem;
   font-size:.7rem;font-weight:800;flex:none;letter-spacing:.02em}
-[data-lang="zh"] .pc::after,[data-lang="both"] .pc::after{content:attr(data-n) "件"}
-[data-lang="en"] .pc::after{content:attr(data-n) "pc"}
+/* 件數後綴依主語言 */
+.pc::after{content:attr(data-n) "件"}                    /* zh/zhs 預設 */
+[data-main="en"] .pc::after{content:attr(data-n) "pc"}
+[data-main="ja"] .pc::after{content:attr(data-n) "個"}
+[data-main="ko"] .pc::after{content:attr(data-n) "피스"}
 
 /* perk 用 grid:徽章 grid-row 1/-1 跨滿,純中文 2 列、雙語 3 列都自動對齊,不用 JS */
 .perk{display:grid;grid-template-columns:34px 1fr;gap:.2rem .6rem;align-items:start;
@@ -246,7 +257,7 @@ h1,h2,h3{margin:0;line-height:1.3}
 
 /* ── 觸控:用輸入方式判斷,不用寬度(平板接鍵鼠、桌機接觸控都存在)────── */
 @media (pointer:coarse){
-  .chip,.ntb,.btn,.lang label{min-height:44px}
+  .chip,.ntb,.btn,.lang-btn{min-height:44px}
   .col>summary,.panel>summary{min-height:48px}
   #q{min-height:44px}
   .help{width:44px;height:44px}

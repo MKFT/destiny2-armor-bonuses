@@ -39,23 +39,40 @@ async function boot() {
     panelPref.set(panelWant);
   });
 
-  for (const r of document.querySelectorAll('.lang input'))
-    r.checked = r.value === state.lang;
+  syncLangBtns();
 
   ready = true;
   refresh();
 }
 
+// 語言按鈕的三態外觀:未選 / 副(2) / 主(1)。state.langs 是唯一真相,這裡只反映它。
+function syncLangBtns() {
+  const [main, sub] = state.langs;
+  for (const b of document.querySelectorAll('.lang-btn')) {
+    const id = b.dataset.lang;
+    const role = id === main ? 'main' : id === sub ? 'sub' : '';
+    role ? (b.dataset.role = role) : delete b.dataset.role;
+    b.setAttribute('aria-pressed', String(!!role));
+  }
+}
+
+// 意圖語意:點擊表達「我要這個怎樣」,不是開/關。
+//   點主 → 我只要它(收成純主)   點副 → 我要它當主(互換)   點未選 → 也想看它(成為副,滿了取代副)
+function pickLang(id) {
+  const [main, sub] = state.langs;
+  if (id === main) state.langs = [main];
+  else if (id === sub) state.langs = [sub, main];
+  else if (!main) state.langs = [id];
+  else state.langs = [main, id];
+}
+
 // ── 事件 ───────────────────────────────────────────────────────────────
 document.addEventListener('change', e => {
   if (!ready) return;
-  const t = e.target;
-  if (t.matches('.chips input')) {
+  if (e.target.matches('.chips input')) {
+    const t = e.target;
     t.checked ? state.tags.add(t.value) : state.tags.delete(t.value);
     changed();
-  } else if (t.matches('.lang input')) {
-    state.lang = t.value;
-    changed({ replace: true });
   }
 });
 
@@ -70,6 +87,13 @@ const tip = (on = null) => {
 document.addEventListener('click', e => {
   if (e.target.closest('#q-help')) return tip();
   if (!e.target.closest('#q-tip')) tip(false);
+
+  const lb = e.target.closest('.lang-btn');
+  if (lb) {
+    pickLang(lb.dataset.lang);
+    syncLangBtns();
+    return changed({ replace: true });       // 切語言不塞歷史,跟打字一樣
+  }
 
   const n = e.target.closest('.ntb');
   if (n) {                                   // 單選,可取消
@@ -119,7 +143,7 @@ totop.addEventListener('click', () => {
 addEventListener('hashchange', () => {
   if (!ready) return;
   parseHash(); syncLast();
-  for (const r of document.querySelectorAll('.lang input')) r.checked = r.value === state.lang;
+  syncLangBtns();
   refresh();
 });
 

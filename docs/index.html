@@ -7,14 +7,17 @@
 <meta name="description" content="Destiny 2 全 56 組防具套裝效果的互動查詢表。譯文採用 Bungie 官方 manifest 繁體中文，可依協同效果篩選。">
 <meta name="color-scheme" content="dark">
 <link rel="icon" href="favicon.ico" sizes="any">
-<!-- 在 CSS 生效前先決定語言,避免閃爍(hash 優先於個人偏好) -->
+<!-- 在 CSS 生效前先定主/副語言,避免閃爍。與 state.js 的四層 fallback 同邏輯(URL→偏好→瀏覽器→繁)。 -->
 <script>
-{const d=document.documentElement;
+{const d=document.documentElement, OK=['zh','en','zhs','ja','ko'];
  d.classList.remove('no-js');
+ const nav=(()=>{for(const r of navigator.languages||[navigator.language||'']){const t=r.toLowerCase();
+   if(t.startsWith('zh-tw')||t.startsWith('zh-hant')||t.startsWith('zh-hk'))return'zh';
+   if(t.startsWith('zh'))return'zhs'; if(t.startsWith('ja'))return'ja'; if(t.startsWith('ko'))return'ko';}return'en';})();
+ const parse=s=>{const o=[];for(const x of(s||'').split(',')){if(OK.includes(x)&&!o.includes(x))o.push(x);if(o.length===2)break;}return o;};
  const h=new URLSearchParams(location.hash.slice(1));
- const l=h.get('lang')||localStorage.getItem('d2ab.lang')
-       ||((navigator.language||'').toLowerCase().startsWith('zh')?'zh':'en');
- d.dataset.lang=['zh','en','both'].includes(l)?l:'zh';}
+ let L=parse(h.get('lang')); if(!L.length)L=parse(localStorage.getItem('d2ab.lang')); if(!L.length)L=[nav];
+ d.dataset.main=L[0]; if(L[1])d.dataset.sub=L[1];}
 </script>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -54,12 +57,14 @@
       Multiple words must all match. Separate them with spaces or commas.<br>
       <span class="eg">e.g. <b>distortion weapon</b> — the 3 sets from Distortions with weapon perks</span></p>
   </div>
-  <fieldset class="lang">
-    <legend class="vh">語言 Language</legend>
-    <input type="radio" name="lang" id="lang-zh" value="zh" class="vh"><label for="lang-zh">中文</label>
-    <input type="radio" name="lang" id="lang-en" value="en" class="vh"><label for="lang-en">EN</label>
-    <input type="radio" name="lang" id="lang-both" value="both" class="vh"><label for="lang-both">雙語</label>
-  </fieldset>
+  <!-- 五顆按鈕,主副由點擊順序決定(意圖語意見 main.js)。角標 ①② 標主/副,順便暗示可點兩個。 -->
+  <div class="lang" role="group" aria-label="顯示語言 Display language">
+    <button type="button" class="lang-btn" data-lang="zh" aria-pressed="false" lang="zh-Hant">繁</button>
+    <button type="button" class="lang-btn" data-lang="zhs" aria-pressed="false" lang="zh-Hans">简</button>
+    <button type="button" class="lang-btn" data-lang="ja" aria-pressed="false" lang="ja">日</button>
+    <button type="button" class="lang-btn" data-lang="ko" aria-pressed="false" lang="ko">한</button>
+    <button type="button" class="lang-btn" data-lang="en" aria-pressed="false" lang="en">EN</button>
+  </div>
 </div>
 
 <div class="shell">
