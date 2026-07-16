@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# 精簡下載:只抓更新譯文所需的 2 種定義(英+繁,實測約 5MB),而非整包 manifest。
+# 精簡下載:只抓更新譯文所需的 2 種定義,五語(en/繁/簡/日/韓,實測約 12MB),而非整包 manifest。
 # 需要的定義:DestinyEquipableItemSetDefinition、DestinySandboxPerkDefinition。
 # 一切輸出都進 tools/cache/(.gitignore)。
 set -e
 mkdir -p "$(dirname "$0")/cache"
 cd "$(dirname "$0")/cache"
 UA="Mozilla/5.0 (X11; Linux x86_64) Chrome/126.0 Safari/537.36"
-mkdir -p manifest_en manifest_zhcht
+mkdir -p manifest_en manifest_zhcht manifest_zhchs manifest_ja manifest_ko
 
 # 【每日維護】Destiny 2 維護時,這個端點會回 HTTP 500 + 一段長得像正常 JSON 的錯誤內容
 # ({"ErrorCode":2102,"ErrorStatus":"ApiKeyMissingFromRequest"...} —— 訊息誤導,其實不缺金鑰)。
@@ -36,7 +36,10 @@ import json, urllib.request
 m=json.load(open("manifest.json"))["Response"]["jsonWorldComponentContentPaths"]
 UA={"User-Agent":"Mozilla/5.0"}
 DEFS=["DestinyEquipableItemSetDefinition","DestinySandboxPerkDefinition"]
-for lang,folder in [("en","manifest_en"),("zh-cht","manifest_zhcht")]:
+# manifest 語言碼 → 本機資料夾。resolve.py 靠這些資料夾名找檔,兩邊要一致。
+LANGS=[("en","manifest_en"),("zh-cht","manifest_zhcht"),("zh-chs","manifest_zhchs"),
+       ("ja","manifest_ja"),("ko","manifest_ko")]
+for lang,folder in LANGS:
     for defn in DEFS:
         url="https://www.bungie.net"+m[lang][defn]
         dst=f"{folder}/{defn}.json"
@@ -46,5 +49,5 @@ for lang,folder in [("en","manifest_en"),("zh-cht","manifest_zhcht")]:
         open(dst+".tmp","wb").write(data)
         import os; os.replace(dst+".tmp", dst)
         print("  下載", dst)
-print("完成(只抓 4 個定義)")
+print(f"完成(抓了 {len(LANGS)} 語 × {len(DEFS)} 定義)")
 PY

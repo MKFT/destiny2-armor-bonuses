@@ -16,10 +16,17 @@ SRC=os.path.join(ROOT,"src")
 DOCS=os.path.join(ROOT,"docs")
 
 resolved=json.load(open(os.path.join(CACHE,"derived","resolved.json"),encoding="utf-8"))
-by_en={r["name_en"]:r for r in resolved}
+by_en={r["name"]["en"]:r for r in resolved}
 # 手工資料:協同圖示(人工辨識)與技能徽章對應。兩者的鍵規則不同,在此一次解決。
 SYN=json.load(open(os.path.join(SRC,"synergy_icons.json"),encoding="utf-8"))
 PERKICONS=json.load(open(os.path.join(SRC,"perk_icons.json"),encoding="utf-8"))
+# 三語疊加(zhs/ja/ko),由 tools/gen_labels.py 產生。en/zh 一律以下方表格為準,此檔只補新語言。
+I18N=json.load(open(os.path.join(SRC,"labels_i18n.json"),encoding="utf-8"))
+def tt(en, zh, overlay):
+    """組語言物件:en/zh 用表格值,zhs/ja/ko 從 overlay(以 en 或 id 為鍵)取。"""
+    b={"en":en,"zh":zh}
+    if overlay: b.update(overlay)
+    return b
 
 # 欄位分組 + 高數值來源(來自資訊圖,manifest 無此資料)。名稱為官方現行英文名。
 COLUMNS=[
@@ -223,15 +230,15 @@ def write_zh():
         for n,src in sets:
             r=by_en[n]
             L.append("")
-            L.append(f"■ {r['name_zh']}（{disp(n)}）")
+            L.append(f"■ {r['name']['zh']}（{disp(n)}）")
             L.append(f"   高數值來源:{src_zh(src)}  ({src})")
             for p in r["perks"]:
-                L.append(f"   {p['count']}件 | {p['name_zh']}（{p['name_en']}）")
-                L.append(f"       {' '.join(p['desc_zh'].split())}")
+                L.append(f"   {p['count']}件 | {p['name']['zh']}（{p['name']['en']}）")
+                L.append(f"       {' '.join(p['desc']['zh'].split())}")
     L.append("");L.append("━"*60);L.append("【NOTABLE SYNERGIES — 顯著協同】");L.append("━"*60)
     for czh,cen,ss in NOTABLE:
         L.append(f"[{czh} {cen}]")
-        L.append("    "+"、".join(f"{by_en[x]['name_zh']}（{disp(x)}）" for x in ss))
+        L.append("    "+"、".join(f"{by_en[x]['name']['zh']}（{disp(x)}）" for x in ss))
     open(os.path.join(DOCS,"exports","destiny2_armor_bonuses_zhTW.txt"),"w",encoding="utf-8").write("\n".join(L)+"\n")
 
 # ---- 英文版 ----
@@ -248,8 +255,8 @@ def write_en():
             L.append(f"{disp(n)}")
             L.append(f"   HIGH STAT SOURCE: {src}")
             for p in r["perks"]:
-                L.append(f"   {p['count']} Piece | {p['name_en']}")
-                L.append(f"       {' '.join(p['desc_en'].split())}")
+                L.append(f"   {p['count']} Piece | {p['name']['en']}")
+                L.append(f"       {' '.join(p['desc']['en'].split())}")
     L.append("");L.append("[NOTABLE SYNERGIES]")
     for _,cen,ss in NOTABLE:
         L.append(f"  {cen}: "+", ".join(disp(x) for x in ss))
@@ -265,13 +272,13 @@ def write_bi():
         for n,src in sets:
             r=by_en[n]
             L.append("")
-            L.append(f"■ {disp(n)}  |  {r['name_zh']}")
+            L.append(f"■ {disp(n)}  |  {r['name']['zh']}")
             L.append(f"   SOURCE 高數值來源: {src}")
             L.append(f"                     {src_zh(src)}")
             for p in r["perks"]:
-                L.append(f"   ── {p['count']} Piece | {p['name_en']}  ({p['name_zh']})")
-                L.append(f"      EN: {' '.join(p['desc_en'].split())}")
-                L.append(f"      中: {' '.join(p['desc_zh'].split())}")
+                L.append(f"   ── {p['count']} Piece | {p['name']['en']}  ({p['name']['zh']})")
+                L.append(f"      EN: {' '.join(p['desc']['en'].split())}")
+                L.append(f"      中: {' '.join(p['desc']['zh'].split())}")
     open(os.path.join(DOCS,"exports","destiny2_armor_bonuses_bilingual.txt"),"w",encoding="utf-8").write("\n".join(L)+"\n")
 
 # ---- 圖例 sprite(網站用)----
@@ -324,28 +331,27 @@ def stamp_exports():
 # 加語言 = 往這些物件多塞一個 key,兩個消費端(make_image / 網頁)不必再改。
 def write_site():
     out={"manifest_version":MANIFEST_VER,
-         "groups":[{"id":g,"label":{"en":gen,"zh":gzh}} for g,gzh,gen,_ in KEY],
-         "key":[{"id":LABEL2ID[en],"label":{"en":en,"zh":zh},"group":g,
+         "groups":[{"id":g,"label":tt(gen,gzh,I18N["groups"].get(g))} for g,gzh,gen,_ in KEY],
+         "key":[{"id":LABEL2ID[en],"label":tt(en,zh,I18N["key"].get(en)),"group":g,
                  "icon":f"assets/icons/icon_{i+1:02d}.png"}
                 for i,(g,en,zh) in enumerate(KEY_FLAT)],
          "columns":[], "notable":[], "exports":[]}
     for cid,tzh,ten,sets in COLUMNS:
-        col={"id":cid,"title":{"en":ten,"zh":tzh},"sets":[]}
+        col={"id":cid,"title":tt(ten,tzh,I18N["columns"].get(cid)),"sets":[]}
         for n,src in sets:
             r=by_en[n]; sy=SYN[normset(n)]; pi=PERKICONS[disp(n)]
             syn={c:[LABEL2ID[l] for l in sy[c]] for c in ("2","4")}
+            # 套裝名/技能名/說明的五語直接來自 resolved.json(官方 manifest,不經疊加檔)
             col["sets"].append({
-                "id":slug(disp(n)), "name":{"en":disp(n),"zh":r["name_zh"]},
-                "source":{"en":src,"zh":src_zh(src)},
+                "id":slug(disp(n)), "name":{**r["name"],"en":disp(n)},
+                "source":tt(src,src_zh(src),I18N["src"].get(src)),
                 "tags":sorted(set(syn["2"])|set(syn["4"])),
                 "synergy":syn,
-                "perks":[{"count":p["count"],
-                          "name":{"en":p["name_en"],"zh":p["name_zh"]},
-                          "desc":{"en":p["desc_en"],"zh":p["desc_zh"]},
+                "perks":[{"count":p["count"],"name":p["name"],"desc":p["desc"],
                           "icon":"assets/perkicons/"+pi[str(p["count"])]} for p in r["perks"]]})
         out["columns"].append(col)
     for czh,cen,ss in NOTABLE:
-        out["notable"].append({"id":slug(cen),"category":{"en":cen,"zh":czh},
+        out["notable"].append({"id":slug(cen),"category":tt(cen,czh,I18N["key"].get(cen)),
                                "set_ids":[slug(disp(x)) for x in ss]})
     out["exports"]=build_exports()
     json.dump(out,open(os.path.join(DOCS,"data","site.json"),"w",encoding="utf-8"),

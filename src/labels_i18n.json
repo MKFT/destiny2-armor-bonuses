@@ -1,0 +1,495 @@
+{
+ "key": {
+  "SOLAR": {
+   "zhs": "烈日",
+   "ja": "ソーラー",
+   "ko": "태양"
+  },
+  "VOID": {
+   "zhs": "虚空",
+   "ja": "ボイド",
+   "ko": "공허"
+  },
+  "ARC": {
+   "zhs": "电弧",
+   "ja": "アーク",
+   "ko": "전기"
+  },
+  "STASIS": {
+   "zhs": "冰影",
+   "ja": "ステイシス",
+   "ko": "시공"
+  },
+  "STRAND": {
+   "zhs": "缚丝",
+   "ja": "ストランド",
+   "ko": "초월"
+  },
+  "PRISMATIC": {
+   "zhs": "棱镜",
+   "ja": "プリズム",
+   "ko": "프리즘"
+  },
+  "KINETIC": {
+   "zhs": "动能",
+   "ja": "キネティック",
+   "ko": "물리"
+  },
+  "SUPER": {
+   "zhs": "超能",
+   "ja": "スーパースキル",
+   "ko": "궁극기"
+  },
+  "GRENADE": {
+   "zhs": "手雷",
+   "ja": "グレネード",
+   "ko": "수류탄"
+  },
+  "MELEE": {
+   "zhs": "近战",
+   "ja": "近接",
+   "ko": "근접 공격"
+  },
+  "CLASS ABILITY": {
+   "zhs": "职业",
+   "ja": "クラス",
+   "ko": "직업"
+  },
+  "ALL ABILITIES": {
+   "zhs": "所有技能",
+   "ja": "全てのスキル",
+   "ko": "모든 능력"
+  },
+  "ORBS OF POWER": {
+   "zhs": "能量球",
+   "ja": "力のオーブ",
+   "ko": "힘의 보주"
+  },
+  "ELEMENTAL PICKUPS": {
+   "zhs": "元素拾取物",
+   "ja": "属性オブジェクト",
+   "ko": "원소 결정체"
+  },
+  "ALL AMMO": {
+   "zhs": "所有弹药",
+   "ja": "全ての弾薬",
+   "ko": "모든 탄약"
+  },
+  "SPECIAL AMMO": {
+   "zhs": "特殊弹药",
+   "ja": "特殊弾",
+   "ko": "특수 탄약"
+  },
+  "HEAVY AMMO": {
+   "zhs": "重型弹药",
+   "ja": "重弾",
+   "ko": "중화기 탄약"
+  },
+  "FINISHERS": {
+   "zhs": "终结技",
+   "ja": "フィニッシャー",
+   "ko": "필살기"
+  },
+  "DISORIENT": {
+   "zhs": "迷失",
+   "ja": "混乱",
+   "ko": "교란"
+  },
+  "EXHAUST": {
+   "zhs": "疲惫",
+   "ja": "疲労",
+   "ko": "탈진"
+  },
+  "HEALING": {
+   "zhs": "治疗",
+   "ja": "回復",
+   "ko": "치료"
+  },
+  "SURVIVABILITY": {
+   "zhs": "生存能力",
+   "ja": "生存力",
+   "ko": "생존력"
+  },
+  "LIGHT": {
+   "zhs": "光能",
+   "ja": "光",
+   "ko": "빛"
+  },
+  "DARKNESS": {
+   "zhs": "暗影",
+   "ja": "暗黒",
+   "ko": "어둠"
+  },
+  "ARMOR CHARGE": {
+   "zhs": "护甲充能",
+   "ja": "アーマーチャージ",
+   "ko": "방어구 충전"
+  },
+  "HEALTH STAT": {
+   "zhs": "生命值",
+   "ja": "体力",
+   "ko": "생명력"
+  },
+  "WEAPON STAT": {
+   "zhs": "武器数值",
+   "ja": "武器ステータス",
+   "ko": "무기 능력치"
+  },
+  "MOBILITY": {
+   "zhs": "机动能力",
+   "ja": "機動性",
+   "ko": "기동성"
+  },
+  "WEAPONS": {
+   "zhs": "武器",
+   "ja": "武器",
+   "ko": "무기"
+  },
+  "SWORDS": {
+   "zhs": "刀剑",
+   "ja": "剣",
+   "ko": "검"
+  },
+  "GLAIVES": {
+   "zhs": "偃月",
+   "ja": "グレイブ",
+   "ko": "월도"
+  },
+  "ROCKETS": {
+   "zhs": "火箭发射器",
+   "ja": "ロケットランチャー",
+   "ko": "로켓 발사기"
+  },
+  "GRENADE LAUNCHERS": {
+   "zhs": "榴弹发射器",
+   "ja": "グレネードランチャー",
+   "ko": "유탄 발사기"
+  },
+  "AUTO RIFLES": {
+   "zhs": "自动步枪",
+   "ja": "オートライフル",
+   "ko": "자동 소총"
+  },
+  "SIDEARMS": {
+   "zhs": "手枪",
+   "ja": "ピストル",
+   "ko": "보조 무기"
+  },
+  "SCOUT RIFLES": {
+   "zhs": "斥候步枪",
+   "ja": "スカウトライフル",
+   "ko": "정찰 소총"
+  },
+  "SMGS": {
+   "zhs": "微型冲锋枪",
+   "ja": "サブマシンガン",
+   "ko": "기관단총"
+  },
+  "HAND CANNONS": {
+   "zhs": "手炮",
+   "ja": "ハンドキャノン",
+   "ko": "핸드 캐논"
+  },
+  "BOWS": {
+   "zhs": "弓箭",
+   "ja": "弓",
+   "ko": "활"
+  },
+  "FUSION RIFLES": {
+   "zhs": "融合步枪",
+   "ja": "フュージョンライフル",
+   "ko": "융합 소총"
+  },
+  "LINEAR FUSION RIFLES": {
+   "zhs": "线性融合步枪",
+   "ja": "リニア・フュージョンライフル",
+   "ko": "선형 융합 소총"
+  },
+  "SHOTGUNS": {
+   "zhs": "霰弹枪",
+   "ja": "ショットガン",
+   "ko": "산탄총"
+  },
+  "HEAT WEAPONS": {
+   "zhs": "热能武器",
+   "ja": "熱武器",
+   "ko": "열 무기"
+  },
+  "MICRO MISSILES": {
+   "zhs": "微型导弹",
+   "ja": "マイクロミサイル",
+   "ko": "마이크로 미사일"
+  },
+  "AMMO": {
+   "zhs": "弹药",
+   "ja": "弾薬",
+   "ko": "탄약"
+  }
+ },
+ "groups": {
+  "element": {
+   "zhs": "元素",
+   "ja": "エレメント",
+   "ko": "속성"
+  },
+  "ability": {
+   "zhs": "技能",
+   "ja": "スキル",
+   "ko": "능력"
+  },
+  "pickup": {
+   "zhs": "拾取物与状态",
+   "ja": "取得物と状態",
+   "ko": "획득물과 상태"
+  },
+  "stat": {
+   "zhs": "生存与数值",
+   "ja": "生存と数値",
+   "ko": "생존과 수치"
+  },
+  "weapon": {
+   "zhs": "武器",
+   "ja": "武器",
+   "ko": "무기"
+  }
+ },
+ "columns": {
+  "world": {
+   "zhs": "世界/遗落之地",
+   "ja": "世界/ロストセクター",
+   "ko": "세계/로스트 섹터"
+  },
+  "vanguard": {
+   "zhs": "先锋/熔炉聚焦",
+   "ja": "バンガード/るつぼフォーカス",
+   "ko": "뱅가드/크루시블 포커싱"
+  },
+  "crucible": {
+   "zhs": "熔炉 PvP",
+   "ja": "るつぼ PvP",
+   "ko": "크루시블 PvP"
+  },
+  "dungeon": {
+   "zhs": "地城",
+   "ja": "ダンジョン",
+   "ko": "던전"
+  },
+  "raid": {
+   "zhs": "突袭",
+   "ja": "レイド",
+   "ko": "레이드"
+  }
+ },
+ "src": {
+  "COMPETITIVE CRUCIBLE": {
+   "zhs": "竞赛对战熔炉",
+   "ja": "競技るつぼ",
+   "ko": "경쟁전 크루시블"
+  },
+  "CRUCIBLE FOCUSING": {
+   "zhs": "熔炉专注",
+   "ja": "るつぼフォーカス",
+   "ko": "크루시블 포커싱"
+  },
+  "DESERT PERPETUAL RAID WITH FEATS": {
+   "zhs": "永久沙漠突袭 (含功绩)",
+   "ja": "永劫の砂漠レイド (偉業付き)",
+   "ko": "영원한 사막 레이드 (위업 포함)"
+  },
+  "DISTORTIONS / MASTER LOST SECTORS: COSMODROME": {
+   "zhs": "扭曲 / 大师遗落之地:发射基地",
+   "ja": "歪み / マスター・ロストセクター:コスモドローム",
+   "ko": "왜곡 / 마스터 로스트 섹터:발사 기지"
+  },
+  "DISTORTIONS / MASTER LOST SECTORS: DREAMING CITY": {
+   "zhs": "扭曲 / 大师遗落之地:幽梦之城",
+   "ja": "歪み / マスター・ロストセクター:夢見る都市",
+   "ko": "왜곡 / 마스터 로스트 섹터:꿈의 도시"
+  },
+  "DISTORTIONS / MASTER LOST SECTORS: EDZ": {
+   "zhs": "扭曲 / 大师遗落之地:EDZ",
+   "ja": "歪み / マスター・ロストセクター:EDZ",
+   "ko": "왜곡 / 마스터 로스트 섹터:EDZ"
+  },
+  "DISTORTIONS / MASTER LOST SECTORS: EUROPA": {
+   "zhs": "扭曲 / 大师遗落之地:木卫二",
+   "ja": "歪み / マスター・ロストセクター:エウロパ",
+   "ko": "왜곡 / 마스터 로스트 섹터:유로파"
+  },
+  "DISTORTIONS / MASTER LOST SECTORS: MOON": {
+   "zhs": "扭曲 / 大师遗落之地:月球",
+   "ja": "歪み / マスター・ロストセクター:月",
+   "ko": "왜곡 / 마스터 로스트 섹터:달"
+  },
+  "DISTORTIONS / MASTER LOST SECTORS: NESSUS": {
+   "zhs": "扭曲 / 大师遗落之地:涅索斯轨道",
+   "ja": "歪み / マスター・ロストセクター:ネッススのオービット",
+   "ko": "왜곡 / 마스터 로스트 섹터:네소스 궤도"
+  },
+  "DISTORTIONS / MASTER LOST SECTORS: THRONE WORLD": {
+   "zhs": "扭曲 / 大师遗落之地:萨瓦图恩的王座世界",
+   "ja": "歪み / マスター・ロストセクター:サバスンの玉座の世界",
+   "ko": "왜곡 / 마스터 로스트 섹터:사바툰의 왕좌 세계"
+  },
+  "EPIC DESERT PERPETUAL RAID WITH FEATS": {
+   "zhs": "史诗永久沙漠突袭 (含功绩)",
+   "ja": "エピック永劫の砂漠レイド (偉業付き)",
+   "ko": "서사 영원한 사막 레이드 (위업 포함)"
+  },
+  "EQUILIBRIUM DUNGEON WITH FEATS ENABLED": {
+   "zhs": "平衡之境地城 (启用功绩)",
+   "ja": "イクリブリアムダンジョン (偉業有効)",
+   "ko": "평형 던전 (위업 활성화)"
+  },
+  "FEATURED DUNGEON: PIT OF HERESY": {
+   "zhs": "精选地城:异端深渊",
+   "ja": "注目ダンジョン:異端の奈落",
+   "ko": "주요 던전:이단의 구덩이"
+  },
+  "FEATURED DUNGEON: PROPHECY": {
+   "zhs": "精选地城:预言",
+   "ja": "注目ダンジョン:予言",
+   "ko": "주요 던전:예언"
+  },
+  "FEATURED DUNGEON: SHATTERED THRONE": {
+   "zhs": "精选地城:破碎王座",
+   "ja": "注目ダンジョン:砕かれた玉座",
+   "ko": "주요 던전:조각난 왕관"
+  },
+  "FEATURED OR MASTER DUNGEON: DUALITY": {
+   "zhs": "精选或大师地城:二象性",
+   "ja": "注目またはマスターダンジョン:デュアリティ",
+   "ko": "주요 또는 마스터 던전:이중성"
+  },
+  "FEATURED OR MASTER DUNGEON: GHOSTS OF THE DEEP": {
+   "zhs": "精选或大师地城:深渊机灵",
+   "ja": "注目またはマスターダンジョン:深淵の亡霊",
+   "ko": "주요 또는 마스터 던전:심해의 유령"
+  },
+  "FEATURED OR MASTER DUNGEON: GRASP OF AVARICE": {
+   "zhs": "精选或大师地城:贪婪之握",
+   "ja": "注目またはマスターダンジョン:強欲の支配",
+   "ko": "주요 또는 마스터 던전:탐욕의 손아귀"
+  },
+  "FEATURED OR MASTER DUNGEON: SPIRE OF THE WATCHER": {
+   "zhs": "精选或大师地城:守望者尖塔",
+   "ja": "注目またはマスターダンジョン:監視者のスパイア",
+   "ko": "주요 또는 마스터 던전:감시자의 첨탑"
+  },
+  "FEATURED OR MASTER DUNGEON: SUNDERED DOCTRINE": {
+   "zhs": "精选或大师地城:分离教义",
+   "ja": "注目またはマスターダンジョン:経典の潰滅",
+   "ko": "주요 또는 마스터 던전:찢어낸 교리"
+  },
+  "FEATURED OR MASTER DUNGEON: VESPER'S HOST": {
+   "zhs": "精选或大师地城:晚星之主",
+   "ja": "注目またはマスターダンジョン:べスパーの宿主",
+   "ko": "주요 또는 마스터 던전:베스퍼의 주인"
+  },
+  "FEATURED OR MASTER DUNGEON: WARLORDS RUIN": {
+   "zhs": "精选或大师地城:战争领主的废墟",
+   "ja": "注目またはマスターダンジョン:ウォーロードの旧跡",
+   "ko": "주요 또는 마스터 던전:전쟁군주의 폐허"
+  },
+  "FEATURED OR MASTER RAID: CROTA'S END": {
+   "zhs": "精选或大师突袭:克洛塔的末日",
+   "ja": "注目またはマスターレイド:クロタの最期",
+   "ko": "주요 또는 마스터 레이드:크로타의 최후"
+  },
+  "FEATURED OR MASTER RAID: DEEP STONE CRYPT": {
+   "zhs": "精选或大师突袭:深岩墓室",
+   "ja": "注目またはマスターレイド:ディープストーン・クリプト",
+   "ko": "주요 또는 마스터 레이드:딥스톤 무덤"
+  },
+  "FEATURED OR MASTER RAID: GARDEN OF SALVATION": {
+   "zhs": "精选或大师突袭:救赎花园",
+   "ja": "注目またはマスターレイド:救済の庭園",
+   "ko": "주요 또는 마스터 레이드:구원의 정원"
+  },
+  "FEATURED OR MASTER RAID: KING'S FALL": {
+   "zhs": "精选或大师突袭:国王的陨落",
+   "ja": "注目またはマスターレイド:邪神、滅びる",
+   "ko": "주요 또는 마스터 레이드:왕의 몰락"
+  },
+  "FEATURED OR MASTER RAID: LAST WISH": {
+   "zhs": "精选或大师突袭:最后一愿",
+   "ja": "注目またはマスターレイド:最後の望み",
+   "ko": "주요 또는 마스터 레이드:마지막 소원"
+  },
+  "FEATURED OR MASTER RAID: ROOT OF NIGHTMARES": {
+   "zhs": "精选或大师突袭:梦魇根源",
+   "ja": "注目またはマスターレイド:ナイトメアの根源",
+   "ko": "주요 또는 마스터 레이드:악몽의 뿌리"
+  },
+  "FEATURED OR MASTER RAID: SALVATION'S EDGE": {
+   "zhs": "精选或大师突袭:救赎的边缘",
+   "ja": "注目またはマスターレイド:救済の境界",
+   "ko": "주요 또는 마스터 레이드:구원의 경계"
+  },
+  "FEATURED OR MASTER RAID: VAULT OF GLASS": {
+   "zhs": "精选或大师突袭:玻璃拱顶",
+   "ja": "注目またはマスターレイド:ガラスの間",
+   "ko": "주요 또는 마스터 레이드:유리 금고"
+  },
+  "FEATURED OR MASTER RAID: VOW OF THE DISCIPLE": {
+   "zhs": "精选或大师突袭:门徒誓约",
+   "ja": "注目またはマスターレイド:門弟の誓い",
+   "ko": "주요 또는 마스터 레이드:신봉자의 서약"
+  },
+  "GAMBIT": {
+   "zhs": "千谋百计",
+   "ja": "ギャンビット",
+   "ko": "갬빗"
+  },
+  "GRANDMASTER LAWLESS FRONTIER JOBS": {
+   "zhs": "宗师无序边疆委托",
+   "ja": "グランドマスター・無法フロンティア依頼",
+   "ko": "그랜드마스터 무법 변경 임무"
+  },
+  "IRON BANNER": {
+   "zhs": "钢铁旗帜",
+   "ja": "アイアンバナー",
+   "ko": "철기 깃발"
+  },
+  "MASTER LOST SECTORS / OVERRIDE: NEOMUNA": {
+   "zhs": "大师遗落之地 / 覆写行动:内欧姆那",
+   "ja": "マスター・ロストセクター / オーバーライド:ネオムナ",
+   "ko": "마스터 로스트 섹터 / 오버라이드:네오무나"
+  },
+  "MASTER LOST SECTORS / OVERTHROW: PALE HEART": {
+   "zhs": "大师遗落之地 / 推翻:苍白之心",
+   "ja": "マスター・ロストセクター / オーバースロー:ペイルハート",
+   "ko": "마스터 로스트 섹터 / 전복:창백한 심장"
+  },
+  "PANTHEON RAIDS WITH FEATS": {
+   "zhs": "万神殿突袭S (含功绩)",
+   "ja": "パンテオンレイドS (偉業付き)",
+   "ko": "판테온 레이드S (위업 포함)"
+  },
+  "SPARROW RACING": {
+   "zhs": "快雀竞速",
+   "ja": "スパロウレース",
+   "ko": "스패로우 레이싱"
+  },
+  "TENET OF BRAVERY FOCUSING": {
+   "zhs": "勇敢教条专注",
+   "ja": "勇気の信条フォーカス",
+   "ko": "용맹의 교리 포커싱"
+  },
+  "THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER": {
+   "zhs": "筛网 / 神话探索 / 装备专注:开普勒",
+   "ja": "ザ・シーヴ / 神話探索 / ギアフォーカス:ケプラー",
+   "ko": "시브 / 신화 탐험 / 장비 포커싱:케플러"
+  },
+  "TRIALS OF OSIRIS": {
+   "zhs": "欧西里斯的试炼",
+   "ja": "オシリスの試練",
+   "ko": "오시리스의 시련"
+  },
+  "VANGUARD FOCUSING": {
+   "zhs": "先锋专注",
+   "ja": "バンガードフォーカス",
+   "ko": "뱅가드 포커싱"
+  }
+ }
+}

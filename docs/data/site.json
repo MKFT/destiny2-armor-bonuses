@@ -5,35 +5,50 @@
       "id": "element",
       "label": {
         "en": "Element",
-        "zh": "元素"
+        "zh": "元素",
+        "zhs": "元素",
+        "ja": "エレメント",
+        "ko": "속성"
       }
     },
     {
       "id": "ability",
       "label": {
         "en": "Ability",
-        "zh": "技能"
+        "zh": "技能",
+        "zhs": "技能",
+        "ja": "スキル",
+        "ko": "능력"
       }
     },
     {
       "id": "pickup",
       "label": {
         "en": "Pickups & States",
-        "zh": "拾取物與狀態"
+        "zh": "拾取物與狀態",
+        "zhs": "拾取物与状态",
+        "ja": "取得物と状態",
+        "ko": "획득물과 상태"
       }
     },
     {
       "id": "stat",
       "label": {
         "en": "Survivability & Stats",
-        "zh": "生存與數值"
+        "zh": "生存與數值",
+        "zhs": "生存与数值",
+        "ja": "生存と数値",
+        "ko": "생존과 수치"
       }
     },
     {
       "id": "weapon",
       "label": {
         "en": "Weapons",
-        "zh": "武器"
+        "zh": "武器",
+        "zhs": "武器",
+        "ja": "武器",
+        "ko": "무기"
       }
     }
   ],
@@ -42,7 +57,10 @@
       "id": "solar",
       "label": {
         "en": "SOLAR",
-        "zh": "灼燒"
+        "zh": "灼燒",
+        "zhs": "烈日",
+        "ja": "ソーラー",
+        "ko": "태양"
       },
       "group": "element",
       "icon": "assets/icons/icon_01.png"
@@ -51,7 +69,10 @@
       "id": "void",
       "label": {
         "en": "VOID",
-        "zh": "虛空"
+        "zh": "虛空",
+        "zhs": "虚空",
+        "ja": "ボイド",
+        "ko": "공허"
       },
       "group": "element",
       "icon": "assets/icons/icon_02.png"
@@ -60,7 +81,10 @@
       "id": "arc",
       "label": {
         "en": "ARC",
-        "zh": "電弧"
+        "zh": "電弧",
+        "zhs": "电弧",
+        "ja": "アーク",
+        "ko": "전기"
       },
       "group": "element",
       "icon": "assets/icons/icon_03.png"
@@ -69,7 +93,10 @@
       "id": "stasis",
       "label": {
         "en": "STASIS",
-        "zh": "冰凝"
+        "zh": "冰凝",
+        "zhs": "冰影",
+        "ja": "ステイシス",
+        "ko": "시공"
       },
       "group": "element",
       "icon": "assets/icons/icon_04.png"
@@ -78,7 +105,10 @@
       "id": "strand",
       "label": {
         "en": "STRAND",
-        "zh": "縈絲"
+        "zh": "縈絲",
+        "zhs": "缚丝",
+        "ja": "ストランド",
+        "ko": "초월"
       },
       "group": "element",
       "icon": "assets/icons/icon_05.png"
@@ -87,7 +117,10 @@
       "id": "prismatic",
       "label": {
         "en": "PRISMATIC",
-        "zh": "稜鏡"
+        "zh": "稜鏡",
+        "zhs": "棱镜",
+        "ja": "プリズム",
+        "ko": "프리즘"
       },
       "group": "element",
       "icon": "assets/icons/icon_06.png"
@@ -96,7 +129,10 @@
       "id": "kinetic",
       "label": {
         "en": "KINETIC",
-        "zh": "動能"
+        "zh": "動能",
+        "zhs": "动能",
+        "ja": "キネティック",
+        "ko": "물리"
       },
       "group": "element",
       "icon": "assets/icons/icon_07.png"
@@ -105,7 +141,10 @@
       "id": "super",
       "label": {
         "en": "SUPER",
-        "zh": "超能力"
+        "zh": "超能力",
+        "zhs": "超能",
+        "ja": "スーパースキル",
+        "ko": "궁극기"
       },
       "group": "ability",
       "icon": "assets/icons/icon_08.png"
@@ -114,7 +153,10 @@
       "id": "grenade",
       "label": {
         "en": "GRENADE",
-        "zh": "手榴彈"
+        "zh": "手榴彈",
+        "zhs": "手雷",
+        "ja": "グレネード",
+        "ko": "수류탄"
       },
       "group": "ability",
       "icon": "assets/icons/icon_09.png"
@@ -123,7 +165,10 @@
       "id": "melee",
       "label": {
         "en": "MELEE",
-        "zh": "近戰"
+        "zh": "近戰",
+        "zhs": "近战",
+        "ja": "近接",
+        "ko": "근접 공격"
       },
       "group": "ability",
       "icon": "assets/icons/icon_10.png"
@@ -132,7 +177,10 @@
       "id": "class-ability",
       "label": {
         "en": "CLASS ABILITY",
-        "zh": "職業技能"
+        "zh": "職業技能",
+        "zhs": "职业",
+        "ja": "クラス",
+        "ko": "직업"
       },
       "group": "ability",
       "icon": "assets/icons/icon_11.png"
@@ -141,7 +189,10 @@
       "id": "all-abilities",
       "label": {
         "en": "ALL ABILITIES",
-        "zh": "全部技能"
+        "zh": "全部技能",
+        "zhs": "所有技能",
+        "ja": "全てのスキル",
+        "ko": "모든 능력"
       },
       "group": "ability",
       "icon": "assets/icons/icon_12.png"
@@ -150,7 +201,10 @@
       "id": "orbs-of-power",
       "label": {
         "en": "ORBS OF POWER",
-        "zh": "力量球體"
+        "zh": "力量球體",
+        "zhs": "能量球",
+        "ja": "力のオーブ",
+        "ko": "힘의 보주"
       },
       "group": "pickup",
       "icon": "assets/icons/icon_13.png"
@@ -159,7 +213,10 @@
       "id": "elemental-pickups",
       "label": {
         "en": "ELEMENTAL PICKUPS",
-        "zh": "元素拾取物"
+        "zh": "元素拾取物",
+        "zhs": "元素拾取物",
+        "ja": "属性オブジェクト",
+        "ko": "원소 결정체"
       },
       "group": "pickup",
       "icon": "assets/icons/icon_14.png"
@@ -168,7 +225,10 @@
       "id": "all-ammo",
       "label": {
         "en": "ALL AMMO",
-        "zh": "全部彈藥"
+        "zh": "全部彈藥",
+        "zhs": "所有弹药",
+        "ja": "全ての弾薬",
+        "ko": "모든 탄약"
       },
       "group": "pickup",
       "icon": "assets/icons/icon_15.png"
@@ -177,7 +237,10 @@
       "id": "special-ammo",
       "label": {
         "en": "SPECIAL AMMO",
-        "zh": "特殊彈藥"
+        "zh": "特殊彈藥",
+        "zhs": "特殊弹药",
+        "ja": "特殊弾",
+        "ko": "특수 탄약"
       },
       "group": "pickup",
       "icon": "assets/icons/icon_16.png"
@@ -186,7 +249,10 @@
       "id": "heavy-ammo",
       "label": {
         "en": "HEAVY AMMO",
-        "zh": "重型彈藥"
+        "zh": "重型彈藥",
+        "zhs": "重型弹药",
+        "ja": "重弾",
+        "ko": "중화기 탄약"
       },
       "group": "pickup",
       "icon": "assets/icons/icon_17.png"
@@ -195,7 +261,10 @@
       "id": "finishers",
       "label": {
         "en": "FINISHERS",
-        "zh": "終結技"
+        "zh": "終結技",
+        "zhs": "终结技",
+        "ja": "フィニッシャー",
+        "ko": "필살기"
       },
       "group": "pickup",
       "icon": "assets/icons/icon_18.png"
@@ -204,7 +273,10 @@
       "id": "disorient",
       "label": {
         "en": "DISORIENT",
-        "zh": "迷失方向"
+        "zh": "迷失方向",
+        "zhs": "迷失",
+        "ja": "混乱",
+        "ko": "교란"
       },
       "group": "pickup",
       "icon": "assets/icons/icon_19.png"
@@ -213,7 +285,10 @@
       "id": "exhaust",
       "label": {
         "en": "EXHAUST",
-        "zh": "筋疲力盡"
+        "zh": "筋疲力盡",
+        "zhs": "疲惫",
+        "ja": "疲労",
+        "ko": "탈진"
       },
       "group": "pickup",
       "icon": "assets/icons/icon_20.png"
@@ -222,7 +297,10 @@
       "id": "healing",
       "label": {
         "en": "HEALING",
-        "zh": "治療"
+        "zh": "治療",
+        "zhs": "治疗",
+        "ja": "回復",
+        "ko": "치료"
       },
       "group": "stat",
       "icon": "assets/icons/icon_21.png"
@@ -231,7 +309,10 @@
       "id": "survivability",
       "label": {
         "en": "SURVIVABILITY",
-        "zh": "生存能力"
+        "zh": "生存能力",
+        "zhs": "生存能力",
+        "ja": "生存力",
+        "ko": "생존력"
       },
       "group": "stat",
       "icon": "assets/icons/icon_22.png"
@@ -240,7 +321,10 @@
       "id": "light",
       "label": {
         "en": "LIGHT",
-        "zh": "光"
+        "zh": "光",
+        "zhs": "光能",
+        "ja": "光",
+        "ko": "빛"
       },
       "group": "stat",
       "icon": "assets/icons/icon_23.png"
@@ -249,7 +333,10 @@
       "id": "darkness",
       "label": {
         "en": "DARKNESS",
-        "zh": "黑暗"
+        "zh": "黑暗",
+        "zhs": "暗影",
+        "ja": "暗黒",
+        "ko": "어둠"
       },
       "group": "stat",
       "icon": "assets/icons/icon_24.png"
@@ -258,7 +345,10 @@
       "id": "armor-charge",
       "label": {
         "en": "ARMOR CHARGE",
-        "zh": "防具充能"
+        "zh": "防具充能",
+        "zhs": "护甲充能",
+        "ja": "アーマーチャージ",
+        "ko": "방어구 충전"
       },
       "group": "stat",
       "icon": "assets/icons/icon_25.png"
@@ -267,7 +357,10 @@
       "id": "health-stat",
       "label": {
         "en": "HEALTH STAT",
-        "zh": "生命值"
+        "zh": "生命值",
+        "zhs": "生命值",
+        "ja": "体力",
+        "ko": "생명력"
       },
       "group": "stat",
       "icon": "assets/icons/icon_26.png"
@@ -276,7 +369,10 @@
       "id": "weapon-stat",
       "label": {
         "en": "WEAPON STAT",
-        "zh": "武器數值"
+        "zh": "武器數值",
+        "zhs": "武器数值",
+        "ja": "武器ステータス",
+        "ko": "무기 능력치"
       },
       "group": "stat",
       "icon": "assets/icons/icon_27.png"
@@ -285,7 +381,10 @@
       "id": "mobility",
       "label": {
         "en": "MOBILITY",
-        "zh": "機動性"
+        "zh": "機動性",
+        "zhs": "机动能力",
+        "ja": "機動性",
+        "ko": "기동성"
       },
       "group": "stat",
       "icon": "assets/icons/icon_28.png"
@@ -294,7 +393,10 @@
       "id": "weapons",
       "label": {
         "en": "WEAPONS",
-        "zh": "武器"
+        "zh": "武器",
+        "zhs": "武器",
+        "ja": "武器",
+        "ko": "무기"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_29.png"
@@ -303,7 +405,10 @@
       "id": "swords",
       "label": {
         "en": "SWORDS",
-        "zh": "劍"
+        "zh": "劍",
+        "zhs": "刀剑",
+        "ja": "剣",
+        "ko": "검"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_30.png"
@@ -312,7 +417,10 @@
       "id": "glaives",
       "label": {
         "en": "GLAIVES",
-        "zh": "長戈"
+        "zh": "長戈",
+        "zhs": "偃月",
+        "ja": "グレイブ",
+        "ko": "월도"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_31.png"
@@ -321,7 +429,10 @@
       "id": "rockets",
       "label": {
         "en": "ROCKETS",
-        "zh": "火箭筒"
+        "zh": "火箭筒",
+        "zhs": "火箭发射器",
+        "ja": "ロケットランチャー",
+        "ko": "로켓 발사기"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_32.png"
@@ -330,7 +441,10 @@
       "id": "grenade-launchers",
       "label": {
         "en": "GRENADE LAUNCHERS",
-        "zh": "榴彈發射器"
+        "zh": "榴彈發射器",
+        "zhs": "榴弹发射器",
+        "ja": "グレネードランチャー",
+        "ko": "유탄 발사기"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_33.png"
@@ -339,7 +453,10 @@
       "id": "auto-rifles",
       "label": {
         "en": "AUTO RIFLES",
-        "zh": "自動步槍"
+        "zh": "自動步槍",
+        "zhs": "自动步枪",
+        "ja": "オートライフル",
+        "ko": "자동 소총"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_34.png"
@@ -348,7 +465,10 @@
       "id": "sidearms",
       "label": {
         "en": "SIDEARMS",
-        "zh": "手槍"
+        "zh": "手槍",
+        "zhs": "手枪",
+        "ja": "ピストル",
+        "ko": "보조 무기"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_35.png"
@@ -357,7 +477,10 @@
       "id": "scout-rifles",
       "label": {
         "en": "SCOUT RIFLES",
-        "zh": "斥候步槍"
+        "zh": "斥候步槍",
+        "zhs": "斥候步枪",
+        "ja": "スカウトライフル",
+        "ko": "정찰 소총"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_36.png"
@@ -366,7 +489,10 @@
       "id": "smgs",
       "label": {
         "en": "SMGS",
-        "zh": "衝鋒槍"
+        "zh": "衝鋒槍",
+        "zhs": "微型冲锋枪",
+        "ja": "サブマシンガン",
+        "ko": "기관단총"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_37.png"
@@ -375,7 +501,10 @@
       "id": "hand-cannons",
       "label": {
         "en": "HAND CANNONS",
-        "zh": "手持加農砲"
+        "zh": "手持加農砲",
+        "zhs": "手炮",
+        "ja": "ハンドキャノン",
+        "ko": "핸드 캐논"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_38.png"
@@ -384,7 +513,10 @@
       "id": "bows",
       "label": {
         "en": "BOWS",
-        "zh": "弓"
+        "zh": "弓",
+        "zhs": "弓箭",
+        "ja": "弓",
+        "ko": "활"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_39.png"
@@ -393,7 +525,10 @@
       "id": "fusion-rifles",
       "label": {
         "en": "FUSION RIFLES",
-        "zh": "聚合步槍"
+        "zh": "聚合步槍",
+        "zhs": "融合步枪",
+        "ja": "フュージョンライフル",
+        "ko": "융합 소총"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_40.png"
@@ -402,7 +537,10 @@
       "id": "linear-fusion-rifles",
       "label": {
         "en": "LINEAR FUSION RIFLES",
-        "zh": "線性聚合步槍"
+        "zh": "線性聚合步槍",
+        "zhs": "线性融合步枪",
+        "ja": "リニア・フュージョンライフル",
+        "ko": "선형 융합 소총"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_41.png"
@@ -411,7 +549,10 @@
       "id": "shotguns",
       "label": {
         "en": "SHOTGUNS",
-        "zh": "霰彈槍"
+        "zh": "霰彈槍",
+        "zhs": "霰弹枪",
+        "ja": "ショットガン",
+        "ko": "산탄총"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_42.png"
@@ -420,7 +561,10 @@
       "id": "heat-weapons",
       "label": {
         "en": "HEAT WEAPONS",
-        "zh": "熱能武器"
+        "zh": "熱能武器",
+        "zhs": "热能武器",
+        "ja": "熱武器",
+        "ko": "열 무기"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_43.png"
@@ -429,7 +573,10 @@
       "id": "micro-missiles",
       "label": {
         "en": "MICRO MISSILES",
-        "zh": "微型導彈"
+        "zh": "微型導彈",
+        "zhs": "微型导弹",
+        "ja": "マイクロミサイル",
+        "ko": "마이크로 미사일"
       },
       "group": "weapon",
       "icon": "assets/icons/icon_44.png"
@@ -440,18 +587,27 @@
       "id": "world",
       "title": {
         "en": "Distortions & Lost Sectors",
-        "zh": "世界/遺落之地"
+        "zh": "世界/遺落之地",
+        "zhs": "世界/遗落之地",
+        "ja": "世界/ロストセクター",
+        "ko": "세계/로스트 섹터"
       },
       "sets": [
         {
           "id": "wildwood",
           "name": {
             "en": "Wildwood",
-            "zh": "原始叢林"
+            "zh": "原始叢林",
+            "zhs": "野木",
+            "ja": "ワイルドウッド",
+            "ko": "원시림"
           },
           "source": {
             "en": "DISTORTIONS / MASTER LOST SECTORS: EDZ",
-            "zh": "扭曲 / 大師遺落之地:歐洲死區"
+            "zh": "扭曲 / 大師遺落之地:歐洲死區",
+            "zhs": "扭曲 / 大师遗落之地:EDZ",
+            "ja": "歪み / マスター・ロストセクター:EDZ",
+            "ko": "왜곡 / 마스터 로스트 섹터:EDZ"
           },
           "tags": [
             "survivability",
@@ -470,11 +626,17 @@
               "count": 2,
               "name": {
                 "en": "Watchtower",
-                "zh": "守望台"
+                "zh": "守望台",
+                "zhs": "守望塔",
+                "ja": "監視塔",
+                "ko": "감시탑"
               },
               "desc": {
                 "en": "Precision final blows while aiming down sights grant damage resistance until you stop aiming down sights.",
-                "zh": "開鏡瞄準時造成精確最後一擊可提升傷害抗性，直到停止開鏡瞄準為止。"
+                "zh": "開鏡瞄準時造成精確最後一擊可提升傷害抗性，直到停止開鏡瞄準為止。",
+                "zhs": "瞄准时造成精准最后一击会提供伤害抗性，直至你停止瞄准。",
+                "ja": "照準モード中に精密でのトドメを達成すると、照準モードを終了するまでダメージ耐性を獲得する。",
+                "ko": "조준하는 동안 정밀 결정타를 기록하면 조준을 멈출 때까지 피해 저항을 부여합니다."
               },
               "icon": "assets/perkicons/4e2aece7b23761d572a716fa737c5d2d.png"
             },
@@ -482,11 +644,17 @@
               "count": 4,
               "name": {
                 "en": "Field Expertise",
-                "zh": "實地專長"
+                "zh": "實地專長",
+                "zhs": "战地技艺",
+                "ja": "専門分野",
+                "ko": "현장 전문가"
               },
               "desc": {
                 "en": "Precision final blows with any weapon grant a stacking bonus to reload speed, target acquisition, and weapon damage against non-boss combatants for a short duration.\n\nWeapon final blows with non-precision direct hits end this effect early.",
-                "zh": "以任何武器造成精確最後一擊，可在短時間內獲得可疊加的加成，提升填裝速度、目標鎖定，以及對非頭目戰員的武器傷害。\n\n若武器以非精確直接命中造成最後一擊，則會提早結束此效果。"
+                "zh": "以任何武器造成精確最後一擊，可在短時間內獲得可疊加的加成，提升填裝速度、目標鎖定，以及對非頭目戰員的武器傷害。\n\n若武器以非精確直接命中造成最後一擊，則會提早結束此效果。",
+                "zhs": "使用任意武器造成精准最后一击会提供可叠加的增益，在短时间内提升填装速度、目标捕获能力以及对非首领战斗人员造成的武器伤害。\n\n造成非精准直接命中的武器最后一击将提前结束此效果。",
+                "ja": "武器を使って精密攻撃でのトドメを達成すると、短時間、リロード速度、標的捕捉、そして非ボス戦闘員に対する武器ダメージが向上するスタック可能なボーナスを獲得する。\n\n武器の精密攻撃以外の直撃でトドメを刺すと、この効果は中断される。",
+                "ko": "아무 무기로 정밀 결정타를 기록하면 짧은 시간 동안 재장전 속도, 표적 획득, 보스가 아닌 전투원에게 주는 무기 피해에 중첩되는 보너스를 얻습니다.\n\n비정밀 명중으로 무기 결정타를 기록하면 이 효과가 조기에 종료됩니다."
               },
               "icon": "assets/perkicons/5311ea5b6731e151e9778deac078710c.png"
             }
@@ -496,11 +664,17 @@
           "id": "exodus-down",
           "name": {
             "en": "Exodus Down",
-            "zh": "消殞移民"
+            "zh": "消殞移民",
+            "zhs": "移民号陨落",
+            "ja": "エクソダスダウン",
+            "ko": "엑소더스의 추락"
           },
           "source": {
             "en": "DISTORTIONS / MASTER LOST SECTORS: NESSUS",
-            "zh": "扭曲 / 大師遺落之地:涅索斯"
+            "zh": "扭曲 / 大師遺落之地:涅索斯",
+            "zhs": "扭曲 / 大师遗落之地:涅索斯轨道",
+            "ja": "歪み / マスター・ロストセクター:ネッススのオービット",
+            "ko": "왜곡 / 마스터 로스트 섹터:네소스 궤도"
           },
           "tags": [
             "armor-charge",
@@ -523,11 +697,17 @@
               "count": 2,
               "name": {
                 "en": "Emergency Electromagnet",
-                "zh": "緊急電磁鐵"
+                "zh": "緊急電磁鐵",
+                "zhs": "紧急电磁",
+                "ja": "緊急電磁石",
+                "ko": "긴급 전자석"
               },
               "desc": {
                 "en": "When your shields become broken, collect all nearby Orbs of Power and ammo bricks.",
-                "zh": "護盾遭破壞時，自動收集附近所有的力量球體與彈藥磚。"
+                "zh": "護盾遭破壞時，自動收集附近所有的力量球體與彈藥磚。",
+                "zhs": "你的护盾被击破时，自动收集附近所有的能量球与弹药盒。",
+                "ja": "シールドが破壊された場合、周囲の力のオーブと弾薬箱をすべて回収する。",
+                "ko": "방어막이 부서지면 주변의 모든 힘의 보주와 탄약 블록을 획득합니다."
               },
               "icon": "assets/perkicons/8b11633d8026079a0841ca92c211a713.png"
             },
@@ -535,11 +715,17 @@
               "count": 4,
               "name": {
                 "en": "Repurposed Charge",
-                "zh": "充能再利用"
+                "zh": "充能再利用",
+                "zhs": "充能妙用",
+                "ja": "チャージ再利用",
+                "ko": "재가공된 충전"
               },
               "desc": {
                 "en": "Whenever you gain, lose, or spend an Armor Charge, heal and gain damage reduction for a short time.\n\nThis effect scales with the amount of Armor Charge gained, lost, or spent.",
-                "zh": "獲得、失去或消耗防具充能時，治療自己並於短時間內獲得減傷效果。\n\n此效果會根據獲得、失去或消耗的防具充能值而調整。"
+                "zh": "獲得、失去或消耗防具充能時，治療自己並於短時間內獲得減傷效果。\n\n此效果會根據獲得、失去或消耗的防具充能值而調整。",
+                "zhs": "获得、失去或消耗护甲充能时，在短时间内获得治疗和伤害减免。\n\n此效果根据获得、失去和消耗的护甲充能数量而调整。",
+                "ja": "アーマーチャージを獲得、喪失、または消費した場合、体力を回復し、短時間ダメージ軽減を獲得する。\n\nこの効果は、獲得、喪失、または消費したアーマーチャージの数に応じて増加する。",
+                "ko": "방어구 충전을 얻거나 잃거나 소모할 때마다 생명력을 회복하고 짧은 시간 동안 피해 감소 효과를 얻습니다.\n\n이 효과는 얻거나 잃거나 소모한 방어구 충전량에 따라 증가합니다."
               },
               "icon": "assets/perkicons/98a8854b4477cb8a722024a7015dcf89.png"
             }
@@ -549,11 +735,17 @@
           "id": "reverie-dawn",
           "name": {
             "en": "Reverie Dawn",
-            "zh": "臆想黎明"
+            "zh": "臆想黎明",
+            "zhs": "幻梦黎明",
+            "ja": "夢想の夜明け",
+            "ko": "몽상의 여명"
           },
           "source": {
             "en": "DISTORTIONS / MASTER LOST SECTORS: DREAMING CITY",
-            "zh": "扭曲 / 大師遺落之地:千夢之城"
+            "zh": "扭曲 / 大師遺落之地:千夢之城",
+            "zhs": "扭曲 / 大师遗落之地:幽梦之城",
+            "ja": "歪み / マスター・ロストセクター:夢見る都市",
+            "ko": "왜곡 / 마스터 로스트 섹터:꿈의 도시"
           },
           "tags": [
             "healing",
@@ -576,11 +768,17 @@
               "count": 2,
               "name": {
                 "en": "A Wish for Protection",
-                "zh": "祈求庇護"
+                "zh": "祈求庇護",
+                "zhs": "许愿庇护",
+                "ja": "加護を乞う願い",
+                "ko": "보호의 소원"
               },
               "desc": {
                 "en": "Taking significant damage in a short time generates a Protective Wish that makes it harder for combatants to hit you, and grants increased reload speed and flinch resistance.",
-                "zh": "在短時間內承受顯著傷害會產生一個防護之願，使戰員更難擊中你，並提升填裝速度與倒縮抗性。"
+                "zh": "在短時間內承受顯著傷害會產生一個防護之願，使戰員更難擊中你，並提升填裝速度與倒縮抗性。",
+                "zhs": "短时间内受到大量伤害会生成一层庇护之愿，让战斗人员更难命中你，并提供填装速度和抖动抗性加成。",
+                "ja": "短時間で大ダメージを受けると、加護の願いを獲得する。これにより、戦闘員の攻撃が当たりにくくなり、リロード速度とひるみ耐性が向上する。",
+                "ko": "짧은 시간 동안 상당한 피해를 입으면 전투원이 타격하기 어렵게 하는 보호의 소원이 생성되며 재장전 속도와 피격 반동 저항이 증가합니다."
               },
               "icon": "assets/perkicons/f61c57bf97db2da78a537c7933e45b94.png"
             },
@@ -588,11 +786,17 @@
               "count": 4,
               "name": {
                 "en": "A Wish Fulfilled",
-                "zh": "願望實現"
+                "zh": "願望實現",
+                "zhs": "愿望实现",
+                "ja": "願いの成就",
+                "ko": "실현된 소원"
               },
               "desc": {
                 "en": "When the Protective Wish expires, it cures you. \n\nRapid final blows prematurely end the Protective Wish.",
-                "zh": "防護之願結束時，它會治癒你。\n\n迅速造成最後一擊會提前結束防護之願。"
+                "zh": "防護之願結束時，它會治癒你。\n\n迅速造成最後一擊會提前結束防護之願。",
+                "zhs": "庇护之愿失效时获得治愈。\n\n快速最后一击会提前结束庇护之愿。",
+                "ja": "加護の願いが終了すると、治癒を獲得する。\n\n素早く連続でトドメを刺すと、加護の願いが中断される。",
+                "ko": "보호의 소원이 만료되면 치료를 제공합니다.\n\n빠른 결정타를 사용하면 보호의 소원이 조기에 끝납니다."
               },
               "icon": "assets/perkicons/6882c7bf6dbcd564e9ef00a41818c9fd.png"
             }
@@ -602,11 +806,17 @@
           "id": "dreambane",
           "name": {
             "en": "Dreambane",
-            "zh": "驅夢"
+            "zh": "驅夢",
+            "zhs": "梦境祸根",
+            "ja": "ドリームベイン",
+            "ko": "꿈의 파멸"
           },
           "source": {
             "en": "DISTORTIONS / MASTER LOST SECTORS: MOON",
-            "zh": "扭曲 / 大師遺落之地:月球"
+            "zh": "扭曲 / 大師遺落之地:月球",
+            "zhs": "扭曲 / 大师遗落之地:月球",
+            "ja": "歪み / マスター・ロストセクター:月",
+            "ko": "왜곡 / 마스터 로스트 섹터:달"
           },
           "tags": [
             "grenade",
@@ -627,11 +837,17 @@
               "count": 2,
               "name": {
                 "en": "Nightmarish Power",
-                "zh": "夢魘之力"
+                "zh": "夢魘之力",
+                "zhs": "梦魇力量",
+                "ja": "悪夢の力",
+                "ko": "악몽에 나올 듯한 전투력"
               },
               "desc": {
                 "en": "Final blows to a challenging combatant or higher-ranked target grant Unstable Essence. When you have Unstable Essence, you receive grenade and melee stat bonuses.",
-                "zh": "對強勁戰員或更高階的目標造成最後一擊時，可獲得不穩定的精華。擁有不穩定的精華時，手榴彈與近戰數值將會提升。"
+                "zh": "對強勁戰員或更高階的目標造成最後一擊時，可獲得不穩定的精華。擁有不穩定的精華時，手榴彈與近戰數值將會提升。",
+                "zhs": "对强力战斗人员或高阶目标造成最后一击可获得不稳定精华。拥有不稳定精华时，你会获得手雷和近战属性加成。",
+                "ja": "強力な戦闘員または高ランクの標的にトドメを刺すと、不安定なエッセンスを獲得する。不安定なエッセンスが適用されている場合は、グレネードと近接のステータスが向上する。",
+                "ko": "강력한 전투원 또는 그보다 높은 등급의 대상에게 결정타를 기록하면 불안정한 정수를 부여합니다. 불안정한 정수를 보유한 동안에는 수류탄과 근접 공격 능력치 보너스를 얻습니다."
               },
               "icon": "assets/perkicons/589460862ff8d80364db3a9b6205e071.png"
             },
@@ -639,11 +855,17 @@
               "count": 4,
               "name": {
                 "en": "Nightmarish Resilience",
-                "zh": "夢魘韌性"
+                "zh": "夢魘韌性",
+                "zhs": "梦魇韧性",
+                "ja": "悪夢の耐久力",
+                "ko": "악몽에 나올 듯한 생존력"
               },
               "desc": {
                 "en": "When you have Unstable Essence, rapid weapon damage or final blows heal you and begin health regeneration.",
-                "zh": "擁有不穩定的精華時，造成迅速武器傷害或最後一擊即可治療自己，並開始生命值再生。"
+                "zh": "擁有不穩定的精華時，造成迅速武器傷害或最後一擊即可治療自己，並開始生命值再生。",
+                "zhs": "拥有不稳定精华时，你的快速武器伤害或最后一击会提供治疗并开启生命值回复。",
+                "ja": "不安定なエッセンスが適用されている場合、武器で素早くダメージを与えるか、トドメを刺すと、体力が回復する。また、その後も徐々に体力が回復する。",
+                "ko": "불안정한 정수를 보유한 동안에는 무기로 빠르게 피해를 주거나 결정타를 기록하면 생명력이 회복되고 생명력 재생이 시작됩니다."
               },
               "icon": "assets/perkicons/8d927506b9d4310414df97a1da85210e.png"
             }
@@ -653,11 +875,17 @@
           "id": "crystocrene",
           "name": {
             "en": "Crystocrene",
-            "zh": "晶體"
+            "zh": "晶體",
+            "zhs": "溢冰",
+            "ja": "クリストクリーン",
+            "ko": "크리스토크렌"
           },
           "source": {
             "en": "DISTORTIONS / MASTER LOST SECTORS: EUROPA",
-            "zh": "扭曲 / 大師遺落之地:木衛二"
+            "zh": "扭曲 / 大師遺落之地:木衛二",
+            "zhs": "扭曲 / 大师遗落之地:木卫二",
+            "ja": "歪み / マスター・ロストセクター:エウロパ",
+            "ko": "왜곡 / 마스터 로스트 섹터:유로파"
           },
           "tags": [
             "all-ammo",
@@ -680,11 +908,17 @@
               "count": 2,
               "name": {
                 "en": "Resupply",
-                "zh": "積衰新造"
+                "zh": "積衰新造",
+                "zhs": "再补给",
+                "ja": "再供給",
+                "ko": "재공급"
               },
               "desc": {
                 "en": "After being out of combat for a moderate duration, your next final blow grants additional ammo progress and creates an Orb of Power.",
-                "zh": "脫離戰鬥一段時間後，下一次最後一擊將獲得額外彈藥進度，並產生一顆力量球體。"
+                "zh": "脫離戰鬥一段時間後，下一次最後一擊將獲得額外彈藥進度，並產生一顆力量球體。",
+                "zhs": "脱离战斗一定时间后，你的下一次最后一击提供额外弹药进度并生成一个能量球。",
+                "ja": "非戦闘状態が一定時間続くと、次にトドメを刺したときに弾薬の進行ボーナスを獲得し、力のオーブが生成される。",
+                "ko": "보통 정도의 시간 동안 전투에서 벗어나 있으면 다음 결정타 시 추가 탄약 진척도를 얻고 힘의 보주를 생성합니다."
               },
               "icon": "assets/perkicons/bd176b87f172c0affdec5a8e10e5ae8c.png"
             },
@@ -692,11 +926,17 @@
               "count": 4,
               "name": {
                 "en": "From the Storm",
-                "zh": "來自風暴"
+                "zh": "來自風暴",
+                "zhs": "来自风暴",
+                "ja": "嵐より",
+                "ko": "폭풍으로부터"
               },
               "desc": {
                 "en": "After being out of combat for a moderate duration, slowly gain Frost Armor until you reenter combat.",
-                "zh": "脫離戰鬥一段時間後，會逐漸獲得冰霜護甲，直到再次進入戰鬥為止。"
+                "zh": "脫離戰鬥一段時間後，會逐漸獲得冰霜護甲，直到再次進入戰鬥為止。",
+                "zhs": "脱离战斗一定时间后，缓慢获得冰霜护甲直到你再次进入战斗。",
+                "ja": "非戦闘状態が一定時間続くと、戦闘状態に入るまでフロストアーマーを徐々に獲得する。",
+                "ko": "보통 정도의 시간 동안 전투에서 벗어나 있으면 전투에 다시 돌입할 때까지 서서히 서리 방어구를 얻습니다."
               },
               "icon": "assets/perkicons/046a5d59d06ab9cfb7488faacdc4b6eb.png"
             }
@@ -706,11 +946,17 @@
           "id": "seventh-seraph",
           "name": {
             "en": "Seventh Seraph",
-            "zh": "第七熾天使"
+            "zh": "第七熾天使",
+            "zhs": "第七炽天使",
+            "ja": "第七の熾天使",
+            "ko": "일곱 번째 세라프"
           },
           "source": {
             "en": "DISTORTIONS / MASTER LOST SECTORS: COSMODROME",
-            "zh": "扭曲 / 大師遺落之地:太空發射場"
+            "zh": "扭曲 / 大師遺落之地:太空發射場",
+            "zhs": "扭曲 / 大师遗落之地:发射基地",
+            "ja": "歪み / マスター・ロストセクター:コスモドローム",
+            "ko": "왜곡 / 마스터 로스트 섹터:발사 기지"
           },
           "tags": [
             "grenade",
@@ -735,11 +981,17 @@
               "count": 2,
               "name": {
                 "en": "Rasputin's Wrath",
-                "zh": "拉斯普丁的憤怒"
+                "zh": "拉斯普丁的憤怒",
+                "zhs": "拉斯普廷的怒火",
+                "ja": "ラスプーチンの怒り",
+                "ko": "라스푸틴의 분노"
               },
               "desc": {
                 "en": "Final blows with area-of-effect damage, Solar abilities, Seventh Seraph weapons, or IKELOS weapons grant Warmind Charges. Each stack of Warmind Charge increases your Weapons and Grenade stats.",
-                "zh": "使用範圍傷害、灼燒技能、第七熾天使武器或IKELOS武器造成最後一擊會賦予「戰爭智能充能」。每一層戰爭智能充能都會提升你的武器與手榴彈數值。"
+                "zh": "使用範圍傷害、灼燒技能、第七熾天使武器或IKELOS武器造成最後一擊會賦予「戰爭智能充能」。每一層戰爭智能充能都會提升你的武器與手榴彈數值。",
+                "zhs": "范围效果伤害、烈日技能、第七炽天使武器或似像者武器最后一击提供战争思维充能。每层战争思维充能都会提升你的武器和手雷属性。",
+                "ja": "範囲攻撃ダメージ、ソーラースキル、第七の熾天使武器、またはイケロス武器でトドメを刺すと、ウォーマインド・チャージを獲得する。ウォーマインド・チャージのスタック数に応じて、武器とグレネードのステータスが向上する。",
+                "ko": "광역 피해, 태양 능력, 일곱 번째 세라프 무기, 또는 이켈로스 무기로 결정타를 기록하면 전쟁지능 충전을 획득합니다. 전쟁지능 충전이 중첩될 때마다 무기 및 수류탄 능력치가 증가합니다."
               },
               "icon": "assets/perkicons/18b5bd384a62c9f960e1f46907987f48.png"
             },
@@ -747,11 +999,17 @@
               "count": 4,
               "name": {
                 "en": "Rasputin's Reprisal",
-                "zh": "拉斯普丁的報復"
+                "zh": "拉斯普丁的報復",
+                "zhs": "拉斯普廷的报复",
+                "ja": "ラスプーチンの報復",
+                "ko": "라스푸틴의 보복"
               },
               "desc": {
                 "en": "While you have Warmind Charges, defeating powerful combatants, destroying a construct, or destroying a Tangle releases a Solar detonation that damages combatants and heals allies.\n\nConstructs include barricades, turrets, Stasis crystals, and other objects created in the field.",
-                "zh": "擁有戰爭智能充能時，擊敗強大戰員、摧毀結構體或糾結，會釋放灼燒爆發，傷害戰員並治癒盟友。\n\n結構體包含屏障、哨塔、冰凝水晶和其他在戰場上生成的物體。"
+                "zh": "擁有戰爭智能充能時，擊敗強大戰員、摧毀結構體或糾結，會釋放灼燒爆發，傷害戰員並治癒盟友。\n\n結構體包含屏障、哨塔、冰凝水晶和其他在戰場上生成的物體。",
+                "zhs": "持有战争思维充能时，击败强力战斗人员、摧毁构造体，或摧毁缠结会释放一次烈日爆炸，对战斗人员造成伤害并治疗盟友。\n\n构造体包括屏障、炮台、冰影水晶以及其他在战场上生成的物体。",
+                "ja": "ウォーマインド・チャージが適用されている状態で、強力な戦闘員を倒すか、建造物またはタングルを破壊すると、戦闘員にダメージを与えて味方を回復するソーラーの爆発を引き起こす。\n\n建造物には、バリケード、タレット、ステイシス・クリスタルなどの戦場に作り出された物体が含まれる。",
+                "ko": "전쟁지능 충전을 가진 동안 강력한 전투원 처치, 구조물 파괴, 또는 타래 파괴를 기록하면 전투원에게 피해를 입히고 아군을 치유하는 태양 폭발을 방출합니다.\n\n구조물에는 방벽, 포탑, 시공 수정 및 전장에서 생성된 기타 물체가 포함됩니다."
               },
               "icon": "assets/perkicons/991a1596482cd22ca393a748c2aa412c.png"
             }
@@ -761,11 +1019,17 @@
           "id": "veritas",
           "name": {
             "en": "Veritas",
-            "zh": "真理"
+            "zh": "真理",
+            "zhs": "真相",
+            "ja": "真理",
+            "ko": "진리"
           },
           "source": {
             "en": "DISTORTIONS / MASTER LOST SECTORS: THRONE WORLD",
-            "zh": "扭曲 / 大師遺落之地:列王之境"
+            "zh": "扭曲 / 大師遺落之地:列王之境",
+            "zhs": "扭曲 / 大师遗落之地:萨瓦图恩的王座世界",
+            "ja": "歪み / マスター・ロストセクター:サバスンの玉座の世界",
+            "ko": "왜곡 / 마스터 로스트 섹터:사바툰의 왕좌 세계"
           },
           "tags": [
             "elemental-pickups",
@@ -790,11 +1054,17 @@
               "count": 2,
               "name": {
                 "en": "Lucent Transmutation",
-                "zh": "明晰轉化"
+                "zh": "明晰轉化",
+                "zhs": "光明蜕变",
+                "ja": "ルーセントの変質",
+                "ko": "빛 변환"
               },
               "desc": {
                 "en": "Performing a finisher on a combatant, or landing successive powered melee final blows, generates an Elemental pickup based on your Light subclass.",
-                "zh": "對戰員施展終結技，或強力近戰最後一擊連續命中，會根據你的光能副職業產生一個元素拾取物。"
+                "zh": "對戰員施展終結技，或強力近戰最後一擊連續命中，會根據你的光能副職業產生一個元素拾取物。",
+                "zhs": "对战斗人员执行终结技，或造成连续充能近战最后一击，会根据你的光能分支职业生成一个元素拾取物。",
+                "ja": "戦闘員にフィニッシャーを決めるか、チャージされた近接攻撃で連続してトドメを刺すと、光サブクラスに応じて属性オブジェクトが生成される。",
+                "ko": "전투원에게 필살기를 시전하거나 연속 강화 근접 공격 결정타를 기록하면 빛 하위직업에 따라 원소 결정체가 생성됩니다."
               },
               "icon": "assets/perkicons/94133689fdafe43c92af39875e4b35cf.png"
             },
@@ -802,11 +1072,17 @@
               "count": 4,
               "name": {
                 "en": "Lucent Tithes",
-                "zh": "明晰什一稅"
+                "zh": "明晰什一稅",
+                "zhs": "光明贡品",
+                "ja": "ルーセントの供物",
+                "ko": "빛의 공물"
               },
               "desc": {
                 "en": "Performing a finisher on powerful combatants heals you and generates loyal Void moths.",
-                "zh": "對強大戰員施展終結技會治癒你，並產生忠誠虛空飛蛾。"
+                "zh": "對強大戰員施展終結技會治癒你，並產生忠誠虛空飛蛾。",
+                "zhs": "对强力战斗人员执行终结技会获得治疗并生成忠于你的虚空飞蛾。",
+                "ja": "強力な戦闘員にフィニッシャーを決めると、体力を回復し、忠実なボイド・モスが生成される。",
+                "ko": "강력한 전투원에게 필살기를 시전하면 치유를 제공하고 충성스러운 공허 나방이 생성됩니다."
               },
               "icon": "assets/perkicons/9ca2d24cfb79d72ec09ddd3c78a19e75.png"
             }
@@ -816,11 +1092,17 @@
           "id": "thunderhead",
           "name": {
             "en": "Thunderhead",
-            "zh": "雷暴雲頂"
+            "zh": "雷暴雲頂",
+            "zhs": "积雨云",
+            "ja": "雷雲",
+            "ko": "적란운"
           },
           "source": {
             "en": "MASTER LOST SECTORS / OVERRIDE: NEOMUNA",
-            "zh": "大師遺落之地 / 覆寫行動:尼爾穆那"
+            "zh": "大師遺落之地 / 覆寫行動:尼爾穆那",
+            "zhs": "大师遗落之地 / 覆写行动:内欧姆那",
+            "ja": "マスター・ロストセクター / オーバーライド:ネオムナ",
+            "ko": "마스터 로스트 섹터 / 오버라이드:네오무나"
           },
           "tags": [
             "grenade",
@@ -843,11 +1125,17 @@
               "count": 2,
               "name": {
                 "en": "License to Thrill",
-                "zh": "狂歡許可"
+                "zh": "狂歡許可",
+                "zhs": "刺激许可",
+                "ja": "スリル・ライセンス",
+                "ko": "짜릿함 허가증"
               },
               "desc": {
                 "en": "Activating your grenade or the Nanotech Tracer Missiles Origin Trait provides stacking resistance to incoming damage at point-blank range.",
-                "zh": "啟用手榴彈或奈米科技追蹤飛彈來源特點時，會獲得可疊加的抗性，降低近距離傷害。"
+                "zh": "啟用手榴彈或奈米科技追蹤飛彈來源特點時，會獲得可疊加的抗性，降低近距離傷害。",
+                "zhs": "激活手雷或纳米技术追踪导弹原始特性会为近距离来袭伤害提供可叠加的抗性。",
+                "ja": "グレネードまたは起源特性「ナノテクトレーサー・ミサイル」を発動すると、至近距離からのダメージに対するスタック可能な耐性ボーナスを獲得する。",
+                "ko": "수류탄 또는 나노테크 추적 미사일 기원 속성을 활성화하면 근접 거리에서 받는 피해에 대한 중첩 저항을 얻습니다."
               },
               "icon": "assets/perkicons/41f83623b1974e71b4e008b6baeb6269.png"
             },
@@ -855,11 +1143,17 @@
               "count": 4,
               "name": {
                 "en": "Lethal Weave",
-                "zh": "致命編織"
+                "zh": "致命編織",
+                "zhs": "致命编织",
+                "ja": "死の織布",
+                "ko": "치명적인 직조"
               },
               "desc": {
                 "en": "Defeating an unraveled combatant grants grenade ability energy. If you have max grenade energy, you are granted Special ammo meter progress instead.",
-                "zh": "擊敗已拆解戰員可獲得手榴彈技能能量。若手榴彈能量已滿，則改為獲得特殊彈藥量表進度。"
+                "zh": "擊敗已拆解戰員可獲得手榴彈技能能量。若手榴彈能量已滿，則改為獲得特殊彈藥量表進度。",
+                "zhs": "击败被瓦解的战斗人员会提供手雷技能能量。如果你的手雷能量已充满，则获得特殊弹药量表进度。",
+                "ja": "分解状態の戦闘員を倒すと、グレネードスキルエネルギーを獲得する。グレネードエネルギーが最大の場合、代わりに特殊ウェポン弾メーターの進行を獲得する。",
+                "ko": "해체된 전투원을 처치하면 수류탄 능력 에너지를 얻습니다. 수류탄 에너지가 최대라면 대신 특수 화기 탄약 미터 진척도를 얻습니다."
               },
               "icon": "assets/perkicons/39749db8864643f96bb20296732d4e8d.png"
             }
@@ -869,11 +1163,17 @@
           "id": "first-ascent",
           "name": {
             "en": "First Ascent",
-            "zh": "第一飛昇"
+            "zh": "第一飛昇",
+            "zhs": "初次飞升",
+            "ja": "初登頂",
+            "ko": "첫 등정"
           },
           "source": {
             "en": "MASTER LOST SECTORS / OVERTHROW: PALE HEART",
-            "zh": "大師遺落之地 / 推翻:冰冷之心"
+            "zh": "大師遺落之地 / 推翻:冰冷之心",
+            "zhs": "大师遗落之地 / 推翻:苍白之心",
+            "ja": "マスター・ロストセクター / オーバースロー:ペイルハート",
+            "ko": "마스터 로스트 섹터 / 전복:창백한 심장"
           },
           "tags": [
             "grenade",
@@ -892,11 +1192,17 @@
               "count": 2,
               "name": {
                 "en": "Stack 'Em Up",
-                "zh": "疊加效應"
+                "zh": "疊加效應",
+                "zhs": "叠加起来",
+                "ja": "並立",
+                "ko": "쌓아올려"
               },
               "desc": {
                 "en": "Defeating targets with unique elemental damage grants a stacking bonus to Transcendence energy gains while Transcendence is inactive.",
-                "zh": "高等昇華停用時，以不同元素傷害擊敗目標，可獲得可疊加的高等昇華加成。"
+                "zh": "高等昇華停用時，以不同元素傷害擊敗目標，可獲得可疊加的高等昇華加成。",
+                "zhs": "超凡未生效时，以独特元素伤害击败目标会提供可叠加的超凡能量获取加成。",
+                "ja": "特殊な属性ダメージで標的を倒すと、非トランセンデンス状態でのトランセンデンスエネルギー獲得量にスタック可能なボーナスが付与される。",
+                "ko": "통달 에너지를 사용하지 않는 동안 고유 원소 피해로 대상을 처치하면 통달 에너지에 중첩 보너스를 부여합니다."
               },
               "icon": "assets/perkicons/0d086c527eb8a84290ceea3d2069bf69.png"
             },
@@ -904,11 +1210,17 @@
               "count": 4,
               "name": {
                 "en": "Burn 'Em Down",
-                "zh": "徹底燒毀"
+                "zh": "徹底燒毀",
+                "zhs": "尽数烧毁",
+                "ja": "焼尽",
+                "ko": "태워버려"
               },
               "desc": {
                 "en": "While Transcendence is active, using your grenade ability consumes all stacks of Stack 'Em Up to grant an escalating amount of grenade energy.",
-                "zh": "高等昇華啟動時，使用手榴彈技能會消耗所有「疊加效應」疊層，可獲得遞增的手榴彈能量。"
+                "zh": "高等昇華啟動時，使用手榴彈技能會消耗所有「疊加效應」疊層，可獲得遞增的手榴彈能量。",
+                "zhs": "超凡生效时，使用手雷技能会消耗所有“叠加起来”层数来获得递增的手雷能量。",
+                "ja": "トランセンデンス状態の間は、グレネードスキルを使用したときに並立のスタックがすべて消費され、その数に応じてグレネードエネルギーを獲得する。",
+                "ko": "통달을 사용하는 동안 수류탄 에너지를 사용하면 쌓아올려의 모든 중첩을 소모하여 점점 더 많은 수류탄 에너지를 부여합니다."
               },
               "icon": "assets/perkicons/65a58789810d5617352736c279d51edb.png"
             }
@@ -918,11 +1230,17 @@
           "id": "aion-adapter",
           "name": {
             "en": "AION Adapter",
-            "zh": "艾詠適配器"
+            "zh": "艾詠適配器",
+            "zhs": "艾昂适配",
+            "ja": "アイオン順応",
+            "ko": "아이온 연접"
           },
           "source": {
             "en": "THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER",
-            "zh": "篩網 / 神話探索 / 裝備專注:克卜勒"
+            "zh": "篩網 / 神話探索 / 裝備專注:克卜勒",
+            "zhs": "筛网 / 神话探索 / 装备专注:开普勒",
+            "ja": "ザ・シーヴ / 神話探索 / ギアフォーカス:ケプラー",
+            "ko": "시브 / 신화 탐험 / 장비 포커싱:케플러"
           },
           "tags": [
             "disorient",
@@ -947,11 +1265,17 @@
               "count": 2,
               "name": {
                 "en": "Force Absorption",
-                "zh": "力量吸收"
+                "zh": "力量吸收",
+                "zhs": "力量吸收",
+                "ja": "動力吸収",
+                "ko": "힘 흡수"
               },
               "desc": {
                 "en": "Final blows with a Rocket Launcher, Grenade Launcher, or micro-missile temporarily decrease incoming area-of-effect damage.",
-                "zh": "以火箭筒、榴彈發射器或微型導彈造成最後一擊，會暫時降低來襲的範圍效果傷害。"
+                "zh": "以火箭筒、榴彈發射器或微型導彈造成最後一擊，會暫時降低來襲的範圍效果傷害。",
+                "zhs": "使用火箭发射器、榴弹发射器或微型导弹造成最后一击后，暂时减少受到的范围效果伤害。",
+                "ja": "ロケットランチャー、グレネードランチャー、またはマイクロミサイルでトドメを刺すと、一時的に範囲攻撃から受けるダメージを軽減する。",
+                "ko": "로켓 발사기, 유탄 발사기, 또는 마이크로 미사일로 결정타를 가하면 일시적으로 광역 피해가 감소합니다."
               },
               "icon": "assets/perkicons/93c69df9a8c648602b10844524e8a0e6.png"
             },
@@ -959,11 +1283,17 @@
               "count": 4,
               "name": {
                 "en": "Reactive Shock",
-                "zh": "反射性震擊"
+                "zh": "反射性震擊",
+                "zhs": "反应冲击",
+                "ja": "反応性ショック",
+                "ko": "반작용 충격"
               },
               "desc": {
                 "en": "When Force Absorption is active, taking melee damage causes you to emit a disorienting burst once.",
-                "zh": "在力量吸收啟用期間，受到近戰傷害會讓你釋放一次讓人迷失方向爆發。"
+                "zh": "在力量吸收啟用期間，受到近戰傷害會讓你釋放一次讓人迷失方向爆發。",
+                "zhs": "力量吸收生效时，受到近战伤害将触发一次迷失爆发。",
+                "ja": "動力吸収の発動中に近接ダメージを受けると、1回だけ混乱の衝撃波を発生させる。",
+                "ko": "힘 흡수가 활성화되어 있을 때 근접 공격 피해를 입으면 한 번 혼란 폭발을 발산합니다."
               },
               "icon": "assets/perkicons/96a637543fc3a60cf55d6b333ad87661.png"
             }
@@ -973,11 +1303,17 @@
           "id": "aion-renewal",
           "name": {
             "en": "AION Renewal",
-            "zh": "艾詠重生"
+            "zh": "艾詠重生",
+            "zhs": "艾昂复兴",
+            "ja": "アイオン再誕",
+            "ko": "아이온 갱생"
           },
           "source": {
             "en": "THE SIEVE / MYTHIC EXPLORATION / GEAR FOCUSING: KEPLER",
-            "zh": "篩網 / 神話探索 / 裝備專注:克卜勒"
+            "zh": "篩網 / 神話探索 / 裝備專注:克卜勒",
+            "zhs": "筛网 / 神话探索 / 装备专注:开普勒",
+            "ja": "ザ・シーヴ / 神話探索 / ギアフォーカス:ケプラー",
+            "ko": "시브 / 신화 탐험 / 장비 포커싱:케플러"
           },
           "tags": [
             "grenade-launchers",
@@ -1004,11 +1340,17 @@
               "count": 2,
               "name": {
                 "en": "Force Converter",
-                "zh": "力量轉換器"
+                "zh": "力量轉換器",
+                "zhs": "力量转化器",
+                "ja": "動力変換器",
+                "ko": "힘 변환기"
               },
               "desc": {
                 "en": "After a final blow with a Rocket Launcher, Grenade Launcher, or micro-missile, sprint for a short time to gain Speed Booster.",
-                "zh": "以火箭筒、榴彈發射器或微型導彈造成最後一擊後，短暫衝刺可獲得速度推進器。"
+                "zh": "以火箭筒、榴彈發射器或微型導彈造成最後一擊後，短暫衝刺可獲得速度推進器。",
+                "zhs": "使用火箭发射器、榴弹发射器或微型导弹造成最后一击后，冲刺一小段时间来获得速度加成。",
+                "ja": "ロケットランチャー、グレネードランチャー、またはマイクロミサイルでトドメを刺した後に短い時間ダッシュすると、スピードブースターを獲得する。",
+                "ko": "로켓 발사기, 유탄 발사기, 또는 마이크로 미사일로 결정타를 가한 후, 짧은 시간 질주하면 속도 증폭기를 획득합니다."
               },
               "icon": "assets/perkicons/005db44d00a46515888db51ffd60f1bd.png"
             },
@@ -1016,11 +1358,17 @@
               "count": 4,
               "name": {
                 "en": "Reactive Booster",
-                "zh": "反射性加速器"
+                "zh": "反射性加速器",
+                "zhs": "反应加速器",
+                "ja": "反応性ブースター",
+                "ko": "반작용 부스터"
               },
               "desc": {
                 "en": "Once per activation of Force Converter, sprinting while at critical health, being suspended, or being slowed by a Stasis effect will immediately grant Speed Booster for a short duration.",
-                "zh": "在力量轉換器啟用期間，若在生命垂危、被懸浮或被冰凝效果緩速時衝刺，會立即獲得速度推進器一小段時間。"
+                "zh": "在力量轉換器啟用期間，若在生命垂危、被懸浮或被冰凝效果緩速時衝刺，會立即獲得速度推進器一小段時間。",
+                "zhs": "每次激活力量转化器可生效一次，生命危急、被悬停或受冰影效果减速时冲刺，会立即获得短暂的速度加成。",
+                "ja": "動力変換器の発動につき1回のみ、瀕死状態でのダッシュ、もしくはステイシス効果によって停止または遅延状態にされた場合、即時に短時間スピードブースターを獲得する。",
+                "ko": "치명상을 입은 상태로 질주, 구속 또는 시공으로 인해 감속된 상태에서 힘 변환기를 발동하면, 즉시 짧은 시간 동안 속도 증폭기를 얻습니다."
               },
               "icon": "assets/perkicons/609405930d800a057c5e6eef3edac14e.png"
             }
@@ -1030,11 +1378,17 @@
           "id": "thriving-survivor",
           "name": {
             "en": "Thriving Survivor",
-            "zh": "強韌求生者"
+            "zh": "強韌求生者",
+            "zhs": "兴旺幸存者",
+            "ja": "隆盛の生存者",
+            "ko": "강인한 생존자"
           },
           "source": {
             "en": "GRANDMASTER LAWLESS FRONTIER JOBS",
-            "zh": "宗師無序邊疆委託"
+            "zh": "宗師無序邊疆委託",
+            "zhs": "宗师无序边疆委托",
+            "ja": "グランドマスター・無法フロンティア依頼",
+            "ko": "그랜드마스터 무법 변경 임무"
           },
           "tags": [
             "all-ammo",
@@ -1059,11 +1413,17 @@
               "count": 2,
               "name": {
                 "en": "Opening Act",
-                "zh": "開場表演"
+                "zh": "開場表演",
+                "zhs": "开场表演",
+                "ja": "前座",
+                "ko": "서막"
               },
               "desc": {
                 "en": "Final blows with grenades grant Heat weapons bonus stability and vent speed and grant Primary ammo weapons bonus stability and reload speed.",
-                "zh": "用手榴彈造成最後一擊會為熱能武器提供穩定性與排氣速度，並為主要彈藥武器提供穩定性與填裝速度。"
+                "zh": "用手榴彈造成最後一擊會為熱能武器提供穩定性與排氣速度，並為主要彈藥武器提供穩定性與填裝速度。",
+                "zhs": "使用手雷造成最后一击会为热量武器提供稳定性和排气速度加成，并为主弹药武器提供稳定性和填装速度加成。",
+                "ja": "グレネードでトドメを刺すと、熱武器の安定性と排気速度にボーナスが付与され、メインウェポンの安定性とリロード速度にボーナスが付与される。",
+                "ko": "수류탄으로 결정타를 기록하면 열 무기의 안정성과 방열 속도가 향상됩니다. 일반 탄약 무기는 안정성과 재장전 속도가 증가합니다."
               },
               "icon": "assets/perkicons/9763eb72bc446b9d9f1b2c2b5efca82d.png"
             },
@@ -1071,11 +1431,17 @@
               "count": 4,
               "name": {
                 "en": "Room Clearing",
-                "zh": "掃蕩全場"
+                "zh": "掃蕩全場",
+                "zhs": "房间清空",
+                "ja": "空間制圧",
+                "ko": "구역 소탕"
               },
               "desc": {
                 "en": "Multiple final blows with Heat weapons or Primary ammo weapons grant bonuses to weapon and grenade stats and increased ammo generation for Heat weapons and Primary ammo weapons.",
-                "zh": "用熱能武器或主要彈藥武器造成多次最後一擊會為武器和手榴彈提供數值加成，並增加熱能武器和主要彈藥武器的彈藥生成。"
+                "zh": "用熱能武器或主要彈藥武器造成多次最後一擊會為武器和手榴彈提供數值加成，並增加熱能武器和主要彈藥武器的彈藥生成。",
+                "zhs": "使用热量武器或主弹药武器造成多次最后一击，会为武器和手雷属性提供加成，并提升热量武器和主弹药武器的弹药生成。",
+                "ja": "熱武器またはメインウェポンで複数回トドメを刺すと、武器とグレネードのステータスにボーナスが付与され、熱武器とメインウェポンの弾薬生成が向上する。",
+                "ko": "열 무기 또는 일반 탄약 무기로 여러 번 결정타를 기록하면 무기와 수류탄의 능력치가 향상되고, 열 무기와 일반 탄약 무기의 탄약 생성이 증가합니다."
               },
               "icon": "assets/perkicons/319e1b357fb1e2b7108f489f792c31ed.png"
             }
@@ -1085,11 +1451,17 @@
           "id": "shrewd-survivor",
           "name": {
             "en": "Shrewd Survivor",
-            "zh": "睿智求生者"
+            "zh": "睿智求生者",
+            "zhs": "精明幸存者",
+            "ja": "抜かりない生存者",
+            "ko": "노련한 생존자"
           },
           "source": {
             "en": "GRANDMASTER LAWLESS FRONTIER JOBS",
-            "zh": "宗師無序邊疆委託"
+            "zh": "宗師無序邊疆委託",
+            "zhs": "宗师无序边疆委托",
+            "ja": "グランドマスター・無法フロンティア依頼",
+            "ko": "그랜드마스터 무법 변경 임무"
           },
           "tags": [
             "hand-cannons",
@@ -1112,11 +1484,17 @@
               "count": 2,
               "name": {
                 "en": "Reflex Action",
-                "zh": "反射動作"
+                "zh": "反射動作",
+                "zhs": "反射动作",
+                "ja": "反射アクション",
+                "ko": "반사 작용"
               },
               "desc": {
                 "en": "Swapping to a Heat weapon, Submachine Gun, or Hand Cannon grants a short period of increased handling and accuracy. This effect is extended by dealing damage with that weapon.",
-                "zh": "切換到熱能武器、衝鋒槍或手持加農砲時，可在短時間內提升操作性與精準度。以該武器造成傷害可延長此效果。"
+                "zh": "切換到熱能武器、衝鋒槍或手持加農砲時，可在短時間內提升操作性與精準度。以該武器造成傷害可延長此效果。",
+                "zhs": "切换到热量武器、微型冲锋枪或手炮会在短时间内提升操控性和精度。使用该武器造成伤害可延长此效果。",
+                "ja": "熱武器、サブマシンガン、またはハンドキャノンに切り替えると、ハンドリングと命中精度が短時間向上する。この効果はその武器でダメージを与えると延長される。",
+                "ko": "열 무기, 기관단총, 핸드 캐논으로 교체하면 짧은 시간 동안 조작성과 정확도가 향상됩니다. 해당 무기로 피해를 입히면 효과의 지속 시간이 연장됩니다."
               },
               "icon": "assets/perkicons/7f09f6e0067a733d41e745781bc402a9.png"
             },
@@ -1124,11 +1502,17 @@
               "count": 4,
               "name": {
                 "en": "Hotshot",
-                "zh": "火熱射手"
+                "zh": "火熱射手",
+                "zhs": "炙手可热",
+                "ja": "ホットショット",
+                "ko": "실력자"
               },
               "desc": {
                 "en": "Dealing final blows while Reflex Action is active grants a bonus to weapon stat and increases stability, reload, and aim assist for Heat weapons, Submachine Guns, and Hand Cannons for a moderate duration.",
-                "zh": "反射動作啟用時，造成最後一擊會在一段時間內賦予武器數值加成並提升熱能武器、衝鋒槍和手持加農砲的穩定性、填裝和瞄準輔助。"
+                "zh": "反射動作啟用時，造成最後一擊會在一段時間內賦予武器數值加成並提升熱能武器、衝鋒槍和手持加農砲的穩定性、填裝和瞄準輔助。",
+                "zhs": "在反射动作生效时造成最后一击会获得武器属性提升，并在一定时间内提升热量武器、微型冲锋枪和手炮的稳定性、填装和瞄准辅助。",
+                "ja": "反射アクションが有効な間にトドメを刺すと、一定時間、武器ステータスにボーナスが付与され、熱武器、サブマシンガンおよびハンドキャノンの安定性、リロード、そして照準補佐が向上する。",
+                "ko": "반사 작용이 활성화된 상태에서 결정타를 기록하면 무기 능력치가 향상되며, 일정 시간 동안 열 무기, 기관단총, 핸드 캐논의 안정성, 재장전 속도, 조준 보정이 증가합니다."
               },
               "icon": "assets/perkicons/04b973a7cfccbd68319667558dcbe82c.png"
             }
@@ -1140,18 +1524,27 @@
       "id": "vanguard",
       "title": {
         "en": "Vanguard",
-        "zh": "先鋒/熔爐聚焦"
+        "zh": "先鋒/熔爐聚焦",
+        "zhs": "先锋/熔炉聚焦",
+        "ja": "バンガード/るつぼフォーカス",
+        "ko": "뱅가드/크루시블 포커싱"
       },
       "sets": [
         {
           "id": "techsec",
           "name": {
             "en": "Techsec",
-            "zh": "安控戰甲"
+            "zh": "安控戰甲",
+            "zhs": "科技安全",
+            "ja": "テクセック",
+            "ko": "기술 보안"
           },
           "source": {
             "en": "VANGUARD FOCUSING",
-            "zh": "先鋒專注"
+            "zh": "先鋒專注",
+            "zhs": "先锋专注",
+            "ja": "バンガードフォーカス",
+            "ko": "뱅가드 포커싱"
           },
           "tags": [
             "disorient",
@@ -1170,11 +1563,17 @@
               "count": 2,
               "name": {
                 "en": "Wrecker",
-                "zh": "破壞者"
+                "zh": "破壞者",
+                "zhs": "破坏者",
+                "ja": "破壊者",
+                "ko": "파괴자"
               },
               "desc": {
                 "en": "You deal significantly increased Kinetic damage to combatant shields, overshields, vehicles, and constructs. Constructs include barricades, turrets, Stasis crystals, and other objects created in the field.",
-                "zh": "你對戰員護盾、覆蓋護盾、載具和結構體造成的動能傷害大幅增加。結構體包含屏障、哨塔、冰凝水晶和其他在戰場上生成的物體。"
+                "zh": "你對戰員護盾、覆蓋護盾、載具和結構體造成的動能傷害大幅增加。結構體包含屏障、哨塔、冰凝水晶和其他在戰場上生成的物體。",
+                "zhs": "你对战斗人员护盾、覆盖护盾、载具和构造体造成的动能伤害显著提升。构造体包括屏障、炮台、冰影水晶以及其他在战场上生成的物体。",
+                "ja": "戦闘員のシールド、2つ目のシールド、ビークル、そして建造物に対するキネティックダメージが大幅に上昇する。建造物には、バリケード、タレット、ステイシス・クリスタルなどの戦場に作り出された物体が含まれる。",
+                "ko": "전투원의 방어막, 보호막, 차량, 구조물에 대한 물리 피해 공격이 크게 증가합니다. 구조물에는 방벽, 포탑, 시공 수정 및 전장에서 생성된 기타 물체가 포함됩니다."
               },
               "icon": "assets/perkicons/bd2c44c6cb6a7f2a168a90be278aa8c4.png"
             },
@@ -1182,11 +1581,17 @@
               "count": 4,
               "name": {
                 "en": "Concussive Rounds",
-                "zh": "震盪彈藥"
+                "zh": "震盪彈藥",
+                "zhs": "震荡弹药",
+                "ja": "震とう弾",
+                "ko": "격동 탄약"
               },
               "desc": {
                 "en": "Defeating powerful combatants or breaking a combatant shield with Kinetic damage releases a disorienting Kinetic shockwave.",
-                "zh": "使用動能傷害擊敗強大戰員或破壞戰員護盾，會釋放讓人迷失方向的動能衝擊波。"
+                "zh": "使用動能傷害擊敗強大戰員或破壞戰員護盾，會釋放讓人迷失方向的動能衝擊波。",
+                "zhs": "使用动能伤害击败强力战斗人员或破坏战斗人员护盾会释放具有迷失效果的动能冲击波。",
+                "ja": "強力な戦闘員を倒すか、キネティックダメージで戦闘員のシールドを破壊すると、混乱を適用するキネティック衝撃波を発生させる。",
+                "ko": "물리 피해로 강력한 전투원을 처치하거나 전투원 방어막을 깨면 방향 감각을 상실시키는 물리 충격파를 방출합니다."
               },
               "icon": "assets/perkicons/56a10b99ed0b4b28d33696ec828b29b5.png"
             }
@@ -1196,11 +1601,17 @@
           "id": "smoke-jumper",
           "name": {
             "en": "Smoke Jumper",
-            "zh": "空降消防員套裝"
+            "zh": "空降消防員套裝",
+            "zhs": "空降灭火套装",
+            "ja": "スモークジャンパーのセット",
+            "ko": "산불 진화 요원 세트"
           },
           "source": {
             "en": "VANGUARD FOCUSING",
-            "zh": "先鋒專注"
+            "zh": "先鋒專注",
+            "zhs": "先锋专注",
+            "ja": "バンガードフォーカス",
+            "ko": "뱅가드 포커싱"
           },
           "tags": [
             "finishers",
@@ -1225,11 +1636,17 @@
               "count": 2,
               "name": {
                 "en": "Ride Together, Die Together",
-                "zh": "同騎共歿"
+                "zh": "同騎共歿",
+                "zhs": "同生共死",
+                "ja": "一蓮托生",
+                "ko": "동고동락"
               },
               "desc": {
                 "en": "When you pick up an Orb of Power, gain a brief period of rapidly decaying damage reduction.",
-                "zh": "拾取力量球體時，獲得會迅速衰退的減傷效果。"
+                "zh": "拾取力量球體時，獲得會迅速衰退的減傷效果。",
+                "zhs": "拾取能量球时，你会获得短暂且快速衰减的伤害减免效果。",
+                "ja": "力のオーブを拾うと、短い間ダメージ軽減を獲得する。効果は素早く減衰する。",
+                "ko": "힘의 보주를 획득하면 짧은 시간 동안, 빠르게 감소하는 피해 저항 효과를 획득합니다."
               },
               "icon": "assets/perkicons/e752466e7923c7137927722f38f18550.png"
             },
@@ -1237,11 +1654,17 @@
               "count": 4,
               "name": {
                 "en": "Too Old for This",
-                "zh": "老子玩不動了"
+                "zh": "老子玩不動了",
+                "zhs": "年事已高",
+                "ja": "年には勝てぬ",
+                "ko": "늙으니 힘들군"
               },
               "desc": {
                 "en": "Defeating a powerful combatant with a finisher grants you Special ammo progress and replenishes a small amount of health.",
-                "zh": "以終結技擊敗一名強大戰員可獲得特殊彈藥進度，並恢復少量生命值。"
+                "zh": "以終結技擊敗一名強大戰員可獲得特殊彈藥進度，並恢復少量生命值。",
+                "zhs": "使用终结技击败强力战斗人员可获得特殊弹药进度，并恢复少量生命值。",
+                "ja": "フィニッシャーで強力な戦闘員を倒すと、特殊ウェポン弾の進行を獲得し、体力をわずかに回復する。",
+                "ko": "필살기로 강력한 전투원을 처치하면 특수 화기 탄약 진척도가 증가하고 소량의 생명력이 회복됩니다."
               },
               "icon": "assets/perkicons/a76d27306334a934577ef92a037f2ce0.png"
             }
@@ -1251,11 +1674,17 @@
           "id": "ferropotent",
           "name": {
             "en": "Ferropotent",
-            "zh": "鐵力"
+            "zh": "鐵力",
+            "zhs": "铁能",
+            "ja": "フェロポテント",
+            "ko": "철의 힘"
           },
           "source": {
             "en": "VANGUARD FOCUSING",
-            "zh": "先鋒專注"
+            "zh": "先鋒專注",
+            "zhs": "先锋专注",
+            "ja": "バンガードフォーカス",
+            "ko": "뱅가드 포커싱"
           },
           "tags": [
             "all-ammo",
@@ -1274,11 +1703,17 @@
               "count": 2,
               "name": {
                 "en": "Rapid Repair",
-                "zh": "快速修復"
+                "zh": "快速修復",
+                "zhs": "快速修复",
+                "ja": "高速修理",
+                "ko": "신속한 수리"
               },
               "desc": {
                 "en": "When your shields begin to regenerate, you gain flinch resistance and damage resistance for a short time.",
-                "zh": "護盾開始再生時，短時間內獲得倒縮抗性和傷害抗性。"
+                "zh": "護盾開始再生時，短時間內獲得倒縮抗性和傷害抗性。",
+                "zhs": "当你的护盾开始回复时，你在短时间内获得抖动抗性和伤害抗性。",
+                "ja": "シールドが再生し始めると、短時間、ひるみ耐性とダメージ耐性を得る。",
+                "ko": "보호막이 회복되기 시작하면, 짧은 시간 동안 피격 반동 저항과 피해 저항을 획득합니다."
               },
               "icon": "assets/perkicons/a3ce83264ba9520c563cf6d621c66565.png"
             },
@@ -1286,11 +1721,17 @@
               "count": 4,
               "name": {
                 "en": "Built from Scratch",
-                "zh": "從零開始"
+                "zh": "從零開始",
+                "zhs": "白手起家",
+                "ja": "ゼロからの構築",
+                "ko": "무에서의 창조"
               },
               "desc": {
                 "en": "While your reserves are low, combatant final blows with weapons provide additional ammo progress based on their ammo type.  Primary ammo weapons boost Special ammo progress, and Special ammo weapons boost Heavy ammo progress.",
-                "zh": "備彈量低時，以武器對戰員造成最後一擊會根據其彈藥類型提供額外彈藥進度。主要彈藥武器會推進特殊彈藥進度，而特殊彈藥武器會推進重型彈藥進度。"
+                "zh": "備彈量低時，以武器對戰員造成最後一擊會根據其彈藥類型提供額外彈藥進度。主要彈藥武器會推進特殊彈藥進度，而特殊彈藥武器會推進重型彈藥進度。",
+                "zhs": "当你的弹药储备较低时，使用武器对战斗人员造成最后一击，会根据武器弹药类型提供额外的弹药进度。主弹药武器可提升特殊弹药进度，特殊弹药武器可提升重型弹药进度。",
+                "ja": "予備弾薬が少ない状態で戦闘員にトドメを刺すと、使用した武器タイプに応じて弾薬タイプの進行ボーナスを獲得する。メインウェポンは特殊ウェポン弾の進行をブーストし、特殊ウェポンはヘビーウェポン弾の進行をブーストする。",
+                "ko": "예비 탄약량이 적을 때 무기로 전투원에게 결정타를 입히면 탄약 유형에 따라 추가 탄약 진척도를 얻습니다. 주 무기는 특수 화기 탄약 진척도를 올려주며, 특수 화기는 중화기 탄약 진척도를 올려줍니다."
               },
               "icon": "assets/perkicons/354d07625ba9f6806c4062e2711c5f0f.png"
             }
@@ -1300,11 +1741,17 @@
           "id": "luminopotent",
           "name": {
             "en": "Luminopotent",
-            "zh": "光耀威能"
+            "zh": "光耀威能",
+            "zhs": "光耀万钧",
+            "ja": "ルミノポテント",
+            "ko": "빛나는 힘"
           },
           "source": {
             "en": "VANGUARD FOCUSING",
-            "zh": "先鋒專注"
+            "zh": "先鋒專注",
+            "zhs": "先锋专注",
+            "ja": "バンガードフォーカス",
+            "ko": "뱅가드 포커싱"
           },
           "tags": [
             "arc",
@@ -1329,11 +1776,17 @@
               "count": 2,
               "name": {
                 "en": "Ionic Overclock",
-                "zh": "離子超載"
+                "zh": "離子超載",
+                "zhs": "离子超频",
+                "ja": "イオン・オーバークロック",
+                "ko": "이온 오버클록"
               },
               "desc": {
                 "en": "While amplified, your Fusion Rifles, Linear Fusion Rifles, and Heat weapons gain increased handling, reload, and vent speeds.",
-                "zh": "處於增幅狀態時，聚合步槍、線性聚合步槍與熱能武器的操作性、填裝與排氣速度提升。"
+                "zh": "處於增幅狀態時，聚合步槍、線性聚合步槍與熱能武器的操作性、填裝與排氣速度提升。",
+                "zhs": "当处于增幅状态时，你的融合步枪、线性融合步枪以及热量武器可获得更高的操控性、填装和排气速度。",
+                "ja": "増幅状態では、フュージョンライフル、リニア・フュージョンライフル、そして熱武器のハンドリング、リロード、排気速度が向上する。",
+                "ko": "증폭 상태일 때, 융합 소총, 선형 융합 소총, 열 무기의 조작성, 재장전, 방열 속도가 향상됩니다."
               },
               "icon": "assets/perkicons/6999410ff04b4144a07c39fbca5ea831.png"
             },
@@ -1341,11 +1794,17 @@
               "count": 4,
               "name": {
                 "en": "Shock and Clear",
-                "zh": "震盪掃蕩"
+                "zh": "震盪掃蕩",
+                "zhs": "震慑清场",
+                "ja": "ショック・クリア",
+                "ko": "충격과 정리"
               },
               "desc": {
                 "en": "Final blows with Jolt or against jolted combatants create Ionic Traces.",
-                "zh": "以顛簸造成最後一擊或對受電擊的戰員造成最後一擊，可產生離子微粒。"
+                "zh": "以顛簸造成最後一擊或對受電擊的戰員造成最後一擊，可產生離子微粒。",
+                "zhs": "以震颤造成最后一击，或对被震颤的战斗人员造成最后一击时，会生成离子轨迹。",
+                "ja": "ショックでトドメを刺すか、ショック状態の戦闘員にトドメを刺すと、イオントレースが発生する。",
+                "ko": "충격으로 결정타를 기록하거나 충격을 받은 전투원을 결정타로 처치하면 이온의 흔적을 생성합니다."
               },
               "icon": "assets/perkicons/bdd6424d0b5dbee52505d969653c69e0.png"
             }
@@ -1355,11 +1814,17 @@
           "id": "bushido",
           "name": {
             "en": "Bushido",
-            "zh": "武士道"
+            "zh": "武士道",
+            "zhs": "武士道",
+            "ja": "武士道",
+            "ko": "무사도"
           },
           "source": {
             "en": "VANGUARD FOCUSING",
-            "zh": "先鋒專注"
+            "zh": "先鋒專注",
+            "zhs": "先锋专注",
+            "ja": "バンガードフォーカス",
+            "ko": "뱅가드 포커싱"
           },
           "tags": [
             "bows",
@@ -1384,11 +1849,17 @@
               "count": 2,
               "name": {
                 "en": "Iaido",
-                "zh": "居合"
+                "zh": "居合",
+                "zhs": "居合道",
+                "ja": "居合道",
+                "ko": "거합도"
               },
               "desc": {
                 "en": "Final blows with freshly drawn or reloaded weapons heal you.",
-                "zh": "使用剛拉弓或剛完成填裝的武器施展最後一擊，可獲得治療效果。"
+                "zh": "使用剛拉弓或剛完成填裝的武器施展最後一擊，可獲得治療效果。",
+                "zhs": "用刚刚拔出或填装的武器造成最后一击会治疗你。",
+                "ja": "リロードしたばかりの武器または構えたばかりの武器でトドメを刺すと、体力が回復する。",
+                "ko": "새로 꺼내 들거나, 재장전한 무기로 결정타를 기록하면 치유 효과를 받습니다."
               },
               "icon": "assets/perkicons/40abb2a18a499cc24222f052fca2a694.png"
             },
@@ -1396,11 +1867,17 @@
               "count": 4,
               "name": {
                 "en": "Unfaltering Focus",
-                "zh": "無可撼動的專注"
+                "zh": "無可撼動的專注",
+                "zhs": "不动专注",
+                "ja": "揺るぎない集中",
+                "ko": "흔들림 없는 집중"
               },
               "desc": {
                 "en": "Bow, Shotgun, or Sword final blows temporarily reduce incoming damage. Damaging targets with those weapons extends the effect.",
-                "zh": "弓箭、霰彈槍或劍最後一擊會暫時降低受到的傷害。使用這些武器對目標造成傷害會延長此效果。"
+                "zh": "弓箭、霰彈槍或劍最後一擊會暫時降低受到的傷害。使用這些武器對目標造成傷害會延長此效果。",
+                "zhs": "弓箭、霰弹枪或刀剑最后一击会暂时减少受到的伤害。使用这些武器对目标造成伤害可延长效果。",
+                "ja": "弓、ショットガン、または剣でトドメを刺すと、一時的に被ダメージが減少する。これらの武器で標的にダメージを与えると、効果が延長される。",
+                "ko": "활, 산탄총, 또는 검 결정타가 일시적으로 받는 피해를 줄여줍니다. 해당 무기들로 대상에 피해를 입히면 효과가 연장됩니다."
               },
               "icon": "assets/perkicons/533277959c64b90c06bdea0a6dbaa723.png"
             }
@@ -1410,11 +1887,17 @@
           "id": "swordmaster",
           "name": {
             "en": "Swordmaster",
-            "zh": "寶劍大師"
+            "zh": "寶劍大師",
+            "zhs": "剑圣",
+            "ja": "剣客",
+            "ko": "검술사"
           },
           "source": {
             "en": "VANGUARD FOCUSING",
-            "zh": "先鋒專注"
+            "zh": "先鋒專注",
+            "zhs": "先锋专注",
+            "ja": "バンガードフォーカス",
+            "ko": "뱅가드 포커싱"
           },
           "tags": [
             "exhaust",
@@ -1439,11 +1922,17 @@
               "count": 2,
               "name": {
                 "en": "Balestra",
-                "zh": "躍步攻擊"
+                "zh": "躍步攻擊",
+                "zhs": "跃步直击",
+                "ja": "バレストラ",
+                "ko": "발레스트라"
               },
               "desc": {
                 "en": "Damaging a target with a Sword, Glaive, or any melee attack exhausts them. \n\nExhausted targets deal reduced outgoing damage.",
-                "zh": "使用劍、長戈、或任何近戰攻擊傷害目標，會使對方筋疲力盡。\n\n精疲力盡的目標輸出傷害降低。"
+                "zh": "使用劍、長戈、或任何近戰攻擊傷害目標，會使對方筋疲力盡。\n\n精疲力盡的目標輸出傷害降低。",
+                "zhs": "使用刀剑、偃月或任意近战攻击伤害目标会使其疲惫。\n\n疲惫的目标造成的伤害会减少。",
+                "ja": "剣、グレイブまたは近接攻撃でダメージを与えると、標的を疲労させる。\n\n疲労状態の標的の与ダメージが減少する。",
+                "ko": "검, 월도, 또는 근접 공격으로 대상에게 피해를 주면, 대상이 탈진 상태가 됩니다.\n\n대상이 탈진하면 대상의 공격력이 감소합니다."
               },
               "icon": "assets/perkicons/a29d645f714faf4f59a2a2f5e0cf6f70.png"
             },
@@ -1451,11 +1940,17 @@
               "count": 4,
               "name": {
                 "en": "Stesso Tempo",
-                "zh": "相同節奏"
+                "zh": "相同節奏",
+                "zhs": "同一速度",
+                "ja": "ステッソ・テンポ",
+                "ko": "스테소 템포"
               },
               "desc": {
                 "en": "Blocking attacks with a Sword or Glaive grants a short period of damage resistance against targets when you next drop your guard.",
-                "zh": "使用劍或長戈格擋攻擊會在你下次收起防禦時，提供對目標的傷害抗性一小段時間。"
+                "zh": "使用劍或長戈格擋攻擊會在你下次收起防禦時，提供對目標的傷害抗性一小段時間。",
+                "zhs": "使用刀剑或偃月格挡攻击后，下次解除格挡时，会在短时间内获得针对目标的伤害抗性。",
+                "ja": "剣またはグレイブで攻撃をブロックすると、次にガードを解いた時に、標的に対するダメージ耐性が短時間付与される。",
+                "ko": "검 또는 월도로 공격을 막으면, 방어막을 내린 후 짧은 시간 동안 대상의 공격에 대한 피해 저항을 획득합니다."
               },
               "icon": "assets/perkicons/837bdc2b437d0ed6da5d665b59af7ebc.png"
             }
@@ -1465,11 +1960,17 @@
           "id": "eutechnology",
           "name": {
             "en": "Eutechnology",
-            "zh": "優質科技"
+            "zh": "優質科技",
+            "zhs": "巫灵科技",
+            "ja": "優技術",
+            "ko": "유테크놀로지"
           },
           "source": {
             "en": "VANGUARD FOCUSING",
-            "zh": "先鋒專注"
+            "zh": "先鋒專注",
+            "zhs": "先锋专注",
+            "ja": "バンガードフォーカス",
+            "ko": "뱅가드 포커싱"
           },
           "tags": [
             "elemental-pickups",
@@ -1490,11 +1991,17 @@
               "count": 2,
               "name": {
                 "en": "Gift of the Ley Lines",
-                "zh": "地脈的贈禮"
+                "zh": "地脈的贈禮",
+                "zhs": "灵脉馈赠",
+                "ja": "レイラインの贈り物",
+                "ko": "지맥의 선물"
               },
               "desc": {
                 "en": "Rapidly defeating combatants with Void energy spawns a Void breach.",
-                "zh": "使用虛空能量迅速擊敗戰員會生成虛空破壞。"
+                "zh": "使用虛空能量迅速擊敗戰員會生成虛空破壞。",
+                "zhs": "使用虚空能量快速击败战斗人员会生成虚空裂口。",
+                "ja": "ボイドエネルギーで素早く連続で戦闘員を倒すと、ボイド・ブリーチを生成する。",
+                "ko": "공허 에너지로 전투원을 빠르게 처치하면 공허 파열이 생성됩니다."
               },
               "icon": "assets/perkicons/a304f92290458d486ab19fcd1ef6f6ff.png"
             },
@@ -1502,11 +2009,17 @@
               "count": 4,
               "name": {
                 "en": "Techeun's Foresight",
-                "zh": "精謀女巫的遠見"
+                "zh": "精謀女巫的遠見",
+                "zhs": "灵巫的远见",
+                "ja": "テクナ・ウィッチの洞察",
+                "ko": "테키언의 예지"
               },
               "desc": {
                 "en": "After collecting a Void breach, your next final blow with a Void weapon triggers a detonation. The detonation is more powerful if it is triggered quickly after collecting a Void breach.",
-                "zh": "拾起虛空破壞後，下一次使用虛空武器造成精確最後一擊會觸發爆炸。若能在拾取虛空破壞後迅速觸發此效果，爆炸的威力會更強大。"
+                "zh": "拾起虛空破壞後，下一次使用虛空武器造成精確最後一擊會觸發爆炸。若能在拾取虛空破壞後迅速觸發此效果，爆炸的威力會更強大。",
+                "zhs": "收集虚空裂口后，你下一次使用虚空武器造成的最后一击会触发爆炸。收集虚空裂口后迅速触发的爆炸更强力。",
+                "ja": "ボイド・ブリーチを拾うと、次にボイド武器によるトドメを達成したときに爆発を引き起こす。爆発はボイド・ブリーチを拾ってからの経過時間が短いほど強力になる。",
+                "ko": "공허 파열을 획득한 후, 다음 공허 무기의 결정타가 폭발을 일으킵니다. 공허 파열을 획득한 직후 빠르게 발동할수록 폭발이 더 강력해집니다."
               },
               "icon": "assets/perkicons/7a80a0a2d1abacd0ce64e71bafff34f3.png"
             }
@@ -1516,11 +2029,17 @@
           "id": "lustrous",
           "name": {
             "en": "Lustrous",
-            "zh": "熾光耀影"
+            "zh": "熾光耀影",
+            "zhs": "光泽",
+            "ja": "光輝",
+            "ko": "광택"
           },
           "source": {
             "en": "TENET OF BRAVERY FOCUSING",
-            "zh": "勇敢教條專注"
+            "zh": "勇敢教條專注",
+            "zhs": "勇敢教条专注",
+            "ja": "勇気の信条フォーカス",
+            "ko": "용맹의 교리 포커싱"
           },
           "tags": [
             "healing",
@@ -1541,11 +2060,17 @@
               "count": 2,
               "name": {
                 "en": "Photogalvanic",
-                "zh": "振光伏效應"
+                "zh": "振光伏效應",
+                "zhs": "光铸电涌",
+                "ja": "感光起電",
+                "ko": "감광기전"
               },
               "desc": {
                 "en": "Receiving healing temporarily grants your Solar weapons increased flinch resistance, handling, and reload speed.",
-                "zh": "獲得治療會暫時讓你的灼燒武器提升倒縮抗性、操作性和填裝速度。"
+                "zh": "獲得治療會暫時讓你的灼燒武器提升倒縮抗性、操作性和填裝速度。",
+                "zhs": "接受治疗时暂时为你的烈日武器提升抖动抗性、操控性和填装速度。",
+                "ja": "回復を受けると、一時的にソーラー武器のひるみ耐性、ハンドリング、リロード速度が向上する。",
+                "ko": "치유받으면 일시적으로 태양 무기의 피격 반동 저항, 조작성, 재장전 속도가 증가합니다."
               },
               "icon": "assets/perkicons/3c9918529fb85eb95b151c2461b63b9c.png"
             },
@@ -1553,11 +2078,17 @@
               "count": 4,
               "name": {
                 "en": "Cauterize",
-                "zh": "燒焦"
+                "zh": "燒焦",
+                "zhs": "烧灼止血",
+                "ja": "焼灼",
+                "ko": "소작"
               },
               "desc": {
                 "en": "Rapid Solar final blows heal you.",
-                "zh": "迅速灼燒最後一擊會治療你。"
+                "zh": "迅速灼燒最後一擊會治療你。",
+                "zhs": "快速烈日最后一击会治疗你。",
+                "ja": "ソーラーで素早くトドメを刺すと回復する。",
+                "ko": "빠른 태양 결정타가 플레이어를 치료합니다."
               },
               "icon": "assets/perkicons/fb229a054586415903e6539ea363f63a.png"
             }
@@ -1567,11 +2098,17 @@
           "id": "cyberserpent-null",
           "name": {
             "en": "Cyberserpent Null",
-            "zh": "賽博巨蛇虛無"
+            "zh": "賽博巨蛇虛無",
+            "zhs": "虚无赛博毒蛇",
+            "ja": "サイバーサーペント・ヌル",
+            "ko": "사이버뱀 무효"
           },
           "source": {
             "en": "GAMBIT",
-            "zh": "千謀百計"
+            "zh": "千謀百計",
+            "zhs": "千谋百计",
+            "ja": "ギャンビット",
+            "ko": "갬빗"
           },
           "tags": [
             "special-ammo",
@@ -1590,11 +2127,17 @@
               "count": 2,
               "name": {
                 "en": "Adrenal Rush",
-                "zh": "腎上腺素激增"
+                "zh": "腎上腺素激增",
+                "zhs": "肾上腺素亢奋",
+                "ja": "アドレナル・ラッシュ",
+                "ko": "아드레날린 돌격"
               },
               "desc": {
                 "en": "Sprinting for a short time grants a period of improved reload speed and handling. Final blows extend this period.",
-                "zh": "短暫衝刺後，可提升填裝速度與操作性。造成最後一擊可延長效果持續時間。"
+                "zh": "短暫衝刺後，可提升填裝速度與操作性。造成最後一擊可延長效果持續時間。",
+                "zhs": "短暂冲刺会在一段时间内提升填装速度和操控性。最后一击可延长持续时间。",
+                "ja": "短時間ダッシュすると、一時的にリロード速度とハンドリングが向上する。トドメを刺すと持続時間が延長される。",
+                "ko": "짧은 시간 동안 전력 질주하면 재장전 속도와 조작성이 향상되는 효과를 얻습니다. 결정타로 이 효과의 지속시간이 연장됩니다."
               },
               "icon": "assets/perkicons/3b8036591bab64740db750efb05aab31.png"
             },
@@ -1602,11 +2145,17 @@
               "count": 4,
               "name": {
                 "en": "Bountiful Munitions",
-                "zh": "豐沛軍火"
+                "zh": "豐沛軍火",
+                "zhs": "丰富弹药",
+                "ja": "豊富な弾薬",
+                "ko": "풍요 군수품"
               },
               "desc": {
                 "en": "While Adrenal Rush is active, final blows grant Special Ammo progress. Final Blows against powerful combatants, Guardians, and Taken grants additional progress.",
-                "zh": "腎上腺素激增啟動時，造成最後一擊會提供特殊彈藥進度。對強大戰員與敵對強大戰員、守護者與傀儡軍團造成最後一擊會提供額外進度。"
+                "zh": "腎上腺素激增啟動時，造成最後一擊會提供特殊彈藥進度。對強大戰員與敵對強大戰員、守護者與傀儡軍團造成最後一擊會提供額外進度。",
+                "zhs": "肾上腺素亢奋生效期间，最后一击提供特殊弹药进度。对强力战斗人员、守护者及傀儡军团造成的最后一击可提供额外进度。",
+                "ja": "アドレナル・ラッシュが有効な間、トドメを刺すと特殊ウェポン弾の進行を獲得する。強力な戦闘員、ガーディアン、または宿られた兵にトドメを刺すと、進行ボーナスを獲得できる。",
+                "ko": "아드레날린 돌격이 활성화된 동안 결정타를 기록하면 특수 화기 탄약 진척도가 부여됩니다. 강력한 전투원, 수호자, 굴복자를 대상으로 결정타를 기록하면 진척도가 추가로 부여됩니다."
               },
               "icon": "assets/perkicons/c23f5d490b3084d0f051395dc16bdb42.png"
             }
@@ -1618,18 +2167,27 @@
       "id": "crucible",
       "title": {
         "en": "Crucible",
-        "zh": "熔爐 PvP"
+        "zh": "熔爐 PvP",
+        "zhs": "熔炉 PvP",
+        "ja": "るつぼ PvP",
+        "ko": "크루시블 PvP"
       },
       "sets": [
         {
           "id": "last-discipline",
           "name": {
             "en": "Last Discipline",
-            "zh": "最後戒律"
+            "zh": "最後戒律",
+            "zhs": "最后纪律",
+            "ja": "最終鍛錬",
+            "ko": "마지막 의지"
           },
           "source": {
             "en": "CRUCIBLE FOCUSING",
-            "zh": "熔爐專注"
+            "zh": "熔爐專注",
+            "zhs": "熔炉专注",
+            "ja": "るつぼフォーカス",
+            "ko": "크루시블 포커싱"
           },
           "tags": [
             "orbs-of-power",
@@ -1650,11 +2208,17 @@
               "count": 2,
               "name": {
                 "en": "Terminal Velocity",
-                "zh": "終端速度"
+                "zh": "終端速度",
+                "zhs": "终极速率",
+                "ja": "終端速度",
+                "ko": "종단 속도"
               },
               "desc": {
                 "en": "Final blows with primary ammo weapons grant your primary ammo weapons temporarily increased reload speed.",
-                "zh": "使用主要彈藥武器施展最後一擊，你的主要彈藥武器會暫時提升填裝速度。"
+                "zh": "使用主要彈藥武器施展最後一擊，你的主要彈藥武器會暫時提升填裝速度。",
+                "zhs": "使用主弹药武器造成最后一击会暂时提升主弹药武器的填装速度。",
+                "ja": "メインウェポンでトドメを刺すと、一時的にメインウェポンのリロード速度が上昇する。",
+                "ko": "일반 탄약 무기로 결정타를 기록하면 일반 탄약 무기의 재장전 속도가 일시적으로 증가합니다."
               },
               "icon": "assets/perkicons/6d90a805ee5c1a2a3eafe5b64b29f1ec.png"
             },
@@ -1662,11 +2226,17 @@
               "count": 4,
               "name": {
                 "en": "Power Loader",
-                "zh": "動力裝載器"
+                "zh": "動力裝載器",
+                "zhs": "能量装填",
+                "ja": "パワーローダー",
+                "ko": "힘 장전기"
               },
               "desc": {
                 "en": "Picking up an Orb of Power grants Special ammo progress.",
-                "zh": "撿起力量球體會獲得特殊彈藥進度。"
+                "zh": "撿起力量球體會獲得特殊彈藥進度。",
+                "zhs": "拾取能量球会提供特殊弹药进度。",
+                "ja": "力のオーブを拾うと特殊ウェポン弾の進行を獲得できる。",
+                "ko": "힘의 보주를 획득하면 특수 화기 탄약 진척도가 증가합니다."
               },
               "icon": "assets/perkicons/c918b80d815f1a54755a0b9b8fcbf7ed.png"
             }
@@ -1676,11 +2246,17 @@
           "id": "disaster-corps",
           "name": {
             "en": "Disaster Corps",
-            "zh": "災難軍團套裝"
+            "zh": "災難軍團套裝",
+            "zhs": "灾难军团套装",
+            "ja": "災害部隊のセット",
+            "ko": "재난 대응단 세트"
           },
           "source": {
             "en": "CRUCIBLE FOCUSING",
-            "zh": "熔爐專注"
+            "zh": "熔爐專注",
+            "zhs": "熔炉专注",
+            "ja": "るつぼフォーカス",
+            "ko": "크루시블 포커싱"
           },
           "tags": [
             "auto-rifles",
@@ -1707,11 +2283,17 @@
               "count": 2,
               "name": {
                 "en": "Pleas Heard",
-                "zh": "祈願已聞"
+                "zh": "祈願已聞",
+                "zhs": "诉求已闻",
+                "ja": "届けられし嘆願",
+                "ko": "소원 접수"
               },
               "desc": {
                 "en": "Reloading an Auto Rifle, Scout Rifle, or Sidearm after a final blow slowly restores health until you reenter combat.",
-                "zh": "造成最後一擊後，填裝自動步槍、斥候步槍或手槍會緩慢恢復生命值，直到重新進入戰鬥為止。"
+                "zh": "造成最後一擊後，填裝自動步槍、斥候步槍或手槍會緩慢恢復生命值，直到重新進入戰鬥為止。",
+                "zhs": "造成最后一击后填装自动步枪、斥候步枪或手枪可缓慢恢复生命值，直至你重新进入战斗。",
+                "ja": "トドメを刺した後にオートライフル、スカウトライフル、またはピストルをリロードすると、再び戦闘が始まるまで徐々に体力を回復する。",
+                "ko": "자동 소총, 정찰 소총 또는 보조 무기로 상대를 처치한 후 재장전하면, 다시 전투에 돌입할 때까지 서서히 생명력이 회복됩니다."
               },
               "icon": "assets/perkicons/ff4d0d19141fee88ce61994a3aea8bbc.png"
             },
@@ -1719,11 +2301,17 @@
               "count": 4,
               "name": {
                 "en": "Magnificent Duty",
-                "zh": "輝煌使命"
+                "zh": "輝煌使命",
+                "zhs": "宏伟职责",
+                "ja": "大いなる責務",
+                "ko": "장엄한 임무"
               },
               "desc": {
                 "en": "When you reach critical health or heal an ally at critical health, Auto Rifles, Scout Rifles, and Sidearms gain a period of increased range, stability, and reload speed.",
-                "zh": "當你生命值極低或治療生命值極低的盟友時，自動步槍、斥候步槍和手槍會暫時提升射程、穩定性和填裝速度。"
+                "zh": "當你生命值極低或治療生命值極低的盟友時，自動步槍、斥候步槍和手槍會暫時提升射程、穩定性和填裝速度。",
+                "zhs": "当你陷入生命危急或治疗生命危急的盟友时，自动步枪、斥候步枪和手枪会暂时获得射程、稳定性和填装速度提升。",
+                "ja": "瀕死状態になるか、瀕死状態の仲間を回復すると、一定時間、オートライフル、スカウトライフル、そしてピストルの射程距離、安定性、リロード速度が向上する。",
+                "ko": "자신의 생명력이 치명적인 상태이거나, 위기 상태인 아군을 치유하면 자동 소총, 정찰 소총, 보조 무기의 사거리, 안정성, 재장전 속도가 일정 시간 동안 향상됩니다."
               },
               "icon": "assets/perkicons/5dee6c3209d00db6558954aec7fa7219.png"
             }
@@ -1733,11 +2321,17 @@
           "id": "wild-anthem",
           "name": {
             "en": "Wild Anthem",
-            "zh": "狂野聖歌"
+            "zh": "狂野聖歌",
+            "zhs": "狂野圣歌",
+            "ja": "野生の讃歌",
+            "ko": "광기의 찬가"
           },
           "source": {
             "en": "CRUCIBLE FOCUSING",
-            "zh": "熔爐專注"
+            "zh": "熔爐專注",
+            "zhs": "熔炉专注",
+            "ja": "るつぼフォーカス",
+            "ko": "크루시블 포커싱"
           },
           "tags": [
             "survivability",
@@ -1756,11 +2350,17 @@
               "count": 2,
               "name": {
                 "en": "Fanfare",
-                "zh": "號角"
+                "zh": "號角",
+                "zhs": "号角花彩",
+                "ja": "ファンファーレ",
+                "ko": "팡파르"
               },
               "desc": {
                 "en": "Gain increased reload speed for the bottom half of your equipped weapon's magazine.",
-                "zh": "裝備的武器彈匣彈藥低於一半時，填裝速度會提升。"
+                "zh": "裝備的武器彈匣彈藥低於一半時，填裝速度會提升。",
+                "zhs": "你装备的武器弹匣剩余一半子弹时填装速度提升。",
+                "ja": "装備中の武器のマガジン下半分のリロード速度が上昇する。",
+                "ko": "장착한 무기의 탄창이 절반 이하일 때 재장전 속도가 증가합니다."
               },
               "icon": "assets/perkicons/403810a27b0b33248f7a876904e1977b.png"
             },
@@ -1768,11 +2368,17 @@
               "count": 4,
               "name": {
                 "en": "Suros Harmony",
-                "zh": "SUROS和諧"
+                "zh": "SUROS和諧",
+                "zhs": "SUROS和谐",
+                "ja": "スロスハーモニー",
+                "ko": "서로스 화음"
               },
               "desc": {
                 "en": "Reloading a weapon grants it a bonus to handling and reduces incoming flinch for a short time. Weapons with the SUROS Synergy Origin Trait are granted increased range instead.",
-                "zh": "填裝武器可在短時間內提升操作性並降低受到的倒縮效果。具有SUROS協同作用來源特點的武器則改為增加射程。"
+                "zh": "填裝武器可在短時間內提升操作性並降低受到的倒縮效果。具有SUROS協同作用來源特點的武器則改為增加射程。",
+                "zhs": "填装武器可在短时间内提升其操控性及减少受到的抖动。如果武器拥有SUROS协同原始特性，则改为提升射程。",
+                "ja": "武器をリロードすると、短時間、ハンドリングにボーナスが付与され、ひるみが軽減される。起源特性「スロスシナジー」を備えた武器は、代わりに射程距離が広がる。",
+                "ko": "무기를 재장전하면 짧은 시간 동안 조작성 보너스를 획득하고, 피격 반동이 감소합니다. 서로스 시너지 기원 속성을 지닌 무기의 경우 사거리가 증가합니다."
               },
               "icon": "assets/perkicons/d3959132415be3779f6e2a46dbb531f6.png"
             }
@@ -1782,11 +2388,17 @@
           "id": "triumphal-anthem",
           "name": {
             "en": "Triumphal Anthem",
-            "zh": "凱旋讚歌"
+            "zh": "凱旋讚歌",
+            "zhs": "凯旋圣歌",
+            "ja": "勝利の賛歌",
+            "ko": "개선장군 찬가"
           },
           "source": {
             "en": "CRUCIBLE FOCUSING",
-            "zh": "熔爐專注"
+            "zh": "熔爐專注",
+            "zhs": "熔炉专注",
+            "ja": "るつぼフォーカス",
+            "ko": "크루시블 포커싱"
           },
           "tags": [
             "mobility",
@@ -1807,11 +2419,17 @@
               "count": 2,
               "name": {
                 "en": "Scoot to Loot",
-                "zh": "疾行搜刮"
+                "zh": "疾行搜刮",
+                "zhs": "滑行搜刮",
+                "ja": "スライド&ゲット",
+                "ko": "슬라이딩 약탈"
               },
               "desc": {
                 "en": "Sliding collects nearby ammo and temporarily grants enhanced reload speed and handling to your weapons.",
-                "zh": "滑行會收集附近彈藥，並暫時提升武器的填裝速度與操作性。"
+                "zh": "滑行會收集附近彈藥，並暫時提升武器的填裝速度與操作性。",
+                "zhs": "滑行会收集附近的弹药，并在短时间内为你的武器提供强化的填装速度和操控性。",
+                "ja": "スライディングすると近くの弾薬を回収し、一時的に武器のリロード速度とハンドリングが向上する。",
+                "ko": "슬라이딩하면 근처의 탄약을 획득하고 일시적으로 무기에 재장전 속도 및 조작성이 강화됩니다."
               },
               "icon": "assets/perkicons/cac950e06b8de21fafa8aca1ba217a4c.png"
             },
@@ -1819,11 +2437,17 @@
               "count": 4,
               "name": {
                 "en": "Shoot to Scoot",
-                "zh": "開火疾行"
+                "zh": "開火疾行",
+                "zhs": "滑行射击",
+                "ja": "ショット&スライド",
+                "ko": "사격 후 슬라이딩"
               },
               "desc": {
                 "en": "Dealing damage with your weapons temporarily grants enhanced sliding. Sliding provides damage resistance.",
-                "zh": "使用武器造成傷害會暫時強化滑行。滑行會提供傷害抗性。"
+                "zh": "使用武器造成傷害會暫時強化滑行。滑行會提供傷害抗性。",
+                "zhs": "用武器造成伤害会在短时间内提供强化滑行。滑行时会获得伤害抗性。",
+                "ja": "武器でダメージを与えると、一時的にスライディングが向上する。スライディングするとダメージ耐性を獲得する。",
+                "ko": "무기로 피해를 입히면 일시적으로 슬라이딩이 강화됩니다. 슬라이딩하면 피해 저항이 생깁니다."
               },
               "icon": "assets/perkicons/69c0437e7a2926aeb72b0395f4b88beb.png"
             }
@@ -1833,11 +2457,17 @@
           "id": "iron-panoply",
           "name": {
             "en": "Iron Panoply",
-            "zh": "鋼鐵武裝套裝"
+            "zh": "鋼鐵武裝套裝",
+            "zhs": "铁甲套装",
+            "ja": "鉄の鎧のセット",
+            "ko": "강철 집합 세트"
           },
           "source": {
             "en": "IRON BANNER",
-            "zh": "鋼鐵旗幟"
+            "zh": "鋼鐵旗幟",
+            "zhs": "钢铁旗帜",
+            "ja": "アイアンバナー",
+            "ko": "철기 깃발"
           },
           "tags": [
             "all-ammo",
@@ -1860,11 +2490,17 @@
               "count": 2,
               "name": {
                 "en": "Vigilant Watch",
-                "zh": "警覺守望"
+                "zh": "警覺守望",
+                "zhs": "警觉守望",
+                "ja": "油断のない監視",
+                "ko": "경계 감시"
               },
               "desc": {
                 "en": "As your health gets lower, your weapons gain increased stability and handling. Weapon final blows while your shields are depleted heal you.",
-                "zh": "生命值越低，武器穩定性與操作性越好。護盾耗盡時，以武器造成最後一擊可治療自己。"
+                "zh": "生命值越低，武器穩定性與操作性越好。護盾耗盡時，以武器造成最後一擊可治療自己。",
+                "zhs": "随着你的生命值降低，你的武器获得稳定性和操控性提升。护盾耗尽时造成武器最后一击可获得治疗。",
+                "ja": "体力が低下するにつれ、武器の安定性とハンドリングが向上する。シールドがない状態で武器でトドメを刺すと、体力を回復する。",
+                "ko": "생명력이 낮을수록 무기의 안정성과 조작성이 향상됩니다. 보호막이 소진된 상태에서 무기로 결정타 처치 시 생명력이 회복됩니다."
               },
               "icon": "assets/perkicons/141304b7b66d2b8fad5b72c4ad29c40f.png"
             },
@@ -1872,11 +2508,17 @@
               "count": 4,
               "name": {
                 "en": "Iron Conviction",
-                "zh": "鋼鐵信念"
+                "zh": "鋼鐵信念",
+                "zhs": "钢铁信念",
+                "ja": "鉄の信念",
+                "ko": "강철의 확신"
               },
               "desc": {
                 "en": "When your shields become broken, you gain increased ammo generation, flinch resistance, and damage resistance against nearby combatants for a short time. Final blows extend this effect.",
-                "zh": "護盾被打破時，短時間內會增加彈藥生成、倒縮抗性，以及對附近戰員的傷害抗性。造成最後一擊可延長此效果。"
+                "zh": "護盾被打破時，短時間內會增加彈藥生成、倒縮抗性，以及對附近戰員的傷害抗性。造成最後一擊可延長此效果。",
+                "zhs": "当你的护盾破裂时，你在短时间内获得弹药生成速度、抖动抗性和对附近战斗人员伤害抗性提升。最后一击会延长此效果。",
+                "ja": "シールドが破られると、短時間、弾薬生成が向上し、近くにいる戦闘員に対するひるみ耐性とダメージ耐性が向上する。トドメを刺すと、この効果が延長される。",
+                "ko": "보호막이 파괴되면 짧은 시간 동안 탄약 생성량, 피격 반동 저항, 근처 전투원에 대한 피해 저항이 증가합니다. 결정타 적중 시 효과 적용 시간이 늘어납니다."
               },
               "icon": "assets/perkicons/729f24f6efeca3f59162885c8eddbaf3.png"
             }
@@ -1886,11 +2528,17 @@
           "id": "iron-battalion",
           "name": {
             "en": "Iron Battalion",
-            "zh": "鋼鐵營隊套組"
+            "zh": "鋼鐵營隊套組",
+            "zhs": "机械营套装",
+            "ja": "鉄の大部隊のセット",
+            "ko": "철의 대대 세트"
           },
           "source": {
             "en": "IRON BANNER",
-            "zh": "鋼鐵旗幟"
+            "zh": "鋼鐵旗幟",
+            "zhs": "钢铁旗帜",
+            "ja": "アイアンバナー",
+            "ko": "철기 깃발"
           },
           "tags": [
             "super",
@@ -1909,11 +2557,17 @@
               "count": 2,
               "name": {
                 "en": "Primary Honing",
-                "zh": "主要磨礪"
+                "zh": "主要磨礪",
+                "zhs": "主要珩磨",
+                "ja": "メイン・ホーニング",
+                "ko": "주요한 연마"
               },
               "desc": {
                 "en": "Increases handling and reload speed for Primary ammo weapons. Primary ammo weapons gain increased damage against non-boss combatants based on your Weapons stat.",
-                "zh": "提升主要彈藥武器的操作性與填裝速度。主要彈藥武器對非頭目戰員的傷害，也會根據你的武器數值而有所提升。"
+                "zh": "提升主要彈藥武器的操作性與填裝速度。主要彈藥武器對非頭目戰員的傷害，也會根據你的武器數值而有所提升。",
+                "zhs": "提升主弹药武器的操控性和填装速度。根据你的武器属性，提升主弹药武器对非首领战斗人员造成的伤害。",
+                "ja": "メインウェポンのハンドリングとリロード速度が向上する。武器ステータスに応じて、非ボス戦闘員に対するメインウェポンのダメージが増加する。",
+                "ko": "일반 탄약 무기의 조작성과 재장전 속도가 증가합니다. 주 무기 탄약 무기는 무기 능력치에 따라 보스가 아닌 전투원에게 주는 피해가 증가합니다."
               },
               "icon": "assets/perkicons/c3cc01210cee6c18152563202b5ac57d.png"
             },
@@ -1921,11 +2575,17 @@
               "count": 4,
               "name": {
                 "en": "Supercyclical",
-                "zh": "超循環"
+                "zh": "超循環",
+                "zhs": "超能循环",
+                "ja": "超循環",
+                "ko": "초순환"
               },
               "desc": {
                 "en": "Final blows while your Super is active refund Super energy when it ends.",
-                "zh": "在超能力啟用期間造成最後一擊，會在超能力結束時退還超能力能量。"
+                "zh": "在超能力啟用期間造成最後一擊，會在超能力結束時退還超能力能量。",
+                "zhs": "超能生效期间造成的最后一击将在超能结束后返还超能能量。",
+                "ja": "スーパースキルの発動中にトドメを刺すと、スーパースキルの終了時にスーパーエネルギーが返還される。",
+                "ko": "궁극기가 활성화된 동안 결정타를 기록하면 종료 시 궁극기 에너지가 반환됩니다."
               },
               "icon": "assets/perkicons/d8a71c6aa15a6a1d14ab7fc8e13e203c.png"
             }
@@ -1935,11 +2595,17 @@
           "id": "per-audacia",
           "name": {
             "en": "Per Audacia",
-            "zh": "勇者之道"
+            "zh": "勇者之道",
+            "zhs": "无畏征途",
+            "ja": "大胆不敵",
+            "ko": "역경을 헤치고"
           },
           "source": {
             "en": "COMPETITIVE CRUCIBLE",
-            "zh": "競賽對戰熔爐"
+            "zh": "競賽對戰熔爐",
+            "zhs": "竞赛对战熔炉",
+            "ja": "競技るつぼ",
+            "ko": "경쟁전 크루시블"
           },
           "tags": [
             "mobility",
@@ -1960,11 +2626,17 @@
               "count": 2,
               "name": {
                 "en": "Primary Chain",
-                "zh": "主要連鎖"
+                "zh": "主要連鎖",
+                "zhs": "主要链锁",
+                "ja": "メイン・チェーン",
+                "ko": "주요한 연쇄"
               },
               "desc": {
                 "en": "Primary ammo weapon final blows grant a stacking bonus to mobility and Primary weapon range and handling until you are defeated.",
-                "zh": "主要彈藥武器最後一擊會獲得可疊加的加成，提升機動性及主武器的射程與操作性，持續到你被擊敗為止。"
+                "zh": "主要彈藥武器最後一擊會獲得可疊加的加成，提升機動性及主武器的射程與操作性，持續到你被擊敗為止。",
+                "zhs": "主弹药武器最后一击会提供可叠加的增益，提升敏捷、主武器射程和操控性，直至你被击败。",
+                "ja": "メインウェポン弾武器でトドメを刺すと、可動性、メインウェポンの射程距離、そしてハンドリングが向上するスタック可能なボーナスを獲得する。スタックは倒されると失われる。",
+                "ko": "처치당하기 전까지 일반 탄약 무기 결정타로 기동성과 주 무기 사거리 및 조작성이 중첩되는 보너스를 얻습니다."
               },
               "icon": "assets/perkicons/495764dd5f65e2232fb197614a6242bc.png"
             },
@@ -1972,11 +2644,17 @@
               "count": 4,
               "name": {
                 "en": "Sublime Transit",
-                "zh": "極致運輸"
+                "zh": "極致運輸",
+                "zhs": "极致机动",
+                "ja": "崇高なる移動",
+                "ko": "숭고한 이동"
               },
               "desc": {
                 "en": "Increases mobility and grants enhanced sprint speed and slide distance.",
-                "zh": "提升機動性、衝刺速度及滑行距離。"
+                "zh": "提升機動性、衝刺速度及滑行距離。",
+                "zhs": "提升敏捷并强化冲刺速度和滑行距离。",
+                "ja": "可動性が向上し、ダッシュ速度とスライディングの距離が強化される。",
+                "ko": "기동성이 증가하고 질주 속도와 슬라이딩 거리가 향상됩니다."
               },
               "icon": "assets/perkicons/6c68d32bd7dd8a61b059c44ac1218272.png"
             }
@@ -1986,11 +2664,17 @@
           "id": "twofold-crown",
           "name": {
             "en": "Twofold Crown",
-            "zh": "雙重冠冕"
+            "zh": "雙重冠冕",
+            "zhs": "双重王冠",
+            "ja": "二重の冠",
+            "ko": "두 개의 왕좌"
           },
           "source": {
             "en": "TRIALS OF OSIRIS",
-            "zh": "歐西里斯的試煉"
+            "zh": "歐西里斯的試煉",
+            "zhs": "欧西里斯的试炼",
+            "ja": "オシリスの試練",
+            "ko": "오시리스의 시련"
           },
           "tags": [
             "healing",
@@ -2009,11 +2693,17 @@
               "count": 2,
               "name": {
                 "en": "Crook and Flail",
-                "zh": "牧杖連枷"
+                "zh": "牧杖連枷",
+                "zhs": "权杖连枷",
+                "ja": "クルックとフレイル",
+                "ko": "지팡이와 도리깨"
               },
               "desc": {
                 "en": "Picking up an ammo brick heals you.",
-                "zh": "拾起彈藥磚可獲得治癒效果。"
+                "zh": "拾起彈藥磚可獲得治癒效果。",
+                "zhs": "拾取弹药盒会治疗你。",
+                "ja": "弾薬箱を拾うと体力が回復する。",
+                "ko": "탄약 블록을 집으면 치유됩니다."
               },
               "icon": "assets/perkicons/b80634df8d4c10ccd0b3d77f6c03094d.png"
             },
@@ -2021,11 +2711,17 @@
               "count": 4,
               "name": {
                 "en": "Gift of Sight",
-                "zh": "視覺天賦"
+                "zh": "視覺天賦",
+                "zhs": "视觉馈赠",
+                "ja": "賜りし視覚",
+                "ko": "시야의 선물"
               },
               "desc": {
                 "en": "Final blows with Primary ammo weapons grant you briefly increased radar resolution.",
-                "zh": "使用主要彈藥武器施展最後一擊會短暫提升雷達解析度。"
+                "zh": "使用主要彈藥武器施展最後一擊會短暫提升雷達解析度。",
+                "zhs": "使用主弹药武器造成最后一击会暂时提升你雷达的分辨率。",
+                "ja": "メインウェポンでトドメを刺すと、一時的にレーダーの解像度が上がる。",
+                "ko": "일반 탄약 무기로 결정타를 기록하면 레이더 해상도가 일시적으로 올라갑니다."
               },
               "icon": "assets/perkicons/d45b0c7e60cb34ef703d20c85e3737a5.png"
             }
@@ -2035,11 +2731,17 @@
           "id": "new-demotic",
           "name": {
             "en": "New Demotic",
-            "zh": "新世俗"
+            "zh": "新世俗",
+            "zhs": "新通俗",
+            "ja": "新デモティック",
+            "ko": "새로운 민중"
           },
           "source": {
             "en": "TRIALS OF OSIRIS",
-            "zh": "歐西里斯的試煉"
+            "zh": "歐西里斯的試煉",
+            "zhs": "欧西里斯的试炼",
+            "ja": "オシリスの試練",
+            "ko": "오시리스의 시련"
           },
           "tags": [
             "survivability",
@@ -2060,11 +2762,17 @@
               "count": 2,
               "name": {
                 "en": "Paroli",
-                "zh": "翻倍攻勢"
+                "zh": "翻倍攻勢",
+                "zhs": "赢时加注",
+                "ja": "パロリ",
+                "ko": "파로리"
               },
               "desc": {
                 "en": "Primary ammo weapons gain a bonus to flinch resistance after sliding.",
-                "zh": "滑行後，主要彈藥武器會獲得倒縮抗性加成。"
+                "zh": "滑行後，主要彈藥武器會獲得倒縮抗性加成。",
+                "zhs": "滑行后主弹药武器会获得抖动抗性加成。",
+                "ja": "メインウェポンはスライディング後にひるみ耐性ボーナスを獲得する。",
+                "ko": "일반 탄약 무기의 경우 슬라이딩 후 피격 반동 저항 보너스를 획득합니다."
               },
               "icon": "assets/perkicons/d4ce701db7e340f651fc7683fa615599.png"
             },
@@ -2072,11 +2780,17 @@
               "count": 4,
               "name": {
                 "en": "Martingale",
-                "zh": "翻倍逆轉"
+                "zh": "翻倍逆轉",
+                "zhs": "反鞅策略",
+                "ja": "マーチンゲール",
+                "ko": "마틴게일"
               },
               "desc": {
                 "en": "Your weapons gain a temporary increase to handling and aim-down-sights speed when an ally is defeated or you revive an ally.",
-                "zh": "當盟友被擊敗或你復活盟友時，你的武器會短暫提升操作性與瞄準速度。"
+                "zh": "當盟友被擊敗或你復活盟友時，你的武器會短暫提升操作性與瞄準速度。",
+                "zhs": "当盟友被击败或你复活盟友时，你的武器会获得暂时的操控性和瞄准速度提升。",
+                "ja": "味方が倒されるか、自分が味方を蘇生した時、自分の武器のハンドリングと照準移行速度が一時的に向上する。",
+                "ko": "아군이 처치되었거나 아군을 부활시키면, 무기의 조작성과 조준 속도가 일시적으로 향상됩니다."
               },
               "icon": "assets/perkicons/8702ce0687c6933b63075a7456620954.png"
             }
@@ -2086,11 +2800,17 @@
           "id": "cruel-electrum",
           "name": {
             "en": "Cruel Electrum",
-            "zh": "殘酷電金"
+            "zh": "殘酷電金",
+            "zhs": "残酷琥珀",
+            "ja": "残酷なエレクトラム",
+            "ko": "잔혹한 일렉트럼"
           },
           "source": {
             "en": "TRIALS OF OSIRIS",
-            "zh": "歐西里斯的試煉"
+            "zh": "歐西里斯的試煉",
+            "zhs": "欧西里斯的试炼",
+            "ja": "オシリスの試練",
+            "ko": "오시리스의 시련"
           },
           "tags": [
             "survivability",
@@ -2111,11 +2831,17 @@
               "count": 2,
               "name": {
                 "en": "Primary Survivor",
-                "zh": "主要倖存者"
+                "zh": "主要倖存者",
+                "zhs": "主要幸存者",
+                "ja": "メイン・サバイバー",
+                "ko": "주요한 생존자"
               },
               "desc": {
                 "en": "When an ally is defeated, Primary ammo weapons gain increased handling, reload speed, target acquisition, and reduced flinch. Bonus increases when multiple allies are dead at the same time or when you are running solo.",
-                "zh": "盟友被擊敗時，主要彈藥武器會提升操作性、填裝速度與目標鎖定，並減輕倒縮。若數名盟友同時死亡，或以單人遊玩，提升幅度更多。"
+                "zh": "盟友被擊敗時，主要彈藥武器會提升操作性、填裝速度與目標鎖定，並減輕倒縮。若數名盟友同時死亡，或以單人遊玩，提升幅度更多。",
+                "zhs": "当一名盟友被击败时，提高主弹药武器的操控性、填装速度、目标捕获能力并减轻抖动。当多名盟友同时死亡或单人行动时，加成提升。",
+                "ja": "味方が倒されると、メインウェポンのハンドリング、リロード速度、標的捕捉が向上し、ひるみが軽減される。同時に複数の味方が倒されるか、ソロでプレイしている場合、ボーナスが増加する。",
+                "ko": "아군이 쓰러지면 일반 탄약 무기의 조작성, 재장전 속도, 표적 획득이 증가하고 피격 반동이 감소합니다. 여러 아군이 동시에 쓰러졌거나 혼자 플레이 중일 때는 보너스가 더 커집니다."
               },
               "icon": "assets/perkicons/c1f98cc31a51f865ca062a684442964a.png"
             },
@@ -2123,11 +2849,17 @@
               "count": 4,
               "name": {
                 "en": "Primary Phantom",
-                "zh": "主要幽靈"
+                "zh": "主要幽靈",
+                "zhs": "主要幽魂",
+                "ja": "メイン・ファントム",
+                "ko": "주요한 유령"
               },
               "desc": {
                 "en": "Final blows with Primary ammo weapons remove you from radar for a short time. Drawing a weapon that does not use Primary ammo will immediately end this effect.",
-                "zh": "使用主要彈藥武器造成最後一擊後，會從雷達上短暫消失。取出不使用主要彈藥的武器時，此效果會立即終止。"
+                "zh": "使用主要彈藥武器造成最後一擊後，會從雷達上短暫消失。取出不使用主要彈藥的武器時，此效果會立即終止。",
+                "zhs": "使用主弹药武器造成最后一击将使你暂时从雷达中消失。举起非主弹药武器将立即中断此效果。",
+                "ja": "メインウェポンでトドメを刺すと、短い間レーダーに表示されなくなる。この効果はメインウェポン以外の武器を構えると即座に終了する。",
+                "ko": "일반 탄약 무기로 결정타를 기록하면 짧은 시간 동안 레이더에서 사라집니다. 일반 탄약을 사용하지 않는 무기를 꺼내면 이 효과는 즉시 종료됩니다."
               },
               "icon": "assets/perkicons/72b47646330904d1a46cf54a779be28a.png"
             }
@@ -2137,11 +2869,17 @@
           "id": "circuit",
           "name": {
             "en": "Circuit",
-            "zh": "賽道"
+            "zh": "賽道",
+            "zhs": "回路",
+            "ja": "サーキット",
+            "ko": "회로"
           },
           "source": {
             "en": "SPARROW RACING",
-            "zh": "快雀競速"
+            "zh": "快雀競速",
+            "zhs": "快雀竞速",
+            "ja": "スパロウレース",
+            "ko": "스패로우 레이싱"
           },
           "tags": [
             "arc",
@@ -2162,11 +2900,17 @@
               "count": 2,
               "name": {
                 "en": "Revving Up",
-                "zh": "加速運轉"
+                "zh": "加速運轉",
+                "zhs": "引擎轰鸣",
+                "ja": "フル回転",
+                "ko": "엔진 가동"
               },
               "desc": {
                 "en": "Fast movement builds up a charge that gradually increases your health regeneration speed. Once you are Fully Revved, sprinting grants Speed Booster.",
-                "zh": "快速移動會累積充能，逐漸提升生命值再生速度。一旦加速完畢，衝刺就會賦予速度推進器。"
+                "zh": "快速移動會累積充能，逐漸提升生命值再生速度。一旦加速完畢，衝刺就會賦予速度推進器。",
+                "zhs": "快速移动积累充能，逐渐提升你的生命值回复速度。全速轰鸣时，冲刺会提供速度加成。",
+                "ja": "高速移動すると、体力の回復速度を徐々に増加させるチャージを蓄積する。フル回転到達が満タンになった状態でダッシュすると、スピードブースターを獲得する。",
+                "ko": "빠르게 이동하면 생명력 재생 속도가 점차 증가하는 충전이 쌓입니다. 최대로 속도를 올리면 질주가 속도 증폭기를 부여합니다."
               },
               "icon": "assets/perkicons/2bd8232d3bda3c410729c244956b2934.png"
             },
@@ -2174,11 +2918,17 @@
               "count": 4,
               "name": {
                 "en": "Dielectric Drift",
-                "zh": "介電質漂移"
+                "zh": "介電質漂移",
+                "zhs": "电介质漂移",
+                "ja": "誘電体ドリフト",
+                "ko": "유전체 표류"
               },
               "desc": {
                 "en": "Sliding while Speed Booster is active jolts combatants in front of you.",
-                "zh": "速度推進器啟動期間滑行時，會使前方的戰員顛簸。"
+                "zh": "速度推進器啟動期間滑行時，會使前方的戰員顛簸。",
+                "zhs": "速度加成生效时，滑行将震颤你前方的战斗人员。",
+                "ja": "スピードブースターが有効な状態でスライディングすると、目の前にいる戦闘員にショックを適用する。",
+                "ko": "속도 증폭기가 활성화된 동안 슬라이딩하면 정면에 있는 전투원에게 충격을 줍니다."
               },
               "icon": "assets/perkicons/014d2db087e06c17703e3f48f1135e5d.png"
             }
@@ -2190,18 +2940,27 @@
       "id": "dungeon",
       "title": {
         "en": "Dungeon",
-        "zh": "地城"
+        "zh": "地城",
+        "zhs": "地城",
+        "ja": "ダンジョン",
+        "ko": "던전"
       },
       "sets": [
         {
           "id": "techeuns-regalia",
           "name": {
             "en": "Techeun's Regalia",
-            "zh": "精謀女巫華服"
+            "zh": "精謀女巫華服",
+            "zhs": "灵巫华服",
+            "ja": "テクナ・ウィッチの式服",
+            "ko": "테키언의 예복"
           },
           "source": {
             "en": "FEATURED DUNGEON: SHATTERED THRONE",
-            "zh": "精選地城:破碎王座"
+            "zh": "精選地城:破碎王座",
+            "zhs": "精选地城:破碎王座",
+            "ja": "注目ダンジョン:砕かれた玉座",
+            "ko": "주요 던전:조각난 왕관"
           },
           "tags": [
             "all-abilities",
@@ -2224,11 +2983,17 @@
               "count": 2,
               "name": {
                 "en": "Queensfoil Rush",
-                "zh": "女王之箔衝刺"
+                "zh": "女王之箔衝刺",
+                "zhs": "女王兰亢奋",
+                "ja": "クイーンフォイル・ラッシュ",
+                "ko": "여왕의 풀 돌격"
               },
               "desc": {
                 "en": "Gain a powerful overshield while performing your finisher. When you finish a target, release a slowing burst around you.",
-                "zh": "施展終結技時，獲得強大的覆蓋護盾。終結目標後，會在你周圍釋放緩速爆發。"
+                "zh": "施展終結技時，獲得強大的覆蓋護盾。終結目標後，會在你周圍釋放緩速爆發。",
+                "zhs": "使用终结技时获得一个强大的覆盖护盾。终结目标时，在你周围释放一次减速爆发。",
+                "ja": "フィニッシャーを発動中、強力な2つ目のシールドが付与される。フィニッシャーで標的を倒すと、自身の周りに遅延の爆発を引き起こす。",
+                "ko": "필살기 사용 시 강력한 과보호막을 얻습니다. 대상에게 필살기를 사용할 때, 플레이어 주변에 감속 폭발을 방출합니다."
               },
               "icon": "assets/perkicons/a57b51a297cda79eacb02322ada388ea.png"
             },
@@ -2236,11 +3001,17 @@
               "count": 4,
               "name": {
                 "en": "Truth to Power",
-                "zh": "力量忠誠"
+                "zh": "力量忠誠",
+                "zhs": "权利的真相",
+                "ja": "不都合な真実",
+                "ko": "힘의 진실"
               },
               "desc": {
                 "en": "Gain increasing damage resistance when you deal damage or land final blows. Finishers grant accelerated progress. At max stacks, the recharge rate of your abilities is also increased.",
-                "zh": "造成傷害或最後一擊時，可獲得逐漸提升的傷害抗性。施展終結技可加速累積進度。達到最大疊加時，還能提升技能充能率。"
+                "zh": "造成傷害或最後一擊時，可獲得逐漸提升的傷害抗性。施展終結技可加速累積進度。達到最大疊加時，還能提升技能充能率。",
+                "zhs": "造成伤害或最后一击时获得递增的伤害抗性。终结技提供更快的进度。层数叠满时，你的技能充能速度也将获得提升。",
+                "ja": "ダメージを与えるか、トドメを刺すと、ダメージ耐性が付与される。フィニッシャーを決めると、進行が加速する。最大数のスタックを獲得すると、スキルのチャージ速度も加速する。",
+                "ko": "피해를 입히거나 결정타를 타격했을 때 향상되는 피해 저항을 획득합니다. 필살기 기록 시 진척도가 가속됩니다. 최대 중첩에서 능력의 충전 속도 또한 증가합니다."
               },
               "icon": "assets/perkicons/4449e9beedbec136551849b5a8802b35.png"
             }
@@ -2250,11 +3021,17 @@
           "id": "apostates-blade",
           "name": {
             "en": "Apostate's Blade",
-            "zh": "叛教者利刃"
+            "zh": "叛教者利刃",
+            "zhs": "变节者利刃",
+            "ja": "背教者の刃",
+            "ko": "배교자의 칼날"
           },
           "source": {
             "en": "FEATURED DUNGEON: PIT OF HERESY",
-            "zh": "精選地城:異端深坑"
+            "zh": "精選地城:異端深坑",
+            "zhs": "精选地城:异端深渊",
+            "ja": "注目ダンジョン:異端の奈落",
+            "ko": "주요 던전:이단의 구덩이"
           },
           "tags": [
             "finishers",
@@ -2277,11 +3054,17 @@
               "count": 2,
               "name": {
                 "en": "Regenerative Threshold",
-                "zh": "再生門檻"
+                "zh": "再生門檻",
+                "zhs": "再生阈值",
+                "ja": "回復基準値",
+                "ko": "재생 한계점"
               },
               "desc": {
                 "en": "Performing a finisher stores power. The next time your shields are broken, consume stored power to immediately heal and start health regeneration.",
-                "zh": "施展終結技可儲存能量。你的護盾下次遭破壞時，會消耗儲存的能量立即治療自己，並開始再生生命值。"
+                "zh": "施展終結技可儲存能量。你的護盾下次遭破壞時，會消耗儲存的能量立即治療自己，並開始再生生命值。",
+                "zhs": "施展终结技会存储能量。下一次你的护盾被击破时，消耗储备的能量立即获得治疗并开启生命值回复。",
+                "ja": "フィニッシャーを決めると、パワーを蓄積する。次にシールドが破壊されたときに、蓄積したパワーを消費して即座に体力を回復する。また、その後も体力が徐々に回復するようになる。",
+                "ko": "필살기를 사용하면 힘을 저장합니다. 다음번에 보호막이 파괴되면 저장한 힘을 사용해 즉시 치유하고 생명력 재생을 시작합니다."
               },
               "icon": "assets/perkicons/37ff5b490115feacf7606fa7c7d62105.png"
             },
@@ -2289,11 +3072,17 @@
               "count": 4,
               "name": {
                 "en": "Melee Conduction",
-                "zh": "近戰傳導"
+                "zh": "近戰傳導",
+                "zhs": "近战传导",
+                "ja": "近接伝導",
+                "ko": "근접 공격 도체"
               },
               "desc": {
                 "en": "While you have Radiant, Restoration, or Cure, your melee hits release a burst that will scorch the target.",
-                "zh": "擁有生機勃發、恢復或治癒效果時，近戰攻擊命中時會釋放爆發，使目標焦化。"
+                "zh": "擁有生機勃發、恢復或治癒效果時，近戰攻擊命中時會釋放爆發，使目標焦化。",
+                "zhs": "拥有焕光、恢复或治愈时，你的近战命中会释放灼烧目标的冲击波。",
+                "ja": "発光、回復、または治癒が有効な間、近接攻撃がヒットすると、標的にスコーチを適用する爆発を引き起こす。",
+                "ko": "광채, 회복, 치료 중 하나를 가지고 있는 동안, 근접 공격 타격 시 대상을 소각하는 폭발을 방출합니다."
               },
               "icon": "assets/perkicons/a4ce3890548fa343ab97556f6ef1bac7.png"
             }
@@ -2303,11 +3092,17 @@
           "id": "coda",
           "name": {
             "en": "CODA",
-            "zh": "終章"
+            "zh": "終章",
+            "zhs": "终曲",
+            "ja": "コーダ",
+            "ko": "CODA"
           },
           "source": {
             "en": "FEATURED DUNGEON: PROPHECY",
-            "zh": "精選地城:預言"
+            "zh": "精選地城:預言",
+            "zhs": "精选地城:预言",
+            "ja": "注目ダンジョン:予言",
+            "ko": "주요 던전:예언"
           },
           "tags": [
             "darkness",
@@ -2336,11 +3131,17 @@
               "count": 2,
               "name": {
                 "en": "Between Poles",
-                "zh": "極性之間"
+                "zh": "極性之間",
+                "zhs": "两极之间",
+                "ja": "両極間",
+                "ko": "극 사이"
               },
               "desc": {
                 "en": "Final blows with Light weapons grants stacks of Light Polarity, which grants Grenade stat. Final blows with Darkness or Kinetic weapons grants stacks of Dark Polarity, which grants stacks of Melee stat.",
-                "zh": "以光能武器造成最後一擊可獲得光極性疊層，進而增加手榴彈數值。以黯黑力量或動能武器造成最後一擊可獲得暗極性疊層，並提供近戰數值疊層。"
+                "zh": "以光能武器造成最後一擊可獲得光極性疊層，進而增加手榴彈數值。以黯黑力量或動能武器造成最後一擊可獲得暗極性疊層，並提供近戰數值疊層。",
+                "zhs": "光能武器最后一击提供赋予手雷属性的光能极性层数。暗影或动能武器最后一击提供赋予近战属性的暗影极性层数。",
+                "ja": "光武器でトドメを刺すと、グレネードステータスを付与する光極性のスタックを獲得する。暗黒武器またはキネティックウェポンでトドメを刺すと、近接ステータスを付与する暗黒極性のスタックを獲得する。",
+                "ko": "빛 무기로 결정타를 기록하면 빛 극성 중첩을 부여하여 수류탄 능력치를 획득합니다. 어둠 또는 물리 무기로 결정타를 기록하면 어둠 극성 중첩을 부여하여 근접 공격 능력치 중첩을 획득합니다."
               },
               "icon": "assets/perkicons/a0241a2cdaf39e14af7605dd460756d0.png"
             },
@@ -2348,11 +3149,17 @@
               "count": 4,
               "name": {
                 "en": "So Very Thin",
-                "zh": "骨瘦如柴"
+                "zh": "骨瘦如柴",
+                "zhs": "纤薄至极",
+                "ja": "極薄",
+                "ko": "초박막"
               },
               "desc": {
                 "en": "Final blows with Light weapons grants additional grenade energy. Final blows with Dark or Kinetic weapons grants additional melee energy. Rapid final blows that alternate between Light and Darkness grant a short period of damage resistance.",
-                "zh": "以光能武器造成最後一擊可獲得額外的手榴彈能量。以黯黑力量或動能武器造成最後一擊可獲得額外的近戰能量。在光能與黯黑力量之間交替造成的迅速最後一擊，會在短時間內獲得傷害抗性。"
+                "zh": "以光能武器造成最後一擊可獲得額外的手榴彈能量。以黯黑力量或動能武器造成最後一擊可獲得額外的近戰能量。在光能與黯黑力量之間交替造成的迅速最後一擊，會在短時間內獲得傷害抗性。",
+                "zhs": "光能武器最后一击提供额外手雷能量。暗影或动能武器最后一击提供额外近战能量。光能与暗影交替的快速最后一击在短时间内提供伤害抗性。",
+                "ja": "光武器でトドメを刺すと、追加のグレネードエネルギーを獲得する。暗黒武器またはキネティックウェポンでトドメを刺すと、追加の近接エネルギーを獲得する。光武器と暗黒武器で交互に素早く連続でトドメを刺すと、短時間ダメージ耐性を獲得する。",
+                "ko": "빛 무기로 결정타를 기록하면 수류탄 에너지를 추가로 제공합니다. 어둠 또는 물리 무기로 결정타를 기록하면 근접 공격 에너지를 추가로 제공합니다. 빛과 어둠을 바꾸는 빠른 결정타를 기록하면 잠시 동안 피해 저항을 제공합니다."
               },
               "icon": "assets/perkicons/e9dc45fc2e1f56748d5ddb414ebdf99d.png"
             }
@@ -2362,11 +3169,17 @@
           "id": "yearning-echo",
           "name": {
             "en": "Yearning Echo",
-            "zh": "渴望回聲"
+            "zh": "渴望回聲",
+            "zhs": "渴望回响",
+            "ja": "渇望の残響",
+            "ko": "갈망하는 메아리"
           },
           "source": {
             "en": "FEATURED OR MASTER DUNGEON: GRASP OF AVARICE",
-            "zh": "精選或大師地城:貪婪之握"
+            "zh": "精選或大師地城:貪婪之握",
+            "zhs": "精选或大师地城:贪婪之握",
+            "ja": "注目またはマスターダンジョン:強欲の支配",
+            "ko": "주요 또는 마스터 던전:탐욕의 손아귀"
           },
           "tags": [
             "elemental-pickups",
@@ -2393,11 +3206,17 @@
               "count": 2,
               "name": {
                 "en": "Untold Greed",
-                "zh": "無盡貪婪"
+                "zh": "無盡貪婪",
+                "zhs": "无尽贪婪",
+                "ja": "隠された強欲",
+                "ko": "형언할 수 없는 탐욕"
               },
               "desc": {
                 "en": "Picking up ammo, Orbs of Power, Elemental pickups, or destroying a Strand Tangle grants stacks of Untold Greed, slightly reducing damage taken and providing reload speed to equipped weapons. When your shields are broken, some stacks are lost.",
-                "zh": "拾取彈藥、力量球體、元素拾取物或摧毀縈絲糾結可獲得「無盡貪婪」疊層，稍微降低受到的傷害，並使裝備中武器提升填裝速度。護盾遭破壞時，會失去部分疊層。"
+                "zh": "拾取彈藥、力量球體、元素拾取物或摧毀縈絲糾結可獲得「無盡貪婪」疊層，稍微降低受到的傷害，並使裝備中武器提升填裝速度。護盾遭破壞時，會失去部分疊層。",
+                "zhs": "拾取弹药、能量球、元素拾取物，或摧毁缚丝缠结时获得无尽贪婪层数，略微降低所受伤害，并为已装备武器提供填装速度加成。当你的护盾被击破时，会失去部分层数。",
+                "ja": "弾薬、力のオーブ、または属性オブジェクトを拾うか、ストランド・タングルを破壊すると、隠された強欲のスタックを獲得し、被ダメージがわずかに減少し、装備中の武器のリロード速度が向上する。シールドがなくなると、スタックの一部を失う。",
+                "ko": "탄약, 힘의 보주, 원소 결정체를 획득하거나 또는 초월 타래를 파괴하면 말하지 않은 탐욕 중첩이 부여되며 받는 피해를 약간 줄이고 장착한 무기에 재장전 속도를 제공합니다. 보호막이 부서지면 일부 중첩이 사라집니다."
               },
               "icon": "assets/perkicons/e5e74b200fa0ca8c0a9edc63e62a4559.png"
             },
@@ -2405,11 +3224,17 @@
               "count": 4,
               "name": {
                 "en": "Overflowing Coffers",
-                "zh": "滿溢金庫"
+                "zh": "滿溢金庫",
+                "zhs": "满溢金库",
+                "ja": "溢れる宝庫",
+                "ko": "넘치는 금궤"
               },
               "desc": {
                 "en": "While you have stacks of Untold Greed, Orbs of Power and Elemental pickups provide more of their respective energy, and Strand Tangles deal increased damage. When your shields are broken, all stacks are converted into a fountain of Orbs of Power.",
-                "zh": "擁有「無盡貪婪」疊層時，力量球體與元素拾取物會提供更多對應能量，且縈絲糾結能造成額外傷害。護盾遭破壞時，所有疊層會轉換為力量球體噴泉。"
+                "zh": "擁有「無盡貪婪」疊層時，力量球體與元素拾取物會提供更多對應能量，且縈絲糾結能造成額外傷害。護盾遭破壞時，所有疊層會轉換為力量球體噴泉。",
+                "zhs": "拥有无尽贪婪层数时，能量球和元素拾取物会提供更多对应能量，并且提升缚丝缠结造成的伤害。当你的护盾被击破时，所有层数会转化为一股能量球的泉涌。",
+                "ja": "隠された強欲のスタックがある場合、力のオーブと属性オブジェクトから獲得できるエネルギー量が増加し、ストランド・タングルのダメージが増加する。シールドがなくなると、すべてのスタックが湧き出す力のオーブに変換される。",
+                "ko": "말하지 않은 탐욕의 중첩을 갖고 있는 동안 힘의 보주 및 원소 결정체가 각각의 에너지를 더 제공하며, 초월 타래가 추가 피해량으로 공격합니다. 보호막이 부서지면 모든 중첩은 힘의 보주의 샘으로 변합니다."
               },
               "icon": "assets/perkicons/9589b92d6863ebf09f776aad4dfbc2e3.png"
             }
@@ -2419,11 +3244,17 @@
           "id": "deep-explorer",
           "name": {
             "en": "Deep Explorer",
-            "zh": "絕地探索者"
+            "zh": "絕地探索者",
+            "zhs": "深渊探索者",
+            "ja": "ディープエクスプローラー",
+            "ko": "심층 탐사자"
           },
           "source": {
             "en": "FEATURED OR MASTER DUNGEON: DUALITY",
-            "zh": "精選或大師地城:二元性"
+            "zh": "精選或大師地城:二元性",
+            "zhs": "精选或大师地城:二象性",
+            "ja": "注目またはマスターダンジョン:デュアリティ",
+            "ko": "주요 또는 마스터 던전:이중성"
           },
           "tags": [
             "healing",
@@ -2442,11 +3273,17 @@
               "count": 2,
               "name": {
                 "en": "Built Bitter",
-                "zh": "築於苦澀"
+                "zh": "築於苦澀",
+                "zhs": "苦涩锻造",
+                "ja": "ビターな根性",
+                "ko": "쓰라린 단련"
               },
               "desc": {
                 "en": "Taking damage increases the reload speed of your equipped weapon until it is stowed. Taking more damage increases the effect.",
-                "zh": "受到傷害會使裝備中武器提升填裝速度，直到收起武器為止。受到越多傷害，效果越強。"
+                "zh": "受到傷害會使裝備中武器提升填裝速度，直到收起武器為止。受到越多傷害，效果越強。",
+                "zhs": "受到伤害会提升你已装备武器的填装速度，直到收起该武器。受到更多伤害可提升此效果。",
+                "ja": "ダメージを受けると、武器をしまうまで、装備している武器のリロード速度が向上する。この効果はダメージを受けるほど強化される。",
+                "ko": "피해를 받으면 장착한 무기를 보관하기 전까지 재장전 속도가 증가합니다. 추가 피해를 받으면 효과가 증가합니다."
               },
               "icon": "assets/perkicons/3384d936001688833ae09fa92cb280f5.png"
             },
@@ -2454,11 +3291,17 @@
               "count": 4,
               "name": {
                 "en": "Bittersweet",
-                "zh": "苦樂參半"
+                "zh": "苦樂參半",
+                "zhs": "苦乐参半",
+                "ja": "ビタースイート",
+                "ko": "달콤쌉싸름"
               },
               "desc": {
                 "en": "When you stow a weapon, restore health based on the number of Built Bitter stacks lost.",
-                "zh": "收起武器時，會根據失去的「築於苦澀」疊層數量恢復生命值。"
+                "zh": "收起武器時，會根據失去的「築於苦澀」疊層數量恢復生命值。",
+                "zhs": "当你收起武器时，根据失去的苦涩锻造层数恢复生命值。",
+                "ja": "武器をしまうと、ビターな根性のスタック数に応じて体力を回復する。",
+                "ko": "무기를 보관하면 쓰라린 단련 중첩을 잃은 숫자에 따라 생명력을 회복합니다."
               },
               "icon": "assets/perkicons/2160d0b4551f285830bdf344f47a8a9d.png"
             }
@@ -2468,11 +3311,17 @@
           "id": "tm-custom",
           "name": {
             "en": "TM Custom",
-            "zh": "TM自訂版"
+            "zh": "TM自訂版",
+            "zhs": "定制特机",
+            "ja": "TMカスタム",
+            "ko": "TM 사용자 지정"
           },
           "source": {
             "en": "FEATURED OR MASTER DUNGEON: SPIRE OF THE WATCHER",
-            "zh": "精選或大師地城:守望者尖塔"
+            "zh": "精選或大師地城:守望者尖塔",
+            "zhs": "精选或大师地城:守望者尖塔",
+            "ja": "注目またはマスターダンジョン:監視者のスパイア",
+            "ko": "주요 또는 마스터 던전:감시자의 첨탑"
           },
           "tags": [
             "disorient",
@@ -2493,11 +3342,17 @@
               "count": 2,
               "name": {
                 "en": "Old Martian Diplomacy",
-                "zh": "古老火星外交"
+                "zh": "古老火星外交",
+                "zhs": "旧火星外交",
+                "ja": "旧火星式外交",
+                "ko": "구식 화성 외교술"
               },
               "desc": {
                 "en": "Stowing a weapon after defeating a powerful combatant or a Guardian heals you a small amount and disorients nearby combatants.",
-                "zh": "擊敗強大戰員或守護者後收起武器，可恢復少量生命值並使附近戰員迷失方向。"
+                "zh": "擊敗強大戰員或守護者後收起武器，可恢復少量生命值並使附近戰員迷失方向。",
+                "zhs": "在击败一名强力战斗人员或守护者后收起武器，会为自身恢复少量生命值，并使附近战斗人员迷失方向。",
+                "ja": "強力な戦闘員またはガーディアンを倒した後に武器をしまうと、わずかに体力を回復し、近くにいる戦闘員を混乱させる。",
+                "ko": "강력한 전투원 또는 수호자를 처치한 뒤 무기를 보관하면 소량 치유되며 주위의 전투원을 혼란시킵니다."
               },
               "icon": "assets/perkicons/07bba1454e20ee9358ed61c4f20b7c34.png"
             },
@@ -2505,11 +3360,17 @@
               "count": 4,
               "name": {
                 "en": "High Noon",
-                "zh": "日正當中"
+                "zh": "日正當中",
+                "zhs": "午时已到",
+                "ja": "ハイヌーン",
+                "ko": "하이눈"
               },
               "desc": {
                 "en": "Freshly drawn weapons deal increased precision damage to combatants for a short period. Weapons with the Tex Balanced Stock Origin Trait equipped or Exotics manufactured by the Tex Mechanica Foundry gain further increased benefits.",
-                "zh": "剛取出的武器會在短時間內對戰員造成額外精確傷害。裝備「泰克斯平衡槍托」來源特點或由Tex Mechanica鑄造廠製造的異域裝備，可獲得更進一步的加成。"
+                "zh": "剛取出的武器會在短時間內對戰員造成額外精確傷害。裝備「泰克斯平衡槍托」來源特點或由Tex Mechanica鑄造廠製造的異域裝備，可獲得更進一步的加成。",
+                "zhs": "新拔出的武器在短时间内对战斗人员造成的精准伤害获得提升。装备特克斯平衡枪托原始特性的武器或由特克斯机械铸造厂制造的异域装备将获得进一步的提升。",
+                "ja": "武器を取り出してから短い間、戦闘員に対する精密ダメージが増加する。起源特性「テックス・バランスストック」が備わった武器やテックス・メカニカ製のエキゾチックを使用している場合、この効果が増幅される。",
+                "ko": "새롭게 뽑은 무기가 잠깐 동안 전투원에게 향상된 정밀 피해를 줍니다. 텍스 평형계통 기원 속성이 장착된 무기 또는 텍스 메카니카 제조사에서 생산한 경이인 경우 향상된 혜택을 받습니다."
               },
               "icon": "assets/perkicons/14b1ff03aa7eab854f220fdd32adf0ec.png"
             }
@@ -2519,11 +3380,17 @@
           "id": "taken-king",
           "name": {
             "en": "Taken King",
-            "zh": "邪神降臨"
+            "zh": "邪神降臨",
+            "zhs": "傀儡邪神",
+            "ja": "邪神",
+            "ko": "굴복자의 왕"
           },
           "source": {
             "en": "FEATURED OR MASTER DUNGEON: GHOSTS OF THE DEEP",
-            "zh": "精選或大師地城:鬼魅深淵"
+            "zh": "精選或大師地城:鬼魅深淵",
+            "zhs": "精选或大师地城:深渊机灵",
+            "ja": "注目またはマスターダンジョン:深淵の亡霊",
+            "ko": "주요 또는 마스터 던전:심해의 유령"
           },
           "tags": [
             "all-abilities",
@@ -2546,11 +3413,17 @@
               "count": 2,
               "name": {
                 "en": "The Ceremony",
-                "zh": "典禮"
+                "zh": "典禮",
+                "zhs": "典礼",
+                "ja": "式典",
+                "ko": "의식"
               },
               "desc": {
                 "en": "Finishing combatants or reviving allies initiates a Lucent Hive ritual. While the ritual is active, gain increased Super stat.",
-                "zh": "終結戰員或復活盟友時，觸發明晰邪魔族儀式。儀式進行期間，可提升超能力數值。"
+                "zh": "終結戰員或復活盟友時，觸發明晰邪魔族儀式。儀式進行期間，可提升超能力數值。",
+                "zhs": "终结战斗人员或复活盟友会开始光明邪魔族仪式。仪式生效期间，提升超能属性。",
+                "ja": "フィニッシャーで戦闘員を倒すか、味方を蘇生すると、ルーセントハイヴの儀式が発動する。儀式が有効な間、スーパースキルのステータスが向上する。",
+                "ko": "전투원에게 필살기를 타격하거나 아군을 부활시키면 빛의 군체 의식이 시작됩니다. 의식이 활성화된 동안, 향상된 궁극기 능력치를 획득합니다."
               },
               "icon": "assets/perkicons/3e8ebec7f43a113e821dc29827165316.png"
             },
@@ -2558,11 +3431,17 @@
               "count": 4,
               "name": {
                 "en": "Lucent Swarm",
-                "zh": "明晰蟲群"
+                "zh": "明晰蟲群",
+                "zhs": "光明虫群",
+                "ja": "ルーセント・スワーム",
+                "ko": "빛의 무리"
               },
               "desc": {
                 "en": "Collecting Orbs of Power extends the Ceremony. While it is active, ability final blows occasionally spawn allied Arc moths.",
-                "zh": "收集力量球體會延長「典禮」的時間。典禮啟動時，技能最後一擊偶爾會生成友方電弧飛蛾。"
+                "zh": "收集力量球體會延長「典禮」的時間。典禮啟動時，技能最後一擊偶爾會生成友方電弧飛蛾。",
+                "zhs": "收集能量球会延长典礼持续时间。典礼生效时，技能最后一击有几率生成友方电弧飞蛾。",
+                "ja": "力のオーブを収集すると、式典の持続時間が延長される。式典が有効な間、スキルでトドメを刺すと、一定確率で味方のアークモスが発生する。",
+                "ko": "힘의 보주를 획득하면 의식이 연장됩니다. 활성화된 동안, 능력 결정타가 때때로 아군 전기 나방을 생성합니다."
               },
               "icon": "assets/perkicons/a0480d71e1dea57fbea74496dd31e13a.png"
             }
@@ -2572,11 +3451,17 @@
           "id": "dark-age",
           "name": {
             "en": "Dark Age",
-            "zh": "暗黑紀元"
+            "zh": "暗黑紀元",
+            "zhs": "黑暗纪元",
+            "ja": "暗黒時代",
+            "ko": "암흑기"
           },
           "source": {
             "en": "FEATURED OR MASTER DUNGEON: WARLORDS RUIN",
-            "zh": "精選或大師地城:戰爭軍閥廢墟"
+            "zh": "精選或大師地城:戰爭軍閥廢墟",
+            "zhs": "精选或大师地城:战争领主的废墟",
+            "ja": "注目またはマスターダンジョン:ウォーロードの旧跡",
+            "ko": "주요 또는 마스터 던전:전쟁군주의 폐허"
           },
           "tags": [
             "class-ability",
@@ -2599,11 +3484,17 @@
               "count": 2,
               "name": {
                 "en": "Taking Initiative",
-                "zh": "搶占先機"
+                "zh": "搶占先機",
+                "zhs": "主动出击",
+                "ja": "主導権",
+                "ko": "계획 추진"
               },
               "desc": {
                 "en": "Hitting combatants with melee attacks or Sword strikes grants a stack of Initiative, giving bonus handling and reload. Stacks decay slowly over time.",
-                "zh": "以近戰攻擊或劍擊命中戰員，可獲得一層先機，提升操作性與填裝速度。疊層會隨時間緩慢衰退。"
+                "zh": "以近戰攻擊或劍擊命中戰員，可獲得一層先機，提升操作性與填裝速度。疊層會隨時間緩慢衰退。",
+                "zhs": "使用近战攻击或刀剑打击命中战斗人员可获得主动出击层数，从而提升操控性和填装。层数会随时间缓慢衰减。",
+                "ja": "近接攻撃または剣の斬撃が戦闘員にヒットすると、主導権のスタックを獲得し、ハンドリングとリロードが向上する。スタックは徐々に減衰していく。",
+                "ko": "근접 공격 또는 검 공격으로 전투원을 타격하면 계획 중첩을 부여하여 보너스 조작성, 재장전을 제공합니다. 중첩은 시간이 지나면 천천히 부패합니다."
               },
               "icon": "assets/perkicons/5be6f5f0e14a37f1efe37644f37faa15.png"
             },
@@ -2611,11 +3502,17 @@
               "count": 4,
               "name": {
                 "en": "Healing Initiative",
-                "zh": "治癒先機"
+                "zh": "治癒先機",
+                "zhs": "主动治疗",
+                "ja": "回復イニシアチブ",
+                "ko": "치유 계획"
               },
               "desc": {
                 "en": "While you have Initiative, using your class ability creates a stationary healing aura. The aura gains increased healing based on the number of Initiative stacks.",
-                "zh": "擁有「先機」時，使用職業技能會產生一個定點治療光環。光環的治療量會根據「先機」的疊層數量提升。"
+                "zh": "擁有「先機」時，使用職業技能會產生一個定點治療光環。光環的治療量會根據「先機」的疊層數量提升。",
+                "zhs": "拥有主动出击层数时，使用职业技能会生成一个位置固定的治疗光环。该光环的治疗量基于主动出击层数而提升。",
+                "ja": "主導権が有効な間、クラススキルを使用すると、その場に回復のオーラを発生させる。このオーラの回復量は、主導権のスタック数に応じて増加する。",
+                "ko": "계획을 가진 동안 직업 능력을 사용하면 고정된 치유 오라가 생성됩니다. 이 오라에서는 계획의 중첩 수에 따라 향상된 치유를 제공합니다."
               },
               "icon": "assets/perkicons/0273d18ef76b07eadc49e9ca2d131e73.png"
             }
@@ -2625,11 +3522,17 @@
           "id": "spacewalk",
           "name": {
             "en": "Spacewalk",
-            "zh": "太空漫步"
+            "zh": "太空漫步",
+            "zhs": "太空漫步",
+            "ja": "宇宙遊泳",
+            "ko": "우주 유영"
           },
           "source": {
             "en": "FEATURED OR MASTER DUNGEON: VESPER'S HOST",
-            "zh": "精選或大師地城:太白星之主"
+            "zh": "精選或大師地城:太白星之主",
+            "zhs": "精选或大师地城:晚星之主",
+            "ja": "注目またはマスターダンジョン:べスパーの宿主",
+            "ko": "주요 또는 마스터 던전:베스퍼의 주인"
           },
           "tags": [
             "disorient",
@@ -2650,11 +3553,17 @@
               "count": 2,
               "name": {
                 "en": "Augmented Armaments",
-                "zh": "強化軍武"
+                "zh": "強化軍武",
+                "zhs": "强化武装",
+                "ja": "強化武器",
+                "ko": "증강된 무장"
               },
               "desc": {
                 "en": "Primary ammo weapons deal increased damage to disoriented combatants.",
-                "zh": "主要彈藥武器對迷失方向的戰員造成的傷害提升。"
+                "zh": "主要彈藥武器對迷失方向的戰員造成的傷害提升。",
+                "zhs": "主弹药武器对迷失方向的战斗人员造成更高伤害。",
+                "ja": "混乱状態の戦闘員に対するメインウェポンのダメージが増加する。",
+                "ko": "일반 탄약 무기가 방향감각을 상실한 전투원에게 가하는 피해가 증가합니다."
               },
               "icon": "assets/perkicons/c69c2f408beb711a0529712a53abe120.png"
             },
@@ -2662,11 +3571,17 @@
               "count": 4,
               "name": {
                 "en": "Augmented Explosives",
-                "zh": "強化炸藥"
+                "zh": "強化炸藥",
+                "zhs": "强化爆破",
+                "ja": "強化爆発物",
+                "ko": "증강된 폭발물"
               },
               "desc": {
                 "en": "Your grenade abilities release an additional disorienting pulse shortly after detonating.",
-                "zh": "手榴彈技能引爆後不久會額外釋放一道使人迷失方向的脈衝波。"
+                "zh": "手榴彈技能引爆後不久會額外釋放一道使人迷失方向的脈衝波。",
+                "zhs": "你的手雷技能在爆炸不久后额外释放一次扰乱脉冲。",
+                "ja": "グレネードスキルが爆発直後に追加で混乱の波動を発生させる。",
+                "ko": "수류탄 능력이 폭발한 뒤 잠시 후에 추가적인 혼란 파동을 방출합니다."
               },
               "icon": "assets/perkicons/fe4bf02ec75185ba071c0a30b53f8037.png"
             }
@@ -2676,11 +3591,17 @@
           "id": "flain",
           "name": {
             "en": "Flain",
-            "zh": "剝皮者"
+            "zh": "剝皮者",
+            "zhs": "剥露者",
+            "ja": "削剥",
+            "ko": "탈피"
           },
           "source": {
             "en": "FEATURED OR MASTER DUNGEON: SUNDERED DOCTRINE",
-            "zh": "精選或大師地城:潰裂教義"
+            "zh": "精選或大師地城:潰裂教義",
+            "zhs": "精选或大师地城:分离教义",
+            "ja": "注目またはマスターダンジョン:経典の潰滅",
+            "ko": "주요 또는 마스터 던전:찢어낸 교리"
           },
           "tags": [
             "healing",
@@ -2699,11 +3620,17 @@
               "count": 2,
               "name": {
                 "en": "Sinew Stitching",
-                "zh": "肌腱縫合"
+                "zh": "肌腱縫合",
+                "zhs": "筋肉缝合",
+                "ja": "靭帯縫合",
+                "ko": "힘줄 봉합"
               },
               "desc": {
                 "en": "Taking damage from combatants sometimes spawns a Threadling.",
-                "zh": "受到戰員傷害時，有機會生成線蟲。"
+                "zh": "受到戰員傷害時，有機會生成線蟲。",
+                "zhs": "受到来自战斗人员的伤害时可能生成一只线虫。",
+                "ja": "戦闘員からダメージを受けると、一定確率でスレッドリングが生成される。",
+                "ko": "전투원에게서 피해를 입으면 때때로 소형 섬조가 생성됩니다."
               },
               "icon": "assets/perkicons/c1e6c0367ad681dada7bb3f4f2affd04.png"
             },
@@ -2711,11 +3638,17 @@
               "count": 4,
               "name": {
                 "en": "Knit Together",
-                "zh": "無縫編織"
+                "zh": "無縫編織",
+                "zhs": "缝补愈合",
+                "ja": "縫い合わせ",
+                "ko": "하나로 결속"
               },
               "desc": {
                 "en": "For a short time after your shields break, your next several Threadling hits restore health.",
-                "zh": "護盾遭破壞後，在短時間內接下來數次線蟲命中可恢復生命值。"
+                "zh": "護盾遭破壞後，在短時間內接下來數次線蟲命中可恢復生命值。",
+                "zhs": "你的护盾被击破后的短时间内，你接下来的几次线虫命中会回复生命值。",
+                "ja": "シールドが破壊されてから短い間、スレッドリングの攻撃がヒットする度に体力を回復する。",
+                "ko": "보호막이 부서진 뒤 잠시 동안 다음 소형 섬조 몇 개 타격 시 생명력이 회복됩니다."
               },
               "icon": "assets/perkicons/4b3cbd3ca5f5ffa0b6d484f139d1c006.png"
             }
@@ -2725,11 +3658,17 @@
           "id": "sage-protector",
           "name": {
             "en": "Sage Protector",
-            "zh": "賢人守衛者"
+            "zh": "賢人守衛者",
+            "zhs": "圣贤保护者",
+            "ja": "賢き守護者",
+            "ko": "현자의 보호"
           },
           "source": {
             "en": "EQUILIBRIUM DUNGEON WITH FEATS ENABLED",
-            "zh": "平衡之境地城(啟用功績)"
+            "zh": "平衡之境地城(啟用功績)",
+            "zhs": "平衡之境地城 (启用功绩)",
+            "ja": "イクリブリアムダンジョン (偉業有効)",
+            "ko": "평형 던전 (위업 활성화)"
           },
           "tags": [
             "class-ability",
@@ -2753,11 +3692,17 @@
               "count": 2,
               "name": {
                 "en": "Combat Meditation",
-                "zh": "戰鬥冥想"
+                "zh": "戰鬥冥想",
+                "zhs": "战斗冥想",
+                "ja": "戦場の瞑想",
+                "ko": "전투 명상"
               },
               "desc": {
                 "en": "Sword hits return grenade and class energy. Bonus energy is granted if Blade Focus is active.",
-                "zh": "以劍命中可回復手榴彈與職業能量。若劍刃專精已啟用，則給予額外能量。"
+                "zh": "以劍命中可回復手榴彈與職業能量。若劍刃專精已啟用，則給予額外能量。",
+                "zhs": "刀剑命中返还手雷和职业能量。如果启用利刃专注，还将获得额外能量。",
+                "ja": "剣攻撃でグレネードとクラスエネルギーが回復する。剣術集中が有効になっている場合は、ボーナスエネルギーが付与される。",
+                "ko": "검으로 타격하면 수류탄 및 직업 에너지를 회복합니다. 칼날 집중이 활성화되면 추가 에너지를 획득합니다."
               },
               "icon": "assets/perkicons/899fc042368ce701ca12f69df23dcc38.png"
             },
@@ -2765,11 +3710,17 @@
               "count": 4,
               "name": {
                 "en": "Blade Focus",
-                "zh": "劍刃專精"
+                "zh": "劍刃專精",
+                "zhs": "利刃专注",
+                "ja": "剣術集中",
+                "ko": "칼날 집중"
               },
               "desc": {
                 "en": "Briefly guard with a Sword to ready Blade Focus. While Blade Focus is readied, hitting a target with your sword increases Sword damage and lunge distance for a moderate duration.",
-                "zh": "用劍短暫防禦以啟用劍刃專精。劍刃專精啟用時，用劍命中目標可在一段時間內提升劍傷害與突刺距離。"
+                "zh": "用劍短暫防禦以啟用劍刃專精。劍刃專精啟用時，用劍命中目標可在一段時間內提升劍傷害與突刺距離。",
+                "zhs": "使用刀剑短暂格档来让利刃专注就绪。利刃专注就绪时，用刀剑命中目标会在一定时间内提升刀剑伤害和前冲距离。",
+                "ja": "剣で短時間防御すると剣術集中を準備する。剣術集中が準備できた状態で剣で標的を攻撃すると、剣のダメージと突進距離が中程度の時間増加する。",
+                "ko": "검으로 잠시 막기 자세를 취해 칼날 집중을 준비합니다. 칼날 집중이 준비된 상태에서 검으로 대상을 타격하면 일정 시간 동안 검 피해와 돌진 거리가 증가합니다."
               },
               "icon": "assets/perkicons/a19540f5e54c76044c91fbac06f697ed.png"
             }
@@ -2781,18 +3732,27 @@
       "id": "raid",
       "title": {
         "en": "Raid",
-        "zh": "突襲"
+        "zh": "突襲",
+        "zhs": "突袭",
+        "ja": "レイド",
+        "ko": "레이드"
       },
       "sets": [
         {
           "id": "great-hunt",
           "name": {
             "en": "Great Hunt",
-            "zh": "偉大狩獵"
+            "zh": "偉大狩獵",
+            "zhs": "伟大狩猎",
+            "ja": "偉大なる狩り",
+            "ko": "위대한 사냥"
           },
           "source": {
             "en": "FEATURED OR MASTER RAID: LAST WISH",
-            "zh": "精選或大師突襲:最後遺願"
+            "zh": "精選或大師突襲:最後遺願",
+            "zhs": "精选或大师突袭:最后一愿",
+            "ja": "注目またはマスターレイド:最後の望み",
+            "ko": "주요 또는 마스터 레이드:마지막 소원"
           },
           "tags": [
             "grenade",
@@ -2813,11 +3773,17 @@
               "count": 2,
               "name": {
                 "en": "Taken Barrier",
-                "zh": "傀儡屏障"
+                "zh": "傀儡屏障",
+                "zhs": "傀儡护盾",
+                "ja": "宿りの障壁",
+                "ko": "굴복자 방어"
               },
               "desc": {
                 "en": "Grenade final blows temporarily reduce incoming damage.",
-                "zh": "手榴彈最後一擊會暫時降低受到的傷害。"
+                "zh": "手榴彈最後一擊會暫時降低受到的傷害。",
+                "zhs": "手雷最后一击会在短时间内减少你受到的伤害。",
+                "ja": "グレネードでトドメを刺すと、一時的に被ダメージが軽減される。",
+                "ko": "수류탄 결정타가 일시적으로 받는 피해량을 줄여줍니다."
               },
               "icon": "assets/perkicons/28dc5b70823b878a972034c6eb05e666.png"
             },
@@ -2825,11 +3791,17 @@
               "count": 4,
               "name": {
                 "en": "Taken Armaments",
-                "zh": "傀儡軍武"
+                "zh": "傀儡軍武",
+                "zhs": "傀儡武装",
+                "ja": "宿りの兵器",
+                "ko": "굴복자 무장"
               },
               "desc": {
                 "en": "Grenade final blows grant additional Heavy ammo progress.",
-                "zh": "手榴彈最後一擊會提供額外重型彈藥進度。"
+                "zh": "手榴彈最後一擊會提供額外重型彈藥進度。",
+                "zhs": "手雷最后一击会提供额外的重型弹药进度。",
+                "ja": "グレネードでトドメを刺すと、ヘビーウェポン弾の進行ボーナスを獲得する。",
+                "ko": "수류탄 결정타 시 중화기 탄약 진척도를 추가로 획득합니다."
               },
               "icon": "assets/perkicons/738273f563c6cc73bfde01357418adde.png"
             }
@@ -2839,11 +3811,17 @@
           "id": "kentarch-3",
           "name": {
             "en": "Kentarch 3",
-            "zh": "肯塔奇3"
+            "zh": "肯塔奇3",
+            "zhs": "第三百夫长",
+            "ja": "ケンターチ3",
+            "ko": "켄타크 3"
           },
           "source": {
             "en": "FEATURED OR MASTER RAID: GARDEN OF SALVATION",
-            "zh": "精選或大師突襲:救贖之園"
+            "zh": "精選或大師突襲:救贖之園",
+            "zhs": "精选或大师突袭:救赎花园",
+            "ja": "注目またはマスターレイド:救済の庭園",
+            "ko": "주요 또는 마스터 레이드:구원의 정원"
           },
           "tags": [
             "health-stat",
@@ -2864,11 +3842,17 @@
               "count": 2,
               "name": {
                 "en": "Network Admin",
-                "zh": "網路管理員"
+                "zh": "網路管理員",
+                "zhs": "网络管理员",
+                "ja": "ネットワーク管理者",
+                "ko": "네트워크 관리자"
               },
               "desc": {
                 "en": "Being near allies creates a relay network that gives the wearer improved handling and reload speed. \n\nBeing near other allied Network Admins additionally grants the wearer a bonus to Health stat.",
-                "zh": "靠近盟友時會建立中繼網路，提升裝備者的武器操作性與填裝速度。\n\n若附近有其他友方網路管理員，則可額外提升生命值數值。"
+                "zh": "靠近盟友時會建立中繼網路，提升裝備者的武器操作性與填裝速度。\n\n若附近有其他友方網路管理員，則可額外提升生命值數值。",
+                "zhs": "靠近盟友会生成一个中继网络，提升装备者的操控性和填装速度。\n\n靠近其他友方网络管理员额外提升装备者的生命值属性。",
+                "ja": "味方の近くにいると、使用者のハンドリングとリロード速度を向上する中継ネットワークを確立する。\n\nネットワーク管理者を装備している味方の近くにいると、さらに体力ステータスにボーナスが適用される。",
+                "ko": "아군 가까이에 있으면 착용자에게 조작성과 재장전 속도 향상을 부여하는 중계망이 형성됩니다. \n\n다른 아군 네트워크 관리자 가까이에 있으면 착용자는 추가로 생명력 능력치를 얻습니다."
               },
               "icon": "assets/perkicons/aae858b35a0768b44be303cf9ae15d52.png"
             },
@@ -2876,11 +3860,17 @@
               "count": 4,
               "name": {
                 "en": "Network Upload",
-                "zh": "網路上傳"
+                "zh": "網路上傳",
+                "zhs": "网络上传",
+                "ja": "ネットワーク・アップロード",
+                "ko": "네트워크 업로드"
               },
               "desc": {
                 "en": "Weapon final blows grant the wearer and nearby allies melee energy.",
-                "zh": "武器最後一擊會賦予裝備者與附近盟友近戰能量。"
+                "zh": "武器最後一擊會賦予裝備者與附近盟友近戰能量。",
+                "zhs": "武器最后一击为装备者和附近盟友提供近战能量。",
+                "ja": "武器でトドメを刺すと、使用者と近くにいる味方に近接エネルギーを付与する。",
+                "ko": "무기 결정타 시 장착자와 주위 아군이 근접 공격 에너지를 획득합니다."
               },
               "icon": "assets/perkicons/67080f11f3487aa8e442609becfdae93.png"
             }
@@ -2890,11 +3880,17 @@
           "id": "legacys-oath",
           "name": {
             "en": "Legacy's Oath",
-            "zh": "遺志誓言"
+            "zh": "遺志誓言",
+            "zhs": "传承之誓",
+            "ja": "遺産の誓い",
+            "ko": "유산의 맹세"
           },
           "source": {
             "en": "FEATURED OR MASTER RAID: DEEP STONE CRYPT",
-            "zh": "精選或大師突襲:深石地窖"
+            "zh": "精選或大師突襲:深石地窖",
+            "zhs": "精选或大师突袭:深岩墓室",
+            "ja": "注目またはマスターレイド:ディープストーン・クリプト",
+            "ko": "주요 또는 마스터 레이드:딥스톤 무덤"
           },
           "tags": [
             "disorient",
@@ -2915,11 +3911,17 @@
               "count": 2,
               "name": {
                 "en": "Augmented Servos",
-                "zh": "強化伺服機"
+                "zh": "強化伺服機",
+                "zhs": "强化伺服",
+                "ja": "拡張サーボ",
+                "ko": "증강 서보"
               },
               "desc": {
                 "en": "Powered melees release an additional disorienting pulse when used to defeat a target.",
-                "zh": "使用強力近戰擊敗目標時，會額外釋放一道使人迷失方向的脈衝波。"
+                "zh": "使用強力近戰擊敗目標時，會額外釋放一道使人迷失方向的脈衝波。",
+                "zhs": "使用充能近战击败目标时额外释放一道迷失脉冲。",
+                "ja": "チャージされた近接攻撃で標的を倒すと、混乱を適用する波動が発生する。",
+                "ko": "대상을 처치하는 데 사용하면 강화 근접 공격이 혼란을 주는 파동을 추가로 방출합니다."
               },
               "icon": "assets/perkicons/dc92ca1a287bff0693fe128baff9df35.png"
             },
@@ -2927,11 +3929,17 @@
               "count": 4,
               "name": {
                 "en": "God-like Judgment",
-                "zh": "如神審判"
+                "zh": "如神審判",
+                "zhs": "神级审判",
+                "ja": "神の如き裁き",
+                "ko": "신과 같은 심판"
               },
               "desc": {
                 "en": "When your shields are broken by a combatant, or upon casting your Super, release a swarm of heat seeking micro-missiles.",
-                "zh": "護盾遭戰員破壞，或施放超能力時，會發射一批熱能追蹤微型導彈。"
+                "zh": "護盾遭戰員破壞，或施放超能力時，會發射一批熱能追蹤微型導彈。",
+                "zhs": "你的护盾被战斗人员击破，或你使用超能时，发射大量追踪热源的微型导弹。",
+                "ja": "戦闘員によってシールドが破壊された場合、またはスーパースキルの発動時、熱追尾式のマイクロミサイルを多数発射する。",
+                "ko": "전투원에게 보호막이 파괴되거나 궁극기를 시전하면, 열을 추적하는 마이크로 미사일 무리를 발사합니다."
               },
               "icon": "assets/perkicons/a33ab7d65a4aa836142ee869b0423c66.png"
             }
@@ -2941,11 +3949,17 @@
           "id": "atheons-memory",
           "name": {
             "en": "Atheon's Memory",
-            "zh": "艾席恩回憶"
+            "zh": "艾席恩回憶",
+            "zhs": "埃希恩记忆",
+            "ja": "アテオンの記憶",
+            "ko": "아테온의 기억"
           },
           "source": {
             "en": "FEATURED OR MASTER RAID: VAULT OF GLASS",
-            "zh": "精選或大師突襲:琉璃寶庫"
+            "zh": "精選或大師突襲:琉璃寶庫",
+            "zhs": "精选或大师突袭:玻璃拱顶",
+            "ja": "注目またはマスターレイド:ガラスの間",
+            "ko": "주요 또는 마스터 레이드:유리 금고"
           },
           "tags": [
             "orbs-of-power"
@@ -2963,11 +3977,17 @@
               "count": 2,
               "name": {
                 "en": "Radiolaria Breach",
-                "zh": "放射蟲突破"
+                "zh": "放射蟲突破",
+                "zhs": "活性放射体液裂隙",
+                "ja": "レディオラリア流出",
+                "ko": "방산충 침투"
               },
               "desc": {
                 "en": "After picking up an Orb of Power, the next time your shields are broken, gain a bonus to Health stat for a short duration and release a burst of radiolaria around you.",
-                "zh": "拾取力量球體後，護盾下次遭破壞時，會在短時間內提升生命值數值，並在周圍釋放一圈放射蟲。"
+                "zh": "拾取力量球體後，護盾下次遭破壞時，會在短時間內提升生命值數值，並在周圍釋放一圈放射蟲。",
+                "zhs": "拾取能量球后，下一次你的护盾被击破时，在短时间内获得生命值属性加成并向周围释放一股活性放射体液。",
+                "ja": "力のオーブを拾うと、次にシールドが破壊されたときに、短時間体力ステータスにボーナスが適用され、周囲にレディオラリアの爆発を引き起こす。",
+                "ko": "힘의 보주를 획득한 뒤 다음번에 보호막이 파괴되면, 짧은 시간 동안 생명력 능력치 보너스를 얻고 주위에 방산충을 폭발시킵니다."
               },
               "icon": "assets/perkicons/0a0c002d2eb7c7687fe93c02143d9c23.png"
             },
@@ -2975,11 +3995,17 @@
               "count": 4,
               "name": {
                 "en": "Collective Power",
-                "zh": "集體力量"
+                "zh": "集體力量",
+                "zhs": "集体之力",
+                "ja": "コレクティブ・パワー",
+                "ko": "집단적 힘"
               },
               "desc": {
                 "en": "While you have a subclass buff, dealing sustained damage creates an Orb of Power.",
-                "zh": "擁有副職業增益時，造成持續傷害會產生一顆力量球體。"
+                "zh": "擁有副職業增益時，造成持續傷害會產生一顆力量球體。",
+                "zhs": "拥有分支职业增益时，造成持续伤害会生成一个能量球。",
+                "ja": "サブクラスのバフが適用されている場合、持続的にダメージを与えると、力のオーブが生成される。",
+                "ko": "하위직업 강화 효과를 받고 있는 동안 지속 피해를 주면 힘의 보주를 생성합니다."
               },
               "icon": "assets/perkicons/19fd2268026b9e381de699a3dc941741.png"
             }
@@ -2989,11 +4015,17 @@
           "id": "resonant-fury",
           "name": {
             "en": "Resonant Fury",
-            "zh": "共振狂怒"
+            "zh": "共振狂怒",
+            "zhs": "共振狂怒",
+            "ja": "共振する怒り",
+            "ko": "공명하는 분노"
           },
           "source": {
             "en": "FEATURED OR MASTER RAID: VOW OF THE DISCIPLE",
-            "zh": "精選或大師突襲:門徒之誓"
+            "zh": "精選或大師突襲:門徒之誓",
+            "zhs": "精选或大师突袭:门徒誓约",
+            "ja": "注目またはマスターレイド:門弟の誓い",
+            "ko": "주요 또는 마스터 레이드:신봉자의 서약"
           },
           "tags": [
             "glaives",
@@ -3015,11 +4047,17 @@
               "count": 2,
               "name": {
                 "en": "Resonant Plating",
-                "zh": "共振鍍層"
+                "zh": "共振鍍層",
+                "zhs": "共振镀层",
+                "ja": "共振プレート",
+                "ko": "공명 판"
               },
               "desc": {
                 "en": "Your health begins regenerating immediately after taking melee damage from a powerful combatant.",
-                "zh": "受到強勁戰員的近戰傷害後，生命值會立即開始再生。"
+                "zh": "受到強勁戰員的近戰傷害後，生命值會立即開始再生。",
+                "zhs": "受到强力战斗人员的近战伤害后立即开始回复生命值。",
+                "ja": "強力な戦闘員から近接ダメージを受けると、即座に体力が回復し始める。",
+                "ko": "강력한 전투원에게 근접 공격 피해를 받아 피해를 입으면 즉시 생명력 재생이 시작됩니다."
               },
               "icon": "assets/perkicons/f7405da4c3f5e18e0a29f4ceca3aa8b0.png"
             },
@@ -3027,11 +4065,17 @@
               "count": 4,
               "name": {
                 "en": "Siphoning Touch",
-                "zh": "虹吸之觸"
+                "zh": "虹吸之觸",
+                "zhs": "虹吸之触",
+                "ja": "サイフォン・タッチ",
+                "ko": "흡수하는 손길"
               },
               "desc": {
                 "en": "Gain stacks of Siphoning Touch for weapon or Glaive melee hits. Switching weapons heals you and consumes all stacks.",
-                "zh": "使用武器或長戈近戰命中可獲得「虹吸之觸」疊層。切換武器會治癒你並消耗所有疊層。"
+                "zh": "使用武器或長戈近戰命中可獲得「虹吸之觸」疊層。切換武器會治癒你並消耗所有疊層。",
+                "zhs": "使用武器或偃月造成近战命中获得虹吸之触层数。切换武器会消耗所有层数来治疗你自己。",
+                "ja": "武器またはグレイブの攻撃がヒットすると、サイフォン・タッチのスタックを獲得する。武器を切り替えると、体力を回復してスタックをすべて消費する。",
+                "ko": "무기 또는 월도 근접 공격 타격에 흡수하는 손길 중첩을 획득합니다. 무기를 교체하면 치유 효과를 받고 모든 중첩이 소모됩니다."
               },
               "icon": "assets/perkicons/4678088483fa5ea38f509a02e24faf21.png"
             }
@@ -3041,11 +4085,17 @@
           "id": "crotas-memory",
           "name": {
             "en": "Crota's Memory",
-            "zh": "克洛塔回憶"
+            "zh": "克洛塔回憶",
+            "zhs": "克洛塔记忆",
+            "ja": "クロタの記憶",
+            "ko": "크로타의 기억"
           },
           "source": {
             "en": "FEATURED OR MASTER RAID: CROTA'S END",
-            "zh": "精選或大師突襲:克洛塔的結局"
+            "zh": "精選或大師突襲:克洛塔的結局",
+            "zhs": "精选或大师突袭:克洛塔的末日",
+            "ja": "注目またはマスターレイド:クロタの最期",
+            "ko": "주요 또는 마스터 레이드:크로타의 최후"
           },
           "tags": [
             "melee",
@@ -3064,11 +4114,17 @@
               "count": 2,
               "name": {
                 "en": "Cursed Fist",
-                "zh": "受詛之拳"
+                "zh": "受詛之拳",
+                "zhs": "诅咒铁拳",
+                "ja": "呪われた拳",
+                "ko": "저주받은 주먹"
               },
               "desc": {
                 "en": "Melee final blows trigger a Cursed Thrall explosion.",
-                "zh": "近戰最後一擊會觸發受詛狂魔爆炸。"
+                "zh": "近戰最後一擊會觸發受詛狂魔爆炸。",
+                "zhs": "近战最后一击会触发一次诅咒怨魂爆炸。",
+                "ja": "近接攻撃でトドメを刺すと、カースド・スロールの爆発を引き起こす。",
+                "ko": "근접 공격 결정타로 저주받은 노예 폭발이 일어납니다."
               },
               "icon": "assets/perkicons/161a3720af72721392e459e6a66f087d.png"
             },
@@ -3076,11 +4132,17 @@
               "count": 4,
               "name": {
                 "en": "Power of the Son",
-                "zh": "子嗣之力"
+                "zh": "子嗣之力",
+                "zhs": "人子之力",
+                "ja": "子の力",
+                "ko": "후예의 힘"
               },
               "desc": {
                 "en": "Being in combat for a duration grants progressively more flinch resistance and damage resistance versus combatants.",
-                "zh": "處於戰鬥狀態一段時間後，會逐漸提升對戰員的倒縮抗性與傷害抗性。"
+                "zh": "處於戰鬥狀態一段時間後，會逐漸提升對戰員的倒縮抗性與傷害抗性。",
+                "zhs": "处于战斗中一段时间会逐渐获得更多对战斗人员的抖动抗性和伤害抗性。",
+                "ja": "一定時間戦闘状態が続くと、徐々に戦闘員に対するひるみ耐性とダメージ耐性を獲得する。",
+                "ko": "일정 시간 전투 상태를 유지하면 전투원에게 피격 반동 저항과 피해 저항이 점점 증가합니다."
               },
               "icon": "assets/perkicons/63000cbeef61981c3efe32992739789b.png"
             }
@@ -3090,11 +4152,17 @@
           "id": "nezarecs-nightmare",
           "name": {
             "en": "Nezarec's Nightmare",
-            "zh": "涅沙瑞克的夢魘"
+            "zh": "涅沙瑞克的夢魘",
+            "zhs": "奈扎雷克的梦魇",
+            "ja": "ネザレクのナイトメア",
+            "ko": "네자렉의 악몽"
           },
           "source": {
             "en": "FEATURED OR MASTER RAID: ROOT OF NIGHTMARES",
-            "zh": "精選或大師突襲:夢魘根源"
+            "zh": "精選或大師突襲:夢魘根源",
+            "zhs": "精选或大师突袭:梦魇根源",
+            "ja": "注目またはマスターレイド:ナイトメアの根源",
+            "ko": "주요 또는 마스터 레이드:악몽의 뿌리"
           },
           "tags": [
             "finishers",
@@ -3117,11 +4185,17 @@
               "count": 2,
               "name": {
                 "en": "Bad Dreams",
-                "zh": "恐懼夢境"
+                "zh": "恐懼夢境",
+                "zhs": "噩梦缠身",
+                "ja": "悪い夢",
+                "ko": "악몽"
               },
               "desc": {
                 "en": "Final blows versus subclass-debuffed targets have an escalating chance to spawn an Orb of Power.",
-                "zh": "對受到副職業減益影響的目標造成最後一擊時，產生力量球體的機率會逐漸提升。"
+                "zh": "對受到副職業減益影響的目標造成最後一擊時，產生力量球體的機率會逐漸提升。",
+                "zhs": "对受到分支职业减益影响的目标造成最后一击有递增的几率生成能量球。",
+                "ja": "サブクラスのデバフが適用された標的にトドメを刺すと、力のオーブが生成される確率が徐々に増加する。",
+                "ko": "하위직업 약화 효과가 걸린 대상에게 결정타를 기록하면 점점 더 높은 확률로 힘의 보주가 생성됩니다."
               },
               "icon": "assets/perkicons/353f44c5dc35f53b9cbdc5e7275e79f5.png"
             },
@@ -3129,11 +4203,17 @@
               "count": 4,
               "name": {
                 "en": "Dream-Devourer",
-                "zh": "夢境吞噬者"
+                "zh": "夢境吞噬者",
+                "zhs": "噬梦者",
+                "ja": "夢喰い",
+                "ko": "꿈 섭취자"
               },
               "desc": {
                 "en": "Performing a finisher versus a powerful combatant grants Devour. While you have Devour, gain damage resistance versus combatants.",
-                "zh": "對抗強大戰員時施展終結技可獲得吞噬殆盡。擁有吞噬殆盡時，可提升對戰員的傷害抗性。"
+                "zh": "對抗強大戰員時施展終結技可獲得吞噬殆盡。擁有吞噬殆盡時，可提升對戰員的傷害抗性。",
+                "zhs": "对强力战斗人员施展终结技可提供吞食。拥有吞食时，获得对战斗人员的伤害抗性。",
+                "ja": "強力な戦闘員に対してフィニッシャーを決めると、吸引を獲得する。吸引が有効な間、戦闘員に対するダメージ耐性が向上する。",
+                "ko": "강력한 전투원에게 필살기를 수행하면 섭취 효과를 얻습니다. 섭취 효과가 활성화된 동안 전투원에게 받는 피해 저항이 증가합니다."
               },
               "icon": "assets/perkicons/7c6a982de9632a3a04dbe1c9a51fc150.png"
             }
@@ -3143,11 +4223,17 @@
           "id": "oryxs-memory",
           "name": {
             "en": "Oryx's Memory",
-            "zh": "歐里克斯回憶"
+            "zh": "歐里克斯回憶",
+            "zhs": "欧里克斯记忆",
+            "ja": "オリックスの記憶",
+            "ko": "오릭스의 기억"
           },
           "source": {
             "en": "FEATURED OR MASTER RAID: KING'S FALL",
-            "zh": "精選或大師突襲:國王的殞落"
+            "zh": "精選或大師突襲:國王的殞落",
+            "zhs": "精选或大师突袭:国王的陨落",
+            "ja": "注目またはマスターレイド:邪神、滅びる",
+            "ko": "주요 또는 마스터 레이드:왕의 몰락"
           },
           "tags": [
             "all-ammo",
@@ -3168,11 +4254,17 @@
               "count": 2,
               "name": {
                 "en": "Iron Sharpens Iron",
-                "zh": "鋼鐵砥礪"
+                "zh": "鋼鐵砥礪",
+                "zhs": "钢铁的历练",
+                "ja": "鉄で鉄を磨く",
+                "ko": "강철을 단련하는 강철"
               },
               "desc": {
                 "en": "Final blows on Guardians and powerful combatants generate additional ammo progress.",
-                "zh": "對守護者與強大戰員造成最後一擊會產生額外彈藥進度。"
+                "zh": "對守護者與強大戰員造成最後一擊會產生額外彈藥進度。",
+                "zhs": "对守护者和强力战斗人员造成最后一击时生成额外的弹药进度。",
+                "ja": "ガーディアンや強力な戦闘員にトドメを刺すと、弾薬生成の進行ボーナスを獲得する。",
+                "ko": "수호자 및 강력한 전투원에게 결정타 기록 시 탄약 진척도를 추가로 생성합니다."
               },
               "icon": "assets/perkicons/c4d21817ea6e205ff95639019a38e7e2.png"
             },
@@ -3180,11 +4272,17 @@
               "count": 4,
               "name": {
                 "en": "Ascendant Escape",
-                "zh": "高等逃脫"
+                "zh": "高等逃脫",
+                "zhs": "上维逃离",
+                "ja": "アセンダント・エスケープ",
+                "ko": "승천 탈출"
               },
               "desc": {
                 "en": "After a final blow on a powerful combatant, the next time your shields are broken, you become invisible.",
-                "zh": "對強大戰員造成最後一擊後，護盾下次遭破壞時你會隱形。"
+                "zh": "對強大戰員造成最後一擊後，護盾下次遭破壞時你會隱形。",
+                "zhs": "对强力战斗人员造成最后一击后，下一次你的护盾被击破时，你获得隐形。",
+                "ja": "強力な戦闘員にトドメを刺すと、次にシールドが破壊されたときに不可視を獲得する。",
+                "ko": "강력한 전투원에게 결정타를 기록한 뒤 다음번에 보호막이 파괴되면 투명 효과를 얻습니다."
               },
               "icon": "assets/perkicons/e1e76d3824a761cf038e1f9d9be7c84f.png"
             }
@@ -3194,11 +4292,17 @@
           "id": "promised",
           "name": {
             "en": "Promised",
-            "zh": "應許"
+            "zh": "應許",
+            "zhs": "应许之物",
+            "ja": "約束",
+            "ko": "약속되다"
           },
           "source": {
             "en": "FEATURED OR MASTER RAID: SALVATION'S EDGE",
-            "zh": "精選或大師突襲:救贖邊緣"
+            "zh": "精選或大師突襲:救贖邊緣",
+            "zhs": "精选或大师突袭:救赎的边缘",
+            "ja": "注目またはマスターレイド:救済の境界",
+            "ko": "주요 또는 마스터 레이드:구원의 경계"
           },
           "tags": [
             "exhaust",
@@ -3219,11 +4323,17 @@
               "count": 2,
               "name": {
                 "en": "Stable Resonance",
-                "zh": "穩定共振"
+                "zh": "穩定共振",
+                "zhs": "稳定共振",
+                "ja": "安定した共振",
+                "ko": "안정적인 공명"
               },
               "desc": {
                 "en": "Defeating a powerful combatant generates Stable Resonance, which grants damage resistance and increased weapon damage for the duration.",
-                "zh": "擊敗強大戰員會產生穩定共振，在持續時間內提升傷害抗性和武器傷害。"
+                "zh": "擊敗強大戰員會產生穩定共振，在持續時間內提升傷害抗性和武器傷害。",
+                "zhs": "击败强力战斗人员会生成稳定共振，在持续时间内提供伤害抗性和提升武器伤害。",
+                "ja": "強力な戦闘員を倒すと、安定した共振が生成される。この効果の発動中はダメージ耐性を獲得し、武器ダメージが増加する。",
+                "ko": "강력한 전투원을 처치하면 안정적인 공명을 생성하여 일정 시간 동안 피해 저항을 부여하고 무기 피해를 향상시킵니다."
               },
               "icon": "assets/perkicons/f49ca4f83e2c2f9bc8b8fb331ccf58d7.png"
             },
@@ -3231,11 +4341,17 @@
               "count": 4,
               "name": {
                 "en": "Resonance Redirection",
-                "zh": "共振轉向"
+                "zh": "共振轉向",
+                "zhs": "共振转向",
+                "ja": "共振転向",
+                "ko": "공명 방향 전환"
               },
               "desc": {
                 "en": "While you have Stable Resonance, continued weapon damage occasionally generates a resonance burst that damages and exhausts targets.",
-                "zh": "擁有穩定共振時，持續造成武器傷害，可偶爾產生共振爆發，對目標造成傷害並使其筋疲力盡。"
+                "zh": "擁有穩定共振時，持續造成武器傷害，可偶爾產生共振爆發，對目標造成傷害並使其筋疲力盡。",
+                "zhs": "拥有稳定共振时，持续造成武器伤害偶尔会产生共振爆发，伤害目标并使其疲惫。",
+                "ja": "安定した共振が有効な間、武器で持続的にダメージを与えると、一定確率で共振の爆発を発生させる。爆発は標的にダメージを与えて疲労を適用する。",
+                "ko": "안정적인 공명을 가진 동안, 지속적인 무기 피해가 때때로 대상에게 피해를 주고 탈진시키는 공명 폭발을 일으킵니다."
               },
               "icon": "assets/perkicons/e4510ff158987fee7ac3953391f6435e.png"
             }
@@ -3245,11 +4361,17 @@
           "id": "collective-psyche",
           "name": {
             "en": "Collective Psyche",
-            "zh": "集體心靈"
+            "zh": "集體心靈",
+            "zhs": "集体心灵",
+            "ja": "集団精神",
+            "ko": "집단 심리"
           },
           "source": {
             "en": "DESERT PERPETUAL RAID WITH FEATS",
-            "zh": "永久沙漠突襲(含功績)"
+            "zh": "永久沙漠突襲(含功績)",
+            "zhs": "永久沙漠突袭 (含功绩)",
+            "ja": "永劫の砂漠レイド (偉業付き)",
+            "ko": "영원한 사막 레이드 (위업 포함)"
           },
           "tags": [
             "solar",
@@ -3270,11 +4392,17 @@
               "count": 2,
               "name": {
                 "en": "Accretion",
-                "zh": "增生"
+                "zh": "增生",
+                "zhs": "积层",
+                "ja": "降着",
+                "ko": "응축"
               },
               "desc": {
                 "en": "Picking up an ammo brick gives you a stacking bonus to weapon swap and stow speeds until you die.",
-                "zh": "拾起彈藥磚會為武器切換與收納速度提供更多疊加獎勵，直到你死亡為止。"
+                "zh": "拾起彈藥磚會為武器切換與收納速度提供更多疊加獎勵，直到你死亡為止。",
+                "zhs": "拾取弹药盒会提供可叠加的武器切换和收起速度加成，直到你死亡。",
+                "ja": "弾薬箱を拾うと、死ぬまで武器の切り替えと収納速度にスタック可能なボーナスが適用される。",
+                "ko": "탄약 블록을 획득하면 죽을 때까지 무기 교체 및 조작성 속도에 중첩 보너스를 받습니다."
               },
               "icon": "assets/perkicons/e8dc7995d41ec6eb0e68e6b811643a3b.png"
             },
@@ -3282,11 +4410,17 @@
               "count": 4,
               "name": {
                 "en": "Doppler Effect",
-                "zh": "都卜勒效應"
+                "zh": "都卜勒效應",
+                "zhs": "多普勒效应",
+                "ja": "ドップラー効果",
+                "ko": "도플러 효과"
               },
               "desc": {
                 "en": "Suspend, unravel, and sever effects applied to targets, and radiant and restoration effects applied to you have increased duration.",
-                "zh": "施加到目標上的懸浮、拆解和切割效果，以及施加到你身上的生機勃發和恢復效果持續期間延長。"
+                "zh": "施加到目標上的懸浮、拆解和切割效果，以及施加到你身上的生機勃發和恢復效果持續期間延長。",
+                "zhs": "对目标施加的悬停、瓦解和割裂效果，以及对自身施加的焕光和恢复效果拥有更长的持续时间。",
+                "ja": "標的に適用された停止、分解、そして切断効果と、自分に付与された発光と回復効果の持続時間が延長される。",
+                "ko": "대상에게 부여된 구속, 해체, 단절, 그리고 자신에게 부여된 광채 및 회복 효과의 지속 시간이 증가합니다."
               },
               "icon": "assets/perkicons/a96cbdea0b06d28d2780e100ac0ae51f.png"
             }
@@ -3296,11 +4430,17 @@
           "id": "wayward-psyche",
           "name": {
             "en": "Wayward Psyche",
-            "zh": "飄泊心靈套裝"
+            "zh": "飄泊心靈套裝",
+            "zhs": "任性心灵套装",
+            "ja": "反骨精神のセット",
+            "ko": "방황하는 의식 세트"
           },
           "source": {
             "en": "EPIC DESERT PERPETUAL RAID WITH FEATS",
-            "zh": "史詩永久沙漠突襲(含功績)"
+            "zh": "史詩永久沙漠突襲(含功績)",
+            "zhs": "史诗永久沙漠突袭 (含功绩)",
+            "ja": "エピック永劫の砂漠レイド (偉業付き)",
+            "ko": "서사 영원한 사막 레이드 (위업 포함)"
           },
           "tags": [
             "healing",
@@ -3321,11 +4461,17 @@
               "count": 2,
               "name": {
                 "en": "Special Relativity",
-                "zh": "特殊相對論"
+                "zh": "特殊相對論",
+                "zhs": "狭义相对论",
+                "ja": "特殊相対",
+                "ko": "특수 상대성"
               },
               "desc": {
                 "en": "Picking up ammo reloads stowed Special weapons from reserves.",
-                "zh": "拾取彈藥會從備彈中自動填裝已收起的特殊武器。"
+                "zh": "拾取彈藥會從備彈中自動填裝已收起的特殊武器。",
+                "zhs": "拾取弹药会从备弹中填装收起的特殊武器。",
+                "ja": "弾薬を拾うと、予備弾薬からホルスター内の特殊ウェポンをリロードする。",
+                "ko": "탄약을 획득하면 격납 중인 특수 화기가 예비 탄약으로 재장전됩니다."
               },
               "icon": "assets/perkicons/daf157f0334a83d1870ef0f325b1c25a.png"
             },
@@ -3333,11 +4479,17 @@
               "count": 4,
               "name": {
                 "en": "Superluminal Motion",
-                "zh": "超光速運動"
+                "zh": "超光速運動",
+                "zhs": "超光速运动",
+                "ja": "超光速移動",
+                "ko": "초광속 운동"
               },
               "desc": {
                 "en": "After dealing damage with your Super, health and shields regenerate over time while you are in motion. Additional Super damage refreshes this effect.",
-                "zh": "使用超能力造成傷害後，會隨時間讓你在移動時回復生命值與護盾。額外超能力傷害會更新此效果。"
+                "zh": "使用超能力造成傷害後，會隨時間讓你在移動時回復生命值與護盾。額外超能力傷害會更新此效果。",
+                "zhs": "使用超能造成伤害后，你移动时会逐渐回复生命值和护盾。额外超能伤害可刷新此效果。",
+                "ja": "スーパースキルでダメージを与えると、移動中に徐々に体力とシールドが回復する。スーパースキルで追加のダメージを与えると、この効果が再適用される。",
+                "ko": "궁극기 피해를 가하면 이동 중 생명력과 보호막이 시간이 지나며 회복됩니다. 추가 궁극기 피해를 가하면 효과의 지속 시간을 초기화합니다."
               },
               "icon": "assets/perkicons/bfaac852d350fb7cabb9a7a06deef4a6.png"
             }
@@ -3347,11 +4499,17 @@
           "id": "pantheos-resplendent",
           "name": {
             "en": "Pantheos Resplendent",
-            "zh": "璀璨萬神殿"
+            "zh": "璀璨萬神殿",
+            "zhs": "众神辉煌",
+            "ja": "華麗なるパンテオン",
+            "ko": "휘황한 만신"
           },
           "source": {
             "en": "PANTHEON RAIDS WITH FEATS",
-            "zh": "萬神殿突襲(含功績)"
+            "zh": "萬神殿突襲(含功績)",
+            "zhs": "万神殿突袭S (含功绩)",
+            "ja": "パンテオンレイドS (偉業付き)",
+            "ko": "판테온 레이드S (위업 포함)"
           },
           "tags": [
             "armor-charge",
@@ -3372,11 +4530,17 @@
               "count": 2,
               "name": {
                 "en": "Well Prepared",
-                "zh": "準備周全"
+                "zh": "準備周全",
+                "zhs": "准备充足",
+                "ja": "用意周到",
+                "ko": "만반의 준비"
               },
               "desc": {
                 "en": "Picking up ammo grants Armor Charge. Grants a bonus to Health stat per Armor Charge you have.",
-                "zh": "拾取彈藥可獲得防具充能。生命值數值會根據你擁有的防具充能提升。"
+                "zh": "拾取彈藥可獲得防具充能。生命值數值會根據你擁有的防具充能提升。",
+                "zhs": "拾取弹药提供护甲充能。每层护甲充能都会提供生命值属性加成。",
+                "ja": "弾薬を拾うと、アーマーチャージを獲得する。所有しているアーマーチャージの数に応じて、体力ステータスにボーナスが付与される。",
+                "ko": "탄약을 획득하면 방어구 충전이 부여됩니다. 가지고 있는 방어구 충전 하나당 보너스 생명력 능력치를 획득합니다."
               },
               "icon": "assets/perkicons/51c4b62173e6e870551d99d256d25d86.png"
             },
@@ -3384,11 +4548,17 @@
               "count": 4,
               "name": {
                 "en": "Down the Line",
-                "zh": "沿線前進"
+                "zh": "沿線前進",
+                "zhs": "沿线推进",
+                "ja": "後々",
+                "ko": "직선 관통"
               },
               "desc": {
                 "en": "Sustained damage on minibosses, Champions, and bosses increases weapon damage versus base and powerful combatants. Weapon final blows consume one stack each.",
-                "zh": "對小頭目、勇士與頭目造成持續傷害，會提升武器對基礎與強大戰員的傷害。每次以武器造成最後一擊都會消耗一層疊層。"
+                "zh": "對小頭目、勇士與頭目造成持續傷害，會提升武器對基礎與強大戰員的傷害。每次以武器造成最後一擊都會消耗一層疊層。",
+                "zhs": "对初级首领、勇士和首领造成持续伤害会提升对基础和强力战斗人员造成的武器伤害。每次造成武器最后一击时消耗一层。",
+                "ja": "ミニボス、チャンピオン、そしてボスに持続的なダメージを与えると、通常の戦闘員と強力な戦闘員に対する武器ダメージが増加する。武器でトドメを刺すと、1スタック消費される。",
+                "ko": "기본 및 강력한 전투원과 싸울 때 미니보스, 용사, 보스에게 지속 피해를 입히면 무기 공격력이 증가합니다. 무기 결정타 시 중첩을 한 개씩 소모합니다."
               },
               "icon": "assets/perkicons/f0a2eb584d440e878d7fe9e9c7884e3b.png"
             }
@@ -3402,7 +4572,10 @@
       "id": "solar",
       "category": {
         "en": "SOLAR",
-        "zh": "灼燒"
+        "zh": "灼燒",
+        "zhs": "烈日",
+        "ja": "ソーラー",
+        "ko": "태양"
       },
       "set_ids": [
         "seventh-seraph",
@@ -3415,7 +4588,10 @@
       "id": "arc",
       "category": {
         "en": "ARC",
-        "zh": "電弧"
+        "zh": "電弧",
+        "zhs": "电弧",
+        "ja": "アーク",
+        "ko": "전기"
       },
       "set_ids": [
         "luminopotent",
@@ -3427,7 +4603,10 @@
       "id": "void",
       "category": {
         "en": "VOID",
-        "zh": "虛空"
+        "zh": "虛空",
+        "zhs": "虚空",
+        "ja": "ボイド",
+        "ko": "공허"
       },
       "set_ids": [
         "veritas",
@@ -3440,7 +4619,10 @@
       "id": "stasis",
       "category": {
         "en": "STASIS",
-        "zh": "冰凝"
+        "zh": "冰凝",
+        "zhs": "冰影",
+        "ja": "ステイシス",
+        "ko": "시공"
       },
       "set_ids": [
         "crystocrene",
@@ -3451,7 +4633,10 @@
       "id": "strand",
       "category": {
         "en": "STRAND",
-        "zh": "縈絲"
+        "zh": "縈絲",
+        "zhs": "缚丝",
+        "ja": "ストランド",
+        "ko": "초월"
       },
       "set_ids": [
         "thunderhead",
@@ -3463,7 +4648,10 @@
       "id": "super",
       "category": {
         "en": "SUPER",
-        "zh": "超能力"
+        "zh": "超能力",
+        "zhs": "超能",
+        "ja": "スーパースキル",
+        "ko": "궁극기"
       },
       "set_ids": [
         "iron-battalion",
@@ -3476,7 +4664,10 @@
       "id": "grenade",
       "category": {
         "en": "GRENADE",
-        "zh": "手榴彈"
+        "zh": "手榴彈",
+        "zhs": "手雷",
+        "ja": "グレネード",
+        "ko": "수류탄"
       },
       "set_ids": [
         "thunderhead",
@@ -3489,7 +4680,10 @@
       "id": "melee",
       "category": {
         "en": "MELEE",
-        "zh": "近戰"
+        "zh": "近戰",
+        "zhs": "近战",
+        "ja": "近接",
+        "ko": "근접 공격"
       },
       "set_ids": [
         "swordmaster",
@@ -3502,7 +4696,10 @@
       "id": "class-ability",
       "category": {
         "en": "CLASS ABILITY",
-        "zh": "職業技能"
+        "zh": "職業技能",
+        "zhs": "职业",
+        "ja": "クラス",
+        "ko": "직업"
       },
       "set_ids": [
         "dark-age",
@@ -3513,7 +4710,10 @@
       "id": "all-abilities",
       "category": {
         "en": "ALL ABILITIES",
-        "zh": "全部技能"
+        "zh": "全部技能",
+        "zhs": "所有技能",
+        "ja": "全てのスキル",
+        "ko": "모든 능력"
       },
       "set_ids": [
         "techeuns-regalia",
@@ -3524,7 +4724,10 @@
       "id": "orbs-of-power",
       "category": {
         "en": "ORBS OF POWER",
-        "zh": "力量球體"
+        "zh": "力量球體",
+        "zhs": "能量球",
+        "ja": "力のオーブ",
+        "ko": "힘의 보주"
       },
       "set_ids": [
         "exodus-down",
@@ -3538,7 +4741,10 @@
       "id": "healing",
       "category": {
         "en": "HEALING",
-        "zh": "治療"
+        "zh": "治療",
+        "zhs": "治疗",
+        "ja": "回復",
+        "ko": "치료"
       },
       "set_ids": [
         "dreambane",
@@ -3553,7 +4759,10 @@
       "id": "survivability",
       "category": {
         "en": "SURVIVABILITY",
-        "zh": "生存能力"
+        "zh": "生存能力",
+        "zhs": "生存能力",
+        "ja": "生存力",
+        "ko": "생존력"
       },
       "set_ids": [
         "exodus-down",
@@ -3568,7 +4777,10 @@
       "id": "ammo",
       "category": {
         "en": "AMMO",
-        "zh": "彈藥"
+        "zh": "彈藥",
+        "zhs": "弹药",
+        "ja": "弾薬",
+        "ko": "탄약"
       },
       "set_ids": [
         "thriving-survivor",
@@ -3582,7 +4794,10 @@
       "id": "elemental-pickups",
       "category": {
         "en": "ELEMENTAL PICKUPS",
-        "zh": "元素拾取物"
+        "zh": "元素拾取物",
+        "zhs": "元素拾取物",
+        "ja": "属性オブジェクト",
+        "ko": "원소 결정체"
       },
       "set_ids": [
         "veritas",
