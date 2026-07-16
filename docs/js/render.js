@@ -15,6 +15,12 @@ const bi = (o, tag = 'span', cls = '') =>
 const ui = o => LANGS.map(l => o[l] ? `<span class="ui ${l}">${esc(o[l])}</span>` : '').join('');
 const pos = i => `${(i % 8) / 7 * 100}% ${Math.floor(i / 8) / 5 * 100}%`;   // sprite 8×6
 const kb = n => n >= 1048576 ? (n / 1048576).toFixed(2) + ' MB' : Math.round(n / 1024) + ' KB';
+// 分頁名依主語言(apply() 每次切語言都會更新)
+const TITLE = {
+  zh: 'Destiny 2 · 防具套裝效果', zhs: 'Destiny 2 · 防具套装效果',
+  ja: 'Destiny 2 · アーマーセット効果', ko: 'Destiny 2 · 방어구 세트 보너스',
+  en: 'Destiny 2 · Armor Set Bonuses',
+};
 
 let site, KEY, cards = [], cols = [], chips = new Map(), ntbs = new Map();
 
@@ -123,6 +129,7 @@ export function apply(c) {
   html.dataset.main = main;
   if (sub) html.dataset.sub = sub; else delete html.dataset.sub;
   html.lang = { zh: 'zh-Hant', zhs: 'zh-Hans', ja: 'ja', ko: 'ko', en: 'en' }[main];   // CJK 字形選對區域變體
+  document.title = TITLE[main];   // 分頁名隨主語言(靜態 <title> 只是 SEO/初次載入的預設)
 
   for (let i = 0; i < cards.length; i++) cards[i].hidden = !c.full[i];
   // 只動 hidden 與計數,絕不碰 .open —— 開合完全由使用者決定。程式一旦回頭覆蓋 .open,
