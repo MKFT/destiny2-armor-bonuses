@@ -103,12 +103,20 @@ p.desc{margin:0}
   max-width:calc(100% - 2rem);margin-top:.3rem;padding:.7rem .85rem;
   background:var(--card);border:1px solid var(--line);border-radius:8px;
   box-shadow:0 8px 24px #0009;font-size:.82rem;line-height:1.55;color:var(--muted)}
-.tip.on{display:block}
-/* hover 只給真的有滑鼠的裝置:觸控螢幕上 :hover 會在點完之後黏著不放。 */
-@media (hover:hover){.help:hover+.tip{display:block}}
+/* flex-column:內容是 .lg 段,雙語模式主+副並陳,order 讓主的說明排在副的上面。
+   max-height + 捲動:雙語兩份說明可能較高,手機上別撐出畫面。 */
+.tip.on{display:flex}
+@media (hover:hover){.help:hover+.tip{display:flex}}
+.tip{flex-direction:column;max-height:70vh;overflow-y:auto}
+.tip .lg{margin:0}                                     /* 覆寫瀏覽器預設的 <p> 邊距 */
+/* 副語言那段(視覺在下)上方加分隔線 —— 用 order 而非 DOM 相鄰,故直接鎖定副語言 */
+.tip :is([data-sub="zh"] .lg.zh,[data-sub="en"] .lg.en,[data-sub="zhs"] .lg.zhs,[data-sub="ja"] .lg.ja,[data-sub="ko"] .lg.ko){
+  margin-top:.6rem;padding-top:.6rem;border-top:1px solid var(--line)}
 .tip .eg{color:var(--faint)}
 .tip .eg b{color:var(--perk);font-weight:600}
-.tip p+p{margin-top:.5rem}
+/* 語言雙選說明:跟搜尋說明用一條分隔線隔開 */
+.tip .ln{display:block;margin-top:.55rem;padding-top:.55rem;border-top:1px solid var(--line)}
+.tip .ln b{color:var(--set);font-weight:600}
 .lang{flex:none;display:flex;gap:0;border:1px solid var(--line);border-radius:8px;
   background:var(--card);overflow:hidden}
 .lang-btn{position:relative;padding:.4rem .55rem;font:inherit;font-size:.82rem;color:var(--muted);
